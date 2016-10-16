@@ -1,18 +1,18 @@
 'use strict';
 
-angular.module('ar', []).controller('main', ['$http', '$location', function ($http, $location) {
+angular.module('ar', []).config(["$locationProvider", function ($locationProvider) {
+  $locationProvider.html5Mode(true);
+}]).controller('main', ['$http', '$location', function ($http, $location) {
 
   var vm = this;
   vm.sortBy = 'count';
   vm.chart = {};
 
   function activate() {
-    var url = $location.path();
-    if (url.substr(url.length - 1, 1) !== '/') {
-      url += '/';
-    }
 
-    $http.get(url + '57fp60_comments.json').then(function (res) {
+    var url = $location.path() + '57fp60_comments.json';
+
+    $http.get(url).then(function (res) {
       return res.data;
     }).then(function (comments) {
       vm._comments = comments;

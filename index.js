@@ -1,5 +1,8 @@
 angular
   .module('ar', [])
+  .config(["$locationProvider", function ($locationProvider) {
+    $locationProvider.html5Mode(true);
+  }])
   .controller('main', ['$http', '$location', function ($http, $location) {
 
     let vm = this;
@@ -7,12 +10,10 @@ angular
     vm.chart = {};
 
     function activate() {
-      let url = $location.path();
-      if (url.substr(url.length - 1, 1) !== '/') {
-        url += '/';
-      }
 
-      $http.get(url + '57fp60_comments.json')
+      let url = $location.path() + '57fp60_comments.json';
+      
+      $http.get(url)
         .then(res => res.data)
         .then(comments => {
           vm._comments = comments;
