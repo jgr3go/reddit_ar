@@ -8,7 +8,7 @@ angular
 
     function activate() {
 
-      $http.get('/57fp60_comments.json')
+      $http.get('57fp60_comments.json')
         .then(res => res.data)
         .then(comments => {
           vm._comments = comments;
