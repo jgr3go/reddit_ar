@@ -10,9 +10,6 @@ angular
 
 
       let url = '57fp60_comments.json';
-      if ($location.host() !== 'localhost') {
-        url = 'reddit_ar/' + url;
-      }
       
       $http.get(url)
         .then(res => res.data)
