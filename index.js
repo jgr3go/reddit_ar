@@ -11,7 +11,11 @@ angular
 
     function activate() {
 
-      let url = $location.path() + '57fp60_comments.json';
+
+      let url = '57fp60_comments.json';
+      if ($location.host() !== 'localhost') {
+        url = 'reddit_ar/' + url;
+      }
       
       $http.get(url)
         .then(res => res.data)

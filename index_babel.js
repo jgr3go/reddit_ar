@@ -10,7 +10,10 @@ angular.module('ar', []).config(["$locationProvider", function ($locationProvide
 
   function activate() {
 
-    var url = $location.path() + '57fp60_comments.json';
+    var url = '57fp60_comments.json';
+    if ($location.host() !== 'localhost') {
+      url = 'reddit_ar/' + url;
+    }
 
     $http.get(url).then(function (res) {
       return res.data;
