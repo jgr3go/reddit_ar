@@ -1,0 +1,11 @@
+html {
+  font-size: 11px;
+}
+body {
+  padding-top: 5rem;
+}
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
