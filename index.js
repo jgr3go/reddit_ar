@@ -1,14 +1,18 @@
 angular
   .module('ar', [])
-  .controller('main', ["$http", function ($http) {
+  .controller('main', ['$http', '$location', function ($http, $location) {
 
     let vm = this;
     vm.sortBy = 'count';
     vm.chart = {};
 
     function activate() {
+      let url = $location.path();
+      if (url.substr(url.length - 1, 1) !== '/') {
+        url += '/';
+      }
 
-      $http.get('57fp60_comments.json')
+      $http.get(url + '57fp60_comments.json')
         .then(res => res.data)
         .then(comments => {
           vm._comments = comments;
