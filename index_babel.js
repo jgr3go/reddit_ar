@@ -1,8 +1,6 @@
 'use strict';
 
-angular.module('ar', []).config(["$locationProvider", function ($locationProvider) {
-  $locationProvider.html5Mode(true);
-}]).controller('main', ['$http', '$location', function ($http, $location) {
+angular.module('ar', []).controller('main', ['$http', '$location', function ($http, $location) {
 
   var vm = this;
   vm.sortBy = 'count';

@@ -1,8 +1,5 @@
 angular
   .module('ar', [])
-  .config(["$locationProvider", function ($locationProvider) {
-    $locationProvider.html5Mode(true);
-  }])
   .controller('main', ['$http', '$location', function ($http, $location) {
 
     let vm = this;
