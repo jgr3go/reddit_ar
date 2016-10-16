@@ -1,0 +1,15 @@
+{
+  "name": "reddit_comments",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgr3go/reddit_ar.git"
+  },
+  "license": "MIT"
+}

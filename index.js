@@ -47,6 +47,7 @@ angular
           vm.grouped = {};
           comments.forEach(comment => {
             vm.grouped[comment.author] = vm.grouped[comment.author] || {
+              id: comment.author,
               author: comment.author,
               comments: []
             };
@@ -78,25 +79,25 @@ angular
 
       vm.groupComments = function () {
         _.each(vm.grouped, user => {
-          delete user.grouped;
-          user.grouped = {};
+          user.values = {};
           user.comments.forEach(comment => {
-            let key = moment(new Date(comment.created)).round(60, 'minutes');
-            if (!user.grouped[key]) {
-              user.grouped[key] = {
-                date: key.toDate(),
+            let created = moment(new Date(comment.created)).round(60, 'minutes');
+            let key = created.toDate().getTime();
+            if (!user.values[key]) {
+              user.values[key] = {
+                date: created.toDate(),
                 count: 1
               };
             } else {
-              user.grouped[key].count += 1;
+              user.values[key].count += 1;
             }
           });
-          user.grouped = _.sortBy(_.toArray(user.grouped), 'date');
+          user.values = _.sortBy(_.toArray(user.values), 'date');
         });
       };
 
       function initChart() {
-        let margin = {top: 20, right: 30, bottom: 50, left: 100};
+        let margin = {top: 20, right: 80, bottom: 50, left: 100};
         let width = 960 - margin.left - margin.right;
         let height = 500 - margin.top - margin.bottom;
 
@@ -104,7 +105,7 @@ angular
         let xAxis = d3.axisBottom(x);
         let y = d3.scaleLinear().range([height, 0]);
         let yAxis = d3.axisLeft(y);
-        let colors = d3.scaleOrdinal(d3.schemeCategory20c);
+        let colors = d3.scaleOrdinal(d3.schemeCategory10);
 
         let svg = d3.select('#archart')
           .append('svg')
@@ -144,6 +145,7 @@ angular
             data.push(_.cloneDeep(vm.grouped[c.author]));
           }
         });
+        console.log(data);
 
         let chart = vm.chart;
         let minDate = d3.min(vm._comments, c => new Date(c.created));
@@ -152,9 +154,9 @@ angular
         chart.x.domain([minDate, maxDate]);
         chart.y.domain([
           0,
-          d3.max(data, d => d3.max(d.grouped, g => g.count))
+          d3.max(data, d => d3.max(d.values, g => g.count))
         ]);
-        chart.colors.domain(data.map(d => d.author));
+        chart.colors.domain(data.map(d => d.id));
 
         chart.xAxisSvg.call(chart.xAxis);
         chart.yAxisSvg.call(chart.yAxis);
@@ -162,15 +164,31 @@ angular
         let users = chart.svg.selectAll('.users')
           .data(data);
 
-        users.enter()
-            .append('g')
-              .attr('class', 'users')
-            .append('path')
-              .attr('class', 'line')
-              .attr('d', d => chart.line(d.grouped))
-              .style('stroke', d => chart.colors(d.author));
         users.exit().remove();
+        let newUsers = users.enter()
+                    .append('g')
+                      .attr('class', 'users');
+        newUsers.append('path').call(path);
+        newUsers.append('text').call(label);
+        let mUsers = users.merge(users)
+        mUsers.select('path').call(path);
+        mUsers.select('text').call(label);
+              
+        function path(selection) {
+          selection.attr('class', 'line')
+            .attr('d', d => chart.line(d.values))
+            .style('stroke', d => chart.colors(d.id));
+        }
 
+        function label(selection) {
+          selection.datum(d => ({id: d.id, value: d.values[0]}))
+            .attr('transform', d => `translate(${chart.x(d.value.date)},${chart.y(d.value.count)})`)
+            .attr('x', 3)
+            .attr('dy', '0.1em')
+            .style('font', '10px sans-serif')
+            .style('fill', d => chart.colors(d.id))
+            .text(d => d.id);
+        }
       }
 
       vm.checkClicked = function (evt, comment) {
