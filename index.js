@@ -76,7 +76,11 @@ angular
         }
       };
 
-      vm.groupComments = function () {
+      vm.groupComments = function () { 
+        
+        let min = moment(new Date(_.min(vm._comments.map(c => c.created)))).round(60, 'minutes');
+        let max = min.clone().add(1, 'day');
+        
         _.each(vm.grouped, user => {
           user.values = {};
           user.comments.forEach(comment => {
@@ -91,6 +95,16 @@ angular
               user.values[key].count += 1;
             }
           });
+          let cur = min.clone();
+          while (cur < max) {
+            if (!user.values[cur.toDate().getTime()]) {
+              user.values[cur.toDate().getTime()] = {
+                date: cur.toDate(),
+                count: 0
+              };
+            }
+            cur = cur.add(60, 'minutes');
+          }
           user.values = _.sortBy(_.toArray(user.values), 'date');
         });
       };

@@ -76,6 +76,12 @@ angular.module('ar', []).controller('main', ['$http', '$location', function ($ht
   };
 
   vm.groupComments = function () {
+
+    var min = moment(new Date(_.min(vm._comments.map(function (c) {
+      return c.created;
+    })))).round(60, 'minutes');
+    var max = min.clone().add(1, 'day');
+
     _.each(vm.grouped, function (user) {
       user.values = {};
       user.comments.forEach(function (comment) {
@@ -90,6 +96,16 @@ angular.module('ar', []).controller('main', ['$http', '$location', function ($ht
           user.values[key].count += 1;
         }
       });
+      var cur = min.clone();
+      while (cur < max) {
+        if (!user.values[cur.toDate().getTime()]) {
+          user.values[cur.toDate().getTime()] = {
+            date: cur.toDate(),
+            count: 0
+          };
+        }
+        cur = cur.add(60, 'minutes');
+      }
       user.values = _.sortBy(_.toArray(user.values), 'date');
     });
   };
