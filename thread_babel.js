@@ -8,7 +8,13 @@ angular.module('ar', []).controller('main', ['$http', '$location', function ($ht
 
   function activate() {
 
-    var url = '57fp60_comments.json';
+    var thread = $location.absUrl().split('/');
+    thread = thread[thread.length - 1];
+    if (thread.slice(-5) === '.html') {
+      thread = thread.substr(0, thread.length - 5);
+    }
+
+    var url = thread + '_comments.json';
 
     $http.get(url).then(function (res) {
       return res.data;

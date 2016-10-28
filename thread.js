@@ -8,8 +8,13 @@ angular
 
     function activate() {
 
+      let thread = $location.absUrl().split('/');
+      thread = thread[thread.length - 1];
+      if (thread.slice(-5) === '.html') {
+        thread = thread.substr(0, thread.length - 5);
+      }
 
-      let url = '57fp60_comments.json';
+      let url = `${thread}_comments.json`;
       
       $http.get(url)
         .then(res => res.data)
