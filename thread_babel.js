@@ -211,6 +211,7 @@ angular.module('ar', []).controller('main', ['$http', '$location', function ($ht
 
   vm.checkClicked = function (evt, comment) {
     evt.stopPropagation();
+    vm.drawChart();
   };
   vm.rowClicked = function (comment) {
     comment.checked = !comment.checked;

@@ -211,6 +211,7 @@ angular
 
       vm.checkClicked = function (evt, comment) {
         evt.stopPropagation();
+        vm.drawChart();
       };
       vm.rowClicked = function (comment) {
         comment.checked = !comment.checked;
