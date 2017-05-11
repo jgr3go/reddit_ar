@@ -1,3 +1,7 @@
+// to prevent this loading twice in dev - hacky hacky whatever shut your face
+if (!BASE) {
+
+
 let BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
 
 
@@ -18,7 +22,7 @@ angular
     let svc = {};
     svc.list = function() {
       if (!EVENTS.length) {
-        return $http.get(`${BAE}events.txt`)
+        return $http.get(`${BASE}events.txt`)
         .then(res => res.data)
         .then(res => {
           EVENTS = [];
@@ -314,3 +318,7 @@ angular
       }
     };
   }]);
+
+
+
+}
