@@ -8,6 +8,9 @@
   <li class="nav-item">
     <a class="nav-link" ng-class="{'active': EC.tab === 'results'}" href="" ng-click="EC.changeTab('results')">Results</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" ng-class="{'active': EC.tab === 'points'}" href="" ng-click="EC.changeTab('points')">Points</a>
+  </li>
 </ul>
 
 <div ng-show="EC.tab === 'start'">
@@ -55,23 +58,64 @@
 </div>
 
 <div  ng-show="EC.tab === 'results'">
+
+
   <div ng-repeat="league in EC.event.leagues">
     <h4>{{league.name}}</h4>
     <table class="table table-sm">
       <thead class="thead-inverse">
         <tr>
           <th style="width: 25px;">Place</th>
-          <th>Name</th>
+          <th style="width: 50%;">Name</th>
           <th>Time</th>
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="ent in league.entrants">
-          <td></td>
+        <tr ng-repeat="ent in league.entrants | orderBy:'time'">
+          <td>{{ $index + 1 }}</td>
           <td>{{ent.user}}</td>
-          <td></td>
+          <td>{{ent.time}}</td>
         </tr>
       </tbody>
     </table>
   </div>
+
+  <h4>Head to Head</h4>
+  <table class="table table-sm" ng-repeat="h2h in EC.event.h2h">
+    <thead class="thead-inverse">
+      <tr>
+        <th style="width: 25px;">Place</th>
+        <th style="width: 50%;">Name</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="ent in h2h.entrants | orderBy: 'time'">
+        <td>{{ $index + 1 }}</td>
+        <td>{{ent.user}}</td>
+        <td>{{ent.time}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div ng-show="EC.tab === 'points'">
+  <table class="table table-sm">
+    <thead class="thead-inverse">
+      <tr>
+        <th style="width: 25px;">Overall</th>
+        <th style="width: 50%;">Name</th>
+        <th style="width: 20%;">Time</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="win in EC.event.winners">
+        <td>{{ $index + 1 }}</td>
+        <td>{{win.user}}</td>
+        <td>{{win.time}}</td>
+        <td>{{win.points}}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>

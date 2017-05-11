@@ -120,7 +120,8 @@ angular
       lines.splice(0, 2);
 
       let curLeague = {};
-      
+      let allUsers = {};
+
       let ii;
       for (ii = 0; ii < lines.length; ii++) {
         let line = lines[ii].trim();
@@ -132,12 +133,18 @@ angular
         if (line[0] === '#') {
           curLeague = {
             name: line.match(/\#\s*(.*)/)[1].trim(),
-            entrants: []
+            entrants: [],
+            winners: []
           };
           event.leagues.push(curLeague);
           continue;
         }
-        curLeague.entrants.push(parseUser(line));
+
+        let user = parseUser(line);
+        if (!allUsers[user.user.toLowerCase()]) {
+          allUsers[user.user.toLowerCase()] = user;
+        }
+        curLeague.entrants.push(user);
       }
 
       let curh2h = {entrants: []};
@@ -152,24 +159,49 @@ angular
           continue;
         }
 
-        curh2h.entrants.push(parseUser(line));
+        let user = parseUser(line);
+        if (!allUsers[user.user.toLowerCase()]) {
+          allUsers[user.user.toLowerCase()] = user;
+        }
+        curh2h.entrants.push(user);
       }
 
       for (let league of event.leagues) {
-        league.entrants = _.reverse(_.sortBy(league.entrants, 'VDOT'));
-        let lane = 1;
-        for (let e of league.entrants) {
-          e.lane = lane++;
-        }
+        league.entrants = sortAndLane(league.entrants);
       }
       for (let h2h of event.h2h) {
-        h2h.entrants = _.reverse(_.sortBy(h2h.entrants, 'VDOT'));
-        let lane = 1;
-        for (let e of h2h.entrants) {
-          e.lane = lane++;
+        h2h.entrants = sortAndLane(h2h.entrants);
+      }
+
+      event.winners = getWinners(allUsers);
+
+      return event;
+    }
+
+    function sortAndLane(list) {
+      list = _.reverse(_.sortBy(list, 'VDOT'));
+      let lane = 1;
+      for (let e of list) {
+        e.lane = lane++;
+      }
+      return list;
+    }
+
+    function getWinners(allUsers) {
+      allUsers = _.toArray(allUsers);
+
+      winners = _.sortBy(allUsers, 'time');
+
+      let points = 8;
+      for (let winner of winners) {
+        if (winner.time) {
+          winner.points = points;
+
+          if (points !== 0) { points--; }
         }
       }
-      return event;
+
+      return winners;
     }
 
     function parseUser(line) {
@@ -179,6 +211,7 @@ angular
         link: `https://reddit.com/u/${split[0].trim()}`,
         VDOT: split[1] ? parseFloat(split[1]) : 0,
         note: split[2] || '',
+        time: split[3] ? split[3].trim() : null
       };
     }
 
