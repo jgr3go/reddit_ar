@@ -36,7 +36,8 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
             EVENTS.push({
               name: split[0].trim(),
               date: split[1].trim(),
-              state: split[0].trim()
+              state: split[0].trim(),
+              events: split[2].trim()
             });
           }
         } catch (err) {
@@ -119,6 +120,7 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
           vm.events.push({
             name: evt.name,
             date: moment(evt.date).format('MMM D, YYYY'),
+            events: evt.events,
             state: evt.name
           });
         }
@@ -225,11 +227,12 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
     var event = {
       name: lines[0].trim(),
       date: moment(lines[1].trim()),
+      events: lines[2].trim(),
       leagues: [],
       h2h: []
     };
 
-    lines.splice(0, 2);
+    lines.splice(0, 3);
 
     var curLeague = {};
     var allUsers = {};
@@ -338,7 +341,7 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
   }
 
   function sortAndLane(list) {
-    list = _.reverse(_.sortBy(list, 'VDOT'));
+    list = _.orderBy(list, ['VDOT', 'user'], ['desc', 'asc']);
     var lane = 1;
     var _iteratorNormalCompletion6 = true;
     var _didIteratorError6 = false;
@@ -371,7 +374,7 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
   function getWinners(allUsers) {
     allUsers = _.toArray(allUsers);
 
-    var winners = _.sortBy(allUsers, 'time');
+    var winners = _.orderBy(allUsers, ['time', 'user']);
 
     var points = 8;
     var _iteratorNormalCompletion7 = true;

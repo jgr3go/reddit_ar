@@ -4,6 +4,7 @@
     <tr>
       <th>Event</th>
       <th>Date</th>
+      <th>Events</th>
       <th>Links</th>
     </tr>
   </thead>
@@ -11,6 +12,7 @@
     <tr ng-repeat="event in CC.events">
       <td>{{event.name}}</td>
       <td>{{event.date}}</td>
+      <td>{{event.events}}</td>
       <td>
         <a ui-sref="{{event.state}}" href="">Start List</a>
         |

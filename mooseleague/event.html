@@ -1,5 +1,6 @@
 
 <h2>{{EC.event.name}} - {{EC.event.date}}</h2>
+<h2>Events: {{EC.event.events}}</h2>
 
 <ul class="nav nav-tabs">
   <li class="nav-item">
@@ -29,9 +30,9 @@
         <tr ng-repeat="ent in league.entrants">
           <td>{{ent.lane}}</td>
           <td>{{ent.user}}</td>
-          <td>{{ent.VDOT || ''}}</td>
+          <td>{{ent.VDOT ? (ent.VDOT | number:1) : ''}}</td>
           <td>{{ent.note}}</td>
-        </tr>
+        </tr> 
       </tbody>
     </table>
   </div>

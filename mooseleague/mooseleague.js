@@ -31,7 +31,8 @@ angular
             EVENTS.push({
               name: split[0].trim(),
               date: split[1].trim(),
-              state: split[0].trim()
+              state: split[0].trim(),
+              events: split[2].trim()
             });
           }
 
@@ -77,6 +78,7 @@ angular
             vm.events.push({
               name: evt.name,
               date: moment(evt.date).format('MMM D, YYYY'),
+              events: evt.events,
               state: evt.name
             });
           }
@@ -182,11 +184,12 @@ angular
       let event = {
         name: lines[0].trim(),
         date: moment(lines[1].trim()),
+        events: lines[2].trim(),
         leagues: [],
         h2h: []
       };
 
-      lines.splice(0, 2);
+      lines.splice(0, 3);
 
       let curLeague = {};
       let allUsers = {};
@@ -248,7 +251,7 @@ angular
     }
 
     function sortAndLane(list) {
-      list = _.reverse(_.sortBy(list, 'VDOT'));
+      list = _.orderBy(list, ['VDOT', 'user'], ['desc', 'asc']);
       let lane = 1;
       for (let e of list) {
         e.lane = lane++;
@@ -259,7 +262,7 @@ angular
     function getWinners(allUsers) {
       allUsers = _.toArray(allUsers);
 
-      let winners = _.sortBy(allUsers, 'time');
+      let winners = _.orderBy(allUsers, ['time', 'user']);
 
       let points = 8;
       for (let winner of winners) {
