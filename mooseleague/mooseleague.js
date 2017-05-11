@@ -1,4 +1,4 @@
-let EVENTS = ['Moosefontaine Classic'];
+let EVENTS = [];
 
 angular
   .module('ar', ['ui.router'])
@@ -11,26 +11,49 @@ angular
       controllerAs: 'CC'
     });
 
-    for (let event of EVENTS) {
-      $sp.state({
-        name: event,
-        templateUrl: `event.html`,
-        controller: 'event',
-        controllerAs: 'EC'
-      });
-    }
   }])
-  .controller('calendar', function() {
+  .run(['$http', '$stateRegistry', function ($http, $stateRegistry) {
+    $http.get('events.txt')
+      .then(res => res.data)
+      .then(res => {
+
+        let lines = res.split('\n');
+        for (let line of lines) {
+          line = line.trim();
+          if (!line) { continue; }
+
+          let split = line.split('|');
+          EVENTS.push({
+            name: split[0].trim(),
+            date: split[1].trim()
+          });
+
+          $stateRegistry.register({
+            name: split[0].trim(),
+            templateUrl: 'event.html',
+            controller: 'event',
+            controllerAs: 'EC'
+          });
+        }
+      });
+  }])
+  .controller('calendar', ['$http', function($http) {
     let vm = this;
 
     function init() {
-      vm.events = [
-        {name: 'Moosefontaine Classic', date: moment('2017-05-27').format('MMM D, YYYY'), state: 'Moosefontaine Classic'}
-      ];
+      vm.events = [];
+
+      for (let evt of EVENTS) {
+        vm.events.push({
+          name: evt.name,
+          date: moment(evt.date).format('MMM D, YYYY'),
+          state: evt.name
+        });
+      }
     }
 
     init();
-  })
+  }])
   .controller('event', ['$http', '$state', '$timeout', function ($http, $state, $timeout) {
     let vm = this;
 
@@ -87,14 +110,14 @@ angular
       }
 
       let curh2h = {entrants: []};
-      for ( ; ii < lines.length; ii++) {
+      for (ii = ii+1; ii < lines.length; ii++) {
         let line = lines[ii].trim();
         if (line[0] === '#') { continue; }
         if (!line) {
+          event.h2h.push(curh2h);
           curh2h = {
             entrants: []
           };
-          event.h2h.push(curh2h);
           continue;
         }
 
