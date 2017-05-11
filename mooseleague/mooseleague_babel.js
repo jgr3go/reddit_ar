@@ -2,10 +2,10 @@
 
 // to prevent this loading twice in dev - hacky hacky whatever shut your face
 
-if (!window.loaded) {
+if (!window.apploaded) {
   (function () {
 
-    window.loaded = true;
+    window.apploaded = true;
 
     var BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
 
@@ -215,7 +215,7 @@ if (!window.loaded) {
       vm.tab = 'start';
 
       function init() {
-        $http.get(BASE + current.name.split(' ').join('').toLowerCase() + '.txt').then(function (res) {
+        $http.get(BASE + $state.$current.name.split(' ').join('').toLowerCase() + '.txt').then(function (res) {
           return res.data;
         }).then(function (res) {
           var event = parseFile(res);

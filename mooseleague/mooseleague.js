@@ -174,7 +174,7 @@ angular
     vm.tab = 'start';
 
     function init() {
-      $http.get(BASE + current.name.split(' ').join('').toLowerCase() + '.txt')
+      $http.get(BASE + $state.$current.name.split(' ').join('').toLowerCase() + '.txt')
         .then(res => res.data)
         .then(res => {
           let event = parseFile(res);
