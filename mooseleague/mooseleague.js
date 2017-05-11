@@ -6,6 +6,11 @@ window.apploaded = true;
 
 let BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
 
+if (window.location.href.match(/localhost/)) {
+  BASE = '';
+}
+
+console.log(BASE);
 
 angular
   .module('ar', ['ui.router'])
@@ -44,7 +49,8 @@ angular
               name: split[0].trim(),
               date: split[1].trim(),
               state: split[0].trim(),
-              events: split[2].trim()
+              events: split[2].trim(),
+              link: split[3].trim()
             });
           }
 
@@ -87,12 +93,9 @@ angular
       return Events.list()
         .then(evts => {
           for (let evt of evts) {
-            vm.events.push({
-              name: evt.name,
-              date: moment(evt.date).format('MMM D, YYYY'),
-              events: evt.events,
-              state: evt.name
-            });
+            evt = _.clone(evt);
+            evt.date = moment(evt.date).format('MMM D, YYYY');
+            vm.events.push(evt);
           }
         });
     }

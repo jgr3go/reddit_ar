@@ -9,6 +9,12 @@ if (!window.apploaded) {
 
     var BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
 
+    if (window.location.href.match(/localhost/)) {
+      BASE = '';
+    }
+
+    console.log(BASE);
+
     angular.module('ar', ['ui.router']).config(['$stateProvider', '$sceDelegateProvider', function ($sp, $sce) {
       $sce.resourceUrlWhitelist(['self', BASE + '**']);
 
@@ -47,7 +53,8 @@ if (!window.apploaded) {
                   name: split[0].trim(),
                   date: split[1].trim(),
                   state: split[0].trim(),
-                  events: split[2].trim()
+                  events: split[2].trim(),
+                  link: split[3].trim()
                 });
               }
             } catch (err) {
@@ -127,12 +134,9 @@ if (!window.apploaded) {
             for (var _iterator3 = evts[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
               var evt = _step3.value;
 
-              vm.events.push({
-                name: evt.name,
-                date: moment(evt.date).format('MMM D, YYYY'),
-                events: evt.events,
-                state: evt.name
-              });
+              evt = _.clone(evt);
+              evt.date = moment(evt.date).format('MMM D, YYYY');
+              vm.events.push(evt);
             }
           } catch (err) {
             _didIteratorError3 = true;
