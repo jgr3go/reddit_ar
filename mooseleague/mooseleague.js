@@ -259,7 +259,7 @@ angular
     function getWinners(allUsers) {
       allUsers = _.toArray(allUsers);
 
-      winners = _.sortBy(allUsers, 'time');
+      let winners = _.sortBy(allUsers, 'time');
 
       let points = 8;
       for (let winner of winners) {
