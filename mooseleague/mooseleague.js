@@ -25,7 +25,8 @@ angular
           let split = line.split('|');
           EVENTS.push({
             name: split[0].trim(),
-            date: split[1].trim()
+            date: split[1].trim(),
+            state: split[0].trim()
           });
 
           $stateRegistry.register({
@@ -163,11 +164,13 @@ angular
 
       let vm = this;
 
+
       vm.next = {
         name: 'MOOSEFONTAINE CLASSIC',
         date: moment('2017-05-27'),
         displayDate: moment('2017-05-27').format('MMM D, YYYY')
       };
+      vm.events = EVENTS;
 
       function init() {
         countdown();

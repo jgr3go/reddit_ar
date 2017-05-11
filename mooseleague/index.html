@@ -25,8 +25,14 @@
 
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" ui-sref="Calendar" href="">Calendar</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Events</a>
+            <div class="dropdown-menu">
+              <a ng-repeat="evt in MC.events" href="" ui-sref="{{evt.state}}">{{evt.name}}</a>
+            </div>
           </li>
         </ul>
       </div>
