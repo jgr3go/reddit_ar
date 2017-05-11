@@ -11,3 +11,7 @@ Gets the top 5 voted and top 5 most commented on posts for the past 4 years, sta
 `redditid` is the unique id for a url, e.g. for https://www.reddit.com/r/AdvancedRunning/comments/4yu5rv/ar_olympic_discussion_day_10/ it would be `4yu5rv`.  
 
 This takes foreeevvvveeerrrr to run for a single thread due to reddit API buffering.
+
+### Links
+
+https://jgr3go.github.io/reddit_ar/mooseleague/
