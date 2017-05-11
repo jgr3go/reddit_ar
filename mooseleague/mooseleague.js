@@ -1,4 +1,4 @@
-let EVENTS = [];
+
 
 angular
   .module('ar', ['ui.router'])
@@ -12,25 +12,52 @@ angular
     });
 
   }])
-  .run(['$http', '$stateRegistry', function ($http, $stateRegistry) {
-    $http.get('events.txt')
-      .then(res => res.data)
-      .then(res => {
+  .factory('Events', ['$http', '$q', function ($http, $q) {
+    let EVENTS = [];
+    let svc = {};
+    svc.list = function() {
+      if (!EVENTS.length) {
+        return $http.get('events.txt')
+        .then(res => res.data)
+        .then(res => {
+          EVENTS = [];
 
-        let lines = res.split('\n');
-        for (let line of lines) {
-          line = line.trim();
-          if (!line) { continue; }
+          let lines = res.split('\n');
+          for (let line of lines) {
+            line = line.trim();
+            if (!line) { continue; }
 
-          let split = line.split('|');
-          EVENTS.push({
-            name: split[0].trim(),
-            date: split[1].trim(),
-            state: split[0].trim()
-          });
+            let split = line.split('|');
+            EVENTS.push({
+              name: split[0].trim(),
+              date: split[1].trim(),
+              state: split[0].trim()
+            });
+          }
 
+          return EVENTS;
+        });   
+      } else {
+        return $q.when(EVENTS);
+      }
+    };
+
+    svc.latest = function() {
+      return svc.list()
+        .then(evts => {
+          return evts[evts.length - 1];
+        });
+    };
+
+    return svc;
+  }])
+  .run(['$http', '$stateRegistry', 'Events', function ($http, $stateRegistry, Events) {
+      
+    return Events.list()
+      .then(evts => {
+        for (let evt of evts) {
           $stateRegistry.register({
-            name: split[0].trim(),
+            name: evt.name,
             templateUrl: 'event.html',
             controller: 'event',
             controllerAs: 'EC'
@@ -38,19 +65,22 @@ angular
         }
       });
   }])
-  .controller('calendar', ['$http', function($http) {
+  .controller('calendar', ['$http', 'Events', function($http, Events) {
     let vm = this;
 
     function init() {
       vm.events = [];
 
-      for (let evt of EVENTS) {
-        vm.events.push({
-          name: evt.name,
-          date: moment(evt.date).format('MMM D, YYYY'),
-          state: evt.name
+      return Events.list()
+        .then(evts => {
+          for (let evt of evts) {
+            vm.events.push({
+              name: evt.name,
+              date: moment(evt.date).format('MMM D, YYYY'),
+              state: evt.name
+            });
+          }
         });
-      }
     }
 
     init();
@@ -159,37 +189,48 @@ angular
     init();
 
   }])
-  .controller('main', ['$http', '$location', '$timeout', '$state', 
-    function ($http, $location, $timeout, $state) {
+  .controller('main', ['$http', '$location', '$timeout', '$state', 'Events',
+    function ($http, $location, $timeout, $state, Events) {
 
       let vm = this;
 
-
-      vm.next = {
-        name: 'MOOSEFONTAINE CLASSIC',
-        date: moment('2017-05-27'),
-        displayDate: moment('2017-05-27').format('MMM D, YYYY')
-      };
-      vm.events = EVENTS;
-
       function init() {
+        Events.list()
+          .then(evts => {
+            vm.events = evts;
+          });
+
+        Events.latest()
+          .then(evt => {
+            console.log(evt);
+            vm.next = {
+              name: evt.name.toUpperCase(),
+              date: moment(evt.date),
+              displayDate: moment(evt.date).format('MMM D, YYYY')
+            };
+          });
+
+
         countdown();
         $state.go('Calendar');
       }
 
       function countdown() {
-        let now = moment();
-        let evt = moment(vm.next.date);
-        let days = evt.diff(now, 'days');
-        vm.next.days = days;
-        evt.subtract(days, 'days');
-        let hours = evt.diff(now, 'hours');
-        vm.next.hours = hours;
-        evt.subtract(hours, 'hours');
-        let minutes = evt.diff(now, 'minutes');
-        vm.next.minutes = minutes;
-
-        $timeout(countdown, 1000 * 60);
+        if (vm.next) {
+          let now = moment();
+          let evt = moment(vm.next.date);
+          let days = evt.diff(now, 'days');
+          vm.next.days = days;
+          evt.subtract(days, 'days');
+          let hours = evt.diff(now, 'hours');
+          vm.next.hours = hours;
+          evt.subtract(hours, 'hours');
+          let minutes = evt.diff(now, 'minutes');
+          vm.next.minutes = minutes;
+          $timeout(countdown, 1000 * 60);
+        } else {
+          $timeout(countdown, 500);
+        }
       }
 
 
