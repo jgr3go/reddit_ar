@@ -85,6 +85,75 @@ angular
 
     init();
   }])
+  .controller('main', ['$http', '$location', '$timeout', '$state', 'Events',
+    function ($http, $location, $timeout, $state, Events) {
+
+      let vm = this;
+
+      function init() {
+        Events.list()
+          .then(evts => {
+            vm.events = evts;
+          });
+
+        Events.latest()
+          .then(evt => {
+            console.log(evt);
+            vm.next = {
+              name: evt.name.toUpperCase(),
+              date: moment(evt.date),
+              displayDate: moment(evt.date).format('MMM D, YYYY')
+            };
+          });
+
+
+        countdown();
+        $state.go('Calendar');
+      }
+
+      function countdown() {
+        if (vm.next) {
+          let now = moment();
+          let evt = moment(vm.next.date);
+          let days = evt.diff(now, 'days');
+          vm.next.days = days;
+          evt.subtract(days, 'days');
+          let hours = evt.diff(now, 'hours');
+          vm.next.hours = hours;
+          evt.subtract(hours, 'hours');
+          let minutes = evt.diff(now, 'minutes');
+          vm.next.minutes = minutes;
+          $timeout(countdown, 1000 * 60);
+        } else {
+          $timeout(countdown, 500);
+        }
+      }
+
+
+      let lastState;
+      let crumbs = [];
+      vm.getBreadcrumbs = function() {
+        if ($state.$current.name === lastState) {
+          return crumbs;
+        }
+        lastState = $state.$current.name;
+        crumbs = [];
+        if (lastState !== 'Calender') {
+          crumbs = [
+            {name: 'Home', last: false, link: 'Calendar'},
+            {name: lastState, last: true }
+          ];
+        } else {
+          crumbs = [
+            {name: 'Home', last: true}
+          ];
+        }
+        return crumbs;
+      }
+
+      init();
+    }
+  ])
   .controller('event', ['$http', '$state', '$timeout', function ($http, $state, $timeout) {
     let vm = this;
 
@@ -112,7 +181,7 @@ angular
 
       let event = {
         name: lines[0].trim(),
-        date: new Date(lines[1].trim()),
+        date: moment(lines[1].trim()),
         leagues: [],
         h2h: []
       };
@@ -222,72 +291,19 @@ angular
     init();
 
   }])
-  .controller('main', ['$http', '$location', '$timeout', '$state', 'Events',
-    function ($http, $location, $timeout, $state, Events) {
-
-      let vm = this;
-
-      function init() {
-        Events.list()
-          .then(evts => {
-            vm.events = evts;
-          });
-
-        Events.latest()
-          .then(evt => {
-            console.log(evt);
-            vm.next = {
-              name: evt.name.toUpperCase(),
-              date: moment(evt.date),
-              displayDate: moment(evt.date).format('MMM D, YYYY')
-            };
-          });
-
-
-        countdown();
-        $state.go('Calendar');
+  .directive('fixedTop', ['$window', function ($window) {
+    return {
+      restrict: 'A',
+      link: function (scope, elem, attrs, ctrl) {
+        let $win = angular.element($window);
+        let fixed = parseInt(attrs.fixedTop) || 50;
+        $win.on('scroll', e => {
+          if ($window.pageYOffset < fixed) {
+            elem.css({position: 'relative', top: '' });
+          } else {
+            elem.css({position: 'relative', top: ($window.pageYOffset - fixed) + 'px' });
+          }
+        });
       }
-
-      function countdown() {
-        if (vm.next) {
-          let now = moment();
-          let evt = moment(vm.next.date);
-          let days = evt.diff(now, 'days');
-          vm.next.days = days;
-          evt.subtract(days, 'days');
-          let hours = evt.diff(now, 'hours');
-          vm.next.hours = hours;
-          evt.subtract(hours, 'hours');
-          let minutes = evt.diff(now, 'minutes');
-          vm.next.minutes = minutes;
-          $timeout(countdown, 1000 * 60);
-        } else {
-          $timeout(countdown, 500);
-        }
-      }
-
-
-      let lastState;
-      let crumbs = [];
-      vm.getBreadcrumbs = function() {
-        if ($state.$current.name === lastState) {
-          return crumbs;
-        }
-        lastState = $state.$current.name;
-        crumbs = [];
-        if (lastState !== 'Calender') {
-          crumbs = [
-            {name: 'Home', last: false, link: 'Calendar'},
-            {name: lastState, last: true }
-          ];
-        } else {
-          crumbs = [
-            {name: 'Home', last: true}
-          ];
-        }
-        return crumbs;
-      }
-
-      init();
-    }
-  ]);
+    };
+  }]);
