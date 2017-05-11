@@ -1,3 +1,4 @@
+let BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
 
 
 angular
@@ -6,7 +7,7 @@ angular
     
     $sp.state({
       name: 'Calendar',
-      templateUrl: 'calendar.html',
+      templateUrl: `${BASE}calendar.html`,
       controller: 'calendar',
       controllerAs: 'CC'
     });
@@ -17,7 +18,7 @@ angular
     let svc = {};
     svc.list = function() {
       if (!EVENTS.length) {
-        return $http.get('events.txt')
+        return $http.get(`${BAE}events.txt`)
         .then(res => res.data)
         .then(res => {
           EVENTS = [];
@@ -59,7 +60,7 @@ angular
         for (let evt of evts) {
           $stateRegistry.register({
             name: evt.name,
-            templateUrl: 'event.html',
+            templateUrl: `${BASE}event.html`,
             controller: 'event',
             controllerAs: 'EC'
           });
@@ -162,7 +163,7 @@ angular
     vm.tab = 'start';
 
     function init() {
-      $http.get($state.$current.name.split(' ').join('').toLowerCase() + '.txt')
+      $http.get(BASE + current.name.split(' ').join('').toLowerCase() + '.txt')
         .then(res => res.data)
         .then(res => {
           let event = parseFile(res);

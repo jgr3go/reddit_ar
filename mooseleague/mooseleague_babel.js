@@ -1,10 +1,12 @@
 'use strict';
 
+var BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
+
 angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
 
   $sp.state({
     name: 'Calendar',
-    templateUrl: 'calendar.html',
+    templateUrl: BASE + 'calendar.html',
     controller: 'calendar',
     controllerAs: 'CC'
   });
@@ -13,7 +15,7 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
   var svc = {};
   svc.list = function () {
     if (!EVENTS.length) {
-      return $http.get('events.txt').then(function (res) {
+      return $http.get(BAE + 'events.txt').then(function (res) {
         return res.data;
       }).then(function (res) {
         EVENTS = [];
@@ -82,7 +84,7 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
 
         $stateRegistry.register({
           name: evt.name,
-          templateUrl: 'event.html',
+          templateUrl: BASE + 'event.html',
           controller: 'event',
           controllerAs: 'EC'
         });
@@ -205,7 +207,7 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
   vm.tab = 'start';
 
   function init() {
-    $http.get($state.$current.name.split(' ').join('').toLowerCase() + '.txt').then(function (res) {
+    $http.get(BASE + current.name.split(' ').join('').toLowerCase() + '.txt').then(function (res) {
       return res.data;
     }).then(function (res) {
       var event = parseFile(res);
