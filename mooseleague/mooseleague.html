@@ -1,0 +1,84 @@
+<html ng-app="ar">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" >
+
+    <link rel="stylesheet" href="mooseleague.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.4/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+    <script src="mooseleague.js"></script>
+
+  </head>
+  <body ng-controller="main as MC" style="padding-top: 5rem;">
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" ui-sref="calendar" href="">MooseLeague</a>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" ui-sref="Calendar" href="">Calendar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container"> 
+      <ol class="breadcrumb">
+        <li ng-repeat="b in MC.getBreadcrumbs()" class="breadcrumb-item"
+          ng-class="{'active': b.last}">
+          <a ng-if="b.link" href="" ui-sref="{{b.link}}">{{b.name}}</a>
+          <span ng-if="!b.link">{{b.name}}</span>
+        </li>
+      </ol>
+
+      <div class="row">
+        <div class="col col-md-9">
+
+          <ui-view></ui-view>
+
+        </div>
+        <div class="col col-md-3">
+
+          <div class="card next-meet">
+            <div class="card-block">
+              <h5 class="card-title">NEXT MEETING: {{MC.next.name}}</h5>
+              <div class="row">
+                <div class="col col-xs-4 ">
+                  <div class="next-meet-heading">DAYS</div>
+                  <div class="next-meet-count">{{MC.next.days}}</div>
+                </div>
+                <div class="col col-xs-4 next-meet">
+                  <div class="next-meet-heading">HOURS</div>
+                  <div class="next-meet-count">{{MC.next.hours}}</div>
+                </div>
+                <div class="col col-xs-4 next-meet">
+                  <div class="next-meet-heading">MINUTES</div>
+                  <div class="next-meet-count">{{MC.next.minutes}}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+  
+  </body>
+</html>

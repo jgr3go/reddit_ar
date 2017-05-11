@@ -1,0 +1,51 @@
+<div class="jumbotron jumbotron-fluid">
+  <h2>{{EC.event.name}} - {{EC.event.date}}</h2>
+</div>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" ng-class="{'active': EC.tab === 'start'}" href="" ng-click="EC.changeTab('start')">
+  </a>
+  <li class="nav-item">
+    <a class="nav-link" ng-class="{'active': EC.tab === 'results'}" href="" ng-click="EC.changeTab('results')">
+  </a>
+</li>
+
+<div ng-repeat="league in EC.event.leagues" ng-show="EC.tab === 'start'">
+  <h4>{{league.name}}</h4>
+  <table class="table table-sm">
+    <thead class="thead-inverse">
+      <tr>
+        <th>Lane</th>
+        <th>Name</th>
+        <th>VDOT</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="ent in league.entrants">
+        <td>{{ent.lane}}</td>
+        <td>{{ent.user}}</td>
+        <td>{{ent.VDOT || ''}}</td>
+        <td>{{ent.note}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div ng-repeat="league in EC.event.leagues" ng-show="EC.tab === 'results'">
+  <h4>{{league.name}}</h4>
+  <table class="table table-sm">
+    <thead class="thead-inverse">
+      <tr>
+        <th>Name</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="ent in league.entrants">
+        <td>{{ent.user}}</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>

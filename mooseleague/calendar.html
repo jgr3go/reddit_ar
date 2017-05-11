@@ -1,0 +1,19 @@
+
+<table class="table table-sm">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Event</th>
+      <th>Date</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="event in CC.events">
+      <td>{{event.name}}</td>
+      <td>{{event.date}}</td>
+      <td>
+        <a ui-sref="{{event.state}}" href="">Start List</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
