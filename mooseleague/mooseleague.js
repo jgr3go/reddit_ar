@@ -1,14 +1,21 @@
 // to prevent this loading twice in dev - hacky hacky whatever shut your face
-if (!window.BASE) {
 
+if (!window.apploaded) {
 
-window.BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
+window.apploaded = true;
+
+let BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
 
 
 angular
   .module('ar', ['ui.router'])
-  .config(['$stateProvider', function ($sp) {
-    
+  .config(['$stateProvider', '$sceDelegateProvider', function ($sp, $sce) {
+    $sce.resourceUrlWhitelist([
+      'self',
+      `${BASE}**`
+    ]);
+
+
     $sp.state({
       name: 'Calendar',
       templateUrl: `${BASE}calendar.html`,
