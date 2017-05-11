@@ -1,8 +1,8 @@
 // to prevent this loading twice in dev - hacky hacky whatever shut your face
-if (!BASE) {
+if (!window.BASE) {
 
 
-let BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
+window.BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
 
 
 angular
