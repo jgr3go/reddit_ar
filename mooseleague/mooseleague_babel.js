@@ -431,10 +431,13 @@ angular.module('ar', ['ui.router']).config(['$stateProvider', function ($sp) {
   return {
     restrict: 'A',
     link: function link(scope, elem, attrs, ctrl) {
+
       var $win = angular.element($window);
       var fixed = parseInt(attrs.fixedTop) || 50;
+
       $win.on('scroll', function (e) {
-        if ($window.pageYOffset < fixed) {
+        var width = Math.max(window.innerWidth, document.documentElement.clientWidth);
+        if (width < 550 || $window.pageYOffset < fixed) {
           elem.css({ position: 'relative', top: '' });
         } else {
           elem.css({ position: 'relative', top: $window.pageYOffset - fixed + 'px' });

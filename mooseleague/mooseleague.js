@@ -298,10 +298,13 @@ angular
     return {
       restrict: 'A',
       link: function (scope, elem, attrs, ctrl) {
+
         let $win = angular.element($window);
         let fixed = parseInt(attrs.fixedTop) || 50;
+
         $win.on('scroll', e => {
-          if ($window.pageYOffset < fixed) {
+          let width = Math.max(window.innerWidth, document.documentElement.clientWidth);
+          if (width < 550 || $window.pageYOffset < fixed) {
             elem.css({position: 'relative', top: '' });
           } else {
             elem.css({position: 'relative', top: ($window.pageYOffset - fixed) + 'px' });
