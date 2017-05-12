@@ -44,7 +44,7 @@ kholpa | 74
 
 
 # Eugene
-pand4duck |
+pand4duck | 61.8
 ForwardBound | 
 Tweeeked | | DNS
 Mrs. PD | 
