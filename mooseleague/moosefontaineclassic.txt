@@ -13,6 +13,7 @@ zebano | 48.6
 sloworfast | 48.7 | DNS
 VicunaLlamaAlpaca | 47.2
 laurieislaurie | 50.0
+rokfitter | 51.8
 
 # Florida
 lostintravise | 51.8
@@ -141,6 +142,7 @@ trialofmilesoftrials | 52.5
 
 
 # Hogwarts
+rokfitter | 51.8
 ToyStory3_WasOkay | 51.2
 MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0
