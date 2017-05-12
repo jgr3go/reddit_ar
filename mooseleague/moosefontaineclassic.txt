@@ -143,6 +143,7 @@ runwichi | 52.5
 jaylapeche | 47.1 | DNS
 lostintravise | 51.8
 trialofmilesoftrials | 52.5
+a-german-muffin | 54.1
 
 
 # Hogwarts
