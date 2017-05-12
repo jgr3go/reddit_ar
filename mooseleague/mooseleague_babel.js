@@ -13,8 +13,6 @@ if (!window.apploaded) {
       BASE = '';
     }
 
-    console.log(BASE);
-
     angular.module('ar', ['ui.router']).config(['$stateProvider', '$sceDelegateProvider', function ($sp, $sce) {
       $sce.resourceUrlWhitelist(['self', BASE + '**']);
 
@@ -219,12 +217,14 @@ if (!window.apploaded) {
       vm.tab = 'start';
 
       function init() {
-        $http.get(BASE + $state.$current.name.split(' ').join('').toLowerCase() + '.txt').then(function (res) {
+        var filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
+        $http.get(BASE + filename).then(function (res) {
           return res.data;
         }).then(function (res) {
           var event = parseFile(res);
           console.log(event);
           vm.event = event;
+          vm.event.file = filename;
 
           vm.next = {
             date: event.date,

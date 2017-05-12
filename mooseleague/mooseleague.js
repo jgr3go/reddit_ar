@@ -10,7 +10,6 @@ if (window.location.href.match(/localhost/)) {
   BASE = '';
 }
 
-console.log(BASE);
 
 angular
   .module('ar', ['ui.router'])
@@ -177,12 +176,14 @@ angular
     vm.tab = 'start';
 
     function init() {
-      $http.get(BASE + $state.$current.name.split(' ').join('').toLowerCase() + '.txt')
+      let filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
+      $http.get(BASE + filename)
         .then(res => res.data)
         .then(res => {
           let event = parseFile(res);
           console.log(event);
           vm.event = event;
+          vm.event.file = filename;
 
           vm.next = {
             date: event.date,
