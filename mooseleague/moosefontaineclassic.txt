@@ -125,7 +125,7 @@ marximumrunner | 37.2
 Kaiserlappen | 33.5
 
 
-# Beard of Moria
+# Moria (Beards)
 brwalkernc | 53.7
 runwichi | 52.5
 jaylapeche | 47.1 | DNS
