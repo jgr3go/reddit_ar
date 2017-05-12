@@ -97,6 +97,7 @@ Ufrider_Taric | 58.2
 ndcj12 | 57.1
 callthebluff | 
 Eibhlin_Andronicus | 57.6
+dogebiscuit | 58.2
 
 
 # Texas
@@ -113,6 +114,7 @@ SimpleAndWell | 45.8
 biggyofmt | 45.3
 ryebrye | 42
 chrisbloome | 43.1
+craigster38 | 42.6
 
 
 # omg
