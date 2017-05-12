@@ -105,6 +105,7 @@ Gibstone | 52
 supersonic_blimp | 50.3
 aewillia | 44.2
 MrCoolguy80 | 42.6
+pand4duck | 61.8
 
 
 # Hoth (VDOT 45)
