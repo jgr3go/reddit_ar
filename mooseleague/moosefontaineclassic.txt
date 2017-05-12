@@ -50,7 +50,7 @@ Mrs. PD |
 
 
 # Deep South
-winterspite | 53.9
+winterspite | 54.4
 WeAllDoBetter | 55.2
 Sclub7911 | 54.6
 jimbopeanuts | 53.0
@@ -166,3 +166,6 @@ cross1212 | 62.9
 
 jonmadepizza | 61.3
 cross1212 | 62.9
+
+blood_bender | 60.6
+Eabryt | 55.9
