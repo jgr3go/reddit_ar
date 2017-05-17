@@ -219,8 +219,10 @@ angular
         }
 
         if (line[0] === '#') {
+          let name = line.match(/\#\s*(.*)/)[1].trim(); 
           curLeague = {
-            name: line.match(/\#\s*(.*)/)[1].trim(),
+            name: name,
+            anchor: name.split(' ').join('').toLowerCase(),
             entrants: [],
             winners: []
           };
