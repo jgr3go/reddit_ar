@@ -29,3 +29,11 @@ table {
   font-size: 1.5rem;
   text-align: center;
 }
+
+.clickable {
+  cursor: pointer;
+}
+
+.link {
+  font-size: .9rem;
+}

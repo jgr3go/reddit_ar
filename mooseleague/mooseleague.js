@@ -13,20 +13,44 @@ if (window.location.href.match(/localhost/)) {
 
 angular
   .module('ar', ['ui.router'])
-  .config(['$stateProvider', '$sceDelegateProvider', function ($sp, $sce) {
+  .config(['$stateProvider', '$sceDelegateProvider', '$urlRouterProvider', '$locationProvider', function ($sp, $sce, $url, $loc) {
     $sce.resourceUrlWhitelist([
       'self',
       `${BASE}**`
     ]);
 
+    $url.deferIntercept();
 
     $sp.state({
       name: 'Calendar',
       templateUrl: `${BASE}calendar.html`,
       controller: 'calendar',
+      url: '/calendar',
       controllerAs: 'CC'
     });
 
+    $url.otherwise('/calendar');
+
+  }])
+  .run(['$http', '$stateRegistry', '$urlRouter', 'Events', function ($http, $stateRegistry, $urlRouter, Events) {
+      
+    return Events.list()
+      .then(evts => {
+        for (let evt of evts) {
+          $stateRegistry.register({
+            name: evt.name,
+            templateUrl: `${BASE}event.html`,
+            controller: 'event',
+            url: evt.url,
+            controllerAs: 'EC'
+          });
+        }
+
+        // after registering states, listen on the router
+        $urlRouter.sync();
+        $urlRouter.listen();
+
+      });
   }])
   .factory('Events', ['$http', '$q', function ($http, $q) {
     let EVENTS = [];
@@ -46,6 +70,7 @@ angular
             let split = line.split('|');
             EVENTS.push({
               name: split[0].trim(),
+              url: '/' + split[0].trim().split(' ').join('').toLowerCase(),
               date: split[1].trim(),
               state: split[0].trim(),
               events: split[2].trim(),
@@ -69,20 +94,7 @@ angular
 
     return svc;
   }])
-  .run(['$http', '$stateRegistry', 'Events', function ($http, $stateRegistry, Events) {
-      
-    return Events.list()
-      .then(evts => {
-        for (let evt of evts) {
-          $stateRegistry.register({
-            name: evt.name,
-            templateUrl: `${BASE}event.html`,
-            controller: 'event',
-            controllerAs: 'EC'
-          });
-        }
-      });
-  }])
+
   .controller('calendar', ['$http', 'Events', function($http, Events) {
     let vm = this;
 
@@ -110,6 +122,7 @@ angular
         Events.list()
           .then(evts => {
             vm.events = evts;
+
           });
 
         Events.latest()
@@ -124,7 +137,6 @@ angular
 
 
         countdown();
-        $state.go('Calendar');
       }
 
       function countdown() {
@@ -170,148 +182,160 @@ angular
       init();
     }
   ])
-  .controller('event', ['$http', '$state', '$timeout', function ($http, $state, $timeout) {
-    let vm = this;
+  .controller('event', ['$http', '$state', '$timeout', '$location', '$anchorScroll',
+    function ($http, $state, $timeout, $location, $anchorScroll) 
+    {
+    
+      let vm = this;
 
-    vm.tab = 'start';
+      vm.tab = 'start';
 
-    function init() {
-      let filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
-      $http.get(BASE + filename)
-        .then(res => res.data)
-        .then(res => {
-          let event = parseFile(res);
-          console.log(event);
-          vm.event = event;
-          vm.event.file = filename;
+      $anchorScroll.yOffset = 60;
 
-          vm.next = {
-            date: event.date,
-            name: event.name.toUpperCase()
-          };
+      function init() {
+        let filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
+        $http.get(BASE + filename)
+          .then(res => res.data)
+          .then(res => {
+            let event = parseFile(res);
+            console.log(event);
+            vm.event = event;
+            vm.event.file = filename;
 
-          vm.event.date = moment(new Date(vm.event.date)).format('MMM D, YYYY');
-        });
-    }
+            vm.next = {
+              date: event.date,
+              name: event.name.toUpperCase()
+            };
 
-    function parseFile(data) {
-      let lines = data.split('\n');
+            vm.event.date = moment(new Date(vm.event.date)).format('MMM D, YYYY');
 
-      let event = {
-        name: lines[0].trim(),
-        date: moment(lines[1].trim()),
-        events: lines[2].trim(),
-        leagues: [],
-        h2h: []
+            $timeout($anchorScroll);
+          });
+      }
+
+      function parseFile(data) {
+        let lines = data.split('\n');
+
+        let event = {
+          name: lines[0].trim(),
+          date: moment(lines[1].trim()),
+          events: lines[2].trim(),
+          leagues: [],
+          h2h: []
+        };
+
+        lines.splice(0, 3);
+
+        let curLeague = {};
+        let allUsers = {};
+
+        let ii;
+        for (ii = 0; ii < lines.length; ii++) {
+          let line = lines[ii].trim();
+          if (!line) { continue; }
+          if (line === '=====') {
+            break;
+          }
+
+          if (line[0] === '#') {
+            let name = line.match(/\#\s*(.*)/)[1].trim(); 
+            curLeague = {
+              name: name,
+              anchor: name.split(' ').join('').toLowerCase(),
+              entrants: [],
+              winners: []
+            };
+            event.leagues.push(curLeague);
+            continue;
+          }
+
+          let user = parseUser(line);
+          if (!allUsers[user.user.toLowerCase()]) {
+            allUsers[user.user.toLowerCase()] = user;
+          }
+          curLeague.entrants.push(user);
+        }
+
+        let curh2h = {entrants: []};
+        for (ii = ii+1; ii < lines.length; ii++) {
+          let line = lines[ii].trim();
+          if (line[0] === '#') { continue; }
+          if (!line) {
+            event.h2h.push(curh2h);
+            curh2h = {
+              entrants: []
+            };
+            continue;
+          }
+
+          let user = parseUser(line);
+          if (!allUsers[user.user.toLowerCase()]) {
+            allUsers[user.user.toLowerCase()] = user;
+          }
+          curh2h.entrants.push(user);
+        }
+
+        for (let league of event.leagues) {
+          league.entrants = sortAndLane(league.entrants);
+        }
+        for (let h2h of event.h2h) {
+          h2h.entrants = sortAndLane(h2h.entrants);
+        }
+
+        event.winners = getWinners(allUsers);
+
+        return event;
+      }
+
+      function sortAndLane(list) {
+        list = _.orderBy(list, ['VDOT', 'user'], ['desc', 'asc']);
+        let lane = 1;
+        for (let e of list) {
+          e.lane = lane++;
+        }
+        return list;
+      }
+
+      function getWinners(allUsers) {
+        allUsers = _.toArray(allUsers);
+
+        let winners = _.orderBy(allUsers, ['time', 'user']);
+
+        let points = 8;
+        for (let winner of winners) {
+          if (winner.time) {
+            winner.points = points;
+
+            if (points !== 0) { points--; }
+          }
+        }
+
+        return winners;
+      }
+
+      function parseUser(line) {
+        let split = line.split('|');
+        return {
+          user: split[0].trim(),
+          link: `https://reddit.com/u/${split[0].trim()}`,
+          VDOT: split[1] ? parseFloat(split[1]) : 0,
+          note: split[2] || '',
+          time: split[3] ? split[3].trim() : null
+        };
+      }
+
+      vm.changeTab = function (tab) {
+        vm.tab = tab;
       };
 
-      lines.splice(0, 3);
-
-      let curLeague = {};
-      let allUsers = {};
-
-      let ii;
-      for (ii = 0; ii < lines.length; ii++) {
-        let line = lines[ii].trim();
-        if (!line) { continue; }
-        if (line === '=====') {
-          break;
-        }
-
-        if (line[0] === '#') {
-          let name = line.match(/\#\s*(.*)/)[1].trim(); 
-          curLeague = {
-            name: name,
-            anchor: name.split(' ').join('').toLowerCase(),
-            entrants: [],
-            winners: []
-          };
-          event.leagues.push(curLeague);
-          continue;
-        }
-
-        let user = parseUser(line);
-        if (!allUsers[user.user.toLowerCase()]) {
-          allUsers[user.user.toLowerCase()] = user;
-        }
-        curLeague.entrants.push(user);
-      }
-
-      let curh2h = {entrants: []};
-      for (ii = ii+1; ii < lines.length; ii++) {
-        let line = lines[ii].trim();
-        if (line[0] === '#') { continue; }
-        if (!line) {
-          event.h2h.push(curh2h);
-          curh2h = {
-            entrants: []
-          };
-          continue;
-        }
-
-        let user = parseUser(line);
-        if (!allUsers[user.user.toLowerCase()]) {
-          allUsers[user.user.toLowerCase()] = user;
-        }
-        curh2h.entrants.push(user);
-      }
-
-      for (let league of event.leagues) {
-        league.entrants = sortAndLane(league.entrants);
-      }
-      for (let h2h of event.h2h) {
-        h2h.entrants = sortAndLane(h2h.entrants);
-      }
-
-      event.winners = getWinners(allUsers);
-
-      return event;
-    }
-
-    function sortAndLane(list) {
-      list = _.orderBy(list, ['VDOT', 'user'], ['desc', 'asc']);
-      let lane = 1;
-      for (let e of list) {
-        e.lane = lane++;
-      }
-      return list;
-    }
-
-    function getWinners(allUsers) {
-      allUsers = _.toArray(allUsers);
-
-      let winners = _.orderBy(allUsers, ['time', 'user']);
-
-      let points = 8;
-      for (let winner of winners) {
-        if (winner.time) {
-          winner.points = points;
-
-          if (points !== 0) { points--; }
-        }
-      }
-
-      return winners;
-    }
-
-    function parseUser(line) {
-      let split = line.split('|');
-      return {
-        user: split[0].trim(),
-        link: `https://reddit.com/u/${split[0].trim()}`,
-        VDOT: split[1] ? parseFloat(split[1]) : 0,
-        note: split[2] || '',
-        time: split[3] ? split[3].trim() : null
+      vm.scrollTo = function (league) {
+        $location.hash(league.anchor);
+        $anchorScroll();
       };
+
+      init();
     }
-
-    vm.changeTab = function (tab) {
-      vm.tab = tab;
-    };
-
-    init();
-
-  }])
+  ])
   .directive('fixedTop', ['$window', function ($window) {
     return {
       restrict: 'A',
