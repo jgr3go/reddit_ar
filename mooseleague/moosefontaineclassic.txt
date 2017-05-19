@@ -102,6 +102,7 @@ ndcj12 | 57.1
 callthebluff | 
 Eibhlin_Andronicus | 57.6
 dogebiscuit | 58.2
+Um_Okay |
 
 
 # Texas
@@ -160,6 +161,7 @@ MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0
 punkrock_runner | 54.2 | DNS
 Ch1mpy | 50.6
+Chiruadr | 52.2
 
 
 # Pandora
