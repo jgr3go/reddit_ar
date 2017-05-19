@@ -133,6 +133,7 @@ brwalkernc | 53.7
 OGFireNation | 58.6
 FlashArcher | 
 snapundersteer | 
+chrispyb | 57.5
 
 
 # North Virginia
