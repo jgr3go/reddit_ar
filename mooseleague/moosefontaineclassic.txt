@@ -157,6 +157,7 @@ ToyStory3_WasOkay | 51.2
 MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0
 punkrock_runner | 54.2 | DNS
+Ch1mpy | 50.6
 
 
 # Pandora
