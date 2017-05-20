@@ -15,6 +15,7 @@ VicunaLlamaAlpaca | 47.2
 laurieislaurie | 50.0
 rokfitter | 51.8
 JaBoyFrom227 | 49.8
+robercha001 | 50.4
 
 # Florida
 lostintravise | 51.8
@@ -103,6 +104,7 @@ callthebluff |
 Eibhlin_Andronicus | 57.6
 dogebiscuit | 58.2
 Um_Okay |
+da-kine | 59.5
 
 
 # Texas
