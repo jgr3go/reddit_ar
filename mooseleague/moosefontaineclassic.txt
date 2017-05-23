@@ -3,7 +3,7 @@ Moosefontaine Classic
 800m
 
 # GOATs
-ShortShortsTallSocks | 48.8
+ShortShortsTallSocks | 48.8 | scrub
 herumph | 49.7
 
 # Fear the GOATs
