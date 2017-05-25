@@ -56,7 +56,6 @@ pand4duck | 61.8
 ForwardBound | 
 Tweeeked | | DNS
 Mrs. PD | 
-chrispyb | 
 
 
 # Deep South (VDOT 53 Club)
@@ -190,6 +189,14 @@ Eantheman | 64.7
 kholpa | 74.1
 OverflowCreative | 56.7
 punkrock_runner | 54.2 | DNS
+
+
+# Tom Brady's Poodle Boys
+chrispyb |
+ForwardBound |
+RunJunRun | 
+screwbuharvard2 |
+
 
 
 =====
