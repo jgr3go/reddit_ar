@@ -84,6 +84,7 @@ ctingyu08 | 61.2
 blood_bender | 60.6
 Xalechim | 57.8
 potatoknish | 45.3
+djlemma | 
 
 
 # Borderlands
@@ -218,3 +219,6 @@ Eabryt | 55.9
 
 ajlark25 | 
 OGFireNation |
+
+TheHegemon1 |
+djlemma |
