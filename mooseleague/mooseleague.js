@@ -41,7 +41,10 @@ angular
             name: evt.name,
             templateUrl: `${BASE}event.html`,
             controller: 'event',
-            url: evt.url,
+            url: evt.url + "?tab",
+            params: {
+              tab: {dynamic: true}
+            },
             controllerAs: 'EC'
           });
         }
@@ -182,8 +185,8 @@ angular
       init();
     }
   ])
-  .controller('event', ['$http', '$state', '$timeout', '$location', '$anchorScroll',
-    function ($http, $state, $timeout, $location, $anchorScroll) 
+  .controller('event', ['$http', '$state', '$timeout', '$location', '$anchorScroll', '$stateParams',
+    function ($http, $state, $timeout, $location, $anchorScroll, $params) 
     {
     
       let vm = this;
@@ -193,6 +196,10 @@ angular
       $anchorScroll.yOffset = 60;
 
       function init() {
+        if ($params.tab) {
+          vm.tab = $params.tab;
+        }
+
         let filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
         $http.get(BASE + filename)
           .then(res => res.data)
@@ -293,6 +300,14 @@ angular
         for (let e of list) {
           e.lane = lane++;
         }
+
+        let points = 8;
+        _.orderBy(list, ['time', 'user']).map(l => {
+          if (l.time && points) {
+            l.heatPoints = points--;
+          } 
+        })
+
         return list;
       }
 
@@ -301,12 +316,10 @@ angular
 
         let winners = _.orderBy(allUsers, ['time', 'user']);
 
-        let points = 8;
+        let points = 99;
         for (let winner of winners) {
-          if (winner.time) {
-            winner.points = points;
-
-            if (points !== 0) { points--; }
+          if (winner.time && points) {
+            winner.points = points--;
           }
         }
 
@@ -326,6 +339,7 @@ angular
 
       vm.changeTab = function (tab) {
         vm.tab = tab;
+        $state.go($state.$current.name, {tab});
       };
 
       vm.scrollTo = function (league) {

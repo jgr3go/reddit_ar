@@ -14,9 +14,9 @@
       <td>{{event.date}}</td>
       <td>{{event.events}}</td>
       <td>
-        <a ui-sref="{{event.state}}" href="">Start List</a>
+        <a ui-sref="{{event.state}}({tab: 'start'})" href="">Start List</a>
         |
-        Results
+        <a ui-sref="{{event.state}}({tab: 'results'})" href="">Results</a>
         |
         <a href="{{event.link}}" target="_blank"><img src="snoo.ico" style="height: 1rem;"></a>
       </td>

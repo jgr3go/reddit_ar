@@ -37,3 +37,11 @@ table {
 .link {
   font-size: .9rem;
 }
+
+.winner {
+  font-weight: bold;
+  color: green;
+}
+.loser {
+  text-decoration: line-through;
+}

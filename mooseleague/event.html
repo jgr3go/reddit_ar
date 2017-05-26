@@ -75,15 +75,19 @@
       <thead class="thead-inverse">
         <tr>
           <th style="width: 25px;">Place</th>
-          <th style="width: 50%;">Name</th>
+          <th style="width: 40%;">Name</th>
+          <th style="width: 15%">Note</th>
           <th>Time</th>
+          <th>Points</th>
         </tr>
       </thead>
       <tbody>
         <tr ng-repeat="ent in league.entrants | orderBy:'time'">
           <td>{{ $index + 1 }}</td>
           <td>{{ent.user}}</td>
+          <td>{{ent.note}}</td>
           <td>{{ent.time}}</td>
+          <td>{{ent.heatPoints}}</td>
         </tr>
       </tbody>
     </table>
@@ -99,7 +103,9 @@
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="ent in h2h.entrants | orderBy: 'time'">
+      <tr ng-repeat="ent in h2h.entrants | orderBy: 'time'"
+          ng-class="{'winner': (ent.time && $index === 0) ,
+                    'loser': (ent.time && $index !== 0) }">
         <td>{{ $index + 1 }}</td>
         <td>{{ent.user}}</td>
         <td>{{ent.time}}</td>

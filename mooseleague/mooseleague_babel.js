@@ -41,7 +41,10 @@ if (!window.apploaded) {
             name: evt.name,
             templateUrl: BASE + 'event.html',
             controller: 'event',
-            url: evt.url,
+            url: evt.url + "?tab",
+            params: {
+              tab: { dynamic: true }
+            },
             controllerAs: 'EC'
           });
         }
@@ -221,7 +224,7 @@ if (!window.apploaded) {
     };
 
     init();
-  }]).controller('event', ['$http', '$state', '$timeout', '$location', '$anchorScroll', function ($http, $state, $timeout, $location, $anchorScroll) {
+  }]).controller('event', ['$http', '$state', '$timeout', '$location', '$anchorScroll', '$stateParams', function ($http, $state, $timeout, $location, $anchorScroll, $params) {
 
     var vm = this;
 
@@ -230,6 +233,10 @@ if (!window.apploaded) {
     $anchorScroll.yOffset = 60;
 
     function init() {
+      if ($params.tab) {
+        vm.tab = $params.tab;
+      }
+
       var filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
       $http.get(BASE + filename).then(function (res) {
         return res.data;
@@ -399,6 +406,13 @@ if (!window.apploaded) {
         }
       }
 
+      var points = 8;
+      _.orderBy(list, ['time', 'user']).map(function (l) {
+        if (l.time && points) {
+          l.heatPoints = points--;
+        }
+      });
+
       return list;
     }
 
@@ -407,7 +421,7 @@ if (!window.apploaded) {
 
       var winners = _.orderBy(allUsers, ['time', 'user']);
 
-      var points = 8;
+      var points = 99;
       var _iteratorNormalCompletion7 = true;
       var _didIteratorError7 = false;
       var _iteratorError7 = undefined;
@@ -416,12 +430,8 @@ if (!window.apploaded) {
         for (var _iterator7 = winners[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {
           var winner = _step7.value;
 
-          if (winner.time) {
-            winner.points = points;
-
-            if (points !== 0) {
-              points--;
-            }
+          if (winner.time && points) {
+            winner.points = points--;
           }
         }
       } catch (err) {
@@ -455,6 +465,7 @@ if (!window.apploaded) {
 
     vm.changeTab = function (tab) {
       vm.tab = tab;
+      $state.go($state.$current.name, { tab: tab });
     };
 
     vm.scrollTo = function (league) {

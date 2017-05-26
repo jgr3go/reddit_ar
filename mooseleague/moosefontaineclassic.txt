@@ -7,9 +7,9 @@ ShortShortsTallSocks | 48.8
 herumph | 49.7
 
 # Fear the GOATs
-ShortShortsTallSocks | 48.8
-herumph | 49.7
-zebano | 48.6
+ShortShortsTallSocks | 48.8 |
+herumph | 49.7 |
+zebano | 48.6 |
 sloworfast | 48.7 | DNS
 VicunaLlamaAlpaca | 47.2
 laurieislaurie | 50.0
@@ -58,10 +58,10 @@ Mrs. PD |
 
 # Deep South (VDOT 53 Club)
 winterspite | 54.4
-WeAllDoBetter | 55.2
-Sclub7911 | 54.6
-jimbopeanuts | 53.0
-V1per41 | 53.3
+WeAllDoBetter | 55.2 |
+Sclub7911 | 54.6 | 
+jimbopeanuts | 53.0 |
+V1per41 | 53.3 | 
 ultrahobbyjogger | 55.9
 winter0215 | 52.5
 pablitoneal | 55.8
@@ -191,8 +191,8 @@ punkrock_runner | 54.2 | DNS
 
 =====
 # Head to Heads
-AnonymousWritings | 
-Mister_Clutch |
+AnonymousWritings | | 
+Mister_Clutch | | 
 
 upxc | 71.3
 moongrey | 59.2
