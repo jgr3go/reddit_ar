@@ -107,7 +107,7 @@ finallyransub17 | 56.9
 Ufrider_Taric | 58.2
 ndcj12 | 57.1
 callthebluff | 
-Eibhlin_Andronicus | 57.6
+Eibhlin_Andronicus | 57.6 | DNS
 dogebiscuit | 58.2
 Um_Okay |
 da-kine | 59.5
