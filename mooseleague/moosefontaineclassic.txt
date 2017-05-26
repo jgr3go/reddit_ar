@@ -84,7 +84,7 @@ ctingyu08_ | 61.2
 blood_bender | 61.6
 Xalechim | 57.8
 potatoknish | 45.3
-djlemma | 
+djlemma | 53.2
 chrisbloome | 43.1
 
 # Borderlands
@@ -226,7 +226,7 @@ ajlark25 |
 OGFireNation |
 
 TheHegemon1 |
-djlemma |
+djlemma | 53.2
 
 bzrunnin | 53.0
 thermocycler | 
