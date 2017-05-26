@@ -4,7 +4,7 @@
 
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link" ng-class="{'active': EC.tab === 'start'}" href="" ng-click="EC.changeTab('start')">Start List</a>
+    <a class="nav-link " ng-class="{'active': EC.tab === 'start'}" href="" ng-click="EC.changeTab('start')">Start List</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" ng-class="{'active': EC.tab === 'results'}" href="" ng-click="EC.changeTab('results')">Results</a>
@@ -79,6 +79,7 @@
           <th style="width: 15%">Note</th>
           <th>Time</th>
           <th>Points</th>
+          <th>Strava</th>
         </tr>
       </thead>
       <tbody>
@@ -88,6 +89,7 @@
           <td>{{ent.note}}</td>
           <td>{{ent.time}}</td>
           <td>{{ent.heatPoints}}</td>
+          <td><a href="{{ent.strava}}" ng-show="ent.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a></td>
         </tr>
       </tbody>
     </table>

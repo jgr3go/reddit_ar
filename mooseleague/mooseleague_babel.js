@@ -459,7 +459,8 @@ if (!window.apploaded) {
         link: 'https://reddit.com/u/' + split[0].trim(),
         VDOT: split[1] ? parseFloat(split[1]) : 0,
         note: split[2] || '',
-        time: split[3] ? split[3].trim() : null
+        time: split[3] ? split[3].trim() : null,
+        strava: split[4] ? split[4].trim() : null
       };
     }
 
