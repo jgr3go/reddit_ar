@@ -18,7 +18,7 @@
       target="_blank"
       style="float: right; font-size: .9rem;">Request Edit</a>
 
-<div ng-show="EC.tab === 'start'">
+<div ng-if="EC.tab === 'start'">
   <div ng-repeat="league in EC.event.leagues">
     <a id="{{league.anchor}}"></a>
     <h4>
@@ -66,11 +66,15 @@
   </table>
 </div>
 
-<div  ng-show="EC.tab === 'results'">
+<div  ng-if="EC.tab === 'results'">
 
 
   <div ng-repeat="league in EC.event.leagues">
-    <h4>{{league.name}}</h4>
+    <a id="{{league.anchor}}"></a>
+    <h4>
+      {{league.name}}
+      <a href="" ng-click="EC.scrollTo(league)" class="fa fa-link clickable link"></a>
+    </h4>
     <table class="table table-sm">
       <thead class="thead-inverse">
         <tr>
