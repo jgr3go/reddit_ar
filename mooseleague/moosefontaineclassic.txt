@@ -81,7 +81,7 @@ chaci_ | 52.8
 
 # NYC
 ctingyu08 | 61.2
-blood_bender | 60.6
+blood_bender | 61.6
 Xalechim | 57.8
 potatoknish | 45.3
 djlemma | 
@@ -102,7 +102,7 @@ Mister_Clutch | 58.4
 Krazyfranco | 57.5
 ajlark25 | 57.4
 AnonymousWritings | 57.2
-blood_bender | 60.6
+blood_bender | 61.6
 finallyransub17 | 56.9
 Ufrider_Taric | 58.2
 ndcj12 | 57.1
@@ -214,7 +214,7 @@ cross1212 | 62.9
 jonmadepizza | 61.3
 cross1212 | 62.9
 
-blood_bender | 60.6
+blood_bender | 61.6
 Eabryt | 55.9
 
 ajlark25 | 
