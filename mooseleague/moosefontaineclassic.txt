@@ -171,7 +171,7 @@ trialofmilesoftrials | 52.0
 punkrock_runner | 54.2 | DNS
 Ch1mpy | 50.6
 Chiruadr | 52.2
-
+TheHegemon1 | 52.0
 
 # Pandora
 banstew | 56.7
