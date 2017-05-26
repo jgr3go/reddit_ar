@@ -45,3 +45,7 @@ table {
 .loser {
   text-decoration: line-through;
 }
+
+.nav-tabs a.nav-link {
+  font-size: .9rem;
+}
