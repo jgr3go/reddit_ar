@@ -45,7 +45,7 @@ sloworfast | 48.7 | | 2:47
 
 # North of the Wall
 Nony2 | 65.5
-kmck96 | 59.1
+kmck96 | 59.1 | | 2:05.51
 Dustintomi | 67.9
 Eantheman | 64.7
 kholpa | 74
@@ -185,7 +185,7 @@ banstew | 56.7
 rnr_ | 
 bucky57135 | 
 honkforcookies | 
-kmck96 | 59.1 | | 2:06
+kmck96 | 59.1 | | 2:05.51
 
 
 # Tom Brady's Poodle Boys
