@@ -70,13 +70,14 @@ pablitoneal | 55.8
 brwalkernc | 53.7
 runwichi | 52.5
 trialofmilesoftrials | 52.6 | DNS
-chickensedan | 50.6
+ChickenSedan | 50.6
 anbu1538 | 54.4 | | 2:17 | https://www.strava.com/activities/1007805922
 lostintravise | 51.8
 gunslingrroland | 51.1
 Eabryt | 55.9 | | 2:23
 philipwhiuk | 53.9
 chaci_ | 52.8
+YourInternetHistory | | DNF 
 
 
 # NYC
@@ -115,7 +116,7 @@ da-kine | 59.5
 
 # Texas
 Gibstone | 52
-supersonic_blimp | 50.3
+supersonic_blimp | 50.3 | | 2:22.4 | https://www.strava.com/activities/1007939646/overview
 aewillia | 44.2
 MrCoolguy80 | 42.6 | | 3:01
 pand4duck | 61.8
@@ -150,7 +151,7 @@ chrispyb | 57.5
 # North Virginia
 marximumrunner | 37.2
 Kaiserlappen | 33.5
-breakingbedd | 65.4
+breakingbedd | 65.4 | | 2:13
 joezn | 63.3
 
 # Recovering Ultrarunners
@@ -233,3 +234,6 @@ djlemma | 53.2
 
 bzrunnin | 53.0
 thermocycler | 
+
+YourInternetHistory | | DNF 
+ChickenSedan | 50.6
