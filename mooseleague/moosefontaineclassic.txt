@@ -54,7 +54,7 @@ kholpa | 74
 # Eugene
 pand4duck | 61.8
 ForwardBound | | | 2:28
-Tweeeked | | | 2:28
+Tweeeked | | | 2:28.56
 Mrs. PD | 
 
 
@@ -68,7 +68,7 @@ ultrahobbyjogger | 55.9
 winter0215 | 52.5
 pablitoneal | 55.8 | | 2:33 | https://www.strava.com/activities/1008365583/laps
 brwalkernc | 53.7
-runwichi | 52.5
+runwichi | 52.5 | | 2:18.38 | https://www.strava.com/activities/1008403403
 trialofmilesoftrials | 52.6 | DNS
 ChickenSedan | 50.6 | | 2:28 | https://www.strava.com/activities/1008043282/
 anbu1538 | 54.4 | | 2:17 | https://www.strava.com/activities/1007805922
@@ -137,7 +137,7 @@ marximumrunner | 37.2 | | 2:38
 
 # Loser Has To Shave
 winterspite | 54.4 | | 2:23 | https://www.strava.com/activities/1007676024
-runwichi | 52.5
+runwichi | 52.5 | | 2:18.38 | https://www.strava.com/activities/1008403403
 brwalkernc | 53.7
 
 
@@ -163,7 +163,7 @@ zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609
 
 # Moria (Beards)
 brwalkernc | 53.7
-runwichi | 52.5
+runwichi | 52.5 | | 2:18.38 | https://www.strava.com/activities/1008403403
 jaylapeche | 47.1 | DNS
 lostintravise | 51.8
 trialofmilesoftrials | 52.5 | DNS
@@ -177,7 +177,7 @@ MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0 | DNS
 punkrock_runner | 54.2 | | 2:09 (2:40.2 AG)
 Ch1mpy | 50.6 | | 2:45 | https://www.strava.com/activities/1007767962
-Chiruadr | 52.2
+Chiruadr | 52.2 | | 2:22.8 | https://www.strava.com/activities/1008366942
 TheHegemon1 | 52.0 | | 2:33 | https://www.strava.com/activities/1007687696
 
 # Pandora
@@ -217,7 +217,7 @@ Mister_Clutch | | | 2:23
 upxc | 71.3 | | 2:14.1 
 moongrey | 59.2 | | 2:12
 
-Simsim7 | 64.3
+Simsim7 | 64.3 | | 2:20.1
 cross1212 | 62.9 | | 2:21.8
 
 jonmadepizza | 61.3
