@@ -9,7 +9,7 @@ herumph | 49.7 | DNS
 # Fear the GOATs
 ShortShortsTallSocks | 48.8 | | 2:30 | https://www.strava.com/activities/1007908266/overview
 herumph | 49.7 | DNS
-zebano | 48.6
+zebano | 48.6 | | 2:38.49 | https://www.strava.com/activities/1008623011
 sloworfast | 48.7
 VicunaLlamaAlpaca | 47.2 | | 2:48 | https://www.strava.com/activities/1008256071
 laurieislaurie | 50.0
@@ -109,7 +109,7 @@ Ufrider_Taric | 58.2 | DNS
 ndcj12 | 57.1
 callthebluff | | | 2:21 | https://www.strava.com/activities/1008365583/laps
 Eibhlin_Andronicus | 57.6 | DNS
-dogebiscuit | 58.2
+dogebiscuit | 58.2 | | 2:20 | https://www.strava.com/activities/1008563703/
 Um_Okay |
 da-kine | 59.5
 
