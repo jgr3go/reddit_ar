@@ -28,7 +28,7 @@ thereelkanyewest | 57.2
 # Central
 CatzerzMcGee |
 ShortShortsTallSocks | 48.8
-trialofmilesoftrials | 52.6
+trialofmilesoftrials | 52.6 | DNS
 TheEcstatic |
 AfricanBus |
 SwedeJustice | 69.0
@@ -69,7 +69,7 @@ winter0215 | 52.5
 pablitoneal | 55.8
 brwalkernc | 53.7
 runwichi | 52.5
-trialofmilesoftrials | 52.6
+trialofmilesoftrials | 52.6 | DNS
 chickensedan | 50.6
 anbu1538 | 54.4
 lostintravise | 51.8
@@ -165,7 +165,7 @@ brwalkernc | 53.7
 runwichi | 52.5
 jaylapeche | 47.1 | DNS
 lostintravise | 51.8
-trialofmilesoftrials | 52.5
+trialofmilesoftrials | 52.5 | DNS
 a-german-muffin | 54.1
 
 
@@ -173,7 +173,7 @@ a-german-muffin | 54.1
 rokfitter | 51.8
 ToyStory3_WasOkay | 51.2
 MatzoMisoSoup | 50.0
-trialofmilesoftrials | 52.0
+trialofmilesoftrials | 52.0 | DNS
 punkrock_runner | 54.2 | DNS
 Ch1mpy | 50.6
 Chiruadr | 52.2
