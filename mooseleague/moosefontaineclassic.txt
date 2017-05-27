@@ -3,12 +3,12 @@ Moosefontaine Classic
 800m
 
 # GOATs
-ShortShortsTallSocks | 48.8 | scrub
-herumph | 49.7
+ShortShortsTallSocks | 48.8 |
+herumph | 49.7 | DNS
 
 # Fear the GOATs
 ShortShortsTallSocks | 48.8
-herumph | 49.7
+herumph | 49.7 | DNS
 zebano | 48.6
 sloworfast | 48.7
 VicunaLlamaAlpaca | 47.2
@@ -20,7 +20,7 @@ cashewlater | 50.0
 
 # Florida
 lostintravise | 51.8
-herumph | 49.7
+herumph | 49.7 | DNS
 D1rtrunn3r | 
 anbu1538 | 54.4 | | 2:17 | https://www.strava.com/activities/1007805922
 thereelkanyewest | 57.2
