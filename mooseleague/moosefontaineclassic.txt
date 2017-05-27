@@ -174,7 +174,7 @@ rokfitter | 51.8
 ToyStory3_WasOkay | 51.2
 MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0 | DNS
-punkrock_runner | 54.2 | DNS
+punkrock_runner | 54.2 | | 2:09 (2:40.2 AG)
 Ch1mpy | 50.6
 Chiruadr | 52.2
 TheHegemon1 | 52.0 | | 2:33 | https://www.strava.com/activities/1007687696
@@ -203,7 +203,7 @@ you_mista_kingston | 60.7
 Eantheman | 64.7
 kholpa | 74.1
 OverflowCreative | 56.7
-punkrock_runner | 54.2 | DNS
+punkrock_runner | 54.2 | | 2:09 (2:40.2 AG)
 
 
 
