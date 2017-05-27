@@ -37,7 +37,7 @@ SwedeJustice | 69.0
 # XX
 aewillia | 44.2 | | 2:54 | https://www.strava.com/activities/1008312249
 SimpleAndWell | 45.8 | DNS
-FlyRBFly | 43.1
+FlyRBFly | 43.1 | | 3:19 | https://www.strava.com/activities/1008678505
 kaaaazzh | 44.6
 flocculus | 46.0
 sloworfast | 48.7 | | 2:47
@@ -87,6 +87,7 @@ Xalechim | 57.8 | DNS
 potatoknish | 45.3
 djlemma | 53.2
 chrisbloome | 43.1 | | 2:41 | https://www.strava.com/activities/1008275291
+FlyRBFly | 43.1 | | 3:19 | https://www.strava.com/activities/1008678505
 
 # Borderlands
 Krazyfranco | 57.5 | | 2:19.5
@@ -111,7 +112,7 @@ callthebluff | | | 2:21 | https://www.strava.com/activities/1008365583/laps
 Eibhlin_Andronicus | 57.6 | DNS
 dogebiscuit | 58.2 | | 2:20 | https://www.strava.com/activities/1008563703/ https://youtu.be/5UqlK4a8mis
 Um_Okay |
-da-kine | 59.5
+da-kine | 59.5 | | 2:21.8 | https://www.strava.com/activities/1008657860
 
 
 # Texas
