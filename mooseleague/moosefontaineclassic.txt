@@ -158,6 +158,7 @@ brwalkernc | 53.7
 elguiri | 
 runroardinosaur | 
 craigster38 | 42.6
+zazzera | 45.8
 
 # Moria (Beards)
 brwalkernc | 53.7
@@ -186,6 +187,14 @@ honkforcookies |
 kmck96 | 59.1
 
 
+# Tom Brady's Poodle Boys
+chrispyb |
+ForwardBound |
+RunJunRun | 
+screwbuharvard2 |
+
+
+
 # Missed Connections
 Zwiseguy15 | 61.8
 bzrunnin | 53.0
@@ -196,12 +205,6 @@ kholpa | 74.1
 OverflowCreative | 56.7
 punkrock_runner | 54.2 | DNS
 
-
-# Tom Brady's Poodle Boys
-chrispyb |
-ForwardBound |
-RunJunRun | 
-screwbuharvard2 |
 
 
 
