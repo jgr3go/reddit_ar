@@ -173,7 +173,7 @@ a-german-muffin | 54.1
 
 # Hogwarts
 rokfitter | 51.8 | | 2:38
-ToyStory3_WasOkay | 51.2
+ToyStory3_WasOkay | 51.2 | | 2:42.8 | https://www.strava.com/activities/1008704288#kudos
 MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0 | DNS
 punkrock_runner | 54.2 | | 2:09 (2:40.2 AG)
@@ -199,7 +199,7 @@ screwbuharvard2 |
 
 # Missed Connections
 Zwiseguy15 | 61.8 | DNS
-bzrunnin | 53.0
+bzrunnin | 53.0 | | 2:45.1
 flocculus | 46.0 | | 3:08.59
 you_mista_kingston | 60.7
 Eantheman | 64.7 | split in a 3200m | 2:18
@@ -234,7 +234,7 @@ OGFireNation | | | 2:23 | https://www.strava.com/activities/1007795063/overview
 TheHegemon1 | | | 2:33 | https://www.strava.com/activities/1007687696
 djlemma | 53.2
 
-bzrunnin | 53.0
+bzrunnin | 53.0 | | 2:45.1
 thermocycler | 
 
 YourInternetHistory | | DNF 
