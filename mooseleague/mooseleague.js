@@ -322,14 +322,16 @@ angular
         let place = 1;
         let prev;
         _.orderBy(list, ['time', 'user']).map(li => {
-          if (li.time && points) {
+          if (li.time) {
             // there's a tie
             if (prev && prev.time === li.time) {
               li.heatPlace = prev.heatPlace;
               li.heatPoints = prev.heatPoints;
             } else {
               li.heatPlace = place;
-              li.heatPoints = points;
+              if (points) {
+                li.heatPoints = points;
+              }
             }
             prev = li;
             place += 1;
