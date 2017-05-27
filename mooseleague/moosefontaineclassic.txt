@@ -46,7 +46,7 @@ sloworfast | 48.7 | | 2:47
 # North of the Wall
 Nony2 | 65.5
 kmck96 | 59.1 | | 2:05.51
-Dustintomi | 67.9
+Dustintomi | 67.9 | | 2:16.8
 Eantheman | 64.7
 kholpa | 74
 
@@ -63,7 +63,7 @@ winterspite | 54.4 | | 2:23 | https://www.strava.com/activities/1007676024
 WeAllDoBetter | 55.2
 Sclub7911 | 54.6
 jimbopeanuts | 53.0
-V1per41 | 53.3
+V1per41 | 53.3 | | 2:20
 ultrahobbyjogger | 55.9
 winter0215 | 52.5
 pablitoneal | 55.8
@@ -99,13 +99,13 @@ ndcj12 | 57.1
 # Atlantis  (VDOT 58 Mega)
 hunterco88 | 60.0
 OGFireNation | 58.6 | | 2:23 | https://www.strava.com/activities/1007795063/overview
-Mister_Clutch | 58.4
+Mister_Clutch | 58.4 | | 2:23
 Krazyfranco | 57.5
 ajlark25 | 57.4
 AnonymousWritings | 57.2
 blood_bender | 61.6
 finallyransub17 | 56.9 | | 2:16.69 | https://www.strava.com/activities/1007961955
-Ufrider_Taric | 58.2
+Ufrider_Taric | 58.2 | DNS
 ndcj12 | 57.1
 callthebluff | 
 Eibhlin_Andronicus | 57.6 | DNS
@@ -131,7 +131,7 @@ ryebrye | 42
 chrisbloome | 43.1
 craigster38 | 42.6 | | 2:57 | https://www.strava.com/activities/1007843310/
 OblongPlatypus | 43.2 | | 2:44 | https://www.strava.com/activities/1007429773
-mamsorris1 | 46.4
+mamsorris1 | 46.4 | | 2:33 | https://www.strava.com/activities/1007949902
 marximumrunner | 37.2 | | 2:38
 
 
