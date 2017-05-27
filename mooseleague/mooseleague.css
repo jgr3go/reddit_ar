@@ -29,6 +29,10 @@ table {
   font-size: 1.5rem;
   text-align: center;
 }
+.next-meet a {
+  color: white;
+  font-size: 1rem;
+}
 
 .clickable {
   cursor: pointer;

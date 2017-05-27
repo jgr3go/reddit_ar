@@ -72,19 +72,29 @@
 
           <div class="card next-meet" fixed-top="55">
             <div class="card-block">
-              <h5 class="card-title">NEXT MEETING: {{MC.next.name}}</h5>
-              <div class="row">
-                <div class="col col-xs-4 ">
-                  <div class="next-meet-heading">DAYS</div>
-                  <div class="next-meet-count">{{MC.next.days}}</div>
+              <div ng-if="!MC.next.live">
+                <h5 class="card-title">NEXT MEETING: {{MC.next.name}}</h5>
+                <div class="row">
+                  <div class="col col-xs-4 ">
+                    <div class="next-meet-heading">DAYS</div>
+                    <div class="next-meet-count">{{MC.next.days}}</div>
+                  </div>
+                  <div class="col col-xs-4 next-meet">
+                    <div class="next-meet-heading">HOURS</div>
+                    <div class="next-meet-count">{{MC.next.hours}}</div>
+                  </div>
+                  <div class="col col-xs-4 next-meet">
+                    <div class="next-meet-heading">MINUTES</div>
+                    <div class="next-meet-count">{{MC.next.minutes}}</div>
+                  </div>
                 </div>
-                <div class="col col-xs-4 next-meet">
-                  <div class="next-meet-heading">HOURS</div>
-                  <div class="next-meet-count">{{MC.next.hours}}</div>
-                </div>
-                <div class="col col-xs-4 next-meet">
-                  <div class="next-meet-heading">MINUTES</div>
-                  <div class="next-meet-count">{{MC.next.minutes}}</div>
+              </div>
+              <div ng-if="MC.next.live">
+                <h5 class="card-title">NOW LIVE: {{MC.next.name}}</h5>
+                <div class="row">
+                  <div class="col col-xs-12">
+                    <a href="" ui-sref="{{MC.next.state}}({tab:'results'})">View Results</a>
+                  </div>
                 </div>
               </div>
             </div>

@@ -182,7 +182,9 @@ if (!window.apploaded) {
         vm.next = {
           name: evt.name.toUpperCase(),
           date: moment(evt.date),
-          displayDate: moment(evt.date).format('MMM D, YYYY')
+          state: evt.state,
+          displayDate: moment(evt.date).format('MMM D, YYYY'),
+          live: false
         };
       });
 
@@ -193,14 +195,19 @@ if (!window.apploaded) {
       if (vm.next) {
         var now = moment();
         var evt = moment(vm.next.date);
-        var days = evt.diff(now, 'days');
-        vm.next.days = days;
-        evt.subtract(days, 'days');
-        var hours = evt.diff(now, 'hours');
-        vm.next.hours = hours;
-        evt.subtract(hours, 'hours');
-        var minutes = evt.diff(now, 'minutes');
-        vm.next.minutes = minutes;
+
+        if (now.format('YYYY-MM-DD') === evt.format('YYYY-MM-DD')) {
+          vm.next.live = true;
+        } else {
+          var days = evt.diff(now, 'days');
+          vm.next.days = days;
+          evt.subtract(days, 'days');
+          var hours = evt.diff(now, 'hours');
+          vm.next.hours = hours;
+          evt.subtract(hours, 'hours');
+          var minutes = evt.diff(now, 'minutes');
+          vm.next.minutes = minutes;
+        }
         $timeout(countdown, 1000 * 60);
       } else {
         $timeout(countdown, 500);

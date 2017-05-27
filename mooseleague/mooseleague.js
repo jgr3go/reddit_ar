@@ -134,7 +134,9 @@ angular
             vm.next = {
               name: evt.name.toUpperCase(),
               date: moment(evt.date),
-              displayDate: moment(evt.date).format('MMM D, YYYY')
+              state: evt.state,
+              displayDate: moment(evt.date).format('MMM D, YYYY'),
+              live: false
             };
           });
 
@@ -146,14 +148,19 @@ angular
         if (vm.next) {
           let now = moment();
           let evt = moment(vm.next.date);
-          let days = evt.diff(now, 'days');
-          vm.next.days = days;
-          evt.subtract(days, 'days');
-          let hours = evt.diff(now, 'hours');
-          vm.next.hours = hours;
-          evt.subtract(hours, 'hours');
-          let minutes = evt.diff(now, 'minutes');
-          vm.next.minutes = minutes;
+
+          if (now.format('YYYY-MM-DD') === evt.format('YYYY-MM-DD')) {
+            vm.next.live = true;
+          } else {
+            let days = evt.diff(now, 'days');
+            vm.next.days = days;
+            evt.subtract(days, 'days');
+            let hours = evt.diff(now, 'hours');
+            vm.next.hours = hours;
+            evt.subtract(hours, 'hours');
+            let minutes = evt.diff(now, 'minutes');
+            vm.next.minutes = minutes;
+          }
           $timeout(countdown, 1000 * 60);
         } else {
           $timeout(countdown, 500);
