@@ -1,1 +1,5 @@
 node_modules/*
+dumps/
+arfrontpage_files/
+ar.css
+arfrontpage.html
