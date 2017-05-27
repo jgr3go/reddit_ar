@@ -91,6 +91,16 @@ angular
     svc.latest = function() {
       return svc.list()
         .then(evts => {
+          if (evts.length === 1) {
+            return evts[0];
+          }
+          let isThereOneToday = false;
+          if (evts[evts.length - 2]) {
+            let date = moment(evts[evts.length - 2].date).format('YYYY-MM-DD');
+            if (moment().format('YYYY-MM-DD') === date) {
+              return evts[evts.length - 2];
+            }
+          }
           return evts[evts.length - 1];
         });
     };
