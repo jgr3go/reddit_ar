@@ -82,7 +82,7 @@ YourInternetHistory | | DNF
 
 # NYC
 ctingyu08_ | 61.2
-blood_bender | 61.6
+blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239
 Xalechim | 57.8 | DNS
 potatoknish | 45.3
 djlemma | 53.2
@@ -103,7 +103,7 @@ Mister_Clutch | 58.4 | | 2:23
 Krazyfranco | 57.5 | | 2:19.5
 ajlark25 | 57.4
 AnonymousWritings | 57.2 | | 2:40
-blood_bender | 61.6
+blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239
 finallyransub17 | 56.9 | | 2:16.69 | https://www.strava.com/activities/1007961955
 Ufrider_Taric | 58.2 | DNS
 ndcj12 | 57.1
@@ -223,7 +223,7 @@ cross1212 | 62.9 | | 2:21.8
 jonmadepizza | 61.3
 cross1212 | 62.9 | | 2:21.8
 
-blood_bender | 61.6
+blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239
 Eabryt | 55.9 | | 2:23
 
 ajlark25 | 
