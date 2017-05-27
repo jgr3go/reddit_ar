@@ -131,6 +131,7 @@
         <th style="width: 15%;">Note</th>
         <th>Time</th>
         <th>Points</th>
+        <td>Strava</td>
       </tr>
     </thead>
     <tbody>
@@ -140,6 +141,7 @@
         <td>{{win.note}}</td>
         <td>{{win.time}}</td>
         <td>{{win.points}}</td>
+        <td><a href="{{win.strava}}" ng-show="win.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a></td>
       </tr>
     </tbody>
   </table>
