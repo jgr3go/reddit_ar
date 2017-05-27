@@ -73,7 +73,7 @@ trialofmilesoftrials | 52.6 | DNS
 ChickenSedan | 50.6 | | 2:28 | https://www.strava.com/activities/1008043282/
 anbu1538 | 54.4 | | 2:17 | https://www.strava.com/activities/1007805922
 lostintravise | 51.8
-gunslingrroland | 51.1
+gunslingrroland | 51.1 | | 2:42.7 | https://www.strava.com/activities/1008767983
 Eabryt | 55.9 | | 2:23
 philipwhiuk | 53.9 | | 2:35.5 | https://www.strava.com/activities/1008253162/overview
 chaci_ | 52.8
@@ -84,7 +84,7 @@ YourInternetHistory | | DNF
 ctingyu08_ | 61.2
 blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239 https://youtu.be/jtSzOcx_1z0
 Xalechim | 57.8 | DNS
-potatoknish | 45.3
+potatoknish | 45.3 | | 2:59.5
 djlemma | 53.2
 chrisbloome | 43.1 | | 2:41 | https://www.strava.com/activities/1008275291
 FlyRBFly | 43.1 | | 3:19 | https://www.strava.com/activities/1008678505
@@ -208,6 +208,7 @@ OverflowCreative | 56.7
 punkrock_runner | 54.2 | | 2:09 (2:40.2 AG)
 entropy65536 | | | 2:54.2
 chachi_ | | | 2:26 | https://www.strava.com/activities/1008496061
+robert_cal | | | 2:42.2
 
 
 
