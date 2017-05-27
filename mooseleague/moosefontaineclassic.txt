@@ -44,10 +44,10 @@ sloworfast | 48.7 | | 2:47
 
 
 # North of the Wall
-Nony2 | 65.5
+Nony2 | 65.5 | | 2:11.65 | https://www.youtube.com/watch?v=fIu1fPa3w8U
 kmck96 | 59.1 | | 2:05.51 | https://youtu.be/86RJuJ4bZCk?t=49s
 Dustintomi | 67.9 | | 2:16.8
-Eantheman | 64.7
+Eantheman | 64.7 | split in a 3200m | 2:18
 kholpa | 74
 
 
@@ -199,9 +199,9 @@ screwbuharvard2 |
 # Missed Connections
 Zwiseguy15 | 61.8 | DNS
 bzrunnin | 53.0
-flocculus | 46.0
+flocculus | 46.0 | | 3:08.59
 you_mista_kingston | 60.7
-Eantheman | 64.7
+Eantheman | 64.7 | split in a 3200m | 2:18
 kholpa | 74.1
 OverflowCreative | 56.7
 punkrock_runner | 54.2 | | 2:09 (2:40.2 AG)
