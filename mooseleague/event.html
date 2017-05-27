@@ -88,7 +88,7 @@
       </thead>
       <tbody>
         <tr ng-repeat="ent in league.entrants | orderBy:'time'">
-          <td>{{ $index + 1 }}</td>
+          <td>{{ent.heatPlace}}</td>
           <td>{{ent.user}}</td>
           <td>{{ent.note}}</td>
           <td>{{ent.time}}</td>
@@ -134,7 +134,7 @@
     </thead>
     <tbody>
       <tr ng-repeat="win in EC.event.winners">
-        <td>{{ $index + 1 }}</td>
+        <td>{{win.place}}</td>
         <td>{{win.user}}</td>
         <td>{{win.time}}</td>
         <td>{{win.points}}</td>

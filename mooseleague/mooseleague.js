@@ -309,9 +309,23 @@ angular
         }
 
         let points = 8;
-        _.orderBy(list, ['time', 'user']).map(l => {
-          if (l.time && points) {
-            l.heatPoints = points--;
+        let place = 1;
+        let prev;
+        _.orderBy(list, ['time', 'user']).map(li => {
+          if (li.time && points) {
+            // there's a tie
+            if (prev && prev.time === li.time) {
+              li.heatPlace = prev.heatPlace;
+              li.heatPoints = prev.heatPoints;
+            } else {
+              li.heatPlace = place;
+              li.heatPoints = points;
+            }
+            prev = li;
+            place += 1;
+            if (points) {
+              points -= 1;
+            }
           } 
         })
 
@@ -324,9 +338,22 @@ angular
         let winners = _.orderBy(allUsers, ['time', 'user']);
 
         let points = 99;
+        let place = 1;
+        let prev;
         for (let winner of winners) {
           if (winner.time && points) {
-            winner.points = points--;
+            if (prev && prev.time === winner.time) {
+              winner.points = prev.points;
+              winner.place = prev.place;
+            } else {
+              winner.points = points;
+              winner.place = place;
+            }
+            prev = winner;
+            place += 1;
+            if (points) {
+              points -= 1;
+            }
           }
         }
 

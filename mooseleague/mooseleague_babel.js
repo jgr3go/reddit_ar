@@ -414,9 +414,23 @@ if (!window.apploaded) {
       }
 
       var points = 8;
-      _.orderBy(list, ['time', 'user']).map(function (l) {
-        if (l.time && points) {
-          l.heatPoints = points--;
+      var place = 1;
+      var prev = void 0;
+      _.orderBy(list, ['time', 'user']).map(function (li) {
+        if (li.time && points) {
+          // there's a tie
+          if (prev && prev.time === li.time) {
+            li.heatPlace = prev.heatPlace;
+            li.heatPoints = prev.heatPoints;
+          } else {
+            li.heatPlace = place;
+            li.heatPoints = points;
+          }
+          prev = li;
+          place += 1;
+          if (points) {
+            points -= 1;
+          }
         }
       });
 
@@ -429,6 +443,8 @@ if (!window.apploaded) {
       var winners = _.orderBy(allUsers, ['time', 'user']);
 
       var points = 99;
+      var place = 1;
+      var prev = void 0;
       var _iteratorNormalCompletion7 = true;
       var _didIteratorError7 = false;
       var _iteratorError7 = undefined;
@@ -438,7 +454,18 @@ if (!window.apploaded) {
           var winner = _step7.value;
 
           if (winner.time && points) {
-            winner.points = points--;
+            if (prev && prev.time === winner.time) {
+              winner.points = prev.points;
+              winner.place = prev.place;
+            } else {
+              winner.points = points;
+              winner.place = place;
+            }
+            prev = winner;
+            place += 1;
+            if (points) {
+              points -= 1;
+            }
           }
         }
       } catch (err) {
