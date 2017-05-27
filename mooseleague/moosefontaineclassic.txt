@@ -197,7 +197,7 @@ screwbuharvard2 |
 
 
 # Missed Connections
-Zwiseguy15 | 61.8
+Zwiseguy15 | 61.8 | DNS
 bzrunnin | 53.0
 flocculus | 46.0
 you_mista_kingston | 60.7
