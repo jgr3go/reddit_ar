@@ -127,8 +127,9 @@
     <thead class="thead-inverse">
       <tr>
         <th style="width: 25px;">Place</th>
-        <th style="width: 50%;">Name</th>
-        <th style="width: 20%;">Time</th>
+        <th style="width: 40%;">Name</th>
+        <th style="width: 15%;">Note</th>
+        <th>Time</th>
         <th>Points</th>
       </tr>
     </thead>
@@ -136,6 +137,7 @@
       <tr ng-repeat="win in EC.event.winners">
         <td>{{win.place}}</td>
         <td>{{win.user}}</td>
+        <td>{{win.note}}</td>
         <td>{{win.time}}</td>
         <td>{{win.points}}</td>
       </tr>
