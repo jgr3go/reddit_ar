@@ -362,14 +362,28 @@ angular
 
       function parseUser(line) {
         let split = line.split('|');
-        return {
+        let user = {
           user: split[0].trim(),
           link: `https://reddit.com/u/${split[0].trim()}`,
           VDOT: split[1] ? parseFloat(split[1]) : 0,
           note: split[2] || '',
           time: split[3] ? split[3].trim() : null,
-          strava: split[4] ? split[4].trim() : null,
+          strava: null,
+          youtube: null,
+          //strava: split[4] ? split[4].trim() : null,
         };
+        if (split[4]) {
+          let links = split[4].trim().split(' ');
+          
+          for (let link of links) {
+            if (link.match(/strava/)) {
+              user.strava = link.trim();
+            } else if (link.match(/youtu/) ) {
+              user.youtube = link.trim();
+            }
+          }
+        }
+        return user;
       }
 
       vm.changeTab = function (tab) {

@@ -488,14 +488,48 @@ if (!window.apploaded) {
 
     function parseUser(line) {
       var split = line.split('|');
-      return {
+      var user = {
         user: split[0].trim(),
         link: 'https://reddit.com/u/' + split[0].trim(),
         VDOT: split[1] ? parseFloat(split[1]) : 0,
         note: split[2] || '',
         time: split[3] ? split[3].trim() : null,
-        strava: split[4] ? split[4].trim() : null
+        strava: null,
+        youtube: null
       };
+      if (split[4]) {
+        var links = split[4].trim().split(' ');
+
+        var _iteratorNormalCompletion8 = true;
+        var _didIteratorError8 = false;
+        var _iteratorError8 = undefined;
+
+        try {
+          for (var _iterator8 = links[Symbol.iterator](), _step8; !(_iteratorNormalCompletion8 = (_step8 = _iterator8.next()).done); _iteratorNormalCompletion8 = true) {
+            var link = _step8.value;
+
+            if (link.match(/strava/)) {
+              user.strava = link.trim();
+            } else if (link.match(/youtu/)) {
+              user.youtube = link.trim();
+            }
+          }
+        } catch (err) {
+          _didIteratorError8 = true;
+          _iteratorError8 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion8 && _iterator8.return) {
+              _iterator8.return();
+            }
+          } finally {
+            if (_didIteratorError8) {
+              throw _iteratorError8;
+            }
+          }
+        }
+      }
+      return user;
     }
 
     vm.changeTab = function (tab) {

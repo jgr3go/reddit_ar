@@ -81,9 +81,9 @@
           <th style="width: 25px;">Place</th>
           <th style="width: 40%;">Name</th>
           <th style="width: 15%">Note</th>
-          <th>Time</th>
+          <th style="width: 10%">Time</th>
           <th>Points</th>
-          <th>Strava</th>
+          <th>Strava/Youtube</th>
         </tr>
       </thead>
       <tbody>
@@ -93,7 +93,10 @@
           <td>{{ent.note}}</td>
           <td>{{ent.time}}</td>
           <td>{{ent.heatPoints}}</td>
-          <td><a href="{{ent.strava}}" ng-show="ent.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a></td>
+          <td>
+            <a href="{{ent.strava}}" ng-show="ent.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a>
+            <a href="{{ent.youtube}}" ng-show="ent.youtube" target="_blank"><img src="https://www.youtube.com/favicon.ico" style="height: 1rem;"></a>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -105,8 +108,8 @@
       <tr>
         <th style="width: 25px;">Place</th>
         <th style="width: 50%;">Name</th>
-        <th>Time</th>
-        <th>Strava</th>
+        <th style="width: 10%">Time</th>
+        <th>Strava/Youtube</th>
       </tr>
     </thead>
     <tbody>
@@ -116,7 +119,10 @@
         <td>{{ $index + 1 }}</td>
         <td>{{ent.user}}</td>
         <td>{{ent.time}}</td>
-        <td><a href="{{ent.strava}}" ng-show="ent.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a></td>
+        <td>
+          <a href="{{ent.strava}}" ng-show="ent.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a>
+          <a href="{{ent.youtube}}" ng-show="ent.youtube" target="_blank"><img src="https://www.youtube.com/favicon.ico" style="height: 1rem;"></a>
+        </td>
       </tr>
     </tbody>
   </table>
@@ -129,9 +135,9 @@
         <th style="width: 25px;">Place</th>
         <th style="width: 40%;">Name</th>
         <th style="width: 15%;">Note</th>
-        <th>Time</th>
+        <th style="width: 10%">Time</th>
         <th>Points</th>
-        <th>Strava</th>
+        <th>Strava/Youtube</th>
       </tr>
     </thead>
     <tbody>
@@ -141,7 +147,10 @@
         <td>{{win.note}}</td>
         <td>{{win.time}}</td>
         <td>{{win.points}}</td>
-        <td><a href="{{win.strava}}" ng-show="win.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a></td>
+        <td>
+          <a href="{{win.strava}}" ng-show="win.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a>
+          <a href="{{win.youtube}}" ng-show="win.youtube" target="_blank"><img src="https://www.youtube.com/favicon.ico" style="height: 1rem;"></a>
+        </td>
       </tr>
     </tbody>
   </table>

@@ -16,7 +16,7 @@ laurieislaurie | 50.0
 rokfitter | 51.8 | | 2:38
 JaBoyFrom227 | 49.8
 robercha001 | 50.4
-cashewlater | 50.0
+cashewlater | 50.0 | | 2:20
 
 # Florida
 lostintravise | 51.8
@@ -45,7 +45,7 @@ sloworfast | 48.7 | | 2:47
 
 # North of the Wall
 Nony2 | 65.5
-kmck96 | 59.1 | | 2:05.51
+kmck96 | 59.1 | | 2:05.51 | https://youtu.be/86RJuJ4bZCk?t=49s
 Dustintomi | 67.9 | | 2:16.8
 Eantheman | 64.7
 kholpa | 74
@@ -82,7 +82,7 @@ YourInternetHistory | | DNF
 
 # NYC
 ctingyu08_ | 61.2
-blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239
+blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239 https://youtu.be/jtSzOcx_1z0
 Xalechim | 57.8 | DNS
 potatoknish | 45.3
 djlemma | 53.2
@@ -103,7 +103,7 @@ Mister_Clutch | 58.4 | | 2:23
 Krazyfranco | 57.5 | | 2:19.5
 ajlark25 | 57.4
 AnonymousWritings | 57.2 | | 2:40
-blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239
+blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239 https://youtu.be/jtSzOcx_1z0
 finallyransub17 | 56.9 | | 2:16.69 | https://www.strava.com/activities/1007961955
 Ufrider_Taric | 58.2 | DNS
 ndcj12 | 57.1
@@ -124,7 +124,7 @@ pand4duck | 61.8
 
 # Hoth (VDOT 45)
 ade214 | 45.3 | DNS
-zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609
+zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609 https://www.youtube.com/watch?v=iohKlZFxyWk&feature=youtu.be
 SimpleAndWell | 45.8
 biggyofmt | 45.3
 ryebrye | 42
@@ -159,7 +159,7 @@ brwalkernc | 53.7
 elguiri | 
 runroardinosaur | | | 3:38.89
 craigster38 | 42.6 | | 2:57 | https://www.strava.com/activities/1007843310/
-zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609
+zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609 https://www.youtube.com/watch?v=iohKlZFxyWk&feature=youtu.be
 
 # Moria (Beards)
 brwalkernc | 53.7
@@ -185,7 +185,7 @@ banstew | 56.7
 rnr_ | 
 bucky57135 | 
 honkforcookies | 
-kmck96 | 59.1 | | 2:05.51
+kmck96 | 59.1 | | 2:05.51 | https://youtu.be/86RJuJ4bZCk?t=49s
 
 
 # Tom Brady's Poodle Boys
@@ -205,6 +205,7 @@ Eantheman | 64.7
 kholpa | 74.1
 OverflowCreative | 56.7
 punkrock_runner | 54.2 | | 2:09 (2:40.2 AG)
+entropy65536 | | | 2:54.2
 
 
 
@@ -223,7 +224,7 @@ cross1212 | 62.9 | | 2:21.8
 jonmadepizza | 61.3
 cross1212 | 62.9 | | 2:21.8
 
-blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239
+blood_bender | 61.6 | | 2:16.65 | https://www.strava.com/activities/1008200239 https://youtu.be/jtSzOcx_1z0
 Eabryt | 55.9 | | 2:23
 
 ajlark25 | 
