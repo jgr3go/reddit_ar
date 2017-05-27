@@ -11,7 +11,7 @@ ShortShortsTallSocks | 48.8 | | 2:30 | https://www.strava.com/activities/1007908
 herumph | 49.7 | DNS
 zebano | 48.6
 sloworfast | 48.7
-VicunaLlamaAlpaca | 47.2
+VicunaLlamaAlpaca | 47.2 | | 2:48 | https://www.strava.com/activities/1008256071
 laurieislaurie | 50.0
 rokfitter | 51.8 | | 2:38
 JaBoyFrom227 | 49.8
@@ -23,7 +23,7 @@ lostintravise | 51.8
 herumph | 49.7 | DNS
 D1rtrunn3r | 
 anbu1538 | 54.4 | | 2:17 | https://www.strava.com/activities/1007805922
-thereelkanyewest | 57.2
+thereelkanyewest | 57.2 | | 2:27 | https://www.strava.com/activities/1006316976
 
 # Central
 CatzerzMcGee |
@@ -75,7 +75,7 @@ anbu1538 | 54.4 | | 2:17 | https://www.strava.com/activities/1007805922
 lostintravise | 51.8
 gunslingrroland | 51.1
 Eabryt | 55.9 | | 2:23
-philipwhiuk | 53.9
+philipwhiuk | 53.9 | 2:35.5 | https://www.strava.com/activities/1008253162/overview
 chaci_ | 52.8
 YourInternetHistory | | DNF 
 
@@ -86,11 +86,11 @@ blood_bender | 61.6
 Xalechim | 57.8 | DNS
 potatoknish | 45.3
 djlemma | 53.2
-chrisbloome | 43.1
+chrisbloome | 43.1 | | 2:41 | https://www.strava.com/activities/1008275291
 
 # Borderlands
-Krazyfranco | 57.5
-thereelkanyewest | 57.2
+Krazyfranco | 57.5 | | 2:19.5
+thereelkanyewest | 57.2 | | 2:27 | https://www.strava.com/activities/1006316976
 redbeard27 | 56.3
 snapundersteer |
 ndcj12 | 57.1
@@ -100,9 +100,9 @@ ndcj12 | 57.1
 hunterco88 | 60.0
 OGFireNation | 58.6 | | 2:23 | https://www.strava.com/activities/1007795063/overview
 Mister_Clutch | 58.4 | | 2:23
-Krazyfranco | 57.5
+Krazyfranco | 57.5 | | 2:19.5
 ajlark25 | 57.4
-AnonymousWritings | 57.2
+AnonymousWritings | 57.2 | | 2:40
 blood_bender | 61.6
 finallyransub17 | 56.9 | | 2:16.69 | https://www.strava.com/activities/1007961955
 Ufrider_Taric | 58.2 | DNS
@@ -128,7 +128,7 @@ zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609
 SimpleAndWell | 45.8
 biggyofmt | 45.3
 ryebrye | 42
-chrisbloome | 43.1
+chrisbloome | 43.1 | | 2:41 | https://www.strava.com/activities/1008275291
 craigster38 | 42.6 | | 2:57 | https://www.strava.com/activities/1007843310/
 OblongPlatypus | 43.2 | | 2:44 | https://www.strava.com/activities/1007429773
 mamsorris1 | 46.4 | | 2:33 | https://www.strava.com/activities/1007949902
@@ -145,7 +145,7 @@ brwalkernc | 53.7
 OGFireNation | 58.6 | | 2:23 | https://www.strava.com/activities/1007795063/overview
 FlashArcher | 
 snapundersteer | 
-chrispyb | 57.5
+chrispyb | 57.5 | | 2:12
 
 
 # North Virginia
@@ -189,7 +189,7 @@ kmck96 | 59.1 | | 2:05.51
 
 
 # Tom Brady's Poodle Boys
-chrispyb |
+chrispyb | | | 2:12
 ForwardBound |
 RunJunRun | 
 screwbuharvard2 |
@@ -211,11 +211,11 @@ punkrock_runner | 54.2 | | 2:09 (2:40.2 AG)
 
 =====
 # Head to Heads
-AnonymousWritings | 
-Mister_Clutch |
+AnonymousWritings | | | 2:40
+Mister_Clutch | | | 2:23
 
 upxc | 71.3 | | 2:14.1 
-moongrey | 59.2
+moongrey | 59.2 | | 2:12
 
 Simsim7 | 64.3
 cross1212 | 62.9 | | 2:21.8
