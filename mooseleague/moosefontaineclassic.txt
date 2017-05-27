@@ -53,7 +53,7 @@ kholpa | 74
 
 # Eugene
 pand4duck | 61.8
-ForwardBound | | | 2:28
+ForwardBound | | | 2:28.95
 Tweeeked | | | 2:28.56
 Mrs. PD | 
 
@@ -190,7 +190,7 @@ kmck96 | 59.1 | | 2:05.51
 
 # Tom Brady's Poodle Boys
 chrispyb | | | 2:12
-ForwardBound | | | 2:28
+ForwardBound | | | 2:28.95
 RunJunRun | 
 screwbuharvard2 |
 
