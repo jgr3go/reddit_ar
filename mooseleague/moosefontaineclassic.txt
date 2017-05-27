@@ -97,7 +97,7 @@ ndcj12 | 57.1
 
 # Atlantis  (VDOT 58 Mega)
 hunterco88 | 60.0
-OGFireNation | 58.6
+OGFireNation | 58.6 | | 2:24 | https://www.strava.com/activities/1007795063/overview
 Mister_Clutch | 58.4
 Krazyfranco | 57.5
 ajlark25 | 57.4
@@ -141,7 +141,7 @@ brwalkernc | 53.7
 
 
 # omg
-OGFireNation | 58.6
+OGFireNation | 58.6 | | 2:24 | https://www.strava.com/activities/1007795063/overview
 FlashArcher | 
 snapundersteer | 
 chrispyb | 57.5
@@ -226,7 +226,7 @@ blood_bender | 61.6
 Eabryt | 55.9
 
 ajlark25 | 
-OGFireNation |
+OGFireNation | | 2:24 | https://www.strava.com/activities/1007795063/overview
 
 TheHegemon1 | | 2:33 | https://www.strava.com/activities/1007687696
 djlemma | 53.2
