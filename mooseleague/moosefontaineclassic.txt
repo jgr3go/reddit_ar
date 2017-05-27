@@ -129,7 +129,7 @@ SimpleAndWell | 45.8
 biggyofmt | 45.3
 ryebrye | 42
 chrisbloome | 43.1
-craigster38 | 42.6
+craigster38 | 42.6 | | 2:57
 OblongPlatypus | 43.2 | | 2:44 | https://www.strava.com/activities/1007429773
 mamsorris1 | 46.4
 marximumrunner | 37.2 | | 2:38
@@ -158,7 +158,7 @@ joezn | 63.3
 brwalkernc | 53.7
 elguiri | 
 runroardinosaur | | | 3:38.89
-craigster38 | 42.6
+craigster38 | 42.6 | | 2:57
 zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609
 
 # Moria (Beards)
