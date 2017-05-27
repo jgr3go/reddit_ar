@@ -3,11 +3,11 @@ Moosefontaine Classic
 800m
 
 # GOATs
-ShortShortsTallSocks | 48.8 | | 2:30 
+ShortShortsTallSocks | 48.8 | | 2:30 | https://www.strava.com/activities/1007908266/overview
 herumph | 49.7 | DNS
 
 # Fear the GOATs
-ShortShortsTallSocks | 48.8 | | 2:30
+ShortShortsTallSocks | 48.8 | | 2:30 | https://www.strava.com/activities/1007908266/overview
 herumph | 49.7 | DNS
 zebano | 48.6
 sloworfast | 48.7
@@ -27,7 +27,7 @@ thereelkanyewest | 57.2
 
 # Central
 CatzerzMcGee |
-ShortShortsTallSocks | 48.8
+ShortShortsTallSocks | 48.8 | | 2:30 | https://www.strava.com/activities/1007908266/overview
 trialofmilesoftrials | 52.6 | DNS
 TheEcstatic |
 AfricanBus |
