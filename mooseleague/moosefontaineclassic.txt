@@ -132,7 +132,7 @@ chrisbloome | 43.1
 craigster38 | 42.6
 OblongPlatypus | 43.2 | | 2:44 | https://www.strava.com/activities/1007429773
 mamsorris1 | 46.4
-marximumrunner |
+marximumrunner | 37.2 | | 2:38
 
 
 # Loser Has To Shave
@@ -149,7 +149,7 @@ chrispyb | 57.5
 
 
 # North Virginia
-marximumrunner | 37.2
+marximumrunner | 37.2 | | 2:38
 Kaiserlappen | 33.5
 breakingbedd | 65.4 | | 2:13
 joezn | 63.3
