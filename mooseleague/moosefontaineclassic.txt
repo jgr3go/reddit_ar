@@ -14,7 +14,7 @@ sloworfast | 48.7
 VicunaLlamaAlpaca | 47.2 | | 2:48 | https://www.strava.com/activities/1008256071
 laurieislaurie | 50.0
 rokfitter | 51.8 | | 2:38
-JaBoyFrom227 | 49.8
+JaBoyFrom227 | 49.8 | | 2:35 | https://www.strava.com/activities/1008834692
 robercha001 | 50.4 | | 2:48
 cashewlater | 50.0 | | 2:20
 
