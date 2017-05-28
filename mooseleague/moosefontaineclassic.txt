@@ -19,7 +19,7 @@ robercha001 | 50.4 | | 2:48
 cashewlater | 50.0 | | 2:20
 
 # Florida
-lostintravise | 51.8
+lostintravise | 51.8 | DNS
 herumph | 49.7 | DNS
 D1rtrunn3r | 
 anbu1538 | 54.4 | | 2:17 | https://www.strava.com/activities/1007805922
@@ -72,7 +72,7 @@ runwichi | 52.5 | | 2:18.38 | https://www.strava.com/activities/1008403403
 trialofmilesoftrials | 52.6 | DNS
 ChickenSedan | 50.6 | | 2:28 | https://www.strava.com/activities/1008043282/
 anbu1538 | 54.4 | | 2:17 | https://www.strava.com/activities/1007805922
-lostintravise | 51.8
+lostintravise | 51.8 | DNS
 gunslingrroland | 51.1 | | 2:42.7 | https://www.strava.com/activities/1008767983
 Eabryt | 55.9 | | 2:23
 philipwhiuk | 53.9 | | 2:35.5 | https://www.strava.com/activities/1008253162/overview
@@ -166,7 +166,7 @@ zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609 https://w
 brwalkernc | 53.7
 runwichi | 52.5 | | 2:18.38 | https://www.strava.com/activities/1008403403
 jaylapeche | 47.1 | DNS
-lostintravise | 51.8
+lostintravise | 51.8 | DNS
 trialofmilesoftrials | 52.5 | DNS
 a-german-muffin | 54.1
 
