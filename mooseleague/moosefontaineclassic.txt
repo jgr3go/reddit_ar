@@ -67,7 +67,7 @@ V1per41 | 53.3 | | 2:20
 ultrahobbyjogger | 55.9
 winter0215 | 52.5
 pablitoneal | 55.8 | | 2:33 | https://www.strava.com/activities/1008365583/laps
-brwalkernc | 53.7
+brwalkernc | 53.7 | DNF
 runwichi | 52.5 | | 2:18.38 | https://www.strava.com/activities/1008403403
 trialofmilesoftrials | 52.6 | DNS
 ChickenSedan | 50.6 | | 2:28 | https://www.strava.com/activities/1008043282/
@@ -139,7 +139,7 @@ marximumrunner | 37.2 | | 2:38
 # Loser Has To Shave
 winterspite | 54.4 | | 2:23 | https://www.strava.com/activities/1007676024
 runwichi | 52.5 | | 2:18.38 | https://www.strava.com/activities/1008403403
-brwalkernc | 53.7
+brwalkernc | 53.7 | DNF
 
 
 # omg
@@ -156,14 +156,14 @@ breakingbedd | 65.4 | | 2:13
 joezn | 63.3 | | 2:08.5 | https://www.youtube.com/watch?v=e_6_gk668K0&feature=youtu.be
 
 # Recovering Ultrarunners
-brwalkernc | 53.7
+brwalkernc | 53.7 | DNF
 elguiri | 
 runroardinosaur | | | 3:38.89
 craigster38 | 42.6 | | 2:57 | https://www.strava.com/activities/1007843310/
 zazzera | 45.8 | | 2:52 | https://www.strava.com/activities/1007718609 https://www.youtube.com/watch?v=iohKlZFxyWk&feature=youtu.be
 
 # Moria (Beards)
-brwalkernc | 53.7
+brwalkernc | 53.7 | DNF
 runwichi | 52.5 | | 2:18.38 | https://www.strava.com/activities/1008403403
 jaylapeche | 47.1 | DNS
 lostintravise | 51.8 | DNS
