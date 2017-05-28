@@ -10,7 +10,7 @@ herumph | 49.7 | DNS
 ShortShortsTallSocks | 48.8 | | 2:30 | https://www.strava.com/activities/1007908266/overview https://youtu.be/KxE9zGTJYAc
 herumph | 49.7 | DNS
 zebano | 48.6 | | 2:38.49 | https://www.strava.com/activities/1008623011
-sloworfast | 48.7
+sloworfast | 48.7 | | 2:47
 VicunaLlamaAlpaca | 47.2 | | 2:48 | https://www.strava.com/activities/1008256071
 laurieislaurie | 50.0
 rokfitter | 51.8 | | 2:38
