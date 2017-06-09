@@ -3,11 +3,11 @@ Moose PR Invitational
 200m, 400m
 
 # GOATs
-ShortShortsTallSocks | 48.8 | 
+ShortShortsTallSocks | 50.0 | 
 herumph | 49.7 | 
 
 # Fear the GOATs
-ShortShortsTallSocks | 48.8 |
+ShortShortsTallSocks | 50.0 |
 herumph | 49.7 | 
 zebano | 48.6
 sloworfast | 48.7
@@ -27,7 +27,7 @@ thereelkanyewest | 57.2 |
 
 # Central
 CatzerzMcGee |
-ShortShortsTallSocks | 48.8 | 
+ShortShortsTallSocks | 50.0 | 
 trialofmilesoftrials | 52.6 | 
 TheEcstatic |
 AfricanBus |
