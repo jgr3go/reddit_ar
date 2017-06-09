@@ -6,6 +6,7 @@ Moose PR Invitational
 ShortShortsTallSocks | 50.0 | 
 herumph | 49.7 | 
 
+
 # Fear the GOATs
 ShortShortsTallSocks | 50.0 |
 herumph | 49.7 | 
@@ -18,12 +19,15 @@ JaBoyFrom227 | 49.8
 robercha001 | 50.4
 cashewlater | 50.0 | 
 
+
 # Florida
 lostintravise | 51.8
 herumph | 49.7 
 D1rtrunn3r | 
 anbu1538 | 54.4 | 
 thereelkanyewest | 57.2 | 
+nutbrownhare14 | 
+
 
 # Central
 CatzerzMcGee |
@@ -41,6 +45,7 @@ FlyRBFly | 43.1
 kaaaazzh | 44.6
 flocculus | 46.0
 sloworfast | 48.7 |
+_ughhhhh_ | 42.9
 
 
 # North of the Wall
@@ -87,6 +92,9 @@ Xalechim | 57.8
 potatoknish | 45.3
 djlemma | 53.2
 chrisbloome | 43.1 | 
+FlyRBFly | 43.1 | 
+Puggle555 | 55.0 
+
 
 # Borderlands
 Krazyfranco | 57.5 |
@@ -133,6 +141,7 @@ craigster38 | 42.6 |
 OblongPlatypus | 43.2 |
 mamsorris1 | 46.4 | 
 marximumrunner | 37.2 |
+_ughhhhh_ | 42.9
 
 
 # Loser Has To Shave
@@ -153,6 +162,8 @@ marximumrunner | 37.2 |
 Kaiserlappen | 33.5
 breakingbedd | 65.4 | 
 joezn | 63.3
+topkekhenry |
+
 
 # Recovering Ultrarunners
 brwalkernc | 53.7
@@ -160,6 +171,7 @@ elguiri |
 runroardinosaur | |
 craigster38 | 42.6 | 
 zazzera | 45.8 | 
+
 
 # Moria (Beards)
 brwalkernc | 53.7
@@ -180,6 +192,7 @@ Ch1mpy | 50.6 |
 Chiruadr | 52.2 | 
 TheHegemon1 | 52.0 |
 
+
 # Pandora
 banstew | 56.7
 rnr_ | 
@@ -195,7 +208,6 @@ RunJunRun |
 screwbuharvard2 |
 
 
-
 # Missed Connections
 Zwiseguy15 | 61.8 
 bzrunnin | 53.0
@@ -207,7 +219,8 @@ OverflowCreative | 56.7
 punkrock_runner | 54.2 |
 entropy65536 | | 
 chachi_ | | 
-
+robert_cal | 
+nutbrownhare14 | 
 
 
 =====
