@@ -39,6 +39,8 @@ TheEcstatic |
 AfricanBus |
 SwedeJustice | 69.0
 Laggy4Life | 59.0
+LadyOfNumbers | 53.1
+Canofmayonnaise | 61.0
 
 
 # XX
@@ -49,6 +51,7 @@ kaaaazzh | 44.6
 flocculus | 46.0
 sloworfast | 48.7 |
 _ughhhhh_ | 42.9
+linzlars | 49.6
 
 
 # North of the Wall
@@ -259,3 +262,6 @@ ChickenSedan | 50.6 |
 
 cashwlater |
 dogebiscuit | 
+
+cashwlater |
+anbu1538 | 
