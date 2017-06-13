@@ -114,17 +114,17 @@
       <tr>
         <th style="width: 25px;">Place</th>
         <th style="width: 35%;">Name</th>
-        <th style="width: 15%">Time</th>
-        <th>Strava/Youtube</th>
+        <th style="width: 15%; white-space: pre;" ng-repeat="evt in EC.event.events">{{EC.event.events.length > 1 ? evt + '\n' : '' }}Time</th>
+        <th>Links</th>
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="ent in h2h.entrants | orderBy: 'time'"
-          ng-class="{'winner': (ent.time && $index === 0) ,
-                    'loser': (ent.time && $index !== 0) }">
+      <tr ng-repeat="ent in h2h.entrants | orderBy: 'heatPlace'"
+          ng-class="{'winner': (ent.heatPlace === 1) ,
+                    'loser': (ent.heatPlace && ent.heatPlace !== 1) }">
         <td>{{ $index + 1 }}</td>
         <td>{{ent.user}}</td>
-        <td>{{ent.time}}</td>
+        <td ng-repeat="evt in ent.events">{{evt.time}}</td>
         <td>
           <a ng-repeat="link in ent.links"
                 href="{{link.url}}"
