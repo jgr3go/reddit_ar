@@ -6,8 +6,10 @@
   background-color: #800000 !important;
 }
 
-.thead-inverse th {
+.thead-inverse th, .table thead th {
   background-color: #800000;
+  border-bottom: 0;
+  border-top: 0;
 }
 
 table {

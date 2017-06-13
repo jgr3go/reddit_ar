@@ -1,6 +1,6 @@
 
 <h2>{{EC.event.name}} - {{EC.event.date}}</h2>
-<h2>Events: {{EC.event.events}}</h2>
+<h2>Events: {{EC.event.events.join(', ')}}</h2>
 
 <ul class="nav nav-tabs">
   <li class="nav-item">
@@ -35,7 +35,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="ent in league.entrants">
+        <tr ng-repeat="ent in league.entrants | orderBy:'lane'">
           <td>{{ent.lane}}</td>
           <td>{{ent.user}}</td>
           <td>{{ent.VDOT ? (ent.VDOT | number:1) : ''}}</td>
@@ -79,23 +79,29 @@
       <thead class="thead-inverse">
         <tr>
           <th style="width: 25px;">Place</th>
-          <th style="width: 35%;">Name</th>
-          <th style="width: 15%">Note</th>
-          <th style="width: 15%">Time</th>
-          <th>Points</th>
-          <th>Strava/Youtube</th>
+          <th style="width: 20%;">Name</th>
+          <th style="width: 20%">Note</th>
+          <th ng-repeat-start="evt in EC.event.events" style="width: 10%; white-space: pre;" >{{EC.event.events.length > 1 ? evt + '\n' : '' }}Time</th>
+          <th ng-repeat-end>Points</th>
+          <th ng-show="EC.event.events.length > 1">Meet Points</th>
+          <th>Links</th>
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="ent in league.entrants | orderBy:'time'">
+        <tr ng-repeat="ent in league.entrants">
           <td>{{ent.heatPlace}}</td>
           <td>{{ent.user}}</td>
           <td>{{ent.note}}</td>
-          <td>{{ent.time}}</td>
-          <td>{{ent.heatPoints}}</td>
+          <td ng-repeat-start="evt in ent.events">{{evt.time}}</td>
+          <td ng-repeat-end>{{evt.heatPoints}}</td>
+          <td ng-show="EC.event.events.length > 1"><strong>{{ent.heatPoints}}</strong></td>
           <td>
-            <a href="{{ent.strava}}" ng-show="ent.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a>
-            <a href="{{ent.youtube}}" ng-show="ent.youtube" target="_blank"><img src="https://www.youtube.com/favicon.ico" style="height: 1rem;"></a>
+            <a ng-repeat="link in ent.links"
+                href="{{link.url}}"
+                target="_blank">
+              <img ng-if="link.type === 'strava'" src="https://www.strava.com/favicon.ico" style="height: 1rem;">
+              <img ng-if="link.type === 'youtube'" src="https://www.youtube.com/favicon.ico" style="height: 1rem;">
+            </a>
           </td>
         </tr>
       </tbody>
@@ -120,8 +126,12 @@
         <td>{{ent.user}}</td>
         <td>{{ent.time}}</td>
         <td>
-          <a href="{{ent.strava}}" ng-show="ent.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a>
-          <a href="{{ent.youtube}}" ng-show="ent.youtube" target="_blank"><img src="https://www.youtube.com/favicon.ico" style="height: 1rem;"></a>
+          <a ng-repeat="link in ent.links"
+                href="{{link.url}}"
+                target="_blank">
+            <img ng-if="link.type === 'strava'" src="https://www.strava.com/favicon.ico" style="height: 1rem;">
+            <img ng-if="link.type === 'youtube'" src="https://www.youtube.com/favicon.ico" style="height: 1rem;">
+          </a>
         </td>
       </tr>
     </tbody>
@@ -132,12 +142,16 @@
   <table class="table table-sm">
     <thead class="thead-inverse">
       <tr>
-        <th style="width: 25px;">Place</th>
-        <th style="width: 35%;">Name</th>
-        <th style="width: 15%;">Note</th>
-        <th style="width: 15%">Time</th>
-        <th>Points</th>
-        <th>Strava/Youtube</th>
+        <th style="width: 25px; cursor: pointer;"
+            ng-click="EC.sortWinnersBy('place')">Place</th>
+        <th style="width: 20%;">Name</th>
+        <th style="width: 20%;">Note</th>
+        <th ng-repeat-start="evt in EC.event.events" 
+            style="width: 10%; white-space: pre; cursor: pointer;"
+            ng-click="EC.sortWinnersBy('event', $index)">{{EC.event.events.length > 1 ? evt + '\n' : ''}}Time</th>
+        <th ng-repeat-end>Points</th>
+        <th ng-show="EC.event.events.length > 1">Meet Points</th>
+        <th>Links</th>
       </tr>
     </thead>
     <tbody>
@@ -145,12 +159,17 @@
         <td>{{win.place}}</td>
         <td>{{win.user}}</td>
         <td>{{win.note}}</td>
-        <td>{{win.time}}</td>
-        <td>{{win.points}}</td>
+        <td ng-repeat-start="evt in win.events">{{evt.time}}</td>
+        <td ng-repeat-end>{{evt.points}}</td>
+        <td ng-show="EC.event.events.length > 1"><strong>{{win.points}}</strong></td>
         <td>
-          <a href="{{win.strava}}" ng-show="win.strava" target="_blank"><img src="https://www.strava.com/favicon.ico" style="height: 1rem;"></a>
-          <a href="{{win.youtube}}" ng-show="win.youtube" target="_blank"><img src="https://www.youtube.com/favicon.ico" style="height: 1rem;"></a>
-        </td>
+          <a ng-repeat="link in win.links"
+              href="{{link.url}}"
+              target="_blank">
+            <img ng-if="link.type === 'strava'" src="https://www.strava.com/favicon.ico" style="height: 1rem;">
+            <img ng-if="link.type === 'youtube'" src="https://www.youtube.com/favicon.ico" style="height: 1rem;">
+          </a>
+        </td> 
       </tr>
     </tbody>
   </table>

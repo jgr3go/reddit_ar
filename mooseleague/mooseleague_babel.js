@@ -280,7 +280,9 @@ if (!window.apploaded) {
       var event = {
         name: lines[0].trim(),
         date: moment(lines[1].trim()),
-        events: lines[2].trim(),
+        events: lines[2].split(',').map(function (a) {
+          return a.trim();
+        }),
         leagues: [],
         h2h: []
       };
@@ -312,7 +314,7 @@ if (!window.apploaded) {
           continue;
         }
 
-        var user = parseUser(line);
+        var user = parseUser(line, event);
         if (!allUsers[user.user.toLowerCase()]) {
           allUsers[user.user.toLowerCase()] = user;
         }
@@ -333,7 +335,7 @@ if (!window.apploaded) {
           continue;
         }
 
-        var _user = parseUser(_line);
+        var _user = parseUser(_line, event);
         if (!allUsers[_user.user.toLowerCase()]) {
           allUsers[_user.user.toLowerCase()] = _user;
         }
@@ -348,7 +350,7 @@ if (!window.apploaded) {
         for (var _iterator4 = event.leagues[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {
           var league = _step4.value;
 
-          league.entrants = sortAndLane(league.entrants);
+          league.entrants = sortAndLane(league.entrants, event);
         }
       } catch (err) {
         _didIteratorError4 = true;
@@ -373,7 +375,7 @@ if (!window.apploaded) {
         for (var _iterator5 = event.h2h[Symbol.iterator](), _step5; !(_iteratorNormalCompletion5 = (_step5 = _iterator5.next()).done); _iteratorNormalCompletion5 = true) {
           var h2h = _step5.value;
 
-          h2h.entrants = sortAndLane(h2h.entrants);
+          h2h.entrants = sortAndLane(h2h.entrants, event);
         }
       } catch (err) {
         _didIteratorError5 = true;
@@ -390,12 +392,12 @@ if (!window.apploaded) {
         }
       }
 
-      event.winners = getWinners(allUsers);
+      event.winners = getWinners(allUsers, event);
 
       return event;
     }
 
-    function sortAndLane(list) {
+    function sortAndLane(list, event) {
       list = _.orderBy(list, ['VDOT', 'user'], ['desc', 'asc']);
       var lane = 1;
       var _iteratorNormalCompletion6 = true;
@@ -423,108 +425,70 @@ if (!window.apploaded) {
         }
       }
 
-      var points = 8;
-      var place = 1;
-      var prev = void 0;
-      _.orderBy(list, ['time', 'user']).map(function (li) {
-        if (li.time) {
-          // there's a tie
-          if (prev && prev.time === li.time) {
-            li.heatPlace = prev.heatPlace;
-            li.heatPoints = prev.heatPoints;
-          } else {
-            li.heatPlace = place;
-            if (points) {
-              li.heatPoints = points;
-            }
-          }
-          prev = li;
-          place += 1;
-          if (points) {
-            points -= 1;
-          }
-        }
-      });
+      assignPlaceAndPoints(list, event, 'heatPoints', 'heatPlace', 8);
+
+      list = _.orderBy(list, ['heatPlace', 'events[0].time', 'user'], ['asc', 'asc', 'asc']);
 
       return list;
     }
 
-    function getWinners(allUsers) {
-      allUsers = _.toArray(allUsers);
+    function assignPlaceAndPoints(list, event, pointsKey, placeKey, maxPoints) {
+      for (var ii = 0; ii < event.events.length; ii++) {
+        var points = maxPoints;
+        var place = 1;
+        var prev = void 0;
 
-      var winners = _.orderBy(allUsers, ['time', 'user']);
+        var byTime = _.orderBy(list, ['events[' + ii + '.time', 'user']);
+        var _iteratorNormalCompletion7 = true;
+        var _didIteratorError7 = false;
+        var _iteratorError7 = undefined;
 
-      var points = 99;
-      var place = 1;
-      var prev = void 0;
-      var _iteratorNormalCompletion7 = true;
-      var _didIteratorError7 = false;
-      var _iteratorError7 = undefined;
-
-      try {
-        for (var _iterator7 = winners[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {
-          var winner = _step7.value;
-
-          if (winner.time && points) {
-            if (prev && prev.time === winner.time) {
-              winner.points = prev.points;
-              winner.place = prev.place;
-            } else {
-              winner.points = points;
-              winner.place = place;
-            }
-            prev = winner;
-            place += 1;
-            if (points) {
-              points -= 1;
-            }
-          }
-        }
-      } catch (err) {
-        _didIteratorError7 = true;
-        _iteratorError7 = err;
-      } finally {
         try {
-          if (!_iteratorNormalCompletion7 && _iterator7.return) {
-            _iterator7.return();
+          for (var _iterator7 = byTime[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {
+            var li = _step7.value;
+
+            if (li.events[ii] && li.events[ii].time) {
+              if (prev && prev.time === li.events[ii].time) {
+                li.events[ii][pointsKey] = prev[pointsKey];
+                li.events[ii][placeKey] = prev[placeKey];
+              } else {
+                li.events[ii][pointsKey] = points;
+                li.events[ii][placeKey] = place;
+              }
+
+              prev = li.events[ii];
+              place += 1;
+              if (points) {
+                points -= 1;
+              }
+            }
           }
+        } catch (err) {
+          _didIteratorError7 = true;
+          _iteratorError7 = err;
         } finally {
-          if (_didIteratorError7) {
-            throw _iteratorError7;
+          try {
+            if (!_iteratorNormalCompletion7 && _iterator7.return) {
+              _iterator7.return();
+            }
+          } finally {
+            if (_didIteratorError7) {
+              throw _iteratorError7;
+            }
           }
         }
-      }
-
-      return winners;
-    }
-
-    function parseUser(line) {
-      var split = line.split('|');
-      var user = {
-        user: split[0].trim(),
-        link: 'https://reddit.com/u/' + split[0].trim(),
-        VDOT: split[1] ? parseFloat(split[1]) : 0,
-        note: split[2] || '',
-        time: split[3] ? split[3].trim() : null,
-        strava: null,
-        youtube: null
-      };
-      if (split[4]) {
-        var links = split[4].trim().split(' ');
 
         var _iteratorNormalCompletion8 = true;
         var _didIteratorError8 = false;
         var _iteratorError8 = undefined;
 
         try {
-          for (var _iterator8 = links[Symbol.iterator](), _step8; !(_iteratorNormalCompletion8 = (_step8 = _iterator8.next()).done); _iteratorNormalCompletion8 = true) {
-            var link = _step8.value;
+          for (var _iterator8 = list[Symbol.iterator](), _step8; !(_iteratorNormalCompletion8 = (_step8 = _iterator8.next()).done); _iteratorNormalCompletion8 = true) {
+            var _li = _step8.value;
 
-            if (link.match(/strava/)) {
-              user.strava = link.trim();
-            } else if (link.match(/youtu/)) {
-              user.youtube = link.trim();
-            }
+            _li[pointsKey] = _li.events.reduce(function (sum, e) {
+              return sum + e[pointsKey];
+            }, 0);
           }
         } catch (err) {
           _didIteratorError8 = true;
@@ -540,7 +504,172 @@ if (!window.apploaded) {
             }
           }
         }
+
+        var byPoints = _.orderBy(list, [pointsKey, 'user'], ['desc', 'asc']);
+
+        prev = null;
+        place = 1;
+        var _iteratorNormalCompletion9 = true;
+        var _didIteratorError9 = false;
+        var _iteratorError9 = undefined;
+
+        try {
+          for (var _iterator9 = byPoints[Symbol.iterator](), _step9; !(_iteratorNormalCompletion9 = (_step9 = _iterator9.next()).done); _iteratorNormalCompletion9 = true) {
+            var _li2 = _step9.value;
+
+            if (_li2.raced) {
+              if (prev && prev[pointsKey] === _li2[pointsKey]) {
+                _li2[placeKey] = prev[placeKey];
+              } else {
+                _li2[placeKey] = place;
+              }
+              place += 1;
+              prev = _li2;
+            }
+          }
+        } catch (err) {
+          _didIteratorError9 = true;
+          _iteratorError9 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion9 && _iterator9.return) {
+              _iterator9.return();
+            }
+          } finally {
+            if (_didIteratorError9) {
+              throw _iteratorError9;
+            }
+          }
+        }
       }
+    }
+
+    function getWinners(allUsers, event) {
+      allUsers = _.toArray(allUsers);
+
+      assignPlaceAndPoints(allUsers, event, 'points', 'place', 99);
+
+      var winners = _.orderBy(allUsers, ['place', 'events[0].time', 'user'], ['asc', 'asc', 'asc']);
+
+      return winners;
+    }
+
+    vm.sortWinnersBy = function (type, index) {
+      function byTime(a, b, index) {
+        if (a.events[index].time < b.events[index].time) {
+          return -1;
+        }
+        if (b.events[index].time < a.events[index].time) {
+          return 1;
+        }
+        return 0;
+      }
+      function byKey(a, b, key) {
+        if (a[key] < b[key]) {
+          return -1;
+        }
+        if (b[key] < a[key]) {
+          return 1;
+        }
+        return 0;
+      }
+
+      if (type === 'event') {
+        vm.event.winners = vm.event.winners.sort(function (a, b) {
+          var aTime = a.events[index].time,
+              bTime = b.events[index].time;
+
+          if (aTime && bTime) {
+            return byTime(a, b, index) || byKey(a, b, 'points') || byKey(a, b, 'user');
+          } else if (aTime) {
+            return -1;
+          } else if (bTime) {
+            return 1;
+          } else {
+            return byKey(a, b, 'points') || byKey(a, b, 'user');
+          }
+        });
+      } else {
+        vm.event.winners = _.orderBy(vm.event.winners, ['place', 'events[0].time', 'user']);
+      }
+    };
+
+    function parseUser(line, event) {
+      var split = line.split('|').map(function (t) {
+        return t.trim();
+      });
+      var user = {
+        user: split[0],
+        link: 'https://reddit.com/u/' + split[0],
+        VDOT: split[1] ? parseFloat(split[1]) : 0,
+        note: split[2] || '',
+        times: split[3] ? split[3].split(',').map(function (t) {
+          return t.trim();
+        }) : event.events.map(function () {
+          return '';
+        }),
+        links: [],
+        heatPoints: null,
+        heatPlace: null,
+        points: null,
+        place: null,
+        raced: false
+      };
+      if (split[4]) {
+        var links = split[4].split(' ');
+
+        var _iteratorNormalCompletion10 = true;
+        var _didIteratorError10 = false;
+        var _iteratorError10 = undefined;
+
+        try {
+          for (var _iterator10 = links[Symbol.iterator](), _step10; !(_iteratorNormalCompletion10 = (_step10 = _iterator10.next()).done); _iteratorNormalCompletion10 = true) {
+            var link = _step10.value;
+
+            if (link.match(/strava/)) {
+              user.links.push({ type: 'strava', url: link });
+            } else if (link.match(/youtu/)) {
+              user.links.push({ type: 'youtube', url: link });
+            }
+          }
+        } catch (err) {
+          _didIteratorError10 = true;
+          _iteratorError10 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion10 && _iterator10.return) {
+              _iterator10.return();
+            }
+          } finally {
+            if (_didIteratorError10) {
+              throw _iteratorError10;
+            }
+          }
+        }
+
+        user.links = user.links.sort(function (a, b) {
+          if (a.type < b.type) {
+            return -1;
+          }
+          if (b.type < a.type) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      user.events = user.times.map(function (t) {
+        return {
+          event: null,
+          time: t,
+          heatPlace: null,
+          heatPoints: null,
+          place: null,
+          points: null
+        };
+      });
+      user.raced = user.times.reduce(function (val, t) {
+        return !!(val || t);
+      }, false);
       return user;
     }
 
