@@ -42,6 +42,7 @@ SwedeJustice | 69.0
 Laggy4Life | 59.0
 LadyOfNumbers | 53.1
 Canofmayonnaise | 61.0
+RunningJay | 61.0 
 
 
 # XX
@@ -94,6 +95,7 @@ chaci_ | 52.8
 YourInternetHistory | 
 imetalanday | 49.6
 jthomas7002 | 51.8
+low_impact | 51.0 
 
 
 # NYC
@@ -175,6 +177,7 @@ Kaiserlappen | 33.5
 breakingbedd | 65.4 | 
 joezn | 63.3
 topkekhenry |
+End2Ender | 
 
 
 # Recovering Ultrarunners
