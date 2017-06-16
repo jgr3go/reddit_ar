@@ -275,9 +275,8 @@ angular
           }
 
           let user = parseUser(line, event);
-          if (!allUsers[user.user.toLowerCase()]) {
-            allUsers[user.user.toLowerCase()] = user;
-          }
+          assignUser(allUsers, user);
+          
           curLeague.entrants.push(user);
         }
 
@@ -294,9 +293,8 @@ angular
           }
 
           let user = parseUser(line, event);
-          if (!allUsers[user.user.toLowerCase()]) {
-            allUsers[user.user.toLowerCase()] = user;
-          }
+          assignUser(allUsers, user);
+
           curh2h.entrants.push(user);
         }
 
@@ -310,6 +308,18 @@ angular
         event.winners = getWinners(allUsers, event);
 
         return event;
+      }
+
+      function assignUser(users, user) {
+        if (!users[user.user.toLowerCase()]) {
+          users[user.user.toLowerCase()] = user;
+        }
+        let u = users[user.user.toLowerCase()];
+
+        u.VDOT = Math.max(u.VDOT, user.VDOT);
+        u.note = u.note || user.note;
+        u.times = u.times.length > user.times.length ? u.times.length : user.times.length;
+        u.links = u.links.length > user.links.length ? u.links.length : user.links.length;
       }
 
       function sortAndLane(list, event) {

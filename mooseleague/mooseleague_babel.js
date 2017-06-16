@@ -315,9 +315,8 @@ if (!window.apploaded) {
         }
 
         var user = parseUser(line, event);
-        if (!allUsers[user.user.toLowerCase()]) {
-          allUsers[user.user.toLowerCase()] = user;
-        }
+        assignUser(allUsers, user);
+
         curLeague.entrants.push(user);
       }
 
@@ -336,9 +335,8 @@ if (!window.apploaded) {
         }
 
         var _user = parseUser(_line, event);
-        if (!allUsers[_user.user.toLowerCase()]) {
-          allUsers[_user.user.toLowerCase()] = _user;
-        }
+        assignUser(allUsers, _user);
+
         curh2h.entrants.push(_user);
       }
 
@@ -395,6 +393,18 @@ if (!window.apploaded) {
       event.winners = getWinners(allUsers, event);
 
       return event;
+    }
+
+    function assignUser(users, user) {
+      if (!users[user.user.toLowerCase()]) {
+        users[user.user.toLowerCase()] = user;
+      }
+      var u = users[user.user.toLowerCase()];
+
+      u.VDOT = Math.max(u.VDOT, user.VDOT);
+      u.note = u.note || user.note;
+      u.times = u.times.length > user.times.length ? u.times.length : user.times.length;
+      u.links = u.links.length > user.links.length ? u.links.length : user.links.length;
     }
 
     function sortAndLane(list, event) {
