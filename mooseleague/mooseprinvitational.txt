@@ -57,7 +57,7 @@ linzlars | 49.6
 
 
 # North of the Wall
-Nony2 | 65.5
+Nony2 | 65.5 | | 55.61, 25.61 | https://www.youtube.com/watch?v=9uDgS3Ml8YY https://www.youtube.com/watch?v=gyIi2mLY8RI
 kmck96 | 59.1 |
 Dustintomi | 67.9 |
 Eantheman | 64.7
