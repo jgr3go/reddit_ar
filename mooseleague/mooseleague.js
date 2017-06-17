@@ -441,9 +441,12 @@ angular
           raced: false,
         };
         if (split[4]) {
-          let links = split[4].split(' ');
+          let links = split[4].split(',').join(' ').split(' ').map(l => l.trim());
 
           for (let link of links) {
+            if (!link) {
+              continue;
+            }
             if (link.match(/strava/)) {
               user.links.push({type: 'strava', url: link});
             } else if (link.match(/youtu/) ) {

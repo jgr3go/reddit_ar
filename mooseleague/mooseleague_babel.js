@@ -626,7 +626,9 @@ if (!window.apploaded) {
         raced: false
       };
       if (split[4]) {
-        var links = split[4].split(' ');
+        var links = split[4].split(',').join(' ').split(' ').map(function (l) {
+          return l.trim();
+        });
 
         var _iteratorNormalCompletion10 = true;
         var _didIteratorError10 = false;
@@ -636,6 +638,9 @@ if (!window.apploaded) {
           for (var _iterator10 = links[Symbol.iterator](), _step10; !(_iteratorNormalCompletion10 = (_step10 = _iterator10.next()).done); _iteratorNormalCompletion10 = true) {
             var link = _step10.value;
 
+            if (!link) {
+              continue;
+            }
             if (link.match(/strava/)) {
               user.links.push({ type: 'strava', url: link });
             } else if (link.match(/youtu/)) {
