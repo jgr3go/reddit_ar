@@ -92,7 +92,7 @@ gunslingrroland | 51.1
 Eabryt | 63.9 | | 1:00.4, 27.8 | https://www.strava.com/activities/1040883277 https://www.strava.com/activities/1040883295
 philipwhiuk | 53.9 | 
 chaci_ | 52.8
-YourInternetHistory | 
+YourInternetHistory | | | 1:08.4, 33.6
 imetalanday | 49.6
 jthomas7002 | 51.8
 low_impact | 51.0 
@@ -272,7 +272,7 @@ djlemma | 53.2
 bzrunnin | 53.0
 thermocycler | 
 
-YourInternetHistory | 
+YourInternetHistory | | | 1:08.4, 33.6
 ChickenSedan | 50.6 | | 1:02.95, 27.75
 
 cashwlater |
