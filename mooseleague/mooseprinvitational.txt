@@ -57,9 +57,9 @@ linzlars | 49.6
 
 
 # North of the Wall
-Nony2 | 65.5 | | 55.61, 25.61 | https://www.youtube.com/watch?v=9uDgS3Ml8YY https://www.youtube.com/watch?v=gyIi2mLY8RI
+Nony2 | 65.5 | | 0:55.61, 25.61 | https://www.youtube.com/watch?v=9uDgS3Ml8YY https://www.youtube.com/watch?v=gyIi2mLY8RI
 kmck96 | 59.1 |
-Dustintomi | 67.9 |
+Dustintomi | 67.9 | | 1:03.61, 30.07
 Eantheman | 64.7
 kholpa | 74
 mepahl57 | 73.2 | | 1:00.38, 28.78
