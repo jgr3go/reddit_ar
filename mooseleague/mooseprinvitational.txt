@@ -85,7 +85,7 @@ pablitoneal | 55.8 |
 brwalkernc | 53.7
 runwichi | 52.5 |
 trialofmilesoftrials | 52.6 
-ChickenSedan | 50.6 | 
+ChickenSedan | 50.6 | 1:02.95, 27.75
 anbu1538 | 54.4 | | 1:01.60, 27.83 | https://www.strava.com/activities/1039146849 https://www.strava.com/activities/1039146919 https://youtu.be/wH6adSUUmIM
 lostintravise | 51.8
 gunslingrroland | 51.1
@@ -273,7 +273,7 @@ bzrunnin | 53.0
 thermocycler | 
 
 YourInternetHistory | 
-ChickenSedan | 50.6 | 
+ChickenSedan | 50.6 | 1:02.95, 27.75
 
 cashwlater |
 dogebiscuit | 
