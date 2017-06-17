@@ -3,12 +3,12 @@ Moose PR Invitational
 400m, 200m
 
 # GOATs
-ShortShortsTallSocks | 50.0 | nerd | 1:07.4, 31.2
-herumph | 49.7 | 
+ShortShortsTallSocks | 50.0 | 🐐🐐🐐 | 1:07.4, 31.2 | https://www.strava.com/activities/1041064069 https://www.strava.com/activities/1041064236|
+herumph | 49.7 | 🐢🐢🐢 |
 
 
 # Fear the GOATs
-ShortShortsTallSocks | 50.0 | | 1:07.4, 31.2
+ShortShortsTallSocks | 50.0 | | 1:07.4, 31.2 | https://www.strava.com/activities/1041064069 https://www.strava.com/activities/1041064236|
 herumph | 49.7 | 
 zebano | 48.6
 sloworfast | 48.7
