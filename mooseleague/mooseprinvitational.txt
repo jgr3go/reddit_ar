@@ -39,7 +39,7 @@ trialofmilesoftrials | 52.6 |
 TheEcstatic |
 AfricanBus |
 SwedeJustice | 69.0
-Laggy4Life | 59.0
+Laggy4Life | 59.0 | | 1:05.7, 31.1 | https://www.strava.com/activities/1040844822 https://www.strava.com/activities/1040845248
 LadyOfNumbers | 53.1
 Canofmayonnaise | 61.0
 RunningJay | 61.0 
@@ -89,7 +89,7 @@ ChickenSedan | 50.6 |
 anbu1538 | 54.4 | | 1:01.60, 27.83 | https://www.strava.com/activities/1039146849 https://www.strava.com/activities/1039146919 https://youtu.be/wH6adSUUmIM
 lostintravise | 51.8
 gunslingrroland | 51.1
-Eabryt | 63.9 |
+Eabryt | 63.9 | | 1:00.4, 27.8 | https://www.strava.com/activities/1040883277 https://www.strava.com/activities/1040883295
 philipwhiuk | 53.9 | 
 chaci_ | 52.8
 YourInternetHistory | 
@@ -146,7 +146,7 @@ AndyDufresne2 | 67.0
 
 # Hoth (VDOT 45)
 ade214 | 45.3 
-zazzera | 45.8 | 
+zazzera | 45.8 | DNS
 SimpleAndWell | 45.8
 biggyofmt | 45.3
 ryebrye | 42 | | 1:19.2, 34.4 | https://www.strava.com/activities/1040629465 https://www.strava.com/activities/1040629648
@@ -203,7 +203,7 @@ ToyStory3_WasOkay | 51.2
 MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0 
 punkrock_runner | 54.2 | 
-Ch1mpy | 50.6 | 
+Ch1mpy | 50.6 | DNS
 Chiruadr | 52.2 | 
 TheHegemon1 | 52.0 |
 
@@ -261,7 +261,7 @@ jonmadepizza | 61.3
 cross1212 | 62.9 |
 
 blood_bender | 61.6 | | 1:03.16, 28.17 | https://www.strava.com/activities/1040855099 https://www.strava.com/activities/1040855250 
-Eabryt | 63.9 | 
+Eabryt | 63.9 | | 1:00.4, 27.8 | https://www.strava.com/activities/1040883277 https://www.strava.com/activities/1040883295
 
 ajlark25 | 
 OGFireNation | | 
