@@ -62,7 +62,7 @@ kmck96 | 59.1 |
 Dustintomi | 67.9 |
 Eantheman | 64.7
 kholpa | 74
-mepahl57 | 73.2
+mepahl57 | 73.2 | | 1:00.38, 28.78
 whyisbentalking | 66.6
 
 
@@ -85,7 +85,7 @@ pablitoneal | 55.8 |
 brwalkernc | 53.7
 runwichi | 52.5 |
 trialofmilesoftrials | 52.6 
-ChickenSedan | 50.6 | | 1:02.95, 27.75
+ChickenSedan | 50.6 | | 1:02.95, 27.75 | https://youtu.be/vth6gXJoB8M
 anbu1538 | 54.4 | | 1:01.60, 27.83 | https://www.strava.com/activities/1039146849 https://www.strava.com/activities/1039146919 https://youtu.be/wH6adSUUmIM
 lostintravise | 51.8
 gunslingrroland | 51.1
@@ -106,7 +106,7 @@ potatoknish | 45.3
 djlemma | 53.2
 chrisbloome | 43.1 | 
 FlyRBFly | 43.1 | 
-Puggle555 | 55.0 
+Puggle555 | 55.0 | | 1:06.07, 31.58 | https://www.strava.com/activities/1041134993 https://www.strava.com/activities/1041143388
 
 
 # Borderlands
@@ -273,7 +273,7 @@ bzrunnin | 53.0
 thermocycler | 
 
 YourInternetHistory | | | 1:08.4, 33.6
-ChickenSedan | 50.6 | | 1:02.95, 27.75
+ChickenSedan | 50.6 | | 1:02.95, 27.75 | https://youtu.be/vth6gXJoB8M
 
 cashwlater |
 dogebiscuit | 
