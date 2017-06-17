@@ -150,9 +150,11 @@
             style="width: 10%; white-space: pre; cursor: pointer;"
             ng-click="EC.sortWinnersBy('event', $index)">{{EC.event.events.length > 1 ? evt + '\n' : ''}}Time</th>
         <th ng-repeat-end
-            ng-click="EC.sortWinnersBy('event', $index)">Points</th>
+            ng-click="EC.sortWinnersBy('event', $index)"
+            style="cursor: pointer;">Points</th>
         <th ng-show="EC.event.events.length > 1"
-            ng-click="EC.sortWinnersBy('place')">Meet Points</th>
+            ng-click="EC.sortWinnersBy('place')"
+            style="cursor: pointer;">Meet Points</th>
         <th>Links</th>
       </tr>
     </thead>
