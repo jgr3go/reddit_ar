@@ -46,7 +46,7 @@ RunningJay | 61.0
 
 
 # XX
-aewillia | 44.2 |
+aewillia | 44.2 | | 1:19.4, 32.2 | https://www.strava.com/activities/1040908648/overview https://www.strava.com/activities/1040908852
 SimpleAndWell | 45.8 
 FlyRBFly | 43.1
 kaaaazzh | 44.6
@@ -138,7 +138,7 @@ da-kine | 59.5
 # Texas
 Gibstone | 52 |
 supersonic_blimp | 50.3 | 
-aewillia | 44.2 | 
+aewillia | 44.2 | | 1:19.4, 32.2 | https://www.strava.com/activities/1040908648/overview https://www.strava.com/activities/1040908852
 MrCoolguy80 | 42.6 |
 pand4duck | 61.8
 AndyDufresne2 | 67.0
@@ -154,7 +154,7 @@ chrisbloome | 43.1 |
 craigster38 | 42.6 | 
 OblongPlatypus | 43.2 | | 1:11.55,32.85 | https://www.strava.com/activities/1040193380 https://www.strava.com/activities/1040193878
 mamsorris1 | 46.4 | 
-marximumrunner | 37.2 |
+marximumrunner | 37.2 | | 1:10.01, 32.29
 _ughhhhh_ | 42.9 | | 1:19.15, 35.57 | https://www.strava.com/activities/1040749883 https://www.strava.com/activities/1040749966
 
 
@@ -172,7 +172,7 @@ chrispyb | 57.5 |
 
 
 # North Virginia
-marximumrunner | 37.2 | 
+marximumrunner | 37.2 | | 1:10.01, 32.29
 Kaiserlappen | 33.5
 breakingbedd | 65.4 | 
 joezn | 63.3
