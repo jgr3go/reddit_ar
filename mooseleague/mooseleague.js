@@ -319,7 +319,7 @@ angular
         u.VDOT = Math.max(u.VDOT, user.VDOT);
         u.note = u.note || user.note;
         u.times = u.times.length > user.times.length ? u.times.length : user.times.length;
-        u.links = u.links.length > user.links.length ? u.links.length : user.links.length;
+        u.links = u.links.length > user.links.length ? u.links : user.links;
       }
 
       function sortAndLane(list, event) {
