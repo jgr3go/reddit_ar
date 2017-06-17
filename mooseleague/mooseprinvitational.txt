@@ -52,7 +52,7 @@ FlyRBFly | 43.1
 kaaaazzh | 44.6
 flocculus | 46.0
 sloworfast | 48.7 |
-_ughhhhh_ | 42.9
+_ughhhhh_ | 42.9 | | 1:19.15, 35.57 | https://www.strava.com/activities/1040749883 https://www.strava.com/activities/1040749966
 linzlars | 49.6
 
 
@@ -100,7 +100,7 @@ low_impact | 51.0
 
 # NYC
 ctingyu08_ | 61.2
-blood_bender | 61.6 | 
+blood_bender | 61.6 | | 1:03.16, 28.17 | https://www.strava.com/activities/1040855099 https://www.strava.com/activities/1040855250 
 Xalechim | 57.8 
 potatoknish | 45.3
 djlemma | 53.2
@@ -124,7 +124,7 @@ Mister_Clutch | 58.4 |
 Krazyfranco | 57.5 | 
 ajlark25 | 57.4
 AnonymousWritings | 57.2 |
-blood_bender | 61.6 | 
+blood_bender | 61.6 | | 1:03.16, 28.17 | https://www.strava.com/activities/1040855099 https://www.strava.com/activities/1040855250 
 finallyransub17 | 56.9 |
 Ufrider_Taric | 58.2 
 ndcj12 | 57.1
@@ -260,7 +260,7 @@ cross1212 | 62.9 |
 jonmadepizza | 61.3
 cross1212 | 62.9 |
 
-blood_bender | 61.6 | 
+blood_bender | 61.6 | | 1:03.16, 28.17 | https://www.strava.com/activities/1040855099 https://www.strava.com/activities/1040855250 
 Eabryt | 63.9 | 
 
 ajlark25 | 
