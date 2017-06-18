@@ -14,7 +14,7 @@ zebano | 48.6
 sloworfast | 48.7
 VicunaLlamaAlpaca | 47.2 |
 laurieislaurie | 50.0
-rokfitter | 51.8 |
+rokfitter | 51.8 | | 1:10.29, 33.37
 JaBoyFrom227 | 49.8
 robercha001 | 50.4
 cashewlater | 50.0 | 
@@ -103,7 +103,7 @@ ctingyu08_ | 61.2
 blood_bender | 61.6 | | 1:03.16, 28.17 | https://www.strava.com/activities/1040855099 https://www.strava.com/activities/1040855250 
 Xalechim | 57.8 
 potatoknish | 45.3
-djlemma | 53.2
+djlemma | 53.2 | | 1:10.2, 33.0 | https://www.strava.com/activities/1041239705 https://www.strava.com/activities/1041239904 https://youtu.be/Sv3lOsfiVZo
 chrisbloome | 43.1 | 
 FlyRBFly | 43.1 | 
 Puggle555 | 55.0 | | 1:06.07, 31.58 | https://www.strava.com/activities/1041134993 https://www.strava.com/activities/1041143388
@@ -198,9 +198,9 @@ a-german-muffin | 54.1 | | 1:21.8, 36.8 | https://www.strava.com/activities/1040
 
 
 # Hogwarts
-rokfitter | 51.8 |
+rokfitter | 51.8 | | 1:10.29, 33.37
 ToyStory3_WasOkay | 51.2
-MatzoMisoSoup | 50.0
+MatzoMisoSoup | 50.0 | | 1:13.42, 33.45
 trialofmilesoftrials | 52.0 
 punkrock_runner | 54.2 | 
 Ch1mpy | 50.6 | DNS
@@ -267,7 +267,7 @@ ajlark25 |
 OGFireNation | | 
 
 TheHegemon1 | |
-djlemma | 53.2
+djlemma | 53.2 | | 1:10.2, 33.0 | https://www.strava.com/activities/1041239705 https://www.strava.com/activities/1041239904 https://youtu.be/Sv3lOsfiVZo
 
 bzrunnin | 53.0
 thermocycler | 
