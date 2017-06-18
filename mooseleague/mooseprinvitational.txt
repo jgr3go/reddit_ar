@@ -239,7 +239,7 @@ nutbrownhare14 |
 RunningDragons | 62.9 
 
 # HSTF/XC Dropouts
-kabbra | 74.6 | | 59.99, 28.6
+kabbra | 74.6 | | 0:59.99, 28.6
 stanthemanfan | 70.3 | | 1:06.43, 30.68
 LordJugo | 62.4 |
 MLGRoboJesus | 70.7 |
