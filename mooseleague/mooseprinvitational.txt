@@ -10,13 +10,13 @@ herumph | 49.7 | 🐢🐢🐢 |
 # Fear the GOATs
 ShortShortsTallSocks | 50.0 | | 1:07.4, 31.2 | https://www.strava.com/activities/1041064069 https://www.strava.com/activities/1041064236|
 herumph | 49.7 | 
-zebano | 48.6
+zebano | 48.6 | | 1:11.43, 31 | https://www.strava.com/activities/1041619179 https://www.strava.com/activities/1041619195
 sloworfast | 48.7
-VicunaLlamaAlpaca | 47.2 |
+VicunaLlamaAlpaca | 47.2 | DNS
 laurieislaurie | 50.0
 rokfitter | 51.8 | | 1:10.29, 33.37
 JaBoyFrom227 | 49.8
-robercha001 | 50.4
+robercha001 | 50.4 | | 1:11.8, 34.1 | https://www.strava.com/activities/1041601834 https://www.strava.com/activities/1041643877
 cashewlater | 50.0 | 
 Jrb975 | 51.0 | | 1:08.76, 33.85 | https://www.strava.com/activities/1041099754 https://www.youtube.com/watch?v=FZvaHQ7O5ps&feature=youtu.be
 Jrb975's son | 37.0 | | 1:51.60, 45.31
@@ -53,7 +53,7 @@ kaaaazzh | 44.6
 flocculus | 46.0
 sloworfast | 48.7 |
 _ughhhhh_ | 42.9 | | 1:19.15, 35.57 | https://www.strava.com/activities/1040749883 https://www.strava.com/activities/1040749966
-linzlars | 49.6
+linzlars | 49.6 | | 1:14.3, 35.9 | https://youtu.be/E2vXEtnpAfg https://www.strava.com/activities/1041029769 https://www.youtube.com/watch?v=XSIMETtmPZY https://www.strava.com/activities/1041029964
 
 
 # North of the Wall
@@ -93,7 +93,7 @@ Eabryt | 63.9 | | 1:00.4, 27.8 | https://www.strava.com/activities/1040883277 ht
 philipwhiuk | 53.9 | 
 chaci_ | 52.8
 YourInternetHistory | | | 1:08.4, 33.6
-imetalanday | 49.6
+imetalanday | 49.6 | | 1:03.1, 29.8 | https://youtu.be/d5tPJY3DFl4
 jthomas7002 | 51.8 | | 1:01.52, 29.27 | https://www.strava.com/activities/1041117730/shareable_images/map_based?hl=en-US&v=1497718294 https://www.strava.com/activities/1041117753/shareable_images/map_based?hl=en-US&v=1497715878
 low_impact | 51.0 | | 1:01.4, 28.1 | 
 
@@ -168,7 +168,7 @@ brwalkernc | 53.7
 OGFireNation | 58.6 |
 FlashArcher | 
 snapundersteer | 
-chrispyb | 57.5 | 
+chrispyb | 57.5 | | 0:59.00, 27.96
 
 
 # North Virginia
@@ -202,7 +202,7 @@ rokfitter | 51.8 | | 1:10.29, 33.37
 ToyStory3_WasOkay | 51.2 | | 1:03.5, 29.5 | https://www.strava.com/activities/1041352449 https://www.strava.com/activities/1041352516
 MatzoMisoSoup | 50.0 | | 1:13.42, 33.45
 trialofmilesoftrials | 52.0 
-punkrock_runner | 54.2 | 
+punkrock_runner | 54.2 | | 1:18.2, 37.1
 Ch1mpy | 50.6 | DNS
 Chiruadr | 52.2 | DNF
 TheHegemon1 | 52.0 |
@@ -217,7 +217,7 @@ kmck96 | 59.1 |
 
 
 # Tom Brady's Poodle Boys
-chrispyb | |
+chrispyb | 57.5 | | 0:59.00, 27.96
 ForwardBound | | 
 RunJunRun | 
 screwbuharvard2 |
@@ -231,7 +231,7 @@ you_mista_kingston | 60.7
 Eantheman | 64.7
 kholpa | 74.1
 OverflowCreative | 56.7
-punkrock_runner | 54.2 |
+punkrock_runner | 54.2 | | 1:18.2, 37.1
 entropy65536 | | | 1:14.5, 34.3
 chachi_ | | | 1:04.92, 30.29
 robert_cal | | | 1:13.37, 34.5
@@ -240,7 +240,7 @@ RunningDragons | 62.9
 
 # HSTF/XC Dropouts
 kabbra | 74.6 | | 59.99, 28.6
-stanthemanfan | 70.3 |
+stanthemanfan | 70.3 | | 1:06.43, 30.68
 LordJugo | 62.4 |
 MLGRoboJesus | 70.7 |
 Wy4M | 51.1  |
@@ -252,7 +252,7 @@ AnonymousWritings | |
 Mister_Clutch | | 
 
 upxc | 71.3 | 
-moongrey | 59.2 |
+moongrey | 59.2 | | 0:53.76, 22.88 | https://www.strava.com/activities/1041326034 https://www.strava.com/activities/1041326228
 
 Simsim7 | 64.3 | | 1:04.8, 27.9
 cross1212 | 62.9 |
