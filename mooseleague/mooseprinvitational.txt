@@ -63,7 +63,7 @@ Dustintomi | 67.9 | | 1:03.61, 30.07
 Eantheman | 64.7
 kholpa | 74
 mepahl57 | 73.2 | | 1:00.38, 28.78
-whyisbentalking | 66.6
+whyisbentalking | 66.6 | | 0:56.8, 26.3 | 
 
 
 # Eugene
@@ -77,7 +77,7 @@ Mrs. PD |
 winterspite | 57.8 | 
 WeAllDoBetter | 55.2
 Sclub7911 | 54.6 |
-jimbopeanuts | 53.0 | | 1:05.00, 30.06
+jimbopeanuts | 53.0 | | 1:05.00, 30.06 | https://www.strava.com/activities/1041776046
 V1per41 | 53.3 |
 ultrahobbyjogger | 55.9
 winter0215 | 52.5
@@ -122,7 +122,7 @@ hunterco88 | 60.0
 OGFireNation | 58.6 | 
 Mister_Clutch | 58.4 |
 Krazyfranco | 57.5 | 
-ajlark25 | 57.4
+ajlark25 | 57.4 | | 1:00, 28 | https://www.strava.com/activities/1041847741/overview
 AnonymousWritings | 57.2 |
 blood_bender | 61.6 | | 1:03.16, 28.17 | https://www.strava.com/activities/1040855099 https://www.strava.com/activities/1040855250 
 finallyransub17 | 56.9 |
@@ -174,7 +174,7 @@ chrispyb | 57.5 |
 # North Virginia
 marximumrunner | 37.2 | | 1:10.01, 32.29
 Kaiserlappen | 33.5
-breakingbedd | 65.4 | 
+breakingbedd | 65.4 | | 1:00, 27.5 | 
 joezn | 63.3
 topkekhenry |
 End2Ender | 
@@ -263,7 +263,7 @@ cross1212 | 62.9 |
 blood_bender | 61.6 | | 1:03.16, 28.17 | https://www.strava.com/activities/1040855099 https://www.strava.com/activities/1040855250 
 Eabryt | 63.9 | | 1:00.4, 27.8 | https://www.strava.com/activities/1040883277 https://www.strava.com/activities/1040883295
 
-ajlark25 | 
+ajlark25 | 57.4 | | 1:00, 28 | https://www.strava.com/activities/1041847741/overview
 OGFireNation | | 
 
 TheHegemon1 | |
