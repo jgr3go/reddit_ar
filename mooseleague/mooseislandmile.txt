@@ -18,8 +18,9 @@ rokfitter | 51.8 |
 JaBoyFrom227 | 49.8
 robercha001 | 50.4
 cashewlater | 50.0 | 
-Jrb975 | 51.0
-Jrb975's son | 37.0
+Jrb975 | 51.0 |
+Jrb975's son | 37.0 |
+OnceAMiler | 51.0 |
 
 
 # Florida
@@ -148,14 +149,15 @@ AndyDufresne2 | 67.0
 ade214 | 45.3 
 zazzera | 45.8 | 
 SimpleAndWell | 45.8
-biggyofmt | 45.3
-ryebrye | 42
+biggyofmt | 45.3 |
+ryebrye | 42 |
 chrisbloome | 43.1 | 
 craigster38 | 42.6 | 
 OblongPlatypus | 43.2 | 
 mamsorris1 | 46.4 | 
 marximumrunner | 37.2 |
-_ughhhhh_ | 42.9
+_ughhhhh_ | 42.9 |
+blushingscarlet | 45 |
 
 
 # Beardless
@@ -178,6 +180,7 @@ breakingbedd | 65.4 |
 joezn | 63.3
 topkekhenry |
 End2Ender | 
+OnceAMiler | 51 |
 
 
 # Recovering Ultrarunners
