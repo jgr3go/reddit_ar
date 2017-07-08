@@ -77,7 +77,7 @@ Mrs. PD |
 
 
 # Deep South (VDOT 53 Club)
-winterspite | 57.8 | 
+winterspite | 57.8 | | 5:11 | https://www.strava.com/activities/1073198247
 WeAllDoBetter | 55.2
 Sclub7911 | 54.6 |
 jimbopeanuts | 53.0
@@ -167,7 +167,7 @@ Siawyn | 40
 
 
 # Beardless
-winterspite | 57.8 | 
+winterspite | 57.8 | | 5:11 | https://www.strava.com/activities/1073198247
 runwichi | 52.5 | 
 brwalkernc | 53.7
 
@@ -261,6 +261,7 @@ Wy4M | 51.1  |
 ToyStory3_WasOkay |
 imetalanday |
 JimboPeanuts | 
+Winterspite | 57.8 | | 7:32 | https://www.strava.com/activities/1073198724
 
 
 =====
