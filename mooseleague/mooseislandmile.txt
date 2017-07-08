@@ -12,7 +12,7 @@ ShortShortsTallSocks | 50.0 |
 herumph | 49.7 | 
 zebano | 48.6
 sloworfast | 48.7
-VicunaLlamaAlpaca | 47.2 | | DNS
+VicunaLlamaAlpaca | 47.2 | DNS
 laurieislaurie | 50.0
 rokfitter | 51.8 |
 JaBoyFrom227 | 49.8
@@ -104,7 +104,7 @@ Mortifyinq | 53.4
 
 # NYC
 ctingyu08_ | 61.2
-blood_bender | 61.6 | | DNS
+blood_bender | 61.6 | DNS
 Xalechim | 57.8 
 potatoknish | 45.3
 djlemma | 53.2 | | 5:58 | https://www.strava.com/activities/1073300897
@@ -129,7 +129,7 @@ Mister_Clutch | 58.4 |
 Krazyfranco | 57.5 | 
 ajlark25 | 57.4
 AnonymousWritings | 57.2 |
-blood_bender | 61.6 |  | DNS
+blood_bender | 61.6 |  DNS
 finallyransub17 | 56.9 |
 Ufrider_Taric | 58.2 
 ndcj12 | 57.1
@@ -278,7 +278,7 @@ cross1212 | 62.9 |
 jonmadepizza | 61.3
 cross1212 | 62.9 |
 
-blood_bender | 61.6 | | DNS
+blood_bender | 61.6 | DNS
 Eabryt | 63.9 | | 4:26 | https://www.strava.com/activities/1057504220
 
 ajlark25 | 
