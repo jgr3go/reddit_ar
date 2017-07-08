@@ -142,7 +142,7 @@ da-kine | 59.5
 
 # Texas
 Gibstone | 52 |
-supersonic_blimp | 50.3 | 
+supersonic_blimp | 50.3 | | 5:11.0 | https://www.strava.com/activities/1073311892/overview
 aewillia | 44.2 | 
 MrCoolguy80 | 42.6 |
 pand4duck | 61.8
