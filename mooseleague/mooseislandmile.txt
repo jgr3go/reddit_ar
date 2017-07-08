@@ -54,7 +54,7 @@ FlyRBFly | 43.1 | | 7:07
 kaaaazzh | 44.6
 flocculus | 46.0 | | 6:27 | https://www.strava.com/activities/1073277521
 sloworfast | 48.7 |
-_ughhhhh_ | 42.9
+_ughhhhh_ | 42.9 | DNS
 linzlars | 49.6 | | 6:29 | https://www.strava.com/activities/1062613714
 hollanding |
 aribev24 | | | 7:26 | https://www.strava.com/activities/1073206744
@@ -85,7 +85,7 @@ jimbopeanuts | 53.0
 V1per41 | 53.3 |
 ultrahobbyjogger | 55.9 | | 5:28 | https://www.strava.com/activities/1073494363
 winter0215 | 52.5
-pablitoneal | 55.8 | 
+pablitoneal | 55.8 | | 5:32 | https://www.strava.com/activities/1074126736
 brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
 runwichi | 52.5 |
 trialofmilesoftrials | 52.6 
@@ -138,7 +138,7 @@ callthebluff | |
 Eibhlin_Andronicus | 57.6 
 dogebiscuit | 58.2
 Um_Okay |
-da-kine | 59.5
+da-kine | 59.5 | | 4:57.4 | https://www.strava.com/activities/1073982714/overview
 
 
 # Texas
@@ -161,7 +161,7 @@ craigster38 | 42.6 |
 OblongPlatypus | 43.2 | | 6:09 | https://www.strava.com/activities/1072756436/
 mamsorris1 | 46.4 | | 5:53 | https://www.strava.com/activities/1072485272
 marximumrunner | 37.2 | | 7:26
-_ughhhhh_ | 42.9 |
+_ughhhhh_ | 42.9 | DNS
 blushingscarlet | 45 | | 6:02.4
 fartmaster500 | 45 | | 7:04
 Siawyn | 40 | | 6:35.4 | https://www.strava.com/activities/1073375592
