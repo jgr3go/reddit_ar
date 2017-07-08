@@ -17,7 +17,7 @@ laurieislaurie | 50.0
 rokfitter | 51.8 |
 JaBoyFrom227 | 49.8
 robercha001 | 50.4
-cashewlater | 50.0 | 
+cashewlater | 50.0 | | 5:15
 Jrb975 | 51.0 |
 Jrb975's son | 37.0 |
 OnceAMiler | 51.0 | | 5:35
@@ -49,8 +49,8 @@ RunningJay | 61.0
 
 # XX
 aewillia | 44.2 |
-SimpleAndWell | 45.8 
-FlyRBFly | 43.1
+SimpleAndWell | 45.8 | | 6:13
+FlyRBFly | 43.1 | | 7:07
 kaaaazzh | 44.6
 flocculus | 46.0 | | 6:27 | https://www.strava.com/activities/1073277521
 sloworfast | 48.7 |
@@ -110,7 +110,7 @@ Xalechim | 57.8
 potatoknish | 45.3
 djlemma | 53.2 | | 5:58 | https://www.strava.com/activities/1073300897
 chrisbloome | 43.1 | 
-FlyRBFly | 43.1 | 
+FlyRBFly | 43.1 | | 7:07
 Puggle555 | 55.0 
 hollanding |
 
@@ -128,7 +128,7 @@ hunterco88 | 60.0
 OGFireNation | 58.6 | 
 Mister_Clutch | 58.4 |
 Krazyfranco | 57.5 | 
-ajlark25 | 57.4
+ajlark25 | 57.4 | | 5:03
 AnonymousWritings | 57.2 |
 blood_bender | 61.6 |  DNS
 finallyransub17 | 56.9 |
@@ -153,7 +153,7 @@ AndyDufresne2 | 67.0
 # Hoth (VDOT 45)
 ade214 | 45.3 
 zazzera | 45.8 | 
-SimpleAndWell | 45.8
+SimpleAndWell | 45.8 | | 6:13
 biggyofmt | 45.3 |
 ryebrye | 42 | | 6:54
 chrisbloome | 43.1 | 
@@ -186,7 +186,7 @@ Kaiserlappen | 33.5
 breakingbedd | 65.4 | 
 joezn | 63.3
 topkekhenry |
-End2Ender | 
+End2Ender | | 5:22
 OnceAMiler | 51 | | 5:35
 CHP41 | 54 | | 5:27
 
@@ -213,7 +213,7 @@ rokfitter | 51.8 |
 ToyStory3_WasOkay | 51.2
 MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0 
-punkrock_runner | 54.2 | 
+punkrock_runner | 54.2 | | 5:19
 Ch1mpy | 50.6 | 
 Chiruadr | 52.2 | DNS
 TheHegemon1 | 52.0 |
@@ -243,7 +243,7 @@ you_mista_kingston | 60.7
 Eantheman | 64.7
 kholpa | 74.1
 OverflowCreative | 56.7
-punkrock_runner | 54.2 |
+punkrock_runner | 54.2 | | 5:19
 entropy65536 | | | 6:20
 chachi_ | | 
 robert_cal | 
@@ -252,6 +252,7 @@ RunningDragons | 62.9
 nastyhobbitses1 |
 somethingnew__ | | | 6:05
 mistererunner | | | 5:40
+surgeon_michael | | | 5:19
 
 # HSTF/XC Dropouts
 kabbra | 74.6 |
@@ -273,7 +274,7 @@ AnonymousWritings | |
 Mister_Clutch | | 
 
 upxc | 71.3 | 
-moongrey | 59.2 |
+moongrey | 59.2 | | 4:43
 
 Simsim7 | 64.3 |
 cross1212 | 62.9 |
@@ -284,7 +285,7 @@ cross1212 | 62.9 |
 blood_bender | 61.6 | DNS
 Eabryt | 63.9 | | 4:26 | https://www.strava.com/activities/1057504220
 
-ajlark25 | 
+ajlark25 | | | 5:03
 OGFireNation | | 
 
 TheHegemon1 | |
@@ -296,7 +297,7 @@ thermocycler |
 YourInternetHistory | 
 ChickenSedan | 50.6 | | 5:33.46
 
-cashwlater |
+cashewlater | | | 5:15
 dogebiscuit | 
 
 cashwlater |
