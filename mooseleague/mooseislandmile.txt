@@ -107,7 +107,7 @@ ctingyu08_ | 61.2
 blood_bender | 61.6 | | DNS
 Xalechim | 57.8 
 potatoknish | 45.3
-djlemma | 53.2
+djlemma | 53.2 | | 5:58 | https://www.strava.com/activities/1073300897
 chrisbloome | 43.1 | 
 FlyRBFly | 43.1 | 
 Puggle555 | 55.0 
@@ -157,7 +157,7 @@ biggyofmt | 45.3 |
 ryebrye | 42 |
 chrisbloome | 43.1 | 
 craigster38 | 42.6 | 
-OblongPlatypus | 43.2 | 
+OblongPlatypus | 43.2 | | 6:09 | https://www.strava.com/activities/1072756436/
 mamsorris1 | 46.4 | 
 marximumrunner | 37.2 |
 _ughhhhh_ | 42.9 |
@@ -193,7 +193,7 @@ CHP41 | 54 |
 # Recovering Ultrarunners
 brwalkernc | 53.7
 elguiri | 
-runroardinosaur | |
+runroardinosaur | | | 7:32
 craigster38 | 42.6 | 
 zazzera | 45.8 | 
 
@@ -285,7 +285,7 @@ ajlark25 |
 OGFireNation | | 
 
 TheHegemon1 | |
-djlemma | 53.2
+djlemma | 53.2 | | 5:58 | https://www.strava.com/activities/1073300897
 
 bzrunnin | 53.0
 thermocycler | 
@@ -303,4 +303,4 @@ ethos24 |
 anbu1538 | 
 
 zebano |
-OblongPlatypus | 
+OblongPlatypus | 43.2 | | 6:09 | https://www.strava.com/activities/1072756436/
