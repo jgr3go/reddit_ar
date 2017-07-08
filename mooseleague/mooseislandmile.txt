@@ -159,7 +159,7 @@ chrisbloome | 43.1 |
 craigster38 | 42.6 | 
 OblongPlatypus | 43.2 | | 6:09 | https://www.strava.com/activities/1072756436/
 mamsorris1 | 46.4 | 
-marximumrunner | 37.2 |
+marximumrunner | 37.2 | | 7:26
 _ughhhhh_ | 42.9 |
 blushingscarlet | 45 | | 6:02.4
 fartmaster500 | 45 | | 7:04
@@ -180,7 +180,7 @@ chrispyb | 57.5 |
 
 
 # North Virginia
-marximumrunner | 37.2 | 
+marximumrunner | 37.2 | | 7:26
 Kaiserlappen | 33.5
 breakingbedd | 65.4 | 
 joezn | 63.3
@@ -214,7 +214,7 @@ MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0 
 punkrock_runner | 54.2 | 
 Ch1mpy | 50.6 | 
-Chiruadr | 52.2 | 
+Chiruadr | 52.2 | DNS
 TheHegemon1 | 52.0 |
 nastyhobbitses1 |
 
