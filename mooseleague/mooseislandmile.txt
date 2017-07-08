@@ -58,6 +58,7 @@ _ughhhhh_ | 42.9 | DNS
 linzlars | 49.6 | | 6:29 | https://www.strava.com/activities/1062613714
 hollanding |
 aribev24 | | | 7:26 | https://www.strava.com/activities/1073206744
+Zond0 | | | 7:36
 
 
 # North of the Wall
@@ -246,7 +247,7 @@ OverflowCreative | 56.7
 punkrock_runner | 54.2 | | 5:19
 entropy65536 | | | 6:20
 chachi_ | | 
-robert_cal | 
+robert_cal | | | 5:48
 nutbrownhare14 | 
 RunningDragons | 62.9 
 nastyhobbitses1 |
