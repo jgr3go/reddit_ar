@@ -3,14 +3,14 @@ Moose Island Mile
 Mile
 
 # GOATs
-ShortShortsTallSocks | 50.0 | 
+ShortShortsTallSocks | 50.0 |  | 5:33.75 | https://www.strava.com/activities/1073561902
 herumph | 49.7 | 
 
 
 # Fear the GOATs
-ShortShortsTallSocks | 50.0 |
+ShortShortsTallSocks | 50.0 | | 5:33.75 | https://www.strava.com/activities/1073561902
 herumph | 49.7 | 
-zebano | 48.6
+zebano | 48.6 | | 5:59 | https://www.strava.com/activities/1073475765/laps
 sloworfast | 48.7
 VicunaLlamaAlpaca | 47.2 | DNS
 laurieislaurie | 50.0
@@ -20,7 +20,7 @@ robercha001 | 50.4
 cashewlater | 50.0 | 
 Jrb975 | 51.0 |
 Jrb975's son | 37.0 |
-OnceAMiler | 51.0 |
+OnceAMiler | 51.0 | | 5:35
 zwingtip | 49.3 | | 5:40.1 | https://www.strava.com/activities/1073215842
 
 
@@ -36,7 +36,7 @@ x_country813 | 58.0
 
 # Central
 CatzerzMcGee |
-ShortShortsTallSocks | 50.0 | 
+ShortShortsTallSocks | 50.0 | | 5:33.75 | https://www.strava.com/activities/1073561902
 trialofmilesoftrials | 52.6 | 
 TheEcstatic |
 AfricanBus |
@@ -52,15 +52,16 @@ aewillia | 44.2 |
 SimpleAndWell | 45.8 
 FlyRBFly | 43.1
 kaaaazzh | 44.6
-flocculus | 46.0
+flocculus | 46.0 | | 6:27
 sloworfast | 48.7 |
 _ughhhhh_ | 42.9
 linzlars | 49.6
 hollanding |
+aribev24 | | | 7:26 | https://www.strava.com/activities/1073206744
 
 
 # North of the Wall
-Nony2 | 65.5
+Nony2 | 65.5 | DNS
 kmck96 | 59.1 |
 Dustintomi | 67.9 |
 Eantheman | 64.7
@@ -82,10 +83,10 @@ WeAllDoBetter | 55.2
 Sclub7911 | 54.6 |
 jimbopeanuts | 53.0
 V1per41 | 53.3 |
-ultrahobbyjogger | 55.9
+ultrahobbyjogger | 55.9 | | 5:28 | https://www.strava.com/activities/1073494363
 winter0215 | 52.5
 pablitoneal | 55.8 | 
-brwalkernc | 53.7
+brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
 runwichi | 52.5 |
 trialofmilesoftrials | 52.6 
 ChickenSedan | 50.6 | 
@@ -97,9 +98,9 @@ philipwhiuk | 53.9 |
 chaci_ | 52.8
 YourInternetHistory | 
 imetalanday | 49.6
-jthomas7002 | 51.8
+jthomas7002 | 51.8 | DNS
 low_impact | 51.0 
-Mortifyinq | 53.4
+Mortifyinq | 53.4 | | 5:15.11 | https://www.strava.com/activities/1073454778
 
 
 # NYC
@@ -158,25 +159,25 @@ ryebrye | 42 |
 chrisbloome | 43.1 | 
 craigster38 | 42.6 | 
 OblongPlatypus | 43.2 | | 6:09 | https://www.strava.com/activities/1072756436/
-mamsorris1 | 46.4 | 
+mamsorris1 | 46.4 | | 5:53 | https://www.strava.com/activities/1072485272
 marximumrunner | 37.2 | | 7:26
 _ughhhhh_ | 42.9 |
 blushingscarlet | 45 | | 6:02.4
 fartmaster500 | 45 | | 7:04
-Siawyn | 40
+Siawyn | 40 | | 6:35.4 | https://www.strava.com/activities/1073375592
 
 
 # Beardless
 winterspite | 57.8 | | 5:11 | https://www.strava.com/activities/1073198247
 runwichi | 52.5 | 
-brwalkernc | 53.7
+brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
 
 
 # omg
 OGFireNation | 58.6 |
 FlashArcher | 
 snapundersteer | 
-chrispyb | 57.5 | 
+chrispyb | 57.5 | | 4:44
 
 
 # North Virginia
@@ -186,12 +187,12 @@ breakingbedd | 65.4 |
 joezn | 63.3
 topkekhenry |
 End2Ender | 
-OnceAMiler | 51 |
-CHP41 | 54 |
+OnceAMiler | 51 | | 5:35
+CHP41 | 54 | | 5:27
 
 
 # Recovering Ultrarunners
-brwalkernc | 53.7
+brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
 elguiri | 
 runroardinosaur | | | 7:32
 craigster38 | 42.6 | 
@@ -199,7 +200,7 @@ zazzera | 45.8 |
 
 
 # Moria (Beards)
-brwalkernc | 53.7
+brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
 runwichi | 52.5 | 
 jaylapeche | 47.1 
 lostintravise | 51.8
@@ -228,7 +229,7 @@ kmck96 | 59.1 |
 
 
 # Tom Brady's Poodle Boys
-chrispyb | |
+chrispyb | | | 4:44
 ForwardBound | | 
 RunJunRun | 
 screwbuharvard2 |
@@ -237,7 +238,7 @@ screwbuharvard2 |
 # Missed Connections
 Zwiseguy15 | 61.8 
 bzrunnin | 53.0
-flocculus | 46.0
+flocculus | 46.0 | | 6:27
 you_mista_kingston | 60.7
 Eantheman | 64.7
 kholpa | 74.1
@@ -301,8 +302,8 @@ dogebiscuit |
 cashwlater |
 anbu1538 | 
 
-ethos24 |
+ethos24 | | DNS
 anbu1538 | 
 
-zebano |
+zebano | | | 5:59 | https://www.strava.com/activities/1073475765/laps
 OblongPlatypus | 43.2 | | 6:09 | https://www.strava.com/activities/1072756436/
