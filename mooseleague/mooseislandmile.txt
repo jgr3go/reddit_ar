@@ -16,7 +16,7 @@ VicunaLlamaAlpaca | 47.2 | DNS
 laurieislaurie | 50.0
 rokfitter | 51.8 |
 JaBoyFrom227 | 49.8
-robercha001 | 50.4
+robercha001 | 50.4 | | 6:46
 cashewlater | 50.0 | | 5:15
 Jrb975 | 51.0 |
 Jrb975's son | 37.0 |
@@ -143,7 +143,7 @@ da-kine | 59.5 | | 4:57.4 | https://www.strava.com/activities/1073982714/overvie
 
 
 # Texas
-Gibstone | 52 |
+Gibstone | 52 | | 5:13 | https://www.strava.com/activities/1073496223
 supersonic_blimp | 50.3 | | 5:11.0 | https://www.strava.com/activities/1073311892/overview
 aewillia | 44.2 | 
 MrCoolguy80 | 42.6 |
@@ -254,6 +254,7 @@ nastyhobbitses1 | | | 5:27 | https://www.strava.com/activities/1074274124
 somethingnew__ | | | 6:05
 mistererunner | | | 5:40
 surgeon_michael | | | 5:19
+eucatastrophes | | | 5:14
 
 # HSTF/XC Dropouts
 kabbra | 74.6 |
