@@ -112,7 +112,7 @@ potatoknish | 45.3
 djlemma | 53.2 | | 5:58 | https://www.strava.com/activities/1073300897
 chrisbloome | 43.1 | 
 FlyRBFly | 43.1 | | 7:07
-Puggle555 | 55.0 
+Puggle555 | 55.0 | | 6:06 | https://www.strava.com/activities/1073907725
 hollanding |
 
 
@@ -218,7 +218,7 @@ punkrock_runner | 54.2 | | 5:19
 Ch1mpy | 50.6 | 
 Chiruadr | 52.2 | DNS
 TheHegemon1 | 52.0 |
-nastyhobbitses1 |
+nastyhobbitses1 | | | 5:27 | https://www.strava.com/activities/1074274124
 
 
 # Pandora
@@ -250,7 +250,7 @@ chachi_ | |
 robert_cal | | | 5:48
 nutbrownhare14 | 
 RunningDragons | 62.9 
-nastyhobbitses1 |
+nastyhobbitses1 | | | 5:27 | https://www.strava.com/activities/1074274124
 somethingnew__ | | | 6:05
 mistererunner | | | 5:40
 surgeon_michael | | | 5:19
