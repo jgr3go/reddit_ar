@@ -25,6 +25,14 @@ if (!window.apploaded) {
       controllerAs: 'CC'
     });
 
+    $sp.state({
+      name: 'Leaderboard',
+      templateUrl: 'leaderboard.html',
+      controller: 'leaderboard',
+      url: '/leaderboard',
+      controllerAs: 'LC'
+    });
+
     $url.otherwise('/calendar');
   }]).run(['$http', '$stateRegistry', '$urlRouter', 'Events', function ($http, $stateRegistry, $urlRouter, Events) {
 
@@ -178,6 +186,283 @@ if (!window.apploaded) {
     }
 
     init();
+  }]).controller('leaderboard', ['$http', 'Events', '$q', 'resultsService', function ($http, Events, $q, resultsSvc) {
+    var vm = this;
+
+    function init() {
+
+      return Events.list().then(function (evts) {
+
+        var allResults = [];
+
+        var _iteratorNormalCompletion4 = true;
+        var _didIteratorError4 = false;
+        var _iteratorError4 = undefined;
+
+        try {
+          for (var _iterator4 = evts[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {
+            var evt = _step4.value;
+
+            var filename = evt.name.split(' ').join('').toLowerCase() + '.txt';
+            var eventPromise = $http.get(BASE + filename).then(function (res) {
+              return res.data;
+            }).then(function (res) {
+              var event = resultsSvc.parseFile(res);
+              return event;
+            });
+            allResults.push(eventPromise);
+          }
+        } catch (err) {
+          _didIteratorError4 = true;
+          _iteratorError4 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion4 && _iterator4.return) {
+              _iterator4.return();
+            }
+          } finally {
+            if (_didIteratorError4) {
+              throw _iteratorError4;
+            }
+          }
+        }
+
+        return $q.all(allResults);
+      }).then(function (results) {
+
+        var final = {};
+
+        var allEvents = [];
+        var _iteratorNormalCompletion5 = true;
+        var _didIteratorError5 = false;
+        var _iteratorError5 = undefined;
+
+        try {
+          for (var _iterator5 = results[Symbol.iterator](), _step5; !(_iteratorNormalCompletion5 = (_step5 = _iterator5.next()).done); _iteratorNormalCompletion5 = true) {
+            var res = _step5.value;
+            var _iteratorNormalCompletion9 = true;
+            var _didIteratorError9 = false;
+            var _iteratorError9 = undefined;
+
+            try {
+              for (var _iterator9 = res.events[Symbol.iterator](), _step9; !(_iteratorNormalCompletion9 = (_step9 = _iterator9.next()).done); _iteratorNormalCompletion9 = true) {
+                var e = _step9.value;
+
+                allEvents.push({
+                  event: e,
+                  place: null,
+                  points: null,
+                  time: ''
+                });
+              }
+            } catch (err) {
+              _didIteratorError9 = true;
+              _iteratorError9 = err;
+            } finally {
+              try {
+                if (!_iteratorNormalCompletion9 && _iterator9.return) {
+                  _iterator9.return();
+                }
+              } finally {
+                if (_didIteratorError9) {
+                  throw _iteratorError9;
+                }
+              }
+            }
+          }
+        } catch (err) {
+          _didIteratorError5 = true;
+          _iteratorError5 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion5 && _iterator5.return) {
+              _iterator5.return();
+            }
+          } finally {
+            if (_didIteratorError5) {
+              throw _iteratorError5;
+            }
+          }
+        }
+
+        vm.events = allEvents;
+
+        var _iteratorNormalCompletion6 = true;
+        var _didIteratorError6 = false;
+        var _iteratorError6 = undefined;
+
+        try {
+          for (var _iterator6 = results[Symbol.iterator](), _step6; !(_iteratorNormalCompletion6 = (_step6 = _iterator6.next()).done); _iteratorNormalCompletion6 = true) {
+            var _res = _step6.value;
+            var _iteratorNormalCompletion10 = true;
+            var _didIteratorError10 = false;
+            var _iteratorError10 = undefined;
+
+            try {
+              for (var _iterator10 = _res.winners[Symbol.iterator](), _step10; !(_iteratorNormalCompletion10 = (_step10 = _iterator10.next()).done); _iteratorNormalCompletion10 = true) {
+                var win = _step10.value;
+
+                if (!final[win.user]) {
+                  final[win.user] = {
+                    user: win.user,
+                    VDOT: win.VDOT,
+                    points: null,
+                    place: null,
+                    events: _.cloneDeep(allEvents)
+                  };
+                }
+                var fin = final[win.user];
+                var _iteratorNormalCompletion11 = true;
+                var _didIteratorError11 = false;
+                var _iteratorError11 = undefined;
+
+                try {
+                  for (var _iterator11 = win.events[Symbol.iterator](), _step11; !(_iteratorNormalCompletion11 = (_step11 = _iterator11.next()).done); _iteratorNormalCompletion11 = true) {
+                    var wevt = _step11.value;
+                    var _iteratorNormalCompletion12 = true;
+                    var _didIteratorError12 = false;
+                    var _iteratorError12 = undefined;
+
+                    try {
+                      for (var _iterator12 = fin.events[Symbol.iterator](), _step12; !(_iteratorNormalCompletion12 = (_step12 = _iterator12.next()).done); _iteratorNormalCompletion12 = true) {
+                        var fevt = _step12.value;
+
+                        if (fevt.event === wevt.event) {
+                          fevt.place = wevt.place;
+                          fevt.points = wevt.points;
+                          fevt.time = wevt.time;
+                        }
+                      }
+                    } catch (err) {
+                      _didIteratorError12 = true;
+                      _iteratorError12 = err;
+                    } finally {
+                      try {
+                        if (!_iteratorNormalCompletion12 && _iterator12.return) {
+                          _iterator12.return();
+                        }
+                      } finally {
+                        if (_didIteratorError12) {
+                          throw _iteratorError12;
+                        }
+                      }
+                    }
+                  }
+                } catch (err) {
+                  _didIteratorError11 = true;
+                  _iteratorError11 = err;
+                } finally {
+                  try {
+                    if (!_iteratorNormalCompletion11 && _iterator11.return) {
+                      _iterator11.return();
+                    }
+                  } finally {
+                    if (_didIteratorError11) {
+                      throw _iteratorError11;
+                    }
+                  }
+                }
+              }
+            } catch (err) {
+              _didIteratorError10 = true;
+              _iteratorError10 = err;
+            } finally {
+              try {
+                if (!_iteratorNormalCompletion10 && _iterator10.return) {
+                  _iterator10.return();
+                }
+              } finally {
+                if (_didIteratorError10) {
+                  throw _iteratorError10;
+                }
+              }
+            }
+          }
+        } catch (err) {
+          _didIteratorError6 = true;
+          _iteratorError6 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion6 && _iterator6.return) {
+              _iterator6.return();
+            }
+          } finally {
+            if (_didIteratorError6) {
+              throw _iteratorError6;
+            }
+          }
+        }
+
+        var finalArr = _.toArray(final);
+
+        var _iteratorNormalCompletion7 = true;
+        var _didIteratorError7 = false;
+        var _iteratorError7 = undefined;
+
+        try {
+          for (var _iterator7 = finalArr[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {
+            var f = _step7.value;
+
+            f.points = f.events.reduce(function (sum, e) {
+              return sum + (e.points || 0);
+            }, 0);
+          }
+        } catch (err) {
+          _didIteratorError7 = true;
+          _iteratorError7 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion7 && _iterator7.return) {
+              _iterator7.return();
+            }
+          } finally {
+            if (_didIteratorError7) {
+              throw _iteratorError7;
+            }
+          }
+        }
+
+        finalArr = _.orderBy(finalArr, ['points'], ['desc']);
+
+        var place = 1;
+        var prev = {};
+        var _iteratorNormalCompletion8 = true;
+        var _didIteratorError8 = false;
+        var _iteratorError8 = undefined;
+
+        try {
+          for (var _iterator8 = finalArr[Symbol.iterator](), _step8; !(_iteratorNormalCompletion8 = (_step8 = _iterator8.next()).done); _iteratorNormalCompletion8 = true) {
+            var _f = _step8.value;
+
+            if (_f.points === prev.points) {
+              _f.place = prev.place;
+            } else {
+              _f.place = place;
+            }
+            place += 1;
+          }
+        } catch (err) {
+          _didIteratorError8 = true;
+          _iteratorError8 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion8 && _iterator8.return) {
+              _iterator8.return();
+            }
+          } finally {
+            if (_didIteratorError8) {
+              throw _iteratorError8;
+            }
+          }
+        }
+
+        return finalArr;
+      }).then(function (winners) {
+        vm.winners = winners;
+      });
+    }
+
+    init();
   }]).controller('main', ['$http', '$location', '$timeout', '$state', 'Events', function ($http, $location, $timeout, $state, Events) {
 
     var vm = this;
@@ -241,40 +526,10 @@ if (!window.apploaded) {
     };
 
     init();
-  }]).controller('event', ['$http', '$state', '$timeout', '$location', '$anchorScroll', '$stateParams', function ($http, $state, $timeout, $location, $anchorScroll, $params) {
+  }]).factory('resultsService', [function () {
+    var svc = {};
 
-    var vm = this;
-
-    vm.tab = 'start';
-
-    $anchorScroll.yOffset = 60;
-
-    function init() {
-      if ($params.tab) {
-        vm.tab = $params.tab;
-      }
-
-      var filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
-      $http.get(BASE + filename).then(function (res) {
-        return res.data;
-      }).then(function (res) {
-        var event = parseFile(res);
-        console.log(event);
-        vm.event = event;
-        vm.event.file = filename;
-
-        vm.next = {
-          date: event.date,
-          name: event.name.toUpperCase()
-        };
-
-        vm.event.date = moment(new Date(vm.event.date)).format('MMM D, YYYY');
-
-        $timeout($anchorScroll);
-      });
-    }
-
-    function parseFile(data) {
+    svc.parseFile = function (data) {
       var lines = data.split('\n');
 
       var event = {
@@ -340,52 +595,52 @@ if (!window.apploaded) {
         curh2h.entrants.push(_user);
       }
 
-      var _iteratorNormalCompletion4 = true;
-      var _didIteratorError4 = false;
-      var _iteratorError4 = undefined;
+      var _iteratorNormalCompletion13 = true;
+      var _didIteratorError13 = false;
+      var _iteratorError13 = undefined;
 
       try {
-        for (var _iterator4 = event.leagues[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {
-          var league = _step4.value;
+        for (var _iterator13 = event.leagues[Symbol.iterator](), _step13; !(_iteratorNormalCompletion13 = (_step13 = _iterator13.next()).done); _iteratorNormalCompletion13 = true) {
+          var league = _step13.value;
 
           league.entrants = sortAndLane(league.entrants, event);
         }
       } catch (err) {
-        _didIteratorError4 = true;
-        _iteratorError4 = err;
+        _didIteratorError13 = true;
+        _iteratorError13 = err;
       } finally {
         try {
-          if (!_iteratorNormalCompletion4 && _iterator4.return) {
-            _iterator4.return();
+          if (!_iteratorNormalCompletion13 && _iterator13.return) {
+            _iterator13.return();
           }
         } finally {
-          if (_didIteratorError4) {
-            throw _iteratorError4;
+          if (_didIteratorError13) {
+            throw _iteratorError13;
           }
         }
       }
 
-      var _iteratorNormalCompletion5 = true;
-      var _didIteratorError5 = false;
-      var _iteratorError5 = undefined;
+      var _iteratorNormalCompletion14 = true;
+      var _didIteratorError14 = false;
+      var _iteratorError14 = undefined;
 
       try {
-        for (var _iterator5 = event.h2h[Symbol.iterator](), _step5; !(_iteratorNormalCompletion5 = (_step5 = _iterator5.next()).done); _iteratorNormalCompletion5 = true) {
-          var h2h = _step5.value;
+        for (var _iterator14 = event.h2h[Symbol.iterator](), _step14; !(_iteratorNormalCompletion14 = (_step14 = _iterator14.next()).done); _iteratorNormalCompletion14 = true) {
+          var h2h = _step14.value;
 
           h2h.entrants = sortAndLane(h2h.entrants, event);
         }
       } catch (err) {
-        _didIteratorError5 = true;
-        _iteratorError5 = err;
+        _didIteratorError14 = true;
+        _iteratorError14 = err;
       } finally {
         try {
-          if (!_iteratorNormalCompletion5 && _iterator5.return) {
-            _iterator5.return();
+          if (!_iteratorNormalCompletion14 && _iterator14.return) {
+            _iterator14.return();
           }
         } finally {
-          if (_didIteratorError5) {
-            throw _iteratorError5;
+          if (_didIteratorError14) {
+            throw _iteratorError14;
           }
         }
       }
@@ -393,7 +648,7 @@ if (!window.apploaded) {
       event.winners = getWinners(allUsers, event);
 
       return event;
-    }
+    };
 
     function assignUser(users, user) {
       if (!users[user.user.toLowerCase()]) {
@@ -410,27 +665,27 @@ if (!window.apploaded) {
     function sortAndLane(list, event) {
       list = _.orderBy(list, ['VDOT', 'user'], ['desc', 'asc']);
       var lane = 1;
-      var _iteratorNormalCompletion6 = true;
-      var _didIteratorError6 = false;
-      var _iteratorError6 = undefined;
+      var _iteratorNormalCompletion15 = true;
+      var _didIteratorError15 = false;
+      var _iteratorError15 = undefined;
 
       try {
-        for (var _iterator6 = list[Symbol.iterator](), _step6; !(_iteratorNormalCompletion6 = (_step6 = _iterator6.next()).done); _iteratorNormalCompletion6 = true) {
-          var e = _step6.value;
+        for (var _iterator15 = list[Symbol.iterator](), _step15; !(_iteratorNormalCompletion15 = (_step15 = _iterator15.next()).done); _iteratorNormalCompletion15 = true) {
+          var e = _step15.value;
 
           e.lane = lane++;
         }
       } catch (err) {
-        _didIteratorError6 = true;
-        _iteratorError6 = err;
+        _didIteratorError15 = true;
+        _iteratorError15 = err;
       } finally {
         try {
-          if (!_iteratorNormalCompletion6 && _iterator6.return) {
-            _iterator6.return();
+          if (!_iteratorNormalCompletion15 && _iterator15.return) {
+            _iterator15.return();
           }
         } finally {
-          if (_didIteratorError6) {
-            throw _iteratorError6;
+          if (_didIteratorError15) {
+            throw _iteratorError15;
           }
         }
       }
@@ -449,13 +704,13 @@ if (!window.apploaded) {
         var prev = void 0;
 
         var byTime = _.orderBy(list, ['events[' + ii + '.time', 'user']);
-        var _iteratorNormalCompletion7 = true;
-        var _didIteratorError7 = false;
-        var _iteratorError7 = undefined;
+        var _iteratorNormalCompletion16 = true;
+        var _didIteratorError16 = false;
+        var _iteratorError16 = undefined;
 
         try {
-          for (var _iterator7 = byTime[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {
-            var li = _step7.value;
+          for (var _iterator16 = byTime[Symbol.iterator](), _step16; !(_iteratorNormalCompletion16 = (_step16 = _iterator16.next()).done); _iteratorNormalCompletion16 = true) {
+            var li = _step16.value;
 
             if (li.events[ii] && li.events[ii].time) {
               if (prev && prev.time === li.events[ii].time) {
@@ -474,43 +729,43 @@ if (!window.apploaded) {
             }
           }
         } catch (err) {
-          _didIteratorError7 = true;
-          _iteratorError7 = err;
+          _didIteratorError16 = true;
+          _iteratorError16 = err;
         } finally {
           try {
-            if (!_iteratorNormalCompletion7 && _iterator7.return) {
-              _iterator7.return();
+            if (!_iteratorNormalCompletion16 && _iterator16.return) {
+              _iterator16.return();
             }
           } finally {
-            if (_didIteratorError7) {
-              throw _iteratorError7;
+            if (_didIteratorError16) {
+              throw _iteratorError16;
             }
           }
         }
 
-        var _iteratorNormalCompletion8 = true;
-        var _didIteratorError8 = false;
-        var _iteratorError8 = undefined;
+        var _iteratorNormalCompletion17 = true;
+        var _didIteratorError17 = false;
+        var _iteratorError17 = undefined;
 
         try {
-          for (var _iterator8 = list[Symbol.iterator](), _step8; !(_iteratorNormalCompletion8 = (_step8 = _iterator8.next()).done); _iteratorNormalCompletion8 = true) {
-            var _li = _step8.value;
+          for (var _iterator17 = list[Symbol.iterator](), _step17; !(_iteratorNormalCompletion17 = (_step17 = _iterator17.next()).done); _iteratorNormalCompletion17 = true) {
+            var _li = _step17.value;
 
             _li[pointsKey] = _li.events.reduce(function (sum, e) {
               return sum + e[pointsKey];
             }, 0);
           }
         } catch (err) {
-          _didIteratorError8 = true;
-          _iteratorError8 = err;
+          _didIteratorError17 = true;
+          _iteratorError17 = err;
         } finally {
           try {
-            if (!_iteratorNormalCompletion8 && _iterator8.return) {
-              _iterator8.return();
+            if (!_iteratorNormalCompletion17 && _iterator17.return) {
+              _iterator17.return();
             }
           } finally {
-            if (_didIteratorError8) {
-              throw _iteratorError8;
+            if (_didIteratorError17) {
+              throw _iteratorError17;
             }
           }
         }
@@ -519,13 +774,13 @@ if (!window.apploaded) {
 
         prev = null;
         place = 1;
-        var _iteratorNormalCompletion9 = true;
-        var _didIteratorError9 = false;
-        var _iteratorError9 = undefined;
+        var _iteratorNormalCompletion18 = true;
+        var _didIteratorError18 = false;
+        var _iteratorError18 = undefined;
 
         try {
-          for (var _iterator9 = byPoints[Symbol.iterator](), _step9; !(_iteratorNormalCompletion9 = (_step9 = _iterator9.next()).done); _iteratorNormalCompletion9 = true) {
-            var _li2 = _step9.value;
+          for (var _iterator18 = byPoints[Symbol.iterator](), _step18; !(_iteratorNormalCompletion18 = (_step18 = _iterator18.next()).done); _iteratorNormalCompletion18 = true) {
+            var _li2 = _step18.value;
 
             if (_li2.raced) {
               if (prev && prev[pointsKey] === _li2[pointsKey]) {
@@ -538,16 +793,16 @@ if (!window.apploaded) {
             }
           }
         } catch (err) {
-          _didIteratorError9 = true;
-          _iteratorError9 = err;
+          _didIteratorError18 = true;
+          _iteratorError18 = err;
         } finally {
           try {
-            if (!_iteratorNormalCompletion9 && _iterator9.return) {
-              _iterator9.return();
+            if (!_iteratorNormalCompletion18 && _iterator18.return) {
+              _iterator18.return();
             }
           } finally {
-            if (_didIteratorError9) {
-              throw _iteratorError9;
+            if (_didIteratorError18) {
+              throw _iteratorError18;
             }
           }
         }
@@ -562,6 +817,124 @@ if (!window.apploaded) {
       var winners = _.orderBy(allUsers, ['place', 'events[0].time', 'user'], ['asc', 'asc', 'asc']);
 
       return winners;
+    }
+
+    function parseUser(line, event) {
+      var split = line.split('|').map(function (t) {
+        return t.trim();
+      });
+      var user = {
+        user: split[0],
+        link: 'https://reddit.com/u/' + split[0],
+        VDOT: split[1] ? parseFloat(split[1]) : 0,
+        note: split[2] || '',
+        times: split[3] ? split[3].split(',').map(function (t) {
+          return t.trim();
+        }) : event.events.map(function () {
+          return '';
+        }),
+        links: [],
+        heatPoints: null,
+        heatPlace: null,
+        points: null,
+        place: null,
+        raced: false
+      };
+      if (split[4]) {
+        var links = split[4].split(',').join(' ').split(' ').map(function (l) {
+          return l.trim();
+        });
+
+        var _iteratorNormalCompletion19 = true;
+        var _didIteratorError19 = false;
+        var _iteratorError19 = undefined;
+
+        try {
+          for (var _iterator19 = links[Symbol.iterator](), _step19; !(_iteratorNormalCompletion19 = (_step19 = _iterator19.next()).done); _iteratorNormalCompletion19 = true) {
+            var link = _step19.value;
+
+            if (!link) {
+              continue;
+            }
+            if (link.match(/strava/)) {
+              user.links.push({ type: 'strava', url: link });
+            } else if (link.match(/youtu/)) {
+              user.links.push({ type: 'youtube', url: link });
+            }
+          }
+        } catch (err) {
+          _didIteratorError19 = true;
+          _iteratorError19 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion19 && _iterator19.return) {
+              _iterator19.return();
+            }
+          } finally {
+            if (_didIteratorError19) {
+              throw _iteratorError19;
+            }
+          }
+        }
+
+        user.links = user.links.sort(function (a, b) {
+          if (a.type < b.type) {
+            return -1;
+          }
+          if (b.type < a.type) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      user.events = user.times.map(function (t, ii) {
+        return {
+          event: event.events[ii],
+          time: t,
+          heatPlace: null,
+          heatPoints: null,
+          place: null,
+          points: null
+        };
+      });
+      user.raced = user.times.reduce(function (val, t) {
+        return !!(val || t);
+      }, false);
+      return user;
+    }
+
+    return svc;
+  }]).controller('event', ['$http', '$state', '$timeout', '$location', '$anchorScroll', '$stateParams', 'resultsService', function ($http, $state, $timeout, $location, $anchorScroll, $params, resultsSvc) {
+
+    var vm = this;
+
+    vm.tab = 'start';
+
+    $anchorScroll.yOffset = 60;
+
+    function init() {
+      if ($params.tab) {
+        vm.tab = $params.tab;
+      }
+
+      var filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
+      $http.get(BASE + filename).then(function (res) {
+        return res.data;
+      }).then(function (res) {
+        var event = resultsSvc.parseFile(res);
+        console.log(event);
+        vm.event = event;
+        vm.event.file = filename;
+
+        vm.next = {
+          date: event.date,
+          name: event.name.toUpperCase()
+        };
+
+        vm.event.date = moment(new Date(vm.event.date)).format('MMM D, YYYY');
+
+        $timeout($anchorScroll);
+      });
     }
 
     vm.sortWinnersBy = function (type, index) {
@@ -603,90 +976,6 @@ if (!window.apploaded) {
         vm.event.winners = _.orderBy(vm.event.winners, ['place', 'events[0].time', 'user']);
       }
     };
-
-    function parseUser(line, event) {
-      var split = line.split('|').map(function (t) {
-        return t.trim();
-      });
-      var user = {
-        user: split[0],
-        link: 'https://reddit.com/u/' + split[0],
-        VDOT: split[1] ? parseFloat(split[1]) : 0,
-        note: split[2] || '',
-        times: split[3] ? split[3].split(',').map(function (t) {
-          return t.trim();
-        }) : event.events.map(function () {
-          return '';
-        }),
-        links: [],
-        heatPoints: null,
-        heatPlace: null,
-        points: null,
-        place: null,
-        raced: false
-      };
-      if (split[4]) {
-        var links = split[4].split(',').join(' ').split(' ').map(function (l) {
-          return l.trim();
-        });
-
-        var _iteratorNormalCompletion10 = true;
-        var _didIteratorError10 = false;
-        var _iteratorError10 = undefined;
-
-        try {
-          for (var _iterator10 = links[Symbol.iterator](), _step10; !(_iteratorNormalCompletion10 = (_step10 = _iterator10.next()).done); _iteratorNormalCompletion10 = true) {
-            var link = _step10.value;
-
-            if (!link) {
-              continue;
-            }
-            if (link.match(/strava/)) {
-              user.links.push({ type: 'strava', url: link });
-            } else if (link.match(/youtu/)) {
-              user.links.push({ type: 'youtube', url: link });
-            }
-          }
-        } catch (err) {
-          _didIteratorError10 = true;
-          _iteratorError10 = err;
-        } finally {
-          try {
-            if (!_iteratorNormalCompletion10 && _iterator10.return) {
-              _iterator10.return();
-            }
-          } finally {
-            if (_didIteratorError10) {
-              throw _iteratorError10;
-            }
-          }
-        }
-
-        user.links = user.links.sort(function (a, b) {
-          if (a.type < b.type) {
-            return -1;
-          }
-          if (b.type < a.type) {
-            return 1;
-          }
-          return 0;
-        });
-      }
-      user.events = user.times.map(function (t) {
-        return {
-          event: null,
-          time: t,
-          heatPlace: null,
-          heatPoints: null,
-          place: null,
-          points: null
-        };
-      });
-      user.raced = user.times.reduce(function (val, t) {
-        return !!(val || t);
-      }, false);
-      return user;
-    }
 
     vm.changeTab = function (tab) {
       vm.tab = tab;

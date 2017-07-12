@@ -1,0 +1,26 @@
+<h2>Leaderboard</h2>
+
+<table class="table table-sm">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Place</th>
+      <th>User</th>
+      <th>VDOT</th>
+      <th ng-repeat="event in LC.events">{{event.event}}</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="win in LC.winners">
+      <td>{{win.place}}</td>
+      <td>{{win.user}}</td>
+      <td>{{win.VDOT ? (win.VDOT | number:1) : ''}}</td>
+      <td ng-repeat="event in win.events">
+        <span ng-if="event.points">
+          {{event.points}} <i>({{event.time}})</i>
+        </span>
+      </td>
+      <td><strong>{{win.points}}</strong></td>
+    </tr>
+  </tbody>
+</table>
