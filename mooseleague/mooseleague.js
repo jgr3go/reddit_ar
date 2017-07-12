@@ -31,7 +31,7 @@ angular
 
     $sp.state({
       name: 'Leaderboard',
-      templateUrl: 'leaderboard.html',
+      templateUrl: `${BASE}leaderboard.html`,
       controller: 'leaderboard',
       url: '/leaderboard',
       controllerAs: 'LC'
