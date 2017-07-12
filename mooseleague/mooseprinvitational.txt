@@ -47,7 +47,7 @@ RunningJay | 61.0
 
 # XX
 aewillia | 44.2 | | 1:19.4, 32.2 | https://www.strava.com/activities/1040908648/overview https://www.strava.com/activities/1040908852
-SimpleAndWell | 45.8 | | 1:18.2, 36.8 | https://www.strava.com/activities/1041440605 https://www.strava.com/activities/1041440617
+SimpleAndWell | 45.8 | | 1:18.2, 36.8 |
 FlyRBFly | 43.1 | | 2:08.0, 64.0 | https://www.strava.com/activities/1041234662
 kaaaazzh | 44.6
 flocculus | 46.0 | | 1:22.39, 38.26 | https://www.strava.com/activities/1041115888
@@ -147,7 +147,7 @@ AndyDufresne2 | 67.0
 # Hoth (VDOT 45)
 ade214 | 45.3 
 zazzera | 45.8 | DNS
-SimpleAndWell | 45.8 | | 1:18.2, 36.8 | https://www.strava.com/activities/1041440605 https://www.strava.com/activities/1041440617
+SimpleAndWell | 45.8 | | 1:18.2, 36.8 | 
 biggyofmt | 45.3
 ryebrye | 42 | | 1:19.2, 34.4 | https://www.strava.com/activities/1040629465 https://www.strava.com/activities/1040629648
 chrisbloome | 43.1 | 
