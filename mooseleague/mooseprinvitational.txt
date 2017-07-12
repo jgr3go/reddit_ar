@@ -17,7 +17,7 @@ laurieislaurie | 50.0
 rokfitter | 51.8 | | 1:10.29, 33.37
 JaBoyFrom227 | 49.8
 robercha001 | 50.4 | | 1:11.8, 34.1 | https://www.strava.com/activities/1041601834 https://www.strava.com/activities/1041643877
-cashewlater | 50.0 | 
+cashewlater | 50.0 | | 1:05, 31 | https://www.strava.com/activities/1041123744/laps, https://www.strava.com/activities/1041123856 
 Jrb975 | 51.0 | | 1:08.76, 33.85 | https://www.strava.com/activities/1041099754 https://www.youtube.com/watch?v=FZvaHQ7O5ps&feature=youtu.be
 Jrb975's son | 37.0 | | 1:51.60, 45.31
 
@@ -275,10 +275,10 @@ thermocycler |
 YourInternetHistory | | | 1:08.4, 33.6
 ChickenSedan | 50.6 | | 1:02.95, 27.75 | https://youtu.be/vth6gXJoB8M
 
-cashwlater |
+cashewlater | 50.0 | | 1:05, 31 | https://www.strava.com/activities/1041123744/laps, https://www.strava.com/activities/1041123856 
 dogebiscuit | 58.2 | | 1:02.01, 28.15 | 
 
-cashwlater |
+cashewlater | 50.0 | | 1:05, 31 | https://www.strava.com/activities/1041123744/laps, https://www.strava.com/activities/1041123856 
 anbu1538 | 54.4 | | 1:01.60, 27.83 | https://www.strava.com/activities/1039146849 https://www.strava.com/activities/1039146919 https://youtu.be/wH6adSUUmIM
 
 ethos24 | | | 1:05.8, 29.7 | https://www.strava.com/activities/1039332218/

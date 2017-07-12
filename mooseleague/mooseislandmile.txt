@@ -17,7 +17,7 @@ laurieislaurie | 50.0
 rokfitter | 51.8 |
 JaBoyFrom227 | 49.8
 robercha001 | 50.4 | | 6:46
-cashewlater | 50.0 | | 5:15
+cashewlater | | | 5:17 | https://www.strava.com/activities/1072223362
 Jrb975 | 51.0 |
 Jrb975's son | 37.0 |
 OnceAMiler | 51.0 | | 5:35
@@ -299,10 +299,10 @@ thermocycler |
 YourInternetHistory | 
 ChickenSedan | 50.6 | | 5:33.46
 
-cashewlater | | | 5:15
+cashewlater | | | 5:17 | https://www.strava.com/activities/1072223362
 dogebiscuit | | | 5:20
 
-cashwlater |
+cashewlater | | | 5:17 | https://www.strava.com/activities/1072223362
 anbu1538 | 
 
 ethos24 | | DNS
