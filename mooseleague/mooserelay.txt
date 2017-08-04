@@ -49,20 +49,20 @@ RunningJay | 61.0
 
 # XX
 aewillia | 44.2 |
-SimpleAndWell | 45.8 | | 6:13
-FlyRBFly | 43.1 | | 7:07
+SimpleAndWell | 45.8 |
+FlyRBFly | 43.1 | 
 kaaaazzh | 44.6
-flocculus | 46.0 | | 6:27 | https://www.strava.com/activities/1073277521
+flocculus | 46.0 | 
 sloworfast | 48.7 |
-_ughhhhh_ | 42.9 | DNS
-linzlars | 49.6 | | 6:29 | https://www.strava.com/activities/1062613714
+_ughhhhh_ | 42.9 |
+linzlars | 49.6 | 
 hollanding |
-aribev24 | | | 7:26 | https://www.strava.com/activities/1073206744
-Zond0 | | | 7:36
+aribev24 | | 
+Zond0 | 
 
 
 # North of the Wall
-Nony2 | 65.5 | DNS
+Nony2 | 65.5 | 
 kmck96 | 59.1 |
 Dustintomi | 67.9 |
 Eantheman | 64.7
@@ -79,40 +79,40 @@ Mrs. PD |
 
 
 # Deep South (VDOT 53 Club)
-winterspite | 57.8 | | 5:11 | https://www.strava.com/activities/1073198247
+winterspite | 57.8 | 
 WeAllDoBetter | 55.2
 Sclub7911 | 54.6 |
-jimbopeanuts | 53.0 | | 5:38 | https://www.strava.com/activities/1074433711 | https://www.youtube.com/watch?v=12l116jDT4w&feature=youtu.be
+jimbopeanuts | 53.0 | 
 V1per41 | 53.3 |
-ultrahobbyjogger | 55.9 | | 5:28 | https://www.strava.com/activities/1073494363
+ultrahobbyjogger | 55.9 |
 winter0215 | 52.5
-pablitoneal | 55.8 | | 5:32 | https://www.strava.com/activities/1074126736
-brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
+pablitoneal | 55.8 | 
+brwalkernc | 53.7 | 
 runwichi | 52.5 |
 trialofmilesoftrials | 52.6 
-ChickenSedan | 50.6 | | 5:33.46
+ChickenSedan | 50.6 |
 anbu1538 | 54.4 | 
 lostintravise | 51.8
 gunslingrroland | 51.1
-Eabryt | 63.9 | | 4:26 | https://www.strava.com/activities/1057504220
+Eabryt | 63.9 | 
 philipwhiuk | 53.9 | 
 chaci_ | 52.8
 YourInternetHistory | 
 imetalanday | 49.6
-jthomas7002 | 51.8 | DNS
+jthomas7002 | 51.8 | 
 low_impact | 51.0 
-Mortifyinq | 53.4 | | 5:15.11 | https://www.strava.com/activities/1073454778
+Mortifyinq | 53.4 | 
 
 
 # NYC
 ctingyu08_ | 61.2
-blood_bender | 61.6 | DNS
+blood_bender | 61.6 |
 Xalechim | 57.8 
 potatoknish | 45.3
-djlemma | 53.2 | | 5:58 | https://www.strava.com/activities/1073300897
+djlemma | 53.2 | 
 chrisbloome | 43.1 | 
-FlyRBFly | 43.1 | | 7:07
-Puggle555 | 55.0 | | 6:06 | https://www.strava.com/activities/1073907725
+FlyRBFly | 43.1 | 
+Puggle555 | 55.0 | 
 hollanding |
 
 
@@ -131,22 +131,22 @@ Mister_Clutch | 58.4 |
 Krazyfranco | 57.5 | 
 ajlark25 | 57.4 | | 5:03
 AnonymousWritings | 57.2 |
-blood_bender | 61.6 |  DNS
+blood_bender | 61.6 | 
 finallyransub17 | 56.9 |
 Ufrider_Taric | 58.2 
 ndcj12 | 57.1
 callthebluff | |
 Eibhlin_Andronicus | 57.6 
-dogebiscuit | 58.2 | | 5:20
+dogebiscuit | 58.2 | 
 Um_Okay |
-da-kine | 59.5 | | 4:57.4 | https://www.strava.com/activities/1073982714/overview
+da-kine | 59.5 | 
 
 
 # Texas
-Gibstone | 52 | | 5:13 | https://www.strava.com/activities/1073496223
-supersonic_blimp | 50.3 | | 5:11.0 | https://www.strava.com/activities/1073311892/overview
+Gibstone | 52 | 
+supersonic_blimp | 50.3 | 
 aewillia | 44.2 | 
-MrCoolguy80 | 42.6 | | 6:27 | https://www.strava.com/activities/1078135195
+MrCoolguy80 | 42.6 | 
 pand4duck | 61.8
 AndyDufresne2 | 67.0
 
@@ -154,56 +154,56 @@ AndyDufresne2 | 67.0
 # Hoth (VDOT 45)
 ade214 | 45.3 
 zazzera | 45.8 | 
-SimpleAndWell | 45.8 | | 6:13
+SimpleAndWell | 45.8 |
 biggyofmt | 45.3 |
-ryebrye | 42 | | 6:54
+ryebrye | 42 | 
 chrisbloome | 43.1 | 
 craigster38 | 42.6 | 
-OblongPlatypus | 43.2 | | 6:09 | https://www.strava.com/activities/1072756436/
-mamsorris1 | 46.4 | | 5:53 | https://www.strava.com/activities/1072485272
-marximumrunner | 37.2 | | 7:26
-_ughhhhh_ | 42.9 | DNS
-blushingscarlet | 45 | | 6:02.4
-fartmaster500 | 45 | | 7:04
-Siawyn | 40 | | 6:35.4 | https://www.strava.com/activities/1073375592
+OblongPlatypus | 43.2 |
+mamsorris1 | 46.4 |
+marximumrunner | 37.2 |
+_ughhhhh_ | 42.9 | 
+blushingscarlet | 45 | 
+fartmaster500 | 45 | 
+Siawyn | 40 | 
 
 
 # Beardless
-winterspite | 57.8 | | 5:11 | https://www.strava.com/activities/1073198247
+winterspite | 57.8 | 
 runwichi | 52.5 | 
-brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
+brwalkernc | 53.7 | 
 
 
 # omg
 OGFireNation | 58.6 |
 FlashArcher | 
 snapundersteer | 
-chrispyb | 57.5 | | 4:44
+chrispyb | 57.5 |
 
 
 # North Virginia
-marximumrunner | 37.2 | | 7:26
+marximumrunner | 37.2 |
 Kaiserlappen | 33.5
 breakingbedd | 65.4 | 
 joezn | 63.3
 topkekhenry |
-End2Ender | | | 5:22
-OnceAMiler | 51 | | 5:35
+End2Ender | |
+OnceAMiler | 51 |
 CHP41 | 54 | | 5:27
 
 
 # Recovering Ultrarunners
-brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
+brwalkernc | 53.7 |
 elguiri | 
-runroardinosaur | | | 7:32
+runroardinosaur | 
 craigster38 | 42.6 | 
 zazzera | 45.8 | 
 
 
 # Moria (Beards)
-brwalkernc | 53.7 | | 5:36 | https://www.strava.com/activities/1073535475#kudos
+brwalkernc | 53.7 |
 runwichi | 52.5 | 
-jaylapeche | 47.1 | | 5:57
+jaylapeche | 47.1 |
 lostintravise | 51.8
 trialofmilesoftrials | 52.5 | 
 a-german-muffin | 54.1
@@ -214,11 +214,11 @@ rokfitter | 51.8 |
 ToyStory3_WasOkay | 51.2
 MatzoMisoSoup | 50.0
 trialofmilesoftrials | 52.0 
-punkrock_runner | 54.2 | | 5:19
-Ch1mpy | 50.6 | | 5:33
-Chiruadr | 52.2 | DNS
+punkrock_runner | 54.2 |
+Ch1mpy | 50.6 | 
+Chiruadr | 52.2 |
 TheHegemon1 | 52.0 |
-nastyhobbitses1 | | | 5:27 | https://www.strava.com/activities/1074274124
+nastyhobbitses1 | |
 
 
 # Pandora
@@ -230,7 +230,7 @@ kmck96 | 59.1 |
 
 
 # Tom Brady's Poodle Boys
-chrispyb | | | 4:44
+chrispyb | |
 ForwardBound | | 
 RunJunRun | 
 screwbuharvard2 |
@@ -239,22 +239,22 @@ screwbuharvard2 |
 # Missed Connections
 Zwiseguy15 | 61.8 
 bzrunnin | 53.0
-flocculus | 46.0 | | 6:27 | https://www.strava.com/activities/1073277521
+flocculus | 46.0 |
 you_mista_kingston | 60.7
 Eantheman | 64.7
 kholpa | 74.1
 OverflowCreative | 56.7
-punkrock_runner | 54.2 | | 5:19
-entropy65536 | | | 6:20
+punkrock_runner | 54.2 |
+entropy65536 | 
 chachi_ | | 
-robert_cal | | | 5:48
+robert_cal | | 
 nutbrownhare14 | 
 RunningDragons | 62.9 
-nastyhobbitses1 | | | 5:27 | https://www.strava.com/activities/1074274124
-somethingnew__ | | | 6:05
-mistererunner | | | 5:40
-surgeon_michael | | | 5:19
-eucatastrophes | | | 5:14
+nastyhobbitses1 | |
+somethingnew__ | |
+mistererunner | |
+surgeon_michael | 
+eucatastrophes | |
 
 # HSTF/XC Dropouts
 kabbra | 74.6 |
@@ -263,12 +263,6 @@ LordJugo | 62.4 |
 MLGRoboJesus | 70.7 |
 Wy4M | 51.1  |
 
-# Blue Jeans Mile #DenimMile
-ToyStory3_WasOkay |
-imetalanday |
-JimboPeanuts | | | 5:38 | https://www.strava.com/activities/1074433711 | https://www.youtube.com/watch?v=12l116jDT4w&feature=youtu.be
-Winterspite | 57.8 | | 7:32 | https://www.strava.com/activities/1073198724
-
 
 =====
 # Head to Heads
@@ -276,7 +270,7 @@ AnonymousWritings | |
 Mister_Clutch | | 
 
 upxc | 71.3 | 
-moongrey | 59.2 | | 4:43
+moongrey | 59.2 |
 
 Simsim7 | 64.3 |
 cross1212 | 62.9 |
@@ -284,29 +278,29 @@ cross1212 | 62.9 |
 jonmadepizza | 61.3
 cross1212 | 62.9 |
 
-blood_bender | 61.6 | DNS
-Eabryt | 63.9 | | 4:26 | https://www.strava.com/activities/1057504220
+blood_bender | 61.6 |
+Eabryt | 63.9 |
 
-ajlark25 | | | 5:03
+ajlark25 | |
 OGFireNation | | 
 
 TheHegemon1 | |
-djlemma | 53.2 | | 5:58 | https://www.strava.com/activities/1073300897
+djlemma | 53.2 |
 
 bzrunnin | 53.0
 thermocycler | 
 
 YourInternetHistory | 
-ChickenSedan | 50.6 | | 5:33.46
+ChickenSedan | 50.6 |
 
-cashewlater | | | 5:17 | https://www.strava.com/activities/1072223362
-dogebiscuit | | | 5:20
+cashewlater | |
+dogebiscuit | | 
 
-cashewlater | | | 5:17 | https://www.strava.com/activities/1072223362
+cashewlater | |
 anbu1538 | 
 
-ethos24 | | DNS
+ethos24 | |
 anbu1538 | 
 
-zebano | | | 5:59 | https://www.strava.com/activities/1073475765/laps
-OblongPlatypus | 43.2 | | 6:09 | https://www.strava.com/activities/1072756436/
+zebano | |
+OblongPlatypus | 43.2 |
