@@ -11,6 +11,25 @@ if (window.location.href.match(/localhost/)) {
 }
 
 
+function sortTime(a, b) {
+  let at = toSeconds(a);
+  let bt = toSeconds(b);
+  if (at < bt) { return -1; }
+  if (bt < at) { return 1; }
+  return 0;
+}
+function toSeconds(time) {
+  let parts = time.split(':');
+  if (parts.length === 1) {
+    return parseFloat(parts[0]);
+  }
+  let min = parseInt(parts[0]) * 60;
+  let sec = parseFloat(parts[1]);
+  return min + sec;
+}
+
+
+
 angular
   .module('ar', ['ui.router'])
   .config(['$stateProvider', '$sceDelegateProvider', '$urlRouterProvider', '$locationProvider', function ($sp, $sce, $url, $loc) {
@@ -418,7 +437,7 @@ angular
 
       assignPlaceAndPoints(list, event, 'heatPoints', 'heatPlace', 8);
 
-      list = _.orderBy(list, [`heatPlace`, `events[0].time`, `user`], [`asc`, `asc`, `asc`]);
+      list = _.orderBy(list, [`heatPlace`, li => toSeconds(li.events[0].time), `user`], [`asc`, `asc`, `asc`]);
 
       return list;
     }
@@ -429,7 +448,7 @@ angular
         let place = 1;
         let prev;
 
-        let byTime = _.orderBy(list, [`events[${ii}.time`, 'user']);
+        let byTime = _.orderBy(list, [li => toSeconds(li.events[ii].time), 'user']);
         for (let li of byTime) {
           if (li.events[ii] && li.events[ii].time) {
             if (prev && prev.time === li.events[ii].time) {
@@ -475,7 +494,7 @@ angular
 
       assignPlaceAndPoints(allUsers, event, 'points', 'place', 99);
 
-      let winners = _.orderBy(allUsers, ['place', `events[0].time`, 'user'], ['asc', 'asc', 'asc']);
+      let winners = _.orderBy(allUsers, ['place', au => au.events[0].time, 'user'], ['asc', 'asc', 'asc']);
 
       return winners;
     }
@@ -593,7 +612,7 @@ angular
             }
           });
         } else {
-          vm.event.winners = _.orderBy(vm.event.winners, ['place', `events[0].time`, 'user']);
+          vm.event.winners = _.orderBy(vm.event.winners, ['place', w => w.events[0].time, 'user']);
         } 
       };
 

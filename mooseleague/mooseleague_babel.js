@@ -3,6 +3,27 @@
 // to prevent this loading twice in dev - hacky hacky whatever shut your face
 
 if (!window.apploaded) {
+  var sortTime = function sortTime(a, b) {
+    var at = toSeconds(a);
+    var bt = toSeconds(b);
+    if (at < bt) {
+      return -1;
+    }
+    if (bt < at) {
+      return 1;
+    }
+    return 0;
+  };
+
+  var toSeconds = function toSeconds(time) {
+    var parts = time.split(':');
+    if (parts.length === 1) {
+      return parseFloat(parts[0]);
+    }
+    var min = parseInt(parts[0]) * 60;
+    var sec = parseFloat(parts[1]);
+    return min + sec;
+  };
 
   window.apploaded = true;
 
@@ -698,18 +719,22 @@ if (!window.apploaded) {
 
       assignPlaceAndPoints(list, event, 'heatPoints', 'heatPlace', 8);
 
-      list = _.orderBy(list, ['heatPlace', 'events[0].time', 'user'], ['asc', 'asc', 'asc']);
+      list = _.orderBy(list, ['heatPlace', function (li) {
+        return toSeconds(li.events[0].time);
+      }, 'user'], ['asc', 'asc', 'asc']);
 
       return list;
     }
 
     function assignPlaceAndPoints(list, event, pointsKey, placeKey, maxPoints) {
-      for (var ii = 0; ii < event.events.length; ii++) {
+      var _loop = function _loop(ii) {
         var points = maxPoints;
         var place = 1;
         var prev = void 0;
 
-        var byTime = _.orderBy(list, ['events[' + ii + '.time', 'user']);
+        var byTime = _.orderBy(list, [function (li) {
+          return toSeconds(li.events[ii].time);
+        }, 'user']);
         var _iteratorNormalCompletion16 = true;
         var _didIteratorError16 = false;
         var _iteratorError16 = undefined;
@@ -812,6 +837,10 @@ if (!window.apploaded) {
             }
           }
         }
+      };
+
+      for (var ii = 0; ii < event.events.length; ii++) {
+        _loop(ii);
       }
     }
 
@@ -820,7 +849,9 @@ if (!window.apploaded) {
 
       assignPlaceAndPoints(allUsers, event, 'points', 'place', 99);
 
-      var winners = _.orderBy(allUsers, ['place', 'events[0].time', 'user'], ['asc', 'asc', 'asc']);
+      var winners = _.orderBy(allUsers, ['place', function (au) {
+        return au.events[0].time;
+      }, 'user'], ['asc', 'asc', 'asc']);
 
       return winners;
     }
@@ -979,7 +1010,9 @@ if (!window.apploaded) {
           }
         });
       } else {
-        vm.event.winners = _.orderBy(vm.event.winners, ['place', 'events[0].time', 'user']);
+        vm.event.winners = _.orderBy(vm.event.winners, ['place', function (w) {
+          return w.events[0].time;
+        }, 'user']);
       }
     };
 
