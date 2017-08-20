@@ -250,8 +250,8 @@ angular
 
     }
   ])
-  .controller('main', ['$http', '$location', '$timeout', '$state', 'Events',
-    function ($http, $location, $timeout, $state, Events) {
+  .controller('main', ['$http', '$location', '$timeout', '$state', 'Events', '$sce',
+    function ($http, $location, $timeout, $state, Events, $sce) {
 
       let vm = this;
 
@@ -335,6 +335,20 @@ angular
         }
         return crumbs;
       }
+
+      vm.stopAutoplay = function() {
+        localStorage.setItem('autoplay', false);
+      };
+
+      vm.shouldAutoplay = function() {
+        let ap = localStorage.getItem('autoplay');
+        return !(ap === 'false' || ap === false);
+      };
+
+      vm.getThemeUrl = function() {
+        let ap = vm.shouldAutoplay();
+        return $sce.trustAsResourceUrl(`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337460668&amp;auto_play=${ap}&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true`);
+      };
 
       init();
     }
