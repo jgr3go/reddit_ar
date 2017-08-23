@@ -11,7 +11,7 @@ herumph | 49.7 | DNS
 ShortShortsTallSocks | 50.0 |
 herumph | 49.7 | 
 zebano | 48.6 | 
-sloworfast | 48.7
+sloworfast | 48.7 | | 12:14
 VicunaLlamaAlpaca | 47.2 | DNF
 laurieislaurie | 50.0
 rokfitter | 51.8 |
