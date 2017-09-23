@@ -26,6 +26,12 @@ somethingnew__ | |
 GooseGrewABeard | | 
 ultimateplayer44 | |
 LeifCarrotson | 50.0 |
+BumpitySnook | 43 |
+Grand_Autism | 44 |
+perugolate | 49.3 |
+Tapin42 | 49.2 |
+
+
 
 
 # Florida
@@ -53,6 +59,10 @@ RunningJay | 61.0
 ethos24 | 54.5 |
 ThinPower93 | | 
 rnr_ | |
+Nate_DT | 53.3 |
+cross1212 | | 
+PM_ME_YOUR_SNAPPERS | |
+LeifCarrotson | 50 | 
 
 
 # XX
@@ -67,6 +77,7 @@ linzlars | 49.6 |
 hollanding | |
 aribev24 | | 
 Zond0 | |
+JustDoItSlowly | |
 
 
 # North of the Wall
@@ -111,6 +122,9 @@ imetalanday | 49.6
 jthomas7002 | 51.8 | 
 low_impact | 51.0 
 Mortifyinq | 53.4 | 
+wardmuyalert | 51 | 
+trntg | 55 |
+PumpkinGourd | 51 |
 
 
 # NYC
@@ -160,6 +174,7 @@ pand4duck | 61.8
 AndyDufresne2 | 67.0 |
 ju_bl | 57 | 
 Nose_of_ranvier | |
+SnowflakeRunner | 45.2 |
 
 
 # Hoth (VDOT 45)
