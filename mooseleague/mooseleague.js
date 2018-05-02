@@ -12,8 +12,8 @@ if (window.location.href.match(/localhost/)) {
 
 
 function sortTime(a, b) {
-  let at = toSeconds(a);
-  let bt = toSeconds(b);
+  let at = a ? toSeconds(a) : null;
+  let bt = b ? toSeconds(b) : null;
   if (at < bt) { return -1; }
   if (bt < at) { return 1; }
   return 0;
@@ -104,7 +104,7 @@ angular
               date: split[1].trim(),
               state: split[0].trim(),
               events: split[2].trim(),
-              link: split[3].trim()
+              link: (split[3] || '').trim()
             });
           }
 
@@ -246,6 +246,30 @@ angular
           });
       }
 
+      vm.sortWinners = function(index) {
+        function byTime(a, b, index) {
+          return sortTime(a.events[index].time, b.events[index].time);
+        }
+        function byKey(a, b, key) {
+          if (a[key] < b[key]) { return -1; }
+          if (b[key] < a[key]) { return 1; }
+          return 0;
+        }
+        vm.event.winners = vm.event.winners.sort((a, b) => {
+          let aTime = a.events[index].time, bTime = b.events[index].time;
+
+          if (aTime && bTime) {
+            return byTime(a, b, index) || byKey(a, b, 'points') || byKey(a, b, 'user');
+          } else if (aTime) {
+            return -1;
+          } else if (bTime) {
+            return 1;
+          } else {
+            return byKey(a, b, 'points') || byKey(a, b, 'user');
+          }
+        }); 
+      };
+
       init();
 
     }
@@ -256,7 +280,7 @@ angular
       let vm = this;
 
       vm.isMobile = isMobile();
-
+      vm.autoplay = localStorage.getItem('autoplay2018') === null ? true : localStorage.getItem('autoplay2018');
 
       function init() {
         Events.list()
@@ -337,11 +361,16 @@ angular
       }
 
       vm.stopAutoplay = function() {
-        localStorage.setItem('autoplay', false);
+        localStorage.setItem('autoplay2018', false);
+        vm.autoplay = false;
       };
 
+      vm.startAutoplay = function() {
+        localStorage.setItem('autoplay2018', true);
+        vm.autoplay = true;
+      }
       vm.shouldAutoplay = function() {
-        let ap = localStorage.getItem('autoplay');
+        let ap = localStorage.getItem('autoplay2018');
         return !(ap === 'false' || ap === false);
       };
 
@@ -601,9 +630,7 @@ angular
 
       vm.sortWinnersBy = function (type, index) {
         function byTime(a, b, index) {
-          if (a.events[index].time < b.events[index].time) { return -1;}
-          if (b.events[index].time < a.events[index].time) { return 1;}
-          return 0;
+          return sortTime(a.events[index].time, b.events[index].time);
         }
         function byKey(a, b, key) {
           if (a[key] < b[key]) { return -1; }

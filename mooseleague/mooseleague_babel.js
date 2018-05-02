@@ -4,8 +4,8 @@
 
 if (!window.apploaded) {
   var sortTime = function sortTime(a, b) {
-    var at = toSeconds(a);
-    var bt = toSeconds(b);
+    var at = a ? toSeconds(a) : null;
+    var bt = b ? toSeconds(b) : null;
     if (at < bt) {
       return -1;
     }
@@ -128,7 +128,7 @@ if (!window.apploaded) {
                 date: split[1].trim(),
                 state: split[0].trim(),
                 events: split[2].trim(),
-                link: split[3].trim()
+                link: (split[3] || '').trim()
               });
             }
           } catch (err) {
@@ -483,12 +483,42 @@ if (!window.apploaded) {
       });
     }
 
+    vm.sortWinners = function (index) {
+      function byTime(a, b, index) {
+        return sortTime(a.events[index].time, b.events[index].time);
+      }
+      function byKey(a, b, key) {
+        if (a[key] < b[key]) {
+          return -1;
+        }
+        if (b[key] < a[key]) {
+          return 1;
+        }
+        return 0;
+      }
+      vm.event.winners = vm.event.winners.sort(function (a, b) {
+        var aTime = a.events[index].time,
+            bTime = b.events[index].time;
+
+        if (aTime && bTime) {
+          return byTime(a, b, index) || byKey(a, b, 'points') || byKey(a, b, 'user');
+        } else if (aTime) {
+          return -1;
+        } else if (bTime) {
+          return 1;
+        } else {
+          return byKey(a, b, 'points') || byKey(a, b, 'user');
+        }
+      });
+    };
+
     init();
   }]).controller('main', ['$http', '$location', '$timeout', '$state', 'Events', '$sce', function ($http, $location, $timeout, $state, Events, $sce) {
 
     var vm = this;
 
     vm.isMobile = isMobile();
+    vm.autoplay = localStorage.getItem('autoplay2018') === null ? true : localStorage.getItem('autoplay2018');
 
     function init() {
       Events.list().then(function (evts) {
@@ -553,11 +583,16 @@ if (!window.apploaded) {
     };
 
     vm.stopAutoplay = function () {
-      localStorage.setItem('autoplay', false);
+      localStorage.setItem('autoplay2018', false);
+      vm.autoplay = false;
     };
 
+    vm.startAutoplay = function () {
+      localStorage.setItem('autoplay2018', true);
+      vm.autoplay = true;
+    };
     vm.shouldAutoplay = function () {
-      var ap = localStorage.getItem('autoplay');
+      var ap = localStorage.getItem('autoplay2018');
       return !(ap === 'false' || ap === false);
     };
 
@@ -990,13 +1025,7 @@ if (!window.apploaded) {
 
     vm.sortWinnersBy = function (type, index) {
       function byTime(a, b, index) {
-        if (a.events[index].time < b.events[index].time) {
-          return -1;
-        }
-        if (b.events[index].time < a.events[index].time) {
-          return 1;
-        }
-        return 0;
+        return sortTime(a.events[index].time, b.events[index].time);
       }
       function byKey(a, b, key) {
         if (a[key] < b[key]) {

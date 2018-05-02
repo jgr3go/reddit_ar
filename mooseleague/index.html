@@ -21,9 +21,9 @@
     <script src="https://jgr3go.github.io/reddit_ar/mooseleague/mooseleague_babel.js"></script>
     
     <title>ARTC Moose League</title>
-    <meta name="description" content="Advanced Running Track Club's Summer Track League events and standings">
-    <meta property="og:title" content="AR Moose League">
-    <meta property="og:description" content="Advanced Running Track Club's Summer Track League events and standings">
+    <meta name="description" content="ARTC's Summer Track League events and standings">
+    <meta property="og:title" content="ARTC Moose League">
+    <meta property="og:description" content="ARTC's Summer Track League events and standings">
     <meta property="og:url" content="http://www.mooseleague.com/">
 
     <link rel="icon" href="favicon.png" type="image/png">
@@ -125,7 +125,8 @@
     </script>
 
     <div style="position: fixed; bottom: 0; right: 0;" ng-if="!MC.isMobile">
-     <div style="float: right;" ng-click="MC.stopAutoplay()"><small><a href="">Turn off auto-play</a></small></div>
+     <div ng-show="MC.autoplay" style="float: right;" ng-click="MC.stopAutoplay()"><small><a href="">Turn off auto-play</a></small></div>
+     <div ng-hide="MC.autoplay" style="float: right;" ng-click="MC.startAutoplay()"><small><a href="">Turn on auto-play</a></small></div>
      <iframe width="100%" height="100" scrolling="no" frameborder="no" ng-src="{{MC.getThemeUrl()}}"></iframe>
     </div>
 
