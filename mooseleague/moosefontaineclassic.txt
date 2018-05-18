@@ -251,7 +251,7 @@ Krazyfranco | 60.6
 wittja01 | 48
 WillRunForTacos | 57.3
 zebano
-andybebad
+andybebad | 66
 PrairieFirePhoenix
 arpee | 55.7
 champjoelouis | 54
