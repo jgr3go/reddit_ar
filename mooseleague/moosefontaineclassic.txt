@@ -73,6 +73,7 @@ FlyRBFly | 45
 eattingsnowflakes | 46
 AfricanBus | 67
 snapundersteer | 49
+GooseGrewABeard | 46.9
 
 
 # Wildcard
@@ -90,6 +91,7 @@ hydro_wonk
 moongrey
 thebushleaguerunner
 2menshaving
+Yiftathashifta
 
 
 # College
@@ -132,6 +134,8 @@ forkinyourothereye | 36
 Yjjsbb | 51
 aewillia | 40
 kdwhodat | 48
+RunRoarDinosaur
+legerete_de_letre | 34
 
 
 # Boston Area ARTC (and pals)
@@ -181,6 +185,7 @@ KoffieAnon
 durunnerafc
 philipwhiuk
 FreeSoup21
+rantifarian | 47
 
 
 # Slow, Sweaty, Sloppy, Sticky Southern Heat Intensive Track-club (SSSSSHIT)
@@ -210,6 +215,8 @@ LucasTheBeard
 Almostanathlete
 Alamo91
 penchepic
+willrow
+
 
 
 # B3TC
@@ -221,6 +228,7 @@ winterspite
 nutbrownhare14
 aewillia
 sairosantos
+ChickenSedan
 
 
 # Cascadia
@@ -309,6 +317,13 @@ kkruns
 bizbup
 Mr800ftw
 Redbird15
+kitmykat | 56
+
+
+# Texas
+ju_bl
+jaylapeche | | has a cute dog
+aewillia  | | also has a cute dog
 
 =====
 # Head to Heads
@@ -320,3 +335,12 @@ OblongPlatypus
 
 OGFirenation
 Literally everyone
+
+ethos24
+anbu1538
+
+halpinator
+Mr800FTW
+
+ChickenSedan
+BowermanSnackClub
