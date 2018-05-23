@@ -64,6 +64,7 @@ sloworfast | 47
 deadc0de | 48.9
 bigdutch10 | 61.1
 SleepWouldBeNice | 53
+allxxe | 33.3
 
 
 # We're Slow Because the Air Is Thinner Up Here
@@ -136,6 +137,7 @@ aewillia | 40
 kdwhodat | 48
 RunRoarDinosaur
 legerete_de_letre | 34
+allxxe | 33.3
 
 
 # Boston Area ARTC (and pals)
@@ -308,7 +310,7 @@ bizbup
 RunRoarDinosaur
 
 
-# Division NYC
+# What just dripped on my head?
 blood_bender
 djlemma
 hollanding
