@@ -4,7 +4,7 @@ Moosefontaine Classic
 
 
 # DMV
-ChickenSedan
+ChickenSedan | | has a cute dog
 jpbronco
 thereelkanyewest
 Johngalt10
@@ -64,7 +64,7 @@ SmallEfforts | 37
 sloworfast | 47
 deadc0de | 48.9
 SleepWouldBeNice | 53
-allxxe | 33.3
+allxxe | 33.3 | has a cute dog
 
 
 # We're Slow Because the Air Is Thinner Up Here
@@ -78,14 +78,14 @@ GooseGrewABeard | 46.9
 
 
 # Wildcard
-BowermanSnackClub
-herumph
+BowermanSnackClub | | parents have cute dog
+herumph | | has a cute dog
 patrick_e
 zebano
 PrairieFirePhoenix
 kkruns
 upxc
-weimarunner
+weimarunner | | has a cute dog
 Zwiseguy15
 snapundersteer
 hydro_wonk
@@ -105,7 +105,7 @@ Chicago_Blackhawks
 AfricanBus
 Laggy4Life
 Zwiseguy15
-kmck96
+kmck96 | | has a cute dog
 anbu1538
 Mortifyinq
 ju_bl
@@ -130,18 +130,18 @@ hollanding | 40.7
 kkruns
 blushingscarlet | 48
 Zond0 | 39.2
-aribev24 | 45
+aribev24 | 45 | has a cute bear
 optimisticBrassica | 39
 FlyRBFly | 45
-espressopatronum | 47
+espressopatronum | 47 | has cute dogs
 WillRunForTacos | 57.3
 forkinyourothereye | 36
 Yjjsbb | 51
-aewillia | 40
+aewillia | 40 | has a cute dog
 kdwhodat | 48
 RunRoarDinosaur
 legerete_de_letre | 34
-allxxe | 33.3
+allxxe | 33.3 | has a cute dog
 
 
 # Boston Area ARTC (and pals)
@@ -159,9 +159,10 @@ croyd
 doderlein
 teegly | 66.8
 slowly_by_slowly
-espressopatronum
+espressopatronum | | has cute dogs
 blushingscarlet
-user_ken | 62
+user_ken | 62 | has cute dogs
+forwardbound | | is a robot
 
 
 # EUphoria
@@ -204,7 +205,7 @@ supersonic_blimp | 59
 runforestrunnn | 57
 WasatchWild | 49
 blushingscarlet | 48
-ChickenSedan | 53
+ChickenSedan | 53 | has a cute dog
 gblackwell | 42
 mortifyinq | 56
 dirkhutton | 59
@@ -229,30 +230,30 @@ willrow
 
 # B3TC
 runroardinosaur
-aribev24
+aribev24 | | has a cute bear
 ultrahobbyjogger
 eabryt
-winterspite
-nutbrownhare14
-aewillia
+winterspite | | has a cute dog
+nutbrownhare14 | | has a cute dog
+aewillia | | has a cute dog
 sairosantos
-ChickenSedan
-user_ken | 62
+ChickenSedan | | has a cute dog
+user_ken | 62 | has cute dogs
 
 
 # Cascadia
 toystory3_wasokay | 51
 tripsd | 53
 tweeeked | 60.6
-dillonpanthers33 | 52
+dillonpanthers33 | 52 | has a cute dog
 thirdmeasurement | 40
 JustDoIt-Slowly | 39
 meow203 | 33.3
-ajlark25 | 55
+ajlark25 | 55 | has a cute dog
 
 
 # Greater Pretzel Empire
-maineia
+maineia | | has a cute dog
 a-german-muffin
 madger19
 LadyOfNumbers
@@ -263,7 +264,7 @@ HobbyPlodder
 
 # Midwest
 ethos24 | 57
-weimarunner
+weimarunner | | has a cute dog
 chachi_ | 55.1
 Krazyfranco | 60.6
 wittja01 | 48
@@ -308,8 +309,8 @@ OGFireNation
 
 
 # The Olds-mobile
-brwalkernc | 54.4
-jaylapeche
+brwalkernc | 54.4 | has cute dogs
+jaylapeche | | has a cute dog
 PrairieFirePhoenix
 djlemma
 tapin42
@@ -353,7 +354,7 @@ anbu1538
 halpinator
 Mr800FTW
 
-ChickenSedan
+ChickenSedan | | has a cute dog
 BowermanSnackClub
 
 Cashewlater | 55
@@ -381,13 +382,13 @@ OGFireNation
 tweeeked
 
 OGFireNation
-ajlark25
+ajlark25 | | has a cute dog
 
 OGFireNation
 dirkhutton
 
 OGFireNation
-userken
+userken | | has cute dogs
 
 LongLegsShortShorts
 OblongPlatypus
