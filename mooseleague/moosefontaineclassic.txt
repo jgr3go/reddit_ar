@@ -22,9 +22,9 @@ j1mmah |
 j-yuteam |
 Tapin42 |
 flocculus |
-bigdutch10 |
 djlemma |
 penchepic |
+ultimateplayer44 | 
 
 
 # Mortal Hobbyjoggers
@@ -49,6 +49,7 @@ iggywing | 48
 satyagrahalife | 51
 patrick_e | 48
 SebastianCannonball | 50.5
+ChickpeaCorea | 50
 
 
 # Royal Canadian Moose Patrol
@@ -62,7 +63,6 @@ nameproduct | 62
 SmallEfforts | 37
 sloworfast | 47
 deadc0de | 48.9
-bigdutch10 | 61.1
 SleepWouldBeNice | 53
 allxxe | 33.3
 
@@ -93,6 +93,10 @@ moongrey
 thebushleaguerunner
 2menshaving
 Yiftathashifta
+JohnsAwesome
+mrsloworfast
+da-kine
+appexxd_
 
 
 # College
@@ -157,7 +161,7 @@ teegly | 66.8
 slowly_by_slowly
 espressopatronum
 blushingscarlet
-user_ken
+user_ken | 62
 
 
 # EUphoria
@@ -188,6 +192,7 @@ durunnerafc
 philipwhiuk
 FreeSoup21
 rantifarian | 47
+mrsloworfast
 
 
 # Slow, Sweaty, Sloppy, Sticky Southern Heat Intensive Track-club (SSSSSHIT)
@@ -203,6 +208,7 @@ ChickenSedan | 53
 gblackwell | 42
 mortifyinq | 56
 dirkhutton | 59
+jthomas7002 | 53
 
 
 # Brexit Meese Brexit
@@ -211,7 +217,7 @@ mdizzl_
 durunnerafc
 Qrszx
 dinosaurweasel
-jambojock
+jambojock | 56.4
 somethingnew__
 LucasTheBeard
 Almostanathlete
@@ -231,6 +237,7 @@ nutbrownhare14
 aewillia
 sairosantos
 ChickenSedan
+user_ken | 62
 
 
 # Cascadia
@@ -241,6 +248,7 @@ dillonpanthers33 | 52
 thirdmeasurement | 40
 JustDoIt-Slowly | 39
 meow203 | 33.3
+ajlark25 | 55
 
 
 # Greater Pretzel Empire
@@ -295,6 +303,8 @@ imnotwadegreeley | 58
 BreadMakesYouFast | 57
 thereelkanyewest | 60.5
 Lampzerg | 49
+Schwedderbyer | 49
+OGFireNation
 
 
 # The Olds-mobile
@@ -320,12 +330,14 @@ bizbup
 Mr800ftw
 Redbird15
 kitmykat | 56
+v2jim | 48
 
 
 # Texas
 ju_bl
 jaylapeche | | has a cute dog
-aewillia  | | also has a cute dog
+aewillia  | | has a cute dog
+supersonic_blimp
 
 =====
 # Head to Heads
@@ -335,9 +347,6 @@ OblongPlatypus
 AnonymousWritings
 OblongPlatypus
 
-OGFirenation
-Literally everyone
-
 ethos24
 anbu1538
 
@@ -346,3 +355,45 @@ Mr800FTW
 
 ChickenSedan
 BowermanSnackClub
+
+Cashewlater | 55
+GooseGrewABeard | 47
+
+OGFireNation
+da_kine
+
+OGFireNation
+anbu1538
+
+OGFireNation
+laggy4life
+
+OGFireNation
+krazyfranco
+
+OGFireNation
+supersonicblimp
+
+OGFireNation
+mr800ftw
+
+OGFireNation
+tweeeked
+
+OGFireNation
+ajlark25
+
+OGFireNation
+dirkhutton
+
+OGFireNation
+userken
+
+LongLegsShortShorts
+OblongPlatypus
+
+LongLegsShortShorts
+wardmuylaert
+
+LongLegsShortShorts
+Qrszx
