@@ -162,7 +162,6 @@ slowly_by_slowly
 espressopatronum | | has cute dogs
 blushingscarlet
 user_ken | 62 | has cute dogs
-forwardbound | | is a robot
 
 
 # EUphoria
