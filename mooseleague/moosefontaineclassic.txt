@@ -73,7 +73,7 @@ blueshirtguy13 | 49
 FlyRBFly | 45
 eattingsnowflakes | 46
 AfricanBus | 67
-snapundersteer | 49
+snapundersteer | 49 | parents have cute dogs
 GooseGrewABeard | 46.9
 
 
@@ -239,7 +239,7 @@ aewillia | | has a cute dog
 sairosantos
 ChickenSedan | | has a cute dog
 user_ken | 62 | has cute dogs
-snapundersteer
+snapundersteer | | parents have cute dogs
 
 
 # Cascadia
