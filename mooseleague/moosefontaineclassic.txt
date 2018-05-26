@@ -169,7 +169,7 @@ user_ken | 62 | has cute dogs | |
 
 # EUphoria
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
-cashewlater | | | |
+cashewlater | | | 1:23.2 | https://www.strava.com/activities/1596741217
 alamo91 | | | 1:30 | https://www.strava.com/activities/1591608497
 Almostanathlete | | | 1:29.1 | https://www.strava.com/activities/1596489355
 chalexdv | | | 1:52.0 | https://www.strava.com/activities/1596649875
@@ -363,7 +363,7 @@ Mr800FTW | | | 1:14.56 | [https://www.strava.com/activities/1596979683](https://
 ChickenSedan | | has a cute dog | |
 BowermanSnackClub | | | |
 
-Cashewlater | 55 | | |
+Cashewlater | 55 | | 1:23.2 | https://www.strava.com/activities/1596741217
 GooseGrewABeard | 47 | | 1:36.8 | https://www.strava.com/activities/1595888898
 
 OGFireNation | | | 1:24.99 |
