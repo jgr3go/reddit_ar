@@ -151,7 +151,7 @@ Allysaurus_Rex | 37.5 | | 2:05.6 | [https://www.strava.com/activities/1596755434
 bluemostboth | | | |
 zond0 | | | 1:47 | https://www.strava.com/activities/1597165776
 j1mmah | 49.3 | | 1:31 |
-ultrahobbyjogger | | | |
+ultrahobbyjogger | | | 1:23 | https://www.strava.com
 chrispyb | | | |
 screwbuharvard2 | | | |
 zwingtip | | | |
@@ -234,7 +234,7 @@ willrow | | | |
 # B3TC
 runroardinosaur | | | |
 aribev24 | | has a cute bear | 1:38 | https://www.strava.com/activities/1597039971
-ultrahobbyjogger | | | |
+ultrahobbyjogger | | | 1:23 | https://www.strava.com
 eabryt | | | 1:19.9 | https://www.strava.com/activities/1597019403
 winterspite | | has a cute dog | 1:27 | https://www.strava.com/activities/1597582632/
 nutbrownhare14 | | has a cute dog | |
