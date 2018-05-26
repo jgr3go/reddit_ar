@@ -75,7 +75,7 @@ FlyRBFly | 45 | | |
 eattingsnowflakes | 46 | | |
 AfricanBus | 67 | | |
 snapundersteer | 49 | parents have cute dogs | |
-GooseGrewABeard | 46.9 | | 1:36.8 | https://www.strava.com/activities/1596489355
+GooseGrewABeard | 46.9 | | 1:36.8 | [https://www.strava.com/activities/1597385074](https://www.strava.com/activities/1597385074)
 
 
 # Wildcard
@@ -83,10 +83,10 @@ BowermanSnackClub | | parents have cute dog | |
 herumph | | | |
 patrick_e | | | |
 zebano | | | |
-PrairieFirePhoenix | | | 1:27.68 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-us&v=1527351606
+PrairieFirePhoenix | | | 1:27.68 | https://www.strava.com/activities/1597369935
 kkruns | | | |
 upxc | | | |
-weimarunner | | has a cute dog | 1:44.03 | [https://www.strava.com/activities/1597385074](https://www.strava.com/activities/1597385074)
+weimarunner | | has a cute dog | 1:44.03 | https://www.strava.com/activities/1597489253
 Zwiseguy15 | | | |
 snapundersteer | | | |
 hydro_wonk | | | |
@@ -98,7 +98,7 @@ JohnsAwesome | | | |
 mrsloworfast | | | 1:29 | https://www.strava.com/activities/1591608497
 da-kine | | | |
 appexxd_ | | | |
-Nony2 | | | 1:20.3 | https://www.strava.com/activities/1591608497
+Nony2 | | | 1:20.3 | [https://www.strava.com/activities/1596755434](https://www.strava.com/activities/1596755434)
 
 
 # College
@@ -126,7 +126,7 @@ chalexdv | 44 | | 1:52.0 | https://www.strava.com/activities/1596649875
 sloworfast | 47 | | 1:46 |
 meow203 | 33.3 | | |
 gelvina | 45 | | |
-ahf0913 | 36 | | |
+ahf0913 | 36 | | 2:34 | https://www.strava.com/activities/1597328387
 LadyOfNumbers | 47.8 | | |
 hollanding | 40.7 | | |
 kkruns | | | |
@@ -137,7 +137,7 @@ optimisticBrassica | 39 | | |
 FlyRBFly | 45 | | |
 espressopatronum | 47 | has cute dogs | |
 WillRunForTacos | 57.3 | | |
-forkinyourothereye | 36 | | |
+forkinyourothereye | 36 | | 2:11 |
 Yjjsbb | 51 | | |
 aewillia | 40 | has a cute dog | |
 kdwhodat | 48 | | |
@@ -161,7 +161,7 @@ ehMac26 | | | |
 croyd | | | |
 doderlein | | | |
 teegly | 66.8 | | |
-slowly_by_slowly | | | |
+slowly_by_slowly | | | 1:28.4 | https://www.strava.com/activities/1597406386
 espressopatronum | | has cute dogs | |
 blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
 user_ken | 62 | has cute dogs | |
@@ -170,7 +170,7 @@ user_ken | 62 | has cute dogs | |
 # EUphoria
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 cashewlater | | | |
-alamo91 | | | 1:30 | https://www.strava.com/activities/1596489355
+alamo91 | | | 1:30 | https://www.strava.com/activities/1596713441
 Almostanathlete | | | 1:29.1 | https://www.strava.com/activities/1596603445
 chalexdv | | | 1:52.0 | https://www.strava.com/activities/1596649875
 ao12 | | | 1:34.66 | https://www.strava.com/activities/1595544832/
@@ -189,7 +189,7 @@ DrGruselglatz | | | |
 willrow | | | |
 mdizzl_ | | | 1:47.5 |
 jdmg718 | | | |
-pablitoneal | | | 1:27 | https://www.strava.com/activities/1596713441
+pablitoneal | | | 1:27 | https://www.strava.com/activities/1591608497
 KoffieAnon | | | |
 durunnerafc | | | 1:22.78 |
 philipwhiuk | | | |
@@ -203,7 +203,7 @@ bleuxmas | 44.5 | | 1:53.20 | https://www.strava.com/activities/1591608497
 sleepyhouse9 | 43.9 | | |
 yo_viola | 50.9 | | |
 mamsorris1 | 54 | | |
-supersonic_blimp | 59 | | |
+supersonic_blimp | 59 | | 1:21.6 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-us&v=1527351606
 runforestrunnn | 57 | | |
 WasatchWild | 49 | | |
 blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
@@ -225,7 +225,7 @@ jambojock | 56.4 | | |
 somethingnew__ | | | 1:32 | https://www.strava.com/activities/1596805237
 LucasTheBeard | | | 1:39.0 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 Almostanathlete | | | 1:29.1 | https://www.strava.com/activities/1596603445
-Alamo91 | | | 1:30 | https://www.strava.com/activities/1596489355
+Alamo91 | | | 1:30 | https://www.strava.com/activities/1596713441
 penchepic | | | |
 willrow | | | |
 
@@ -269,14 +269,14 @@ HobbyPlodder | | | |
 
 # Midwest
 ethos24 | 57 | | 1:21:36 | https://www.strava.com/activities/1596603445
-weimarunner | | has a cute dog | 1:44.03 | [https://www.strava.com/activities/1597385074](https://www.strava.com/activities/1597385074)
+weimarunner | | has a cute dog | 1:44.03 | https://www.strava.com/activities/1597489253
 chachi_ | 55.1 | | 1:26 | https://www.strava.com/activities/1597406386
 Krazyfranco | 60.6 | | 1:28 | https://www.strava.com/activities/1596743159
 wittja01 | 48 | | |
 WillRunForTacos | 57.3 | | |
 zebano | | | |
 andybebad | 66 | | |
-PrairieFirePhoenix | | | 1:27.68 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-us&v=1527351606
+PrairieFirePhoenix | | | 1:27.68 | https://www.strava.com/activities/1597369935
 arpee | 55.7 | | 1:17.7 | https://www.strava.com/activities/1597063653
 champjoelouis | 54 | | |
 Fsus2 | 51.5 | | 1:25 | https://www.strava.com/activities/1596989373
@@ -303,20 +303,20 @@ pencilomatic | 51 | | 2:12 | https://www.strava.com/activities/1597328387
 llimllib | 57.5 | | |
 TheSpielvogel | 59.6 | | |
 Reference_Obscure | 57 | | |
-GooseGrewABeard | | | 1:36.8 | https://www.strava.com/activities/1596489355
+GooseGrewABeard | | | 1:36.8 | [https://www.strava.com/activities/1597385074](https://www.strava.com/activities/1597385074)
 anbu1538 | 63 | | 1:11.14 |
 imnotwadegreeley | 58 | | 1:17.6 | https://www.strava.com/activities/1596818008
 BreadMakesYouFast | 57 | | |
 thereelkanyewest | 60.5 | | |
 Lampzerg | 49 | | |
-Schwedderbyer | 49 | | 1:24.5 | https://www.strava.com/activities/1596713441
+Schwedderbyer | 49 | | 1:24.5 | https://www.strava.com/activities/1596603445
 OGFireNation | | | 1:24.99 |
 
 
 # The Olds-mobile
 brwalkernc | 54.4 | has cute dogs | |
 jaylapeche | | has a cute dog | |
-PrairieFirePhoenix | | | 1:27.68 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-us&v=1527351606
+PrairieFirePhoenix | | | 1:27.68 | https://www.strava.com/activities/1597369935
 djlemma | | | |
 tapin42 | | | 1:35.77 | https://www.strava.com/activities/1595888898
 White_Lobster | | | |
@@ -343,7 +343,7 @@ v2jim | 48 | | |
 ju_bl | | | 1:23.57 | [https://www.strava.com/activities/1596755434](https://www.strava.com/activities/1596755434)
 jaylapeche | | has a cute dog | |
 aewillia  | | has a cute dog | |
-supersonic_blimp | | | |
+supersonic_blimp | | | 1:21.6 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-us&v=1527351606
 CaptKriket | 55.8 | | |
 
 =====
@@ -364,7 +364,7 @@ ChickenSedan | | has a cute dog | |
 BowermanSnackClub | | | |
 
 Cashewlater | 55 | | |
-GooseGrewABeard | 47 | | 1:36.8 | https://www.strava.com/activities/1596489355
+GooseGrewABeard | 47 | | 1:36.8 | [https://www.strava.com/activities/1597385074](https://www.strava.com/activities/1597385074)
 
 OGFireNation | | | 1:24.99 |
 da_kine | | | |
