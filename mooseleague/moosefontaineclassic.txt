@@ -57,7 +57,7 @@ ChickpeaCorea | 50 | | |
 True_North_Strong | 53.7 | | |
 RIGHT_THURR | 55 | | |
 halpinator | 55 | | |
-AnonymousWritings | 52.2 | | |
+AnonymousWritings | 52.2 | | 1:29.8 | 1
 SwissPancake | 48.7 | | |
 cabusto | 53 | | |
 nameproduct | 62 | | |
@@ -109,7 +109,7 @@ Laggy4Life | | | |
 Zwiseguy15 | | | |
 kmck96 | | has a cute dog | |
 anbu1538 | | | |
-Mortifyinq | | | |
+Mortifyinq | | | 1:23.50 | [https://www.strava.com/activities/1594680983](https://www.strava.com/activities/1594680983)
 ju_bl | | | |
 sonofdoherty | | | |
 DrGruselglatz | | | |
@@ -209,7 +209,7 @@ WasatchWild | 49 | | |
 blushingscarlet | 48 | | |
 ChickenSedan | 53 | has a cute dog | |
 gblackwell | 42 | | |
-mortifyinq | 56 | | |
+mortifyinq | 56 | | 1:23.50 | [https://www.strava.com/activities/1594680983](https://www.strava.com/activities/1594680983)
 dirkhutton | 59 | | |
 jthomas7002 | 53 | | |
 CaptKriket | 55.8 | | |
@@ -267,7 +267,7 @@ tiedtoamelody | | | |
 HobbyPlodder | | | |
 
 # Midwest
-ethos24 | 57 | | |
+ethos24 | 57 | | [1:21:36](https://www.strava.com/activities/1596603445). | 1
 weimarunner | | has a cute dog | |
 chachi_ | 55.1 | | |
 Krazyfranco | 60.6 | | 1:28 | https://www.strava.com/activities/1596743159
@@ -350,10 +350,10 @@ CaptKriket | 55.8 | | |
 espegri | | | |
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 
-AnonymousWritings | | | |
+AnonymousWritings | | | 1:29.8 | 1
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 
-ethos24 | | | |
+ethos24 | | | [1:21:36](https://www.strava.com/activities/1596603445). | 1
 anbu1538 | | | |
 
 halpinator | | | |
