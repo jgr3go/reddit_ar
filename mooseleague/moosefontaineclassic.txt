@@ -41,12 +41,12 @@ batosz91 | 48 | | 1:31 | https://www.strava.com/activities/1598032754
 pencilomatic | 51 | | 2:12 |
 somethingnew__ | 51 | | 1:32 |
 j-yuteam | 50 | | |
-toystory3_wasokay | 51 | | |
+toystory3_wasokay | 51 | | 2:06 | [strava](https://www.strava.com/activities/1597590214#kudos)
 deadc0de | 48.9 | | |
 jibasaur | 51.7 | | |
 yjjsbb | 51 | | |
 mdizzl_ | 50.5 | | 1:47.5 |
-iggywing | 48 | | 1:32.62 | https://www.strava.com/activities/1597227395 https://www.youtube.com/watch?v=dqw4w9wgxcq
+iggywing | 48 | | 1:32.62 | https://www.strava.com/activities/1597227395 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 satyagrahalife | 51 | | |
 patrick_e | 48 | | |
 SebastianCannonball | 50.5 | | |
@@ -110,7 +110,7 @@ Zwiseguy15 | | | |
 kmck96 | | has a cute dog | |
 anbu1538 | | | 1:11.14 |
 Mortifyinq | | | 1:23.50 | https://www.strava.com/activities/1594680983
-ju_bl | | | 1:23.57 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-us&v=1527351606
+ju_bl | | | 1:23.57 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-US&v=1527351606
 sonofdoherty | | | 1:24.7 | [https://www.strava.com/activities/1595083424](https://www.strava.com/activities/1595083424)
 DrGruselglatz | | | |
 
@@ -155,7 +155,7 @@ ultrahobbyjogger | | | 1:23 | https://www.strava.com
 chrispyb | | | |
 screwbuharvard2 | | | |
 zwingtip | | | |
-iggywing | | | 1:32.62 | https://www.strava.com/activities/1597227395 https://www.youtube.com/watch?v=dqw4w9wgxcq
+iggywing | | | 1:32.62 | https://www.strava.com/activities/1597227395 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 flocculus | | | 1:41.71 |
 ehMac26 | | | 1:37 | strava.com/activities/1596972564
 croyd | | | |
@@ -193,7 +193,7 @@ pablitoneal | | | 1:27 | https://www.strava.com/activities/1596209772
 KoffieAnon | | | |
 durunnerafc | | | 1:22.78 |
 philipwhiuk | | | |
-FreeSoup21 | | | 1.15.52 | https://www.youtube.com/watch?v=o2ebzmxozvm
+FreeSoup21 | | | 1.15.52 | https://www.youtube.com/watch?v=O2EbzmXozvM
 rantifarian | 47 | | |
 mrsloworfast | | | 1:29 |
 
@@ -203,7 +203,7 @@ bleuxmas | 44.5 | | 1:53.20 |
 sleepyhouse9 | 43.9 | | |
 yo_viola | 50.9 | | |
 mamsorris1 | 54 | | |
-supersonic_blimp | 59 | | 1:21.6 | https://www.strava.com/activities/1594069596 https://www.youtube.com/watch?v=nslyxvgj0i0
+supersonic_blimp | 59 | | 1:21.6 | https://www.strava.com/activities/1594069596 https://www.youtube.com/watch?v=nSLyXVGj0I0
 runforestrunnn | 57 | | |
 WasatchWild | 49 | | |
 blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
@@ -247,7 +247,7 @@ blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](h
 
 
 # Cascadia
-toystory3_wasokay | 51 | | |
+toystory3_wasokay | 51 | | 2:06 | [strava](https://www.strava.com/activities/1597590214#kudos)
 tripsd | 53 | | 1:43:75 | https://www.strava.com/activities/1597752103
 tweeeked | 60.6 | | |
 dillonpanthers33 | 52 | has a cute dog | 1:30.4 | [https://www.strava.com/activities/1597951700](https://www.strava.com/activities/1597951700)
@@ -289,7 +289,7 @@ Worlds_Biggest_Troll | 65 | | |
 trialofmilesoftrials | 60 | | 1:28.8 | https://www.strava.com/activities/1592029923
 JimboPeanuts | 59 | | |
 rnr_ | 55 | | 1:36 | [https://www.strava.com/activities/1598004689](https://www.strava.com/activities/1598004689)
-PartyDown22 | 58 | | 1:15.25 | [https://www.youtube.com/watch?v=5rvyjpocksg](https://www.youtube.com/watch?v=5rvyjpocksg)
+PartyDown22 | 58 | | 1:15.25 | [https://www.youtube.com/watch?v=5rvYJpOCKsg](https://www.youtube.com/watch?v=5rvYJpOCKsg)
 bwilly22 | 59.7 | | 1:26.60 | https://www.strava.com/activities/1597040283
 copperpine | 54 | | 1:34 | https://www.strava.com/activities/1596805237
 jibasaur | 51.7 | | |
@@ -340,10 +340,10 @@ v2jim | 48 | | 1:46:92 |
 
 
 # Texas
-ju_bl | | | 1:23.57 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-us&v=1527351606
+ju_bl | | | 1:23.57 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-US&v=1527351606
 jaylapeche | | has a cute dog | |
 aewillia  | | has a cute dog | |
-supersonic_blimp | | | 1:21.6 | https://www.strava.com/activities/1594069596 https://www.youtube.com/watch?v=nslyxvgj0i0
+supersonic_blimp | | | 1:21.6 | https://www.strava.com/activities/1594069596 https://www.youtube.com/watch?v=nSLyXVGj0I0
 CaptKriket | 55.8 | | 1:26 | https://www.strava.com/activities/1597243818
 
 =====
