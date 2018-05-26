@@ -86,7 +86,7 @@ zebano | | | |
 PrairieFirePhoenix | | | 1:27.68 | [https://www.strava.com/activities/1591651961](https://www.strava.com/activities/1591651961)
 kkruns | | | |
 upxc | | | |
-weimarunner | | has a cute dog | 1:44.03 | https://www.strava.com/activities/1597328387
+weimarunner | | has a cute dog | 1:44.03 | https://www.strava.com/activities/1596489355
 Zwiseguy15 | | | |
 snapundersteer | | | 1:17:95 | https://www.strava.com/activities/1595888898
 hydro_wonk | | | |
@@ -161,7 +161,7 @@ ehMac26 | | | |
 croyd | | | |
 doderlein | | | |
 teegly | 66.8 | | |
-slowly_by_slowly | | | 1:28.4 | https://www.strava.com/activities/1597369935
+slowly_by_slowly | | | 1:28.4 | https://www.strava.com/activities/1597406386
 espressopatronum | | has cute dogs | |
 blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
 user_ken | 62 | has cute dogs | |
@@ -269,8 +269,8 @@ HobbyPlodder | | | |
 
 # Midwest
 ethos24 | 57 | | 1:21:36 | https://www.strava.com/activities/1597039971
-weimarunner | | has a cute dog | 1:44.03 | https://www.strava.com/activities/1597328387
-chachi_ | 55.1 | | 1:26 | https://www.strava.com/activities/1596489355
+weimarunner | | has a cute dog | 1:44.03 | https://www.strava.com/activities/1596489355
+chachi_ | 55.1 | | 1:26 | https://www.strava.com/activities/1597369935
 Krazyfranco | 60.6 | | 1:28 | https://www.strava.com/activities/1596743159
 wittja01 | 48 | | |
 WillRunForTacos | 57.3 | | |
