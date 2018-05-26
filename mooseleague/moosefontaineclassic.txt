@@ -56,7 +56,7 @@ ChickpeaCorea | 50 | | |
 # Royal Canadian Moose Patrol
 True_North_Strong | 53.7 | | |
 RIGHT_THURR | 55 | | |
-halpinator | 55 | | |
+halpinator | 55 | | 1:24 | https://www.strava.com/activities/1580751337
 AnonymousWritings | 52.2 | | 1:29.8 |
 SwissPancake | 48.7 | | |
 cabusto | 53 | | |
@@ -176,7 +176,7 @@ chalexdv | | | 1:52.0 | https://www.strava.com/activities/1596649875
 ao12 | | | 1:34.66 | https://www.strava.com/activities/1595544832/
 Aynophae | | | 1:19 | https://www.strava.com/activities/1596282831
 LongLegsShortShorts | | | |
-lucasthebeard | | | |
+lucasthebeard | | | 1:39.0 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 espegri | | | |
 dinosaurweasel | | | |
 sloworfast | | | |
@@ -193,7 +193,7 @@ pablitoneal | | | |
 KoffieAnon | | | |
 durunnerafc | | | 1:22.78 |
 philipwhiuk | | | |
-FreeSoup21 | | | |
+FreeSoup21 | | | 1.15.52 | https://www.youtube.com/watch?v=o2ebzmxozvm
 rantifarian | 47 | | |
 mrsloworfast | | | |
 
@@ -223,7 +223,7 @@ Qrszx | | | 1:31.9 | https://www.strava.com/activities/1595592775
 dinosaurweasel | | | |
 jambojock | 56.4 | | |
 somethingnew__ | | | 1:32 |
-LucasTheBeard | | | |
+LucasTheBeard | | | 1:39.0 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 Almostanathlete | | | |
 Alamo91 | | | |
 penchepic | | | |
@@ -308,7 +308,7 @@ imnotwadegreeley | 58 | | |
 BreadMakesYouFast | 57 | | |
 thereelkanyewest | 60.5 | | |
 Lampzerg | 49 | | |
-Schwedderbyer | 49 | | |
+Schwedderbyer | 49 | | 1:24.5 | https://www.strava.com/activities/1596713441
 OGFireNation | | | 1:24.99 |
 
 
@@ -356,7 +356,7 @@ OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 ethos24 | | | 1:21:36 | https://www.strava.com/activities/1596603445
 anbu1538 | | | |
 
-halpinator | | | |
+halpinator | | | 1:24 | https://www.strava.com/activities/1580751337
 Mr800FTW | | | 1:14.56 | [https://www.strava.com/activities/1596979683](https://www.strava.com/activities/1596979683)
 
 ChickenSedan | | has a cute dog | |
