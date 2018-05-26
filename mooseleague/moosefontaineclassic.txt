@@ -105,7 +105,7 @@ Nony2 | | | 1:20.3 | https://www.strava.com/activities/1596805237
 trialofmilesoftrials | | | 1:28.8 | https://www.strava.com/activities/1592029923
 Chicago_Blackhawks | | | |
 AfricanBus | | | |
-Laggy4Life | | | |
+Laggy4Life | | | 1:18.7 | https://www.strava.com/activities/1597729582
 Zwiseguy15 | | | |
 kmck96 | | has a cute dog | |
 anbu1538 | | | 1:11.14 |
@@ -130,7 +130,7 @@ ahf0913 | 36 | | 2:34 | https://www.strava.com/activities/1597328387
 LadyOfNumbers | 47.8 | | |
 hollanding | 40.7 | | |
 kkruns | | | |
-blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
+blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 Zond0 | 39.2 | | 1:47 | https://www.strava.com/activities/1597165776
 aribev24 | 45 | has a cute bear | 1:38 | https://www.strava.com/activities/1597461018
 optimisticBrassica | 39 | | |
@@ -163,7 +163,7 @@ doderlein | | | |
 teegly | 66.8 | | |
 slowly_by_slowly | | | 1:28.4 | https://www.strava.com/activities/1597406386
 espressopatronum | | has cute dogs | |
-blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
+blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 user_ken | 62 | has cute dogs | |
 
 
@@ -199,14 +199,14 @@ mrsloworfast | | | 1:29 | https://www.strava.com/activities/1591608497
 
 
 # Slow, Sweaty, Sloppy, Sticky Southern Heat Intensive Track-club (SSSSSHIT)
-bleuxmas | 44.5 | | 1:53.20 | https://www.strava.com/activities/1591608497
+bleuxmas | 44.5 | | 1:53.20 | https://www.strava.com/activities/1597138407
 sleepyhouse9 | 43.9 | | |
 yo_viola | 50.9 | | |
 mamsorris1 | 54 | | |
 supersonic_blimp | 59 | | 1:21.6 | https://www.strava.com/activities/1597328387
 runforestrunnn | 57 | | |
 WasatchWild | 49 | | |
-blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
+blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 ChickenSedan | 53 | has a cute dog | |
 gblackwell | 42 | | |
 mortifyinq | 56 | | 1:23.50 | https://www.strava.com/activities/1596603445
@@ -243,7 +243,7 @@ sairosantos | | | |
 ChickenSedan | | has a cute dog | |
 user_ken | 62 | has cute dogs | |
 snapundersteer | | parents have cute dogs | 1:17:95 | https://www.strava.com/activities/1595888898
-blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
+blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 
 
 # Cascadia
@@ -264,7 +264,7 @@ madger19 | | | 1:53 | https://www.strava.com/activities/1591937014
 LadyOfNumbers | | | |
 MadMennonite | | | |
 wardmuylaert | | | 1:33 | https://www.strava.com/activities/1596291477/
-tiedtoamelody | | | 1:53.6 | [https://www.strava.com/activities/1597021866#kudos](https://www.strava.com/activities/1597021866#kudos)
+tiedtoamelody | | | 1:53.6 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
 HobbyPlodder | | | |
 
 # Midwest
@@ -327,7 +327,7 @@ RunRoarDinosaur | | | |
 
 
 # What just dripped on my head?
-blood_bender | | | 1:30 | https://www.strava.com/activities/1597138407
+blood_bender | | | 1:30 | [https://www.strava.com/activities/1597021866#kudos](https://www.strava.com/activities/1597021866#kudos)
 djlemma | | | |
 hollanding | | | |
 xalechim | | | 1:26.2 | https://www.strava.com/activities/1596796727
@@ -373,7 +373,7 @@ OGFireNation | | | 1:24.99 |
 anbu1538 | | | 1:11.14 |
 
 OGFireNation | | | 1:24.99 |
-laggy4life | | | |
+laggy4life | | | 1:18.7 | https://www.strava.com/activities/1597729582
 
 OGFireNation | | | 1:24.99 |
 krazyfranco | | | 1:28 | https://www.strava.com/activities/1596743159
