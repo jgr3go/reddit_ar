@@ -122,7 +122,7 @@ kaaaazzh | 45 | | |
 SmallEfforts | 37 | | |
 SnowflakeRunner | 45.5 | | |
 madger19 | 46 | | |
-chalexdv | 44 | | |
+chalexdv | 44 | | 1:52.0 | https://www.strava.com/activities/1596649875
 sloworfast | 47 | | |
 meow203 | 33.3 | | |
 gelvina | 45 | | |
@@ -172,7 +172,7 @@ OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 cashewlater | | | |
 alamo91 | | | |
 Almostanathlete | | | |
-chalexdv | | | |
+chalexdv | | | 1:52.0 | https://www.strava.com/activities/1596649875
 ao12 | | | |
 Aynophae | | | 1:19 | https://www.strava.com/activities/1596282831
 LongLegsShortShorts | | | |
