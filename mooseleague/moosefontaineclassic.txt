@@ -32,7 +32,7 @@ robercha001 | | | |
 LongLegsShortShorts | 50.5 | | |
 zebano |  | | |
 Qrszx | 47.6 | | 1:31.9 | https://www.strava.com/activities/1595592775
-wardmuylaert | | | |
+wardmuylaert | | | 1:33 | https://www.strava.com/activities/1591398764
 OblongPlatypus | 51 | | 1:30 | https://www.strava.com/activities/1596291477/
 blueshirtguy13 | 49 | | |
 SwissPance | 48.7 | | |
@@ -109,7 +109,7 @@ Laggy4Life | | | |
 Zwiseguy15 | | | |
 kmck96 | | has a cute dog | |
 anbu1538 | | | |
-Mortifyinq | | | 1:23.50 | [https://www.strava.com/activities/1594680983](https://www.strava.com/activities/1594680983)
+Mortifyinq | | | 1:23.50 | https://www.strava.com/activities/1594680983
 ju_bl | | | |
 sonofdoherty | | | |
 DrGruselglatz | | | |
@@ -184,7 +184,7 @@ Grandmasfavourite | | | |
 qrszx | | | 1:31.9 | https://www.strava.com/activities/1595592775
 dieeasysteve | | | |
 addicted_to_coffee | | | |
-wardmuylaert | | | |
+wardmuylaert | | | 1:33 | https://www.strava.com/activities/1591398764
 DrGruselglatz | | | |
 willrow | | | |
 mdizzl_ | | | |
@@ -209,7 +209,7 @@ WasatchWild | 49 | | |
 blushingscarlet | 48 | | |
 ChickenSedan | 53 | has a cute dog | |
 gblackwell | 42 | | |
-mortifyinq | 56 | | 1:23.50 | [https://www.strava.com/activities/1594680983](https://www.strava.com/activities/1594680983)
+mortifyinq | 56 | | 1:23.50 | https://www.strava.com/activities/1594680983
 dirkhutton | 59 | | |
 jthomas7002 | 53 | | |
 CaptKriket | 55.8 | | |
@@ -262,12 +262,12 @@ a-german-muffin | | | |
 madger19 | | | |
 LadyOfNumbers | | | |
 MadMennonite | | | |
-wardmuylaert | | | |
+wardmuylaert | | | 1:33 | https://www.strava.com/activities/1591398764
 tiedtoamelody | | | |
 HobbyPlodder | | | |
 
 # Midwest
-ethos24 | 57 | | |
+ethos24 | 57 | | 1:21:36 | https://www.strava.com/activities/1596603445
 weimarunner | | has a cute dog | |
 chachi_ | 55.1 | | |
 Krazyfranco | 60.6 | | 1:28 | https://www.strava.com/activities/1596743159
@@ -353,7 +353,7 @@ OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 AnonymousWritings | | | 1:29.8 |
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 
-ethos24 | | | |
+ethos24 | | | 1:21:36 | https://www.strava.com/activities/1596603445
 anbu1538 | | | |
 
 halpinator | | | |
@@ -399,7 +399,7 @@ LongLegsShortShorts | | | |
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 
 LongLegsShortShorts | | | |
-wardmuylaert | | | |
+wardmuylaert | | | 1:33 | https://www.strava.com/activities/1591398764
 
 LongLegsShortShorts | | | |
 Qrszx | | | 1:31.9 | https://www.strava.com/activities/1595592775
