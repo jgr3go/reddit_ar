@@ -46,7 +46,7 @@ deadc0de | 48.9 | | |
 jibasaur | 51.7 | | |
 yjjsbb | 51 | | |
 mdizzl_ | 50.5 | | 1:47.5 |
-iggywing | 48 | | 1:32.62 |
+iggywing | 48 | | 1:32.62 | https://www.strava.com/activities/1597227395 https://www.youtube.com/watch?v=dqw4w9wgxcq
 satyagrahalife | 51 | | |
 patrick_e | 48 | | |
 SebastianCannonball | 50.5 | | |
@@ -130,8 +130,8 @@ ahf0913 | 36 | | |
 LadyOfNumbers | 47.8 | | |
 hollanding | 40.7 | | |
 kkruns | | | |
-blushingscarlet | 48 | | 1:33.59 | https://www.strava.com/activities/1591608497
-Zond0 | 39.2 | | |
+blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
+Zond0 | 39.2 | | 1:47 |
 aribev24 | 45 | has a cute bear | 1:38 | https://www.strava.com/activities/1597039971
 optimisticBrassica | 39 | | |
 FlyRBFly | 45 | | |
@@ -149,13 +149,13 @@ Allysaurus Rex | 37.5 | | |
 
 # Boston Area ARTC (and pals)
 bluemostboth | | | |
-zond0 | | | |
+zond0 | | | 1:47 |
 j1mmah | 49.3 | | |
 ultrahobbyjogger | | | |
 chrispyb | | | |
 screwbuharvard2 | | | |
 zwingtip | | | |
-iggywing | | | 1:32.62 |
+iggywing | | | 1:32.62 | https://www.strava.com/activities/1597227395 https://www.youtube.com/watch?v=dqw4w9wgxcq
 flocculus | | | |
 ehMac26 | | | |
 croyd | | | |
@@ -163,7 +163,7 @@ doderlein | | | |
 teegly | 66.8 | | |
 slowly_by_slowly | | | |
 espressopatronum | | has cute dogs | |
-blushingscarlet | | | 1:33.59 | https://www.strava.com/activities/1591608497
+blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
 user_ken | 62 | has cute dogs | |
 
 
@@ -206,7 +206,7 @@ mamsorris1 | 54 | | |
 supersonic_blimp | 59 | | |
 runforestrunnn | 57 | | |
 WasatchWild | 49 | | |
-blushingscarlet | 48 | | 1:33.59 | https://www.strava.com/activities/1591608497
+blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
 ChickenSedan | 53 | has a cute dog | |
 gblackwell | 42 | | |
 mortifyinq | 56 | | 1:23.50 | https://www.strava.com/activities/1594680983
@@ -243,7 +243,7 @@ sairosantos | | | |
 ChickenSedan | | has a cute dog | |
 user_ken | 62 | has cute dogs | |
 snapundersteer | | parents have cute dogs | |
-blushingscarlet | | | 1:33.59 | https://www.strava.com/activities/1591608497
+blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
 
 
 # Cascadia
@@ -264,7 +264,7 @@ madger19 | | | 1:53 | https://www.strava.com/activities/1596796727
 LadyOfNumbers | | | |
 MadMennonite | | | |
 wardmuylaert | | | 1:33 | https://www.strava.com/activities/1591398764
-tiedtoamelody | | | |
+tiedtoamelody | | | 1:53.6 | https://www.strava.com/activities/1597020735
 HobbyPlodder | | | |
 
 # Midwest
@@ -327,10 +327,10 @@ RunRoarDinosaur | | | |
 
 
 # What just dripped on my head?
-blood_bender | | | |
+blood_bender | | | 1:30 |
 djlemma | | | |
 hollanding | | | |
-xalechim | | | 1:26.2 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
+xalechim | | | 1:26.2 | https://www.strava.com/activities/1591608497
 kkruns | | | |
 bizbup | | | |
 Mr800ftw | | | 1:14.56 | [https://www.strava.com/activities/1596979683](https://www.strava.com/activities/1596979683)
