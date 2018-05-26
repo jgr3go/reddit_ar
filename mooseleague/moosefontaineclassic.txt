@@ -75,7 +75,7 @@ FlyRBFly | 45 | | |
 eattingsnowflakes | 46 | | |
 AfricanBus | 67 | | |
 snapundersteer | 49 | parents have cute dogs | |
-GooseGrewABeard | 46.9 | | 1:36.8 | https://www.strava.com/activities/1595888898
+GooseGrewABeard | 46.9 | | 1:36.8 | https://www.strava.com/activities/1591608497
 
 
 # Wildcard
@@ -98,7 +98,7 @@ JohnsAwesome | | | |
 mrsloworfast | | | 1:29 | https://www.strava.com/activities/1591608497
 da-kine | | | |
 appexxd_ | | | |
-Nony2 | | | 1:20.3 |
+Nony2 | | | 1:20.3 | https://www.strava.com/activities/1595888898
 
 
 # College
@@ -251,7 +251,7 @@ toystory3_wasokay | 51 | | |
 tripsd | 53 | | |
 tweeeked | 60.6 | | |
 dillonpanthers33 | 52 | has a cute dog | |
-thirdmeasurement | 40 | | |
+thirdmeasurement | 40 | | 1:58 |
 JustDoIt-Slowly | 39 | | |
 meow203 | 33.3 | | |
 ajlark25 | 55 | has a cute dog | |
@@ -303,7 +303,7 @@ pencilomatic | 51 | | |
 llimllib | 57.5 | | |
 TheSpielvogel | 59.6 | | |
 Reference_Obscure | 57 | | |
-GooseGrewABeard | | | 1:36.8 | https://www.strava.com/activities/1595888898
+GooseGrewABeard | | | 1:36.8 | https://www.strava.com/activities/1591608497
 anbu1538 | 63 | | 1:11.14 |
 imnotwadegreeley | 58 | | 1:17.6 | https://www.strava.com/activities/1596818008
 BreadMakesYouFast | 57 | | |
@@ -364,7 +364,7 @@ ChickenSedan | | has a cute dog | |
 BowermanSnackClub | | | |
 
 Cashewlater | 55 | | |
-GooseGrewABeard | 47 | | 1:36.8 | https://www.strava.com/activities/1595888898
+GooseGrewABeard | 47 | | 1:36.8 | https://www.strava.com/activities/1591608497
 
 OGFireNation | | | 1:24.99 |
 da_kine | | | |
