@@ -18,7 +18,7 @@ Belikepre | | | |
 # Dirty Triathletes
 Almostanathlete | | | 1:29.1 | https://www.strava.com/activities/1596713441
 sloworfast | | | 1:46 |
-j1mmah | | | |
+j1mmah | | | 1:31 | https://www.strava.com/activities/1597243818
 j-yuteam | | | |
 Tapin42 | | | 1:35.77 | [https://www.strava.com/activities/1591651961](https://www.strava.com/activities/1591651961)
 flocculus | | | 1:41.71 | https://www.strava.com/activities/1594069596 https://www.youtube.com/watch?v=nslyxvgj0i0
@@ -29,7 +29,7 @@ robercha001 | | | |
 
 
 # Mortal Hobbyjoggers
-LongLegsShortShorts | 50.5 | | |
+LongLegsShortShorts | 50.5 | | 1:23 | https://www.strava.com/activities/1597752103
 zebano |  | | |
 Qrszx | 47.6 | | 1:31.9 | https://www.strava.com/activities/1597461018
 wardmuylaert | | | 1:33 | https://www.strava.com/activities/1596291477/
@@ -150,7 +150,7 @@ Allysaurus Rex | 37.5 | | |
 # Boston Area ARTC (and pals)
 bluemostboth | | | |
 zond0 | | | 1:47 | https://www.strava.com/activities/1597165776
-j1mmah | 49.3 | | |
+j1mmah | 49.3 | | 1:31 | https://www.strava.com/activities/1597243818
 ultrahobbyjogger | | | |
 chrispyb | | | |
 screwbuharvard2 | | | |
@@ -175,7 +175,7 @@ Almostanathlete | | | 1:29.1 | https://www.strava.com/activities/1596713441
 chalexdv | | | 1:52.0 | https://www.strava.com/activities/1596649875
 ao12 | | | 1:34.66 | https://www.strava.com/activities/1594680983
 Aynophae | | | 1:19 | https://www.strava.com/activities/1597045089
-LongLegsShortShorts | | | |
+LongLegsShortShorts | | | 1:23 | https://www.strava.com/activities/1597752103
 lucasthebeard | | | 1:39.0 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 espegri | | | 1:29 | https://www.strava.com/activities/1596209772
 dinosaurweasel | | | |
@@ -396,11 +396,11 @@ dirkhutton | | | |
 OGFireNation | | | 1:24.99 |
 userken | | has cute dogs | |
 
-LongLegsShortShorts | | | |
+LongLegsShortShorts | | | 1:23 | https://www.strava.com/activities/1597752103
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596743159
 
-LongLegsShortShorts | | | |
+LongLegsShortShorts | | | 1:23 | https://www.strava.com/activities/1597752103
 wardmuylaert | | | 1:33 | https://www.strava.com/activities/1596291477/
 
-LongLegsShortShorts | | | |
+LongLegsShortShorts | | | 1:23 | https://www.strava.com/activities/1597752103
 Qrszx | | | 1:31.9 | https://www.strava.com/activities/1597461018
