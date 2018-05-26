@@ -132,7 +132,7 @@ hollanding | 40.7 | | |
 kkruns | | | |
 blushingscarlet | 48 | | |
 Zond0 | 39.2 | | |
-aribev24 | 45 | has a cute bear | |
+aribev24 | 45 | has a cute bear | 1:38 | https://www.strava.com/activities/1597039971
 optimisticBrassica | 39 | | |
 FlyRBFly | 45 | | |
 espressopatronum | 47 | has cute dogs | |
@@ -233,7 +233,7 @@ willrow | | | |
 
 # B3TC
 runroardinosaur | | | |
-aribev24 | | has a cute bear | |
+aribev24 | | has a cute bear | 1:38 | https://www.strava.com/activities/1597039971
 ultrahobbyjogger | | | |
 eabryt | | | |
 winterspite | | has a cute dog | |
@@ -278,7 +278,7 @@ andybebad | 66 | | |
 PrairieFirePhoenix | | | |
 arpee | 55.7 | | 1:17.7 | https://www.strava.com/activities/1597063653
 champjoelouis | 54 | | |
-Fsus2 | 51.5 | | |
+Fsus2 | 51.5 | | 1:25 | https://www.strava.com/activities/1596989373
 Chicago_Blackhawks | | | |
 cross1212 | 60.1 | | |
 runwichi | | | |
@@ -333,7 +333,7 @@ xalechim | | | |
 kkruns | | | |
 bizbup | | | |
 Mr800ftw | | | 1:14.56 | [https://www.strava.com/activities/1596979683](https://www.strava.com/activities/1596979683)
-Redbird15 | | | |
+Redbird15 | | | 1:39.1 | https://www.strava.com/activities/1591937014
 kitmykat | 56 | | |
 v2jim | 48 | | |
 
