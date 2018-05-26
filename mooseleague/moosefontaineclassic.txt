@@ -54,7 +54,7 @@ ChickpeaCorea | 50 | | |
 
 
 # Royal Canadian Moose Patrol
-True_North_Strong | 53.7 | | |
+True_North_Strong | 53.7 | | 1:29 |
 RIGHT_THURR | 55 | | |
 halpinator | 55 | | 1:24 | https://www.strava.com/activities/1580751337
 AnonymousWritings | 52.2 | | 1:29.8 |
@@ -95,10 +95,10 @@ thebushleaguerunner | | | |
 2menshaving | | | |
 Yiftathashifta | | | 1:18.28 |
 JohnsAwesome | | | |
-mrsloworfast | | | |
+mrsloworfast | | | 1:29 | https://www.strava.com/activities/1596209772
 da-kine | | | |
 appexxd_ | | | |
-Nony2 | | | |
+Nony2 | | | 1:20.3 |
 
 
 # College
@@ -195,7 +195,7 @@ durunnerafc | | | 1:22.78 |
 philipwhiuk | | | |
 FreeSoup21 | | | 1.15.52 | https://www.youtube.com/watch?v=o2ebzmxozvm
 rantifarian | 47 | | |
-mrsloworfast | | | |
+mrsloworfast | | | 1:29 | https://www.strava.com/activities/1596209772
 
 
 # Slow, Sweaty, Sloppy, Sticky Southern Heat Intensive Track-club (SSSSSHIT)
