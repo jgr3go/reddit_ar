@@ -71,7 +71,7 @@ allxxe | 33.3 | has a cute dog | |
 # We're Slow Because the Air Is Thinner Up Here
 A_cook_not_a_chef | 52 | | |
 blueshirtguy13 | 49 | | |
-FlyRBFly | 45 | | |
+FlyRBFly | 45 | | 2:05:90 |
 eattingsnowflakes | 46 | | |
 AfricanBus | 67 | | |
 snapundersteer | 49 | parents have cute dogs | 1:17:95 | https://www.strava.com/activities/1595888898
@@ -134,7 +134,7 @@ blushingscarlet | 48 | | 1:33.59 | [https://www.strava.com/activities/1597076696
 Zond0 | 39.2 | | 1:47 | https://www.strava.com/activities/1597165776
 aribev24 | 45 | has a cute bear | 1:38 | https://www.strava.com/activities/1597461018
 optimisticBrassica | 39 | | |
-FlyRBFly | 45 | | |
+FlyRBFly | 45 | | 2:05:90 |
 espressopatronum | 47 | has cute dogs | |
 WillRunForTacos | 57.3 | | |
 forkinyourothereye | 36 | | 2:11 | https://www.strava.com/activities/1596818008
@@ -212,7 +212,7 @@ gblackwell | 42 | | |
 mortifyinq | 56 | | 1:23.50 | https://www.strava.com/activities/1596603445
 dirkhutton | 59 | | |
 jthomas7002 | 53 | | |
-CaptKriket | 55.8 | | |
+CaptKriket | 55.8 | | 1:26 | https://www.strava.com/activities/1596592584
 
 
 # Brexit Meese Brexit
@@ -248,7 +248,7 @@ blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](h
 
 # Cascadia
 toystory3_wasokay | 51 | | |
-tripsd | 53 | | |
+tripsd | 53 | | 1:43:75 | https://www.strava.com/activities/1597483440/shareable_images/map_based?hl=en-us&v=1527351606
 tweeeked | 60.6 | | |
 dillonpanthers33 | 52 | has a cute dog | |
 thirdmeasurement | 40 | | 1:58 | [https://www.strava.com/activities/1596755434](https://www.strava.com/activities/1596755434)
@@ -344,7 +344,7 @@ ju_bl | | | 1:23.57 | https://www.strava.com/activities/1597040283
 jaylapeche | | has a cute dog | |
 aewillia  | | has a cute dog | |
 supersonic_blimp | | | 1:21.6 | https://www.strava.com/activities/1597328387
-CaptKriket | 55.8 | | |
+CaptKriket | 55.8 | | 1:26 | https://www.strava.com/activities/1596592584
 
 =====
 # Head to Heads
