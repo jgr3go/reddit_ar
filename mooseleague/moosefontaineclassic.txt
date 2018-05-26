@@ -23,7 +23,7 @@ j-yuteam | | | |
 Tapin42 | | | 1:35.77 | [https://www.strava.com/activities/1597385074](https://www.strava.com/activities/1597385074)
 flocculus | | | 1:41.71 |
 djlemma | | | 1:36.8 |
-penchepic | | | |
+penchepic | | | 1:55 | https://www.strava.com/activities/1597254500/overview
 ultimateplayer44 |  | | |
 robercha001 | | | |
 
@@ -93,7 +93,7 @@ hydro_wonk | | | |
 moongrey | | | |
 thebushleaguerunner | | | |
 2menshaving | | | |
-Yiftathashifta | | | 1:18.28 |
+Yiftathashifta | | | 1:18.28 | https://www.strava.com/activities/1597994279
 JohnsAwesome | | | |
 mrsloworfast | | | 1:29 |
 da-kine | | | 1:25.1 | https://www.strava.com/activities/1597932652
@@ -226,7 +226,7 @@ somethingnew__ | | | 1:32 |
 LucasTheBeard | | | 1:39.0 | [https://www.strava.com/activities/1596510534](https://www.strava.com/activities/1596510534)
 Almostanathlete | | | 1:29.1 | https://www.strava.com/activities/1596489355
 Alamo91 | | | 1:30 | https://www.strava.com/activities/1591608497
-penchepic | | | |
+penchepic | | | 1:55 | https://www.strava.com/activities/1597254500/overview
 willrow | | | |
 
 
@@ -336,7 +336,7 @@ bizbup | | | |
 Mr800ftw | | | 1:14.56 | [https://www.strava.com/activities/1596979683](https://www.strava.com/activities/1596979683)
 Redbird15 | | | 1:39.1 | https://www.strava.com/activities/1591937014
 kitmykat | 56 | | |
-v2jim | 48 | | |
+v2jim | 48 | | 1:46:92 |
 
 
 # Texas
