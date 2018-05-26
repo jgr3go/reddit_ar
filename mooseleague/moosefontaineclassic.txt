@@ -20,7 +20,7 @@ Almostanathlete | | | 1:29.1 | [https://www.strava.com/activities/1597076696](ht
 sloworfast | | | 1:46 |
 j1mmah | | | |
 j-yuteam | | | |
-Tapin42 | | | |
+Tapin42 | | | 1:35.77 | https://www.strava.com/activities/1597369935
 flocculus | | | |
 djlemma | | | |
 penchepic | | | |
@@ -54,7 +54,7 @@ ChickpeaCorea | 50 | | |
 
 
 # Royal Canadian Moose Patrol
-True_North_Strong | 53.7 | | 1:29 |
+True_North_Strong | 53.7 | | 1:29 | https://www.strava.com/activities/1595888898
 RIGHT_THURR | 55 | | |
 halpinator | 55 | | 1:24 | https://www.strava.com/activities/1580751337
 AnonymousWritings | 52.2 | | 1:29.8 |
@@ -95,7 +95,7 @@ thebushleaguerunner | | | |
 2menshaving | | | |
 Yiftathashifta | | | 1:18.28 |
 JohnsAwesome | | | |
-mrsloworfast | | | 1:29 | https://www.strava.com/activities/1596209772
+mrsloworfast | | | 1:29 | https://www.strava.com/activities/1591608497
 da-kine | | | |
 appexxd_ | | | |
 Nony2 | | | 1:20.3 |
@@ -189,13 +189,13 @@ DrGruselglatz | | | |
 willrow | | | |
 mdizzl_ | | | 1:47.5 |
 jdmg718 | | | |
-pablitoneal | | | 1:27 | https://www.strava.com/activities/1597138407
+pablitoneal | | | 1:27 | https://www.strava.com/activities/1596209772
 KoffieAnon | | | |
 durunnerafc | | | 1:22.78 |
 philipwhiuk | | | |
 FreeSoup21 | | | 1.15.52 | https://www.youtube.com/watch?v=o2ebzmxozvm
 rantifarian | 47 | | |
-mrsloworfast | | | 1:29 | https://www.strava.com/activities/1596209772
+mrsloworfast | | | 1:29 | https://www.strava.com/activities/1591608497
 
 
 # Slow, Sweaty, Sloppy, Sticky Southern Heat Intensive Track-club (SSSSSHIT)
@@ -318,7 +318,7 @@ brwalkernc | 54.4 | has cute dogs | |
 jaylapeche | | has a cute dog | |
 PrairieFirePhoenix | | | |
 djlemma | | | |
-tapin42 | | | |
+tapin42 | | | 1:35.77 | https://www.strava.com/activities/1597369935
 White_Lobster | | | |
 runwichi | 44.5 | | |
 siawyn | 43.2 | | |
