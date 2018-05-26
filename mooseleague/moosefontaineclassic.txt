@@ -39,7 +39,7 @@ SwissPance | 48.7 | | |
 sairosantos | 51 | | |
 batosz91 | 48 | | |
 pencilomatic | 51 | | |
-somethingnew__ | 51 | | 1:32 | 1
+somethingnew__ | 51 | | 1:32 |
 j-yuteam | 50 | | |
 toystory3_wasokay | 51 | | |
 deadc0de | 48.9 | | |
@@ -57,7 +57,7 @@ ChickpeaCorea | 50 | | |
 True_North_Strong | 53.7 | | |
 RIGHT_THURR | 55 | | |
 halpinator | 55 | | |
-AnonymousWritings | 52.2 | | 1:29.8 | 1
+AnonymousWritings | 52.2 | | 1:29.8 |
 SwissPancake | 48.7 | | |
 cabusto | 53 | | |
 nameproduct | 62 | | |
@@ -191,7 +191,7 @@ mdizzl_ | | | |
 jdmg718 | | | |
 pablitoneal | | | |
 KoffieAnon | | | |
-durunnerafc | | | 1:22.78 | 1
+durunnerafc | | | 1:22.78 |
 philipwhiuk | | | |
 FreeSoup21 | | | |
 rantifarian | 47 | | |
@@ -218,11 +218,11 @@ CaptKriket | 55.8 | | |
 # Brexit Meese Brexit
 philipwhiuk | | | |
 mdizzl_ | | | |
-durunnerafc | | | 1:22.78 | 1
+durunnerafc | | | 1:22.78 |
 Qrszx | | | 1:31.9 | https://www.strava.com/activities/1595592775
 dinosaurweasel | | | |
 jambojock | 56.4 | | |
-somethingnew__ | | | 1:32 | 1
+somethingnew__ | | | 1:32 |
 LucasTheBeard | | | |
 Almostanathlete | | | |
 Alamo91 | | | |
@@ -267,7 +267,7 @@ tiedtoamelody | | | |
 HobbyPlodder | | | |
 
 # Midwest
-ethos24 | 57 | | [1:21:36](https://www.strava.com/activities/1596603445). | 1
+ethos24 | 57 | | |
 weimarunner | | has a cute dog | |
 chachi_ | 55.1 | | |
 Krazyfranco | 60.6 | | 1:28 | https://www.strava.com/activities/1596743159
@@ -309,7 +309,7 @@ BreadMakesYouFast | 57 | | |
 thereelkanyewest | 60.5 | | |
 Lampzerg | 49 | | |
 Schwedderbyer | 49 | | |
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 
 
 # The Olds-mobile
@@ -350,10 +350,10 @@ CaptKriket | 55.8 | | |
 espegri | | | |
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 
-AnonymousWritings | | | 1:29.8 | 1
+AnonymousWritings | | | 1:29.8 |
 OblongPlatypus | | | 1:30 | https://www.strava.com/activities/1596291477/
 
-ethos24 | | | [1:21:36](https://www.strava.com/activities/1596603445). | 1
+ethos24 | | | |
 anbu1538 | | | |
 
 halpinator | | | |
@@ -365,34 +365,34 @@ BowermanSnackClub | | | |
 Cashewlater | 55 | | |
 GooseGrewABeard | 47 | | 1:36.8 | https://www.strava.com/activities/1595888898
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 da_kine | | | |
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 anbu1538 | | | |
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 laggy4life | | | |
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 krazyfranco | | | 1:28 | https://www.strava.com/activities/1596743159
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 supersonicblimp | | | |
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 mr800ftw | | | |
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 tweeeked | | | |
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 ajlark25 | | has a cute dog | |
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 dirkhutton | | | |
 
-OGFireNation | | | 1:24.99 | 1
+OGFireNation | | | 1:24.99 |
 userken | | has cute dogs | |
 
 LongLegsShortShorts | | | |
