@@ -61,7 +61,7 @@ AnonymousWritings | 52.2 | | 1:29.8 |
 SwissPancake | 48.7 | | 1:20.7 | [https://www.strava.com/activities/1597845619](https://www.strava.com/activities/1597845619)
 cabusto | 53 | | |
 nameproduct | 62 | | |
-SmallEfforts | 37 | | |
+SmallEfforts | 37 | | 1:57.5 | https://www.strava.com/activities/1598295020
 sloworfast | 47 | | 1:46 |
 deadc0de | 48.9 | | |
 SleepWouldBeNice | 53 | | |
@@ -119,7 +119,7 @@ DrGruselglatz | | | |
 linzlars | 35 | | 5:32 | https://www.strava.com/activities/1597961694
 RunningPath | 20 | | |
 kaaaazzh | 45 | | |
-SmallEfforts | 37 | | |
+SmallEfforts | 37 | | 1:57.5 | https://www.strava.com/activities/1598295020
 SnowflakeRunner | 45.5 | | |
 madger19 | 46 | | 1:53 | https://www.strava.com/activities/1596796727
 chalexdv | 44 | | 1:52.0 | https://www.strava.com/activities/1596649875
