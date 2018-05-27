@@ -136,7 +136,7 @@ aribev24 | 45 | has a cute bear | 1:38 | https://www.strava.com/activities/15970
 optimisticBrassica | 39 | | |
 FlyRBFly | 45 | | 2:05.90 | https://www.strava.com/activities/1597398135
 espressopatronum | 47 | has cute dogs | |
-WillRunForTacos | 57.3 | | |
+WillRunForTacos | 57.3 | | 1:34:19 | https://www.strava.com/activities/1597504566
 forkinyourothereye | 36 | | 2:11 | https://www.strava.com/activities/1597461018
 Yjjsbb | 51 | | 1:33:53 | https://www.strava.com/activities/1595995272
 aewillia | 40 | has a cute dog | |
@@ -273,7 +273,7 @@ weimarunner | | has a cute dog | 1:44.03 | https://www.strava.com/activities/159
 chachi_ | 55.1 | | 1:26 | https://www.strava.com/activities/1597489253
 Krazyfranco | 60.6 | | 1:28 | https://www.strava.com/activities/1596743159
 wittja01 | 48 | | |
-WillRunForTacos | 57.3 | | |
+WillRunForTacos | 57.3 | | 1:34:19 | https://www.strava.com/activities/1597504566
 zebano | | | |
 andybebad | 66 | | 1:13.8 | https://www.strava.com/activities/1598054192
 PrairieFirePhoenix | | | 1:27.68 |
