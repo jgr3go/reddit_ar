@@ -25,7 +25,7 @@ flocculus | | | 1:41.71 |
 djlemma | | | 1:29 | https://www.strava.com/activities/1597112795
 penchepic | | | 1:55 | https://www.strava.com/activities/1597254500/overview
 ultimateplayer44 |  | | |
-robercha001 | | | |
+robercha001 | | | 1:35.62 |
 
 
 # Mortal Hobbyjoggers
@@ -314,7 +314,7 @@ OGFireNation | | | 1:24.99 |
 
 
 # The Olds-mobile
-brwalkernc | 54.4 | has cute dogs | |
+brwalkernc | 54.4 | has cute dogs | 1:25.0 | https://www.strava.com/activities/1598350048
 jaylapeche | | has a cute dog | |
 PrairieFirePhoenix | | | 1:27.68 |
 djlemma | | | 1:29 | https://www.strava.com/activities/1597112795
