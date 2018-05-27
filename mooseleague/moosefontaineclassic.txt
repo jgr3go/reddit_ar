@@ -141,7 +141,7 @@ forkinyourothereye | 36 | | 2:11 | https://www.strava.com/activities/1597461018
 Yjjsbb | 51 | | 1:33:53 | https://www.strava.com/activities/1595995272
 aewillia | 40 | has a cute dog | |
 kdwhodat | 48 | | |
-RunRoarDinosaur | | | |
+RunRoarDinosaur | | | 2:14.45 |
 legerete_de_letre | 34 | | 2:16.5 |
 allxxe | 33.3 | has a cute dog | 1:54 | https://www.strava.com/activities/1598303761
 Allysaurus_Rex | 37.5 | | 2:05.6 | [https://www.strava.com/activities/1596755434](https://www.strava.com/activities/1596755434)
@@ -232,7 +232,7 @@ willrow | | | |
 
 
 # B3TC
-runroardinosaur | | | |
+runroardinosaur | | | 2:14.45 |
 aribev24 | | has a cute bear | 1:38 | https://www.strava.com/activities/1597039971
 ultrahobbyjogger | | | 1:23 | https://www.strava.com
 eabryt | | | 1:19.9 | https://www.strava.com/activities/1597019403
@@ -323,7 +323,7 @@ White_Lobster | | | |
 runwichi | 44.5 | | |
 siawyn | 43.2 | | 1:53 | https://www.strava.com/activities/1597932119
 bizbup | | | |
-RunRoarDinosaur | | | |
+RunRoarDinosaur | | | 2:14.45 |
 
 
 # What just dripped on my head?
