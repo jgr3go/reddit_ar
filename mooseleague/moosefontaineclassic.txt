@@ -164,7 +164,7 @@ teegly | 66.8 | | |
 slowly_by_slowly | | | 1:28.4 | https://www.strava.com/activities/1597045089
 espressopatronum | | has cute dogs | |
 blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
-user_ken | 62 | has cute dogs | |
+user_ken | 62 | has cute dogs | 1:15.76 | https://www.strava.com/activities/1597030177
 
 
 # EUphoria
@@ -241,7 +241,7 @@ nutbrownhare14 | | has a cute dog | |
 aewillia | | has a cute dog | |
 sairosantos | | | |
 ChickenSedan | | has a cute dog | |
-user_ken | 62 | has cute dogs | |
+user_ken | 62 | has cute dogs | 1:15.76 | https://www.strava.com/activities/1597030177
 snapundersteer | | parents have cute dogs | 1:17.95 | https://www.strava.com/activities/1597729582
 blushingscarlet | | | 1:33.59 | [https://www.strava.com/activities/1597076696](https://www.strava.com/activities/1597076696)
 
