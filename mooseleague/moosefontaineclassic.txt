@@ -34,7 +34,7 @@ zebano |  | | |
 Qrszx | 47.6 | | 1:31.9 | https://www.strava.com/activities/1595592775
 wardmuylaert | | | 1:33 | https://www.strava.com/activities/1591398764
 OblongPlatypus | 51 | | 1:30 | https://www.strava.com/activities/1596291477/
-blueshirtguy13 | 49 | | |
+blueshirtguy13 | 49 | | 1:54:01 |
 SwissPance | 48.7 | | |
 sairosantos | 51 | | |
 batosz91 | 48 | | 1:31 | https://www.strava.com/activities/1598032754
@@ -70,7 +70,7 @@ allxxe | 33.3 | has a cute dog | 1:54 | https://www.strava.com/activities/159830
 
 # We're Slow Because the Air Is Thinner Up Here
 A_cook_not_a_chef | 52 | | |
-blueshirtguy13 | 49 | | |
+blueshirtguy13 | 49 | | 1:54:01 |
 FlyRBFly | 45 | | 2:05.90 | https://www.strava.com/activities/1597398135
 eattingsnowflakes | 46 | | |
 AfricanBus | 67 | | |
