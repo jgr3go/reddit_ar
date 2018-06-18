@@ -38,7 +38,7 @@ blueshirtguy13 | 49 |
 SwissPance | 48.7 | 
 sairosantos | 51 | 
 batosz91 | 48 | 
-pencilomatic | 51 | 
+pencilomatic | 51 | has a cute dog
 somethingnew__ | 51 | 
 j-yuteam | 50 | 
 toystory3_wasokay | 51 | 
@@ -56,7 +56,7 @@ ChickpeaCorea | 50 |
 # Royal Canadian Moose Patrol
 True_North_Strong | 53.7 | 
 RIGHT_THURR | 55 | 
-halpinator | 55 | 
+halpinator | 55 | has a cute dog
 AnonymousWritings | 52.2 | 
 SwissPancake | 48.7 | 
 cabusto | 53 | 
@@ -72,7 +72,6 @@ allxxe | 33.3 | has a cute dog
 A_cook_not_a_chef | 52 | 
 blueshirtguy13 | 49 | 
 FlyRBFly | 45 | 
-eattingsnowflakes | 46 | 
 AfricanBus | 67 | 
 snapundersteer | 49 | parents have cute dogs 
 GooseGrewABeard | 46.9 | 
@@ -196,6 +195,7 @@ philipwhiuk | |
 FreeSoup21 | | 
 rantifarian | 47 | 
 mrsloworfast | | 
+b_nonas | |
 
 
 # Slow, Sweaty, Sloppy, Sticky Southern Heat Intensive Track-club (SSSSSHIT)
@@ -265,7 +265,7 @@ LadyOfNumbers | |
 MadMennonite | | 
 wardmuylaert | | 
 tiedtoamelody | | 
-HobbyPlodder | | 
+HobbyPlodder | | has a cute dog
 
 # Midwest
 ethos24 | 57 | 
@@ -299,7 +299,7 @@ sbre4896 | 66.6 |
 
 
 # Division Suns Out Guns Out
-pencilomatic | 51 | 
+pencilomatic | 51 | has a cute dog
 llimllib | 57.5 | 
 TheSpielvogel | 59.6 | 
 Reference_Obscure | 57 | 
@@ -324,6 +324,7 @@ runwichi | 44.5 |
 siawyn | 43.2 | 
 bizbup | | 
 RunRoarDinosaur | | 
+mrsloworfast | | 
 
 
 # What just dripped on my head?
@@ -345,6 +346,7 @@ jaylapeche | | has a cute dog
 aewillia  | | has a cute dog 
 supersonic_blimp | | 
 CaptKriket | 55.8 | 
+MrCoolguy80 | | 
 
 =====
 # Head to Heads
@@ -357,7 +359,7 @@ OblongPlatypus | |
 ethos24 | | 
 anbu1538 | | 
 
-halpinator | | 
+halpinator | | has a cute dog
 Mr800FTW | | 
 
 ChickenSedan | | has a cute dog 
@@ -379,7 +381,7 @@ OGFireNation | |
 krazyfranco | | 
 
 OGFireNation | | 
-supersonicblimp | | 
+supersonic_blimp | | 
 
 OGFireNation | | 
 mr800ftw | | 
