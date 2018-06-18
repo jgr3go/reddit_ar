@@ -64,7 +64,7 @@ nameproduct | 62 | | 1:30 |
 SmallEfforts | 37 | | 1:57.5 | https://www.strava.com/activities/1598295020
 sloworfast | 47 | | 1:46 |
 deadc0de | 48.9 | | |
-SleepWouldBeNice | 53 | | |
+SleepWouldBeNice | 53 | | 1:58 | https://www.strava.com/activities/1596711173
 allxxe | 33.3 | has a cute dog | 1:54 | https://www.strava.com/activities/1598303761
 
 
@@ -89,7 +89,7 @@ upxc | | | |
 weimarunner | | has a cute dog | 1:44.03 | https://www.strava.com/activities/1597406386
 Zwiseguy15 | | | |
 snapundersteer | | | 1:17.95 | https://www.strava.com/activities/1597729582
-hydro_wonk | | | |
+hydro_wonk | | | 1:37 |
 moongrey | | | |
 thebushleaguerunner | | | 1:52.6 | https://www.strava.com/activities/1600540754
 2menshaving | | | 1:36 | https://www.strava.com/activities/1582078043
@@ -265,7 +265,7 @@ LadyOfNumbers | | | |
 MadMennonite | | | 1:52 | https://www.strava.com/activities/1596945470
 wardmuylaert | | | 1:33 | https://www.strava.com/activities/1591398764
 tiedtoamelody | | | 1:53.6 | https://www.strava.com/activities/1597021866#kudos
-HobbyPlodder | | | |
+HobbyPlodder | | | 1:42 |
 
 # Midwest
 ethos24 | 57 | | 1:21:36 | https://www.strava.com/activities/1596603445
@@ -335,7 +335,7 @@ kkruns | | | |
 bizbup | | | |
 Mr800ftw | | | 1:14.56 | https://www.strava.com/activities/1596979683
 Redbird15 | | | 1:39.1 | https://www.strava.com/activities/1591937014
-kitmykat | 56 | | |
+kitmykat | 56 | | 1:25.7 | https://www.strava.com/activities/1591848037
 v2jim | 48 | | 1:46:92 |
 
 
