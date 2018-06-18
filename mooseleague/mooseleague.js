@@ -280,7 +280,7 @@ angular
       let vm = this;
 
       vm.isMobile = isMobile();
-      vm.autoplay = localStorage.getItem('autoplay2018') === null ? true : localStorage.getItem('autoplay2018');
+      vm.autoplay = localStorage.getItem('autoplay2018new') === null ? true : localStorage.getItem('autoplay2018new');
 
       function init() {
         Events.list()
@@ -361,16 +361,16 @@ angular
       }
 
       vm.stopAutoplay = function() {
-        localStorage.setItem('autoplay2018', false);
+        localStorage.setItem('autoplay2018new', false);
         vm.autoplay = false;
       };
 
       vm.startAutoplay = function() {
-        localStorage.setItem('autoplay2018', true);
+        localStorage.setItem('autoplay2018new', true);
         vm.autoplay = true;
       }
       vm.shouldAutoplay = function() {
-        let ap = localStorage.getItem('autoplay2018');
+        let ap = localStorage.getItem('autoplay2018new');
         return !(ap === 'false' || ap === false);
       };
 
