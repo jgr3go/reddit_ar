@@ -518,7 +518,7 @@ if (!window.apploaded) {
     var vm = this;
 
     vm.isMobile = isMobile();
-    vm.autoplay = localStorage.getItem('autoplay2018') === null ? true : localStorage.getItem('autoplay2018');
+    vm.autoplay = localStorage.getItem('autoplay2018new') === null ? true : localStorage.getItem('autoplay2018new');
 
     function init() {
       Events.list().then(function (evts) {
@@ -583,22 +583,22 @@ if (!window.apploaded) {
     };
 
     vm.stopAutoplay = function () {
-      localStorage.setItem('autoplay2018', false);
+      localStorage.setItem('autoplay2018new', false);
       vm.autoplay = false;
     };
 
     vm.startAutoplay = function () {
-      localStorage.setItem('autoplay2018', true);
+      localStorage.setItem('autoplay2018new', true);
       vm.autoplay = true;
     };
     vm.shouldAutoplay = function () {
-      var ap = localStorage.getItem('autoplay2018');
+      var ap = localStorage.getItem('autoplay2018new');
       return !(ap === 'false' || ap === false);
     };
 
     vm.getThemeUrl = function () {
       var ap = vm.shouldAutoplay();
-      return $sce.trustAsResourceUrl('https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337460668&amp;auto_play=' + ap + '&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true');
+      return $sce.trustAsResourceUrl('https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/460111206&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true');
     };
 
     init();
