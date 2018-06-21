@@ -59,12 +59,12 @@ RIGHT_THURR | 55 |
 halpinator | 55 | has a cute dog
 AnonymousWritings | 52.2 | 
 SwissPancake | 48.7 | 
-cabusto | 53 | 
+cabusto | 53 | has a cute dog
 nameproduct | 62 | 
 SmallEfforts | 37 | 
 sloworfast | 47 | 
 deadc0de | 48.9 | 
-SleepWouldBeNice | 53 | 
+SleepWouldBeNice | 53 | has a cute dog
 allxxe | 33.3 | has a cute dog 
 
 
@@ -192,7 +192,7 @@ pablitoneal | |
 KoffieAnon | | 
 durunnerafc | | 
 philipwhiuk | | 
-FreeSoup21 | | 
+FreeSoup21 | | has a cute dog
 rantifarian | 47 | 
 mrsloworfast | | 
 b_nonas | |
@@ -264,7 +264,7 @@ madger19 | |
 LadyOfNumbers | | 
 MadMennonite | | 
 wardmuylaert | | 
-tiedtoamelody | | 
+tiedtoamelody | | has a cute dog
 HobbyPlodder | | has a cute dog
 
 # Midwest
