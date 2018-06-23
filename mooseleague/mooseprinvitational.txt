@@ -54,7 +54,7 @@ ChickpeaCorea | 50 |  | |
 
 
 # Royal Canadian Moose Patrol
-True_North_Strong | 53.7 |  | |
+True_North_Strong | 53.7 |  | 3:52 | https://www.strava.com/activities/1657048014
 RIGHT_THURR | 55 |  | |
 halpinator | 55 | has a cute dog | |
 AnonymousWritings | 52.2 |  | |
@@ -89,7 +89,7 @@ upxc | |  | |
 weimarunner | | has a cute dog  | |
 Zwiseguy15 | |  | |
 snapundersteer | |  | |
-hydro_wonk | |  | |
+hydro_wonk | |  | 4:40 |
 moongrey | |  | |
 thebushleaguerunner | |  | |
 2menshaving | |  | |
