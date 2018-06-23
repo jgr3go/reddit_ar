@@ -18,7 +18,7 @@ Belikepre | |  | |
 # Dirty Triathletes
 Almostanathlete | |  | |
 sloworfast | |  | |
-j1mmah | |  | |
+j1mmah | |  | 4:20 | https://www.strava.com/activities/1657009308
 j-yuteam | |  | |
 Tapin42 | |  | |
 flocculus | |  | |
@@ -33,7 +33,7 @@ LongLegsShortShorts | 50.5 |  | |
 zebano |  |  | |
 Qrszx | 47.6 |  | 4:09.8 | https://www.strava.com/activities/1649138512
 wardmuylaert | |  | |
-OblongPlatypus | 51 |  | |
+OblongPlatypus | 51 |  | 5:40 | https://www.strava.com/activities/1656876616
 blueshirtguy13 | 49 |  | |
 SwissPance | 48.7 |  | |
 sairosantos | 51 |  | |
@@ -151,7 +151,7 @@ Allysaurus_Rex | 37.5 |  | |
 # Boston Area ARTC (and pals)
 bluemostboth | |  | |
 zond0 | |  | |
-j1mmah | 49.3 |  | |
+j1mmah | 49.3 |  | 4:20 | https://www.strava.com/activities/1657009308
 ultrahobbyjogger | |  | 3:38.69 | https://www.strava.com
 chrispyb | |  | |
 screwbuharvard2 | |  | |
@@ -169,7 +169,7 @@ user_ken | 62 | has cute dogs  | |
 
 
 # EUphoria
-OblongPlatypus | |  | |
+OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 cashewlater | |  | |
 alamo91 | |  | |
 Almostanathlete | |  | |
@@ -353,10 +353,10 @@ MrCoolguy80 | |  | |
 =====
 # Head to Heads
 espegri | |  | |
-OblongPlatypus | |  | |
+OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 
 AnonymousWritings | |  | |
-OblongPlatypus | |  | |
+OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 
 ethos24 | |  | |
 anbu1538 | |  | |
@@ -401,7 +401,7 @@ OGFireNation | |  | |
 userken | | has cute dogs  | |
 
 LongLegsShortShorts | |  | |
-OblongPlatypus | |  | |
+OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 
 LongLegsShortShorts | |  | |
 wardmuylaert | |  | |
