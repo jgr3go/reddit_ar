@@ -142,7 +142,7 @@ forkinyourothereye | 36 |  | |
 Yjjsbb | 51 |  | |
 aewillia | 40 | has a cute dog  | |
 kdwhodat | 48 |  | |
-RunRoarDinosaur | |  | |
+RunRoarDinosaur | |  | 5:42 |
 legerete_de_letre | 34 |  | |
 allxxe | 33.3 | has a cute dog  | |
 Allysaurus_Rex | 37.5 |  | |
@@ -234,7 +234,7 @@ willrow | |  | |
 
 
 # B3TC
-runroardinosaur | |  | |
+runroardinosaur | |  | 5:42 |
 aribev24 | | has a cute bear  | 4:47 | https://www.strava.com/activities/1656678613
 ultrahobbyjogger | |  | |
 eabryt | |  | 3:38 | https://www.strava.com/activities/1656712471
@@ -281,7 +281,7 @@ andybebad | 66 |  | |
 PrairieFirePhoenix | |  | |
 arpee | 55.7 |  | |
 champjoelouis | 54 |  | |
-Fsus2 | 51.5 |  | |
+Fsus2 | 51.5 |  | 3:58 | https://www.strava.com/activities/1656732683
 Chicago_Blackhawks | |  | |
 cross1212 | 60.1 |  | |
 runwichi | |  | |
@@ -325,7 +325,7 @@ White_Lobster | |  | |
 runwichi | 44.5 |  | |
 siawyn | 43.2 |  | |
 bizbup | |  | |
-RunRoarDinosaur | |  | |
+RunRoarDinosaur | |  | 5:42 |
 mrsloworfast | |  | 3:52.4 | https://www.strava.com/activities/1656583356
 
 
@@ -336,7 +336,7 @@ hollanding | |  | |
 xalechim | |  | |
 kkruns | |  | |
 bizbup | |  | |
-Mr800ftw | |  | |
+Mr800ftw | |  | 3:30.04 | https://www.strava.com/activities/1656790499
 Redbird15 | |  | |
 kitmykat | 56 |  | |
 v2jim | 48 |  | |
@@ -362,7 +362,7 @@ ethos24 | |  | |
 anbu1538 | |  | |
 
 halpinator | | has a cute dog | |
-Mr800FTW | |  | |
+Mr800FTW | |  | 3:30.04 | https://www.strava.com/activities/1656790499
 
 ChickenSedan | | has a cute dog  | |
 BowermanSnackClub | |  | |
@@ -386,7 +386,7 @@ OGFireNation | |  | |
 supersonic_blimp | |  | |
 
 OGFireNation | |  | |
-mr800ftw | |  | |
+mr800ftw | |  | 3:30.04 | https://www.strava.com/activities/1656790499
 
 OGFireNation | |  | |
 tweeeked | |  | |
