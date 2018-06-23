@@ -45,7 +45,7 @@ toystory3_wasokay | 51 |  | |
 deadc0de | 48.9 |  | |
 jibasaur | 51.7 |  | |
 yjjsbb | 51 |  | |
-mdizzl_ | 50.5 |  | |
+mdizzl_ | 50.5 |  | 4:21.3 |
 iggywing | 48 |  | |
 satyagrahalife | 51 |  | |
 patrick_e | 48 |  | |
@@ -95,7 +95,7 @@ thebushleaguerunner | |  | |
 2menshaving | |  | |
 Yiftathashifta | |  | |
 JohnsAwesome | |  | |
-mrsloworfast | |  | 3:52.4 | [https://www.strava.com/activities/1656583356](https://www.strava.com/activities/1656583356)
+mrsloworfast | |  | 3:52.4 | https://www.strava.com/activities/1656583356
 da-kine | |  | |
 appexxd_ | |  | |
 Nony2 | |  | |
@@ -133,7 +133,7 @@ hollanding | 40.7 |  | |
 kkruns | |  | |
 blushingscarlet | 48 |  | |
 Zond0 | 39.2 |  | |
-aribev24 | 45 | has a cute bear  | |
+aribev24 | 45 | has a cute bear  | 4:47 | https://www.strava.com/activities/1656678613
 optimisticBrassica | 39 |  | |
 FlyRBFly | 45 |  | |
 espressopatronum | 47 | has cute dogs  | |
@@ -188,7 +188,7 @@ addicted_to_coffee | |  | |
 wardmuylaert | |  | |
 DrGruselglatz | |  | |
 willrow | |  | |
-mdizzl_ | |  | |
+mdizzl_ | |  | 4:21.3 |
 jdmg718 | |  | |
 pablitoneal | |  | |
 KoffieAnon | |  | |
@@ -196,7 +196,7 @@ durunnerafc | |  | 3:53.73 |
 philipwhiuk | |  | |
 FreeSoup21 | | has a cute dog | |
 rantifarian | 47 |  | |
-mrsloworfast | |  | 3:52.4 | [https://www.strava.com/activities/1656583356](https://www.strava.com/activities/1656583356)
+mrsloworfast | |  | 3:52.4 | https://www.strava.com/activities/1656583356
 b_nonas | | | |
 
 
@@ -219,7 +219,7 @@ CaptKriket | 55.8 |  | |
 
 # Brexit Meese Brexit
 philipwhiuk | |  | |
-mdizzl_ | |  | |
+mdizzl_ | |  | 4:21.3 |
 durunnerafc | |  | 3:53.73 |
 Qrszx | |  | 4:09.8 | https://www.strava.com/activities/1649138512
 dinosaurweasel | |  | |
@@ -235,7 +235,7 @@ willrow | |  | |
 
 # B3TC
 runroardinosaur | |  | |
-aribev24 | | has a cute bear  | |
+aribev24 | | has a cute bear  | 4:47 | https://www.strava.com/activities/1656678613
 ultrahobbyjogger | |  | |
 eabryt | |  | |
 winterspite | | has a cute dog  | |
@@ -291,7 +291,7 @@ Worlds_Biggest_Troll | 65 |  | |
 trialofmilesoftrials | 60 |  | |
 JimboPeanuts | 59 |  | |
 rnr_ | 55 |  | |
-PartyDown22 | 58 |  | 3:41.09 | [https://www.youtube.com/watch?v=R15iqT0rXNI](https://www.youtube.com/watch?v=R15iqT0rXNI)
+PartyDown22 | 58 |  | 3:41.09 | https://www.youtube.com/watch?v=R15iqT0rXNI
 bwilly22 | 59.7 |  | |
 copperpine | 54 |  | |
 jibasaur | 51.7 |  | |
@@ -326,7 +326,7 @@ runwichi | 44.5 |  | |
 siawyn | 43.2 |  | |
 bizbup | |  | |
 RunRoarDinosaur | |  | |
-mrsloworfast | |  | 3:52.4 | [https://www.strava.com/activities/1656583356](https://www.strava.com/activities/1656583356)
+mrsloworfast | |  | 3:52.4 | https://www.strava.com/activities/1656583356
 
 
 # What just dripped on my head?
