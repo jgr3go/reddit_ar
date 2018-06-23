@@ -60,7 +60,7 @@ halpinator | 55 | has a cute dog | |
 AnonymousWritings | 52.2 |  | |
 SwissPancake | 48.7 |  | |
 cabusto | 53 | has a cute dog | |
-nameproduct | 62 |  | |
+nameproduct | 62 |  | 3:29 |
 SmallEfforts | 37 |  | 5:41 | https://www.strava.com/activities/1656753701
 sloworfast | 47 |  | |
 deadc0de | 48.9 |  | |
@@ -137,7 +137,7 @@ aribev24 | 45 | has a cute bear  | 4:47 | https://www.strava.com/activities/1656
 optimisticBrassica | 39 |  | |
 FlyRBFly | 45 |  | |
 espressopatronum | 47 | has cute dogs  | |
-WillRunForTacos | 57.3 |  | |
+WillRunForTacos | 57.3 |  | 4:06 | https://www.strava.com/activities/1656820636/overview
 forkinyourothereye | 36 |  | |
 Yjjsbb | 51 |  | |
 aewillia | 40 | has a cute dog  | |
@@ -152,7 +152,7 @@ Allysaurus_Rex | 37.5 |  | |
 bluemostboth | |  | |
 zond0 | |  | |
 j1mmah | 49.3 |  | |
-ultrahobbyjogger | |  | |
+ultrahobbyjogger | |  | 3:38.69 | https://www.strava.com
 chrispyb | |  | |
 screwbuharvard2 | |  | |
 zwingtip | |  | |
@@ -236,7 +236,7 @@ willrow | |  | |
 # B3TC
 runroardinosaur | |  | 5:42 |
 aribev24 | | has a cute bear  | 4:47 | https://www.strava.com/activities/1656678613
-ultrahobbyjogger | |  | |
+ultrahobbyjogger | |  | 3:38.69 | https://www.strava.com
 eabryt | |  | 3:38 | https://www.strava.com/activities/1656712471
 winterspite | | has a cute dog  | |
 nutbrownhare14 | | has a cute dog  | |
@@ -275,7 +275,7 @@ weimarunner | | has a cute dog  | |
 chachi_ | 55.1 |  | |
 Krazyfranco | 60.6 |  | |
 wittja01 | 48 |  | |
-WillRunForTacos | 57.3 |  | |
+WillRunForTacos | 57.3 |  | 4:06 | https://www.strava.com/activities/1656820636/overview
 zebano | |  | |
 andybebad | 66 |  | |
 PrairieFirePhoenix | |  | |
