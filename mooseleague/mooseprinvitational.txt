@@ -57,7 +57,7 @@ ChickpeaCorea | 50 |  | |
 True_North_Strong | 53.7 |  | 3:52 | https://www.strava.com/activities/1657048014
 RIGHT_THURR | 55 |  | |
 halpinator | 55 | has a cute dog | |
-AnonymousWritings | 52.2 |  | |
+AnonymousWritings | 52.2 |  | 4:10 | https://www.strava.com/activities/1657069889/laps
 SwissPancake | 48.7 |  | |
 cabusto | 53 | has a cute dog | |
 nameproduct | 62 |  | 3:29 |
@@ -333,7 +333,7 @@ mrsloworfast | |  | 3:52.4 | https://www.strava.com/activities/1656583356
 blood_bender | |  | |
 djlemma | |  | |
 hollanding | |  | |
-xalechim | |  | |
+xalechim | |  | 3:48.7 | https://www.strava.com/activities/1657040431
 kkruns | |  | |
 bizbup | |  | |
 Mr800ftw | |  | 3:30.04 | https://www.strava.com/activities/1656790499
@@ -355,7 +355,7 @@ MrCoolguy80 | |  | |
 espegri | |  | |
 OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 
-AnonymousWritings | |  | |
+AnonymousWritings | |  | 4:10 | https://www.strava.com/activities/1657069889/laps
 OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 
 ethos24 | |  | |
