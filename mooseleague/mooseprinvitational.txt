@@ -22,7 +22,7 @@ j1mmah | |  | 4:20 | https://www.strava.com/activities/1657009308
 j-yuteam | |  | |
 Tapin42 | |  | 4:23 | https://www.strava.com/activities/1657157321
 flocculus | |  | |
-djlemma | |  | 4:01.8 | https://www.strava.com/activities/1656890589
+djlemma | |  | 4:01.8 | https://www.strava.com/activities/1656890589 https://youtu.be/yusqTtJ3KSk
 penchepic | |  | |
 ultimateplayer44 |  |  | |
 robercha001 | |  | 4:44.25 |
@@ -280,7 +280,7 @@ zebano | |  | |
 andybebad | 66 |  | |
 PrairieFirePhoenix | |  | 3:52.64, 78,  |
 arpee | 55.7 |  | 4:01.4 | https://www.strava.com/activities/1657892163
-champjoelouis | 54 |  | |
+champjoelouis | 54 |  | 3:50.9 | https://www.strava.com/activities/1657997338
 Fsus2 | 51.5 |  | 3:58 | https://www.strava.com/activities/1656732683
 Chicago_Blackhawks | |  | |
 cross1212 | 60.1 |  | |
@@ -319,7 +319,7 @@ OGFireNation | |  | |
 brwalkernc | 54.4 | has cute dogs  | 4:06 | https://www.strava.com/activities/1656783583
 jaylapeche | | has a cute dog  | |
 PrairieFirePhoenix | |  | 3:52.64, 78,  |
-djlemma | |  | 4:01.8 | https://www.strava.com/activities/1656890589
+djlemma | |  | 4:01.8 | https://www.strava.com/activities/1656890589 https://youtu.be/yusqTtJ3KSk
 tapin42 | |  | 4:23 | https://www.strava.com/activities/1657157321
 White_Lobster | |  | |
 runwichi | 44.5 |  | |
@@ -331,7 +331,7 @@ mrsloworfast | |  | 3:52.4 | https://www.strava.com/activities/1656583356
 
 # What just dripped on my head?
 blood_bender | |  | |
-djlemma | |  | 4:01.8 | https://www.strava.com/activities/1656890589
+djlemma | |  | 4:01.8 | https://www.strava.com/activities/1656890589 https://youtu.be/yusqTtJ3KSk
 hollanding | |  | |
 xalechim | |  | 3:48.7 | https://www.strava.com/activities/1657040431
 kkruns | |  | 4:39.2 | https://www.strava.com/activities/1657109593
