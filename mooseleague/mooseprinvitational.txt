@@ -32,7 +32,7 @@ robercha001 | |  | 4:44.25 |
 LongLegsShortShorts | 50.5 |  | 3:56.3 | https://www.strava.com/activities/1657144343
 zebano |  |  | |
 Qrszx | 47.6 |  | 4:09.8 | https://www.strava.com/activities/1649138512
-wardmuylaert | |  | |
+wardmuylaert | |  | 4:05 | https://www.strava.com/activities/1648762103
 OblongPlatypus | 51 |  | 5:40 | https://www.strava.com/activities/1656876616
 blueshirtguy13 | 49 |  | |
 SwissPance | 48.7 |  | |
@@ -185,7 +185,7 @@ Grandmasfavourite | |  | |
 qrszx | |  | 4:09.8 | https://www.strava.com/activities/1649138512
 dieeasysteve | |  | 5:30 | https://www.strava.com/activities/1656289900
 addicted_to_coffee | |  | |
-wardmuylaert | |  | |
+wardmuylaert | |  | 4:05 | https://www.strava.com/activities/1648762103
 DrGruselglatz | |  | 3:48 | https://www.strava.com/activities/1657620959
 willrow | |  | |
 mdizzl_ | |  | 4:21.3 |
@@ -265,7 +265,7 @@ a-german-muffin | |  | |
 madger19 | |  | |
 LadyOfNumbers | |  | |
 MadMennonite | |  | |
-wardmuylaert | |  | |
+wardmuylaert | |  | 4:05 | https://www.strava.com/activities/1648762103
 tiedtoamelody | | has a cute dog | 4:56 | https://www.strava.com/activities/1656695956
 HobbyPlodder | | has a cute dog | |
 
@@ -404,7 +404,7 @@ LongLegsShortShorts | |  | 3:56.3 | https://www.strava.com/activities/1657144343
 OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 
 LongLegsShortShorts | |  | 3:56.3 | https://www.strava.com/activities/1657144343
-wardmuylaert | |  | |
+wardmuylaert | |  | 4:05 | https://www.strava.com/activities/1648762103
 
 LongLegsShortShorts | |  | 3:56.3 | https://www.strava.com/activities/1657144343
 Qrszx | |  | 4:09.8 | https://www.strava.com/activities/1649138512
