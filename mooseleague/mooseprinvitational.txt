@@ -16,7 +16,7 @@ Belikepre | |  | |
 
 
 # Dirty Triathletes
-Almostanathlete | |  | |
+Almostanathlete | |  | 4:40 |
 sloworfast | |  | 4:42 |
 j1mmah | |  | 4:20 | https://www.strava.com/activities/1657009308
 j-yuteam | |  | |
@@ -172,7 +172,7 @@ user_ken | 62 | has cute dogs  | |
 OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 cashewlater | |  | 3:40 |
 alamo91 | |  | |
-Almostanathlete | |  | |
+Almostanathlete | |  | 4:40 |
 chalexdv | |  | |
 ao12 | |  | 4:19 | https://www.strava.com/activities/1656288069
 Aynophae | |  | 3:42 | https://www.strava.com/activities/1656018562
@@ -226,7 +226,7 @@ dinosaurweasel | |  | |
 jambojock | 56.4 |  | 4.10 |
 somethingnew__ | |  | 4:33 |
 LucasTheBeard | |  | |
-Almostanathlete | |  | |
+Almostanathlete | |  | 4:40 |
 Alamo91 | |  | |
 penchepic | |  | |
 willrow | |  | |
