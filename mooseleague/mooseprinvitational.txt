@@ -171,7 +171,7 @@ user_ken | 62 | has cute dogs  | |
 # EUphoria
 OblongPlatypus | |  | 5:40 | https://www.strava.com/activities/1656876616
 cashewlater | |  | 3:40 |
-alamo91 | |  | |
+alamo91 | |  | 3:42 | https://www.strava.com/activities/1649025668
 Almostanathlete | |  | 4:40 |
 chalexdv | |  | |
 ao12 | |  | 4:19 | https://www.strava.com/activities/1656288069
@@ -227,7 +227,7 @@ jambojock | 56.4 |  | 4.10 |
 somethingnew__ | |  | 4:33 |
 LucasTheBeard | |  | |
 Almostanathlete | |  | 4:40 |
-Alamo91 | |  | |
+Alamo91 | |  | 3:42 | https://www.strava.com/activities/1649025668
 penchepic | |  | |
 willrow | |  | |
 
