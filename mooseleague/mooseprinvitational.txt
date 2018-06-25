@@ -261,7 +261,7 @@ ajlark25 | 55 | has a cute dog  | |
 
 # Greater Pretzel Empire
 maineia | | has a cute dog  | |
-a-german-muffin | |  | |
+a-german-muffin | |  | 4:08.2 | https://www.strava.com/activities/1661124213
 madger19 | |  | |
 LadyOfNumbers | |  | |
 MadMennonite | |  | |
