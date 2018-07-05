@@ -25,6 +25,12 @@ if (!window.apploaded) {
     return min + sec;
   };
 
+  var fromSeconds = function fromSeconds(seconds) {
+    var min = Math.floor(seconds / 60);
+    var sec = parseFloat(seconds - min * 60).toFixed(1);
+    return min + ':' + (sec < 10 ? '0' : '') + sec;
+  };
+
   window.apploaded = true;
 
   var BASE = 'https://jgr3go.github.io/reddit_ar/mooseleague/';
@@ -624,6 +630,7 @@ if (!window.apploaded) {
       var allUsers = {};
 
       var ii = void 0;
+      // build leagues
       for (ii = 0; ii < lines.length; ii++) {
         var line = lines[ii].trim();
         if (!line) {
@@ -722,6 +729,7 @@ if (!window.apploaded) {
       }
 
       event.winners = getWinners(allUsers, event);
+      event.relayLeagueWinners = getRelayLeagueWinners(event);
 
       return event;
     };
@@ -893,6 +901,216 @@ if (!window.apploaded) {
       }
     }
 
+    function getRelayLeagueWinners(event) {
+      var relayEvents = [];
+
+      var _iteratorNormalCompletion19 = true;
+      var _didIteratorError19 = false;
+      var _iteratorError19 = undefined;
+
+      try {
+        for (var _iterator19 = event.events[Symbol.iterator](), _step19; !(_iteratorNormalCompletion19 = (_step19 = _iterator19.next()).done); _iteratorNormalCompletion19 = true) {
+          var eventName = _step19.value;
+
+
+          var relayEvent = {
+            event: eventName,
+            leagues: [],
+            isRelay: eventName.indexOf('x') >= 0
+          };
+          var _iteratorNormalCompletion21 = true;
+          var _didIteratorError21 = false;
+          var _iteratorError21 = undefined;
+
+          try {
+            for (var _iterator21 = event.leagues[Symbol.iterator](), _step21; !(_iteratorNormalCompletion21 = (_step21 = _iterator21.next()).done); _iteratorNormalCompletion21 = true) {
+              var league = _step21.value;
+
+              var leagueResult = {
+                event: eventName,
+                name: league.name,
+                team: [],
+                totalTime: null,
+                totalSeconds: null,
+                place: null,
+                notes: ''
+              };
+              var _iteratorNormalCompletion22 = true;
+              var _didIteratorError22 = false;
+              var _iteratorError22 = undefined;
+
+              try {
+                for (var _iterator22 = league.entrants[Symbol.iterator](), _step22; !(_iteratorNormalCompletion22 = (_step22 = _iterator22.next()).done); _iteratorNormalCompletion22 = true) {
+                  var entrant = _step22.value;
+                  var _iteratorNormalCompletion24 = true;
+                  var _didIteratorError24 = false;
+                  var _iteratorError24 = undefined;
+
+                  try {
+                    for (var _iterator24 = entrant.events[Symbol.iterator](), _step24; !(_iteratorNormalCompletion24 = (_step24 = _iterator24.next()).done); _iteratorNormalCompletion24 = true) {
+                      var ee = _step24.value;
+
+                      if (ee.event === eventName && ee.heatPlace && ee.heatPlace <= 4) {
+                        leagueResult.team.push({
+                          user: entrant.user,
+                          time: ee.time
+                        });
+                      }
+                    }
+                  } catch (err) {
+                    _didIteratorError24 = true;
+                    _iteratorError24 = err;
+                  } finally {
+                    try {
+                      if (!_iteratorNormalCompletion24 && _iterator24.return) {
+                        _iterator24.return();
+                      }
+                    } finally {
+                      if (_didIteratorError24) {
+                        throw _iteratorError24;
+                      }
+                    }
+                  }
+                }
+              } catch (err) {
+                _didIteratorError22 = true;
+                _iteratorError22 = err;
+              } finally {
+                try {
+                  if (!_iteratorNormalCompletion22 && _iterator22.return) {
+                    _iterator22.return();
+                  }
+                } finally {
+                  if (_didIteratorError22) {
+                    throw _iteratorError22;
+                  }
+                }
+              }
+
+              if (leagueResult.team.length < 4) {
+                leagueResult.notes = "DQ - Did not field 4 runners.";
+              } else {
+                leagueResult.totalSeconds = 0;
+                var _iteratorNormalCompletion23 = true;
+                var _didIteratorError23 = false;
+                var _iteratorError23 = undefined;
+
+                try {
+                  for (var _iterator23 = leagueResult.team[Symbol.iterator](), _step23; !(_iteratorNormalCompletion23 = (_step23 = _iterator23.next()).done); _iteratorNormalCompletion23 = true) {
+                    var e = _step23.value;
+
+                    leagueResult.totalSeconds += toSeconds(e.time);
+                  }
+                } catch (err) {
+                  _didIteratorError23 = true;
+                  _iteratorError23 = err;
+                } finally {
+                  try {
+                    if (!_iteratorNormalCompletion23 && _iterator23.return) {
+                      _iterator23.return();
+                    }
+                  } finally {
+                    if (_didIteratorError23) {
+                      throw _iteratorError23;
+                    }
+                  }
+                }
+
+                leagueResult.totalTime = fromSeconds(leagueResult.totalSeconds);
+              }
+              relayEvent.leagues.push(leagueResult);
+            }
+          } catch (err) {
+            _didIteratorError21 = true;
+            _iteratorError21 = err;
+          } finally {
+            try {
+              if (!_iteratorNormalCompletion21 && _iterator21.return) {
+                _iterator21.return();
+              }
+            } finally {
+              if (_didIteratorError21) {
+                throw _iteratorError21;
+              }
+            }
+          }
+
+          relayEvents.push(relayEvent);
+        }
+      } catch (err) {
+        _didIteratorError19 = true;
+        _iteratorError19 = err;
+      } finally {
+        try {
+          if (!_iteratorNormalCompletion19 && _iterator19.return) {
+            _iterator19.return();
+          }
+        } finally {
+          if (_didIteratorError19) {
+            throw _iteratorError19;
+          }
+        }
+      }
+
+      var _iteratorNormalCompletion20 = true;
+      var _didIteratorError20 = false;
+      var _iteratorError20 = undefined;
+
+      try {
+        for (var _iterator20 = relayEvents[Symbol.iterator](), _step20; !(_iteratorNormalCompletion20 = (_step20 = _iterator20.next()).done); _iteratorNormalCompletion20 = true) {
+          var re = _step20.value;
+
+          re.leagues = _.orderBy(re.leagues, 'totalSeconds', 'asc');
+          var _place = 1;
+          var _iteratorNormalCompletion25 = true;
+          var _didIteratorError25 = false;
+          var _iteratorError25 = undefined;
+
+          try {
+            for (var _iterator25 = re.leagues[Symbol.iterator](), _step25; !(_iteratorNormalCompletion25 = (_step25 = _iterator25.next()).done); _iteratorNormalCompletion25 = true) {
+              var _league = _step25.value;
+
+              if (_league.team.length >= 4) {
+                _league.place = _place;
+                _place += 1;
+                _league.notes = _league.team.map(function (u) {
+                  return u.user + ' (' + u.time + ')';
+                }).join('\n');
+              }
+            }
+          } catch (err) {
+            _didIteratorError25 = true;
+            _iteratorError25 = err;
+          } finally {
+            try {
+              if (!_iteratorNormalCompletion25 && _iterator25.return) {
+                _iterator25.return();
+              }
+            } finally {
+              if (_didIteratorError25) {
+                throw _iteratorError25;
+              }
+            }
+          }
+        }
+      } catch (err) {
+        _didIteratorError20 = true;
+        _iteratorError20 = err;
+      } finally {
+        try {
+          if (!_iteratorNormalCompletion20 && _iterator20.return) {
+            _iterator20.return();
+          }
+        } finally {
+          if (_didIteratorError20) {
+            throw _iteratorError20;
+          }
+        }
+      }
+
+      return relayEvents;
+    }
+
     function getWinners(allUsers, event) {
       allUsers = _.toArray(allUsers);
 
@@ -931,13 +1149,13 @@ if (!window.apploaded) {
           return l.trim();
         });
 
-        var _iteratorNormalCompletion19 = true;
-        var _didIteratorError19 = false;
-        var _iteratorError19 = undefined;
+        var _iteratorNormalCompletion26 = true;
+        var _didIteratorError26 = false;
+        var _iteratorError26 = undefined;
 
         try {
-          for (var _iterator19 = links[Symbol.iterator](), _step19; !(_iteratorNormalCompletion19 = (_step19 = _iterator19.next()).done); _iteratorNormalCompletion19 = true) {
-            var link = _step19.value;
+          for (var _iterator26 = links[Symbol.iterator](), _step26; !(_iteratorNormalCompletion26 = (_step26 = _iterator26.next()).done); _iteratorNormalCompletion26 = true) {
+            var link = _step26.value;
 
             if (!link) {
               continue;
@@ -949,16 +1167,16 @@ if (!window.apploaded) {
             }
           }
         } catch (err) {
-          _didIteratorError19 = true;
-          _iteratorError19 = err;
+          _didIteratorError26 = true;
+          _iteratorError26 = err;
         } finally {
           try {
-            if (!_iteratorNormalCompletion19 && _iterator19.return) {
-              _iterator19.return();
+            if (!_iteratorNormalCompletion26 && _iterator26.return) {
+              _iterator26.return();
             }
           } finally {
-            if (_didIteratorError19) {
-              throw _iteratorError19;
+            if (_didIteratorError26) {
+              throw _iteratorError26;
             }
           }
         }
@@ -995,6 +1213,7 @@ if (!window.apploaded) {
     var vm = this;
 
     vm.tab = 'start';
+    vm.hasRelay = true;
 
     $anchorScroll.yOffset = 60;
 
@@ -1018,6 +1237,33 @@ if (!window.apploaded) {
         };
 
         vm.event.date = moment(new Date(vm.event.date)).format('MMM D, YYYY');
+
+        var _iteratorNormalCompletion27 = true;
+        var _didIteratorError27 = false;
+        var _iteratorError27 = undefined;
+
+        try {
+          for (var _iterator27 = event.events[Symbol.iterator](), _step27; !(_iteratorNormalCompletion27 = (_step27 = _iterator27.next()).done); _iteratorNormalCompletion27 = true) {
+            var ee = _step27.value;
+
+            if (ee.indexOf('x') >= 0) {
+              vm.hasRelay = true;
+            }
+          }
+        } catch (err) {
+          _didIteratorError27 = true;
+          _iteratorError27 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion27 && _iterator27.return) {
+              _iterator27.return();
+            }
+          } finally {
+            if (_didIteratorError27) {
+              throw _iteratorError27;
+            }
+          }
+        }
 
         $timeout($anchorScroll);
       });

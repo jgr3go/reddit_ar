@@ -12,6 +12,9 @@
   <li class="nav-item">
     <a class="nav-link" ng-class="{'active': EC.tab === 'points'}" href="" ng-click="EC.changeTab('points')">Points</a>
   </li>
+  <li class="nav-item" ng-show="EC.hasRelay">
+    <a class="nav-link" ng-class="{'active': EC.tab === 'relay'}" href="" ng-click="EC.changeTab('relay')">Relays</a>
+  </li>
 </ul>
 
 <a href="https://github.com/jgr3go/reddit_ar/blob/master/mooseleague/{{EC.event.file}}" 
@@ -177,4 +180,28 @@
       </tr>
     </tbody>
   </table>
+</div>
+
+<div ng-show="EC.tab === 'relay'">
+  <div ng-repeat="event in EC.event.relayLeagueWinners" ng-if="event.isRelay">
+    <h4>{{event.event}}</h4>
+    <table class="table table-sm">
+      <thead class="thead-inverse">
+        <tr>
+          <th style="width: 25px;">Place</th>
+          <th style="width: 40%">Division</th>
+          <th style="width: 75px;">Time</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="league in event.leagues">
+          <td>{{league.place}}</td>
+          <td>{{league.name}}</td>
+          <td>{{league.totalTime}}</td>
+          <td><span style="white-space: pre">{{league.notes}}</span></td>
+        </tr>  
+      </tbody>
+    </table>
+  </div>
 </div>

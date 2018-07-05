@@ -27,7 +27,11 @@ function toSeconds(time) {
   let sec = parseFloat(parts[1]);
   return min + sec;
 }
-
+function fromSeconds(seconds) {
+  let min = Math.floor(seconds / 60);
+  let sec = parseFloat(seconds - (min * 60)).toFixed(1);
+  return `${min}:${sec < 10 ? '0' : ''}${sec}`;
+}
 
 
 angular
@@ -402,6 +406,7 @@ angular
       let allUsers = {};
 
       let ii;
+      // build leagues
       for (ii = 0; ii < lines.length; ii++) {
         let line = lines[ii].trim();
         if (!line) { continue; }
@@ -453,6 +458,7 @@ angular
       }
 
       event.winners = getWinners(allUsers, event);
+      event.relayLeagueWinners = getRelayLeagueWinners(event);
 
       return event;
     };
@@ -532,6 +538,67 @@ angular
       }
     }
 
+    function getRelayLeagueWinners(event) {
+      let relayEvents = [];
+
+      for (let eventName of event.events) {
+        
+        let relayEvent = {
+          event: eventName,
+          leagues: [],
+          isRelay: eventName.indexOf('x') >= 0
+        };
+        for (let league of event.leagues) {
+          let leagueResult = {
+            event: eventName,
+            name: league.name,
+            team: [],
+            totalTime: null,
+            totalSeconds: null,
+            place: null,
+            notes: ''
+          };
+          for (let entrant of league.entrants) {
+            for (let ee of entrant.events) {
+              if (ee.event === eventName && ee.heatPlace && ee.heatPlace <= 4) {
+                leagueResult.team.push({
+                  user: entrant.user,
+                  time: ee.time
+                });
+              }
+            }
+          }
+          if (leagueResult.team.length < 4) {
+            leagueResult.notes = "DQ - Did not field 4 runners.";
+          } else {
+            leagueResult.totalSeconds = 0;
+            for (let e of leagueResult.team) {
+              leagueResult.totalSeconds += toSeconds(e.time);
+            }
+            leagueResult.totalTime = fromSeconds(leagueResult.totalSeconds);
+          }
+          relayEvent.leagues.push(leagueResult);
+        }
+        relayEvents.push(relayEvent);
+      }
+
+      for (let re of relayEvents) {
+        re.leagues = _.orderBy(re.leagues, 'totalSeconds', 'asc');
+        let place = 1;
+        for (let league of re.leagues) {
+          if (league.team.length >= 4) {
+            league.place = place;
+            place += 1;
+            league.notes = league.team.map(u => {
+              return `${u.user} (${u.time})`;
+            }).join('\n');
+          }
+        }
+      }
+      
+      return relayEvents;
+    }
+
     function getWinners(allUsers, event) {
       allUsers = _.toArray(allUsers);
 
@@ -600,6 +667,7 @@ angular
       let vm = this;
 
       vm.tab = 'start';
+      vm.hasRelay = true;
 
       $anchorScroll.yOffset = 60;
 
@@ -623,6 +691,12 @@ angular
             };
 
             vm.event.date = moment(new Date(vm.event.date)).format('MMM D, YYYY');
+
+            for (let ee of event.events) {
+              if (ee.indexOf('x') >= 0) {
+                vm.hasRelay = true;
+              }
+            }
 
             $timeout($anchorScroll);
           });
