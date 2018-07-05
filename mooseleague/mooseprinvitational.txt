@@ -8,7 +8,7 @@ ChickenSedan | | has a cute dog  | |
 jpbronco | |  | |
 thereelkanyewest | |  | |
 Johngalt10 | |  | |
-imnotwadegreeley | |  | |
+imnotwadegreeley | |  | 3:34.8 | https://www.strava.com/activities/1662277865
 marximumrunner | |  | |
 theblackandblue | |  | |
 trialofmilesoftrials | |  | |
@@ -307,7 +307,7 @@ TheSpielvogel | 59.6 |  | |
 Reference_Obscure | 57 |  | |
 GooseGrewABeard | |  | |
 anbu1538 | 63 |  | |
-imnotwadegreeley | 58 |  | 3:34.81 | https://www.strava.com/activities/1662277865
+imnotwadegreeley | 58 |  | 3:34.8 | https://www.strava.com/activities/1662277865
 BreadMakesYouFast | 57 |  | |
 thereelkanyewest | 60.5 |  | |
 Lampzerg | 49 |  | |
