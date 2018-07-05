@@ -1,6 +1,6 @@
 Moose Island Mile
 2018-07-21
-1500m,400m
+1500m, 4x400m
 
 
 # DMV
