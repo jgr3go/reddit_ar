@@ -904,6 +904,7 @@ if (!window.apploaded) {
     function getRelayLeagueWinners(event) {
       var relayEvents = [];
 
+      var isFuture = moment(event).format('YYYYMMDD') > moment().format('YYYYMMDD');
       var _iteratorNormalCompletion19 = true;
       var _didIteratorError19 = false;
       var _iteratorError19 = undefined;
@@ -987,7 +988,7 @@ if (!window.apploaded) {
                 }
               }
 
-              if (leagueResult.team.length < 4) {
+              if (!isFuture && leagueResult.team.length < 4) {
                 leagueResult.notes = "DQ - Did not field 4 runners.";
               } else {
                 leagueResult.totalSeconds = 0;

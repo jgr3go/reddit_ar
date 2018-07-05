@@ -541,6 +541,7 @@ angular
     function getRelayLeagueWinners(event) {
       let relayEvents = [];
 
+      let isFuture = moment(event).format('YYYYMMDD') > moment().format('YYYYMMDD');
       for (let eventName of event.events) {
         
         let relayEvent = {
@@ -568,7 +569,7 @@ angular
               }
             }
           }
-          if (leagueResult.team.length < 4) {
+          if (!isFuture && leagueResult.team.length < 4) {
             leagueResult.notes = "DQ - Did not field 4 runners.";
           } else {
             leagueResult.totalSeconds = 0;
