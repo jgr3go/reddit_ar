@@ -1213,7 +1213,7 @@ if (!window.apploaded) {
     var vm = this;
 
     vm.tab = 'start';
-    vm.hasRelay = true;
+    vm.hasRelay = false;
 
     $anchorScroll.yOffset = 60;
 
