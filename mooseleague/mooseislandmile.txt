@@ -43,7 +43,6 @@ somethingnew__ | 51 |
 j-yuteam | 50 |  
 toystory3_wasokay | 51 |  
 deadc0de | 48.9 |  
-jibasaur | 51.7 |  
 yjjsbb | 51 |  
 mdizzl_ | 50.5 |  
 iggywing | 48 |  
@@ -76,6 +75,7 @@ FlyRBFly | 45 |
 AfricanBus | 67 |  
 snapundersteer | 49 | parents have cute dogs  
 GooseGrewABeard | 46.9 |  
+roxum1 | |
 
 
 # Wildcard
@@ -198,6 +198,7 @@ FreeSoup21 | | has a cute dog
 rantifarian | 47 |  
 mrsloworfast | |  
 b_nonas | | 
+ Ask_If_I_Am_Happy | | 
 
 
 # Slow, Sweaty, Sloppy, Sticky Southern Heat Intensive Track-club (SSSSSHIT)
@@ -294,10 +295,10 @@ rnr_ | 55 |
 PartyDown22 | 58 |  
 bwilly22 | 59.7 |  
 copperpine | 54 |  
-jibasaur | 51.7 |  
 nxn9 | 59 |  
 Nate_DT | 51.2 |  
 sbre4896 | 66.6 |  
+banstew | | 
 
 
 # Division Suns Out Guns Out
@@ -327,6 +328,7 @@ siawyn | 43.2 |
 bizbup | |  
 RunRoarDinosaur | |  
 mrsloworfast | |  
+rennuR_liarT | |
 
 
 # What just dripped on my head?
