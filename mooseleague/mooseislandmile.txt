@@ -117,7 +117,7 @@ SSJ_Adam | |
 
 
 # XX
-linzlars | 35 |  
+linzlars | 35 |  has cute dogs
 RunningPath | 20 |  
 kaaaazzh | 45 |  
 SmallEfforts | 37 |  
@@ -269,6 +269,7 @@ MadMennonite | |
 wardmuylaert | |  
 tiedtoamelody | | has a cute dog 
 HobbyPlodder | | has a cute dog 
+abraburger | | 
 
 # Midwest
 ethos24 | 57 |  
