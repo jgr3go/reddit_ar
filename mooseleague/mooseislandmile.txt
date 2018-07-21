@@ -92,7 +92,7 @@ snapundersteer | |   | |
 hydro_wonk | |   | |
 moongrey | |   | |
 thebushleaguerunner | |   | |
-2menshaving | |   | |
+2menshaving | |   | 5:01, 73 | https://www.strava.com/activities/1717456103
 Yiftathashifta | |   | |
 JohnsAwesome | |   | |
 mrsloworfast | |   | 4:51, 68 | https://www.strava.com/activities/1717210569
@@ -183,7 +183,7 @@ dinosaurweasel | |   | |
 sloworfast | |   | 5:47, 1:23 |
 Grandmasfavourite | |   | |
 qrszx | |   | |
-dieeasysteve | |   | |
+dieeasysteve | |   | 7.08, 1:36 | https://www.strava.com/activities/1716782060
 addicted_to_coffee | |   | |
 wardmuylaert | |   | |
 DrGruselglatz | |   | |
@@ -319,7 +319,7 @@ OGFireNation | |   | |
 
 
 # The Olds-mobile
-brwalkernc | 54.4 | has cute dogs   | |
+brwalkernc | 54.4 | has cute dogs   | 5:08.4, 68 | https://www.strava.com/activities/1713088815
 jaylapeche | | has a cute dog   | |
 PrairieFirePhoenix | |   | |
 djlemma | |   | |
