@@ -103,7 +103,7 @@ Nony2 | |   | 4:25.8, 59.3 | https://www.strava.com/activities/1718309628/laps
 
 # College
 trialofmilesoftrials | |   | |
-Chicago_Blackhawks | |   | 5:27, 90 | will https://youtu.be/eEvZ6Vtpqm0
+Chicago_Blackhawks | |   | 5:27, 90 |https://youtu.be/eEvZ6Vtpqm0
 AfricanBus | |   | |
 Laggy4Life | |   | |
 Zwiseguy15 | |   | |
@@ -133,7 +133,7 @@ hollanding | 40.7 |   | |
 kkruns | |   | |
 blushingscarlet | 48 |   | |
 Zond0 | 39.2 |   | |
-aribev24 | 45 | has a cute bear   | 6:02, 78 | butts
+aribev24 | 45 | has a cute bear   | 6:02, 78 |
 optimisticBrassica | 39 |   | |
 FlyRBFly | 45 |   | |
 espressopatronum | 47 | has cute dogs   | |
@@ -152,7 +152,7 @@ Allysaurus_Rex | 37.5 |   | |
 bluemostboth | |   | |
 zond0 | |   | |
 j1mmah | 49.3 |   | |
-ultrahobbyjogger | |   | 5:08, 65 | https://strava.com
+ultrahobbyjogger | |   | 5:08, 65 |
 chrispyb | |   | |
 screwbuharvard2 | |   | |
 zwingtip | |   | |
@@ -236,8 +236,8 @@ willrow | |   | |
 
 # B3TC
 runroardinosaur | |   | |
-aribev24 | | has a cute bear   | 6:02, 78 | butts
-ultrahobbyjogger | |   | 5:08, 65 | https://strava.com
+aribev24 | | has a cute bear   | 6:02, 78 | 
+ultrahobbyjogger | |   | 5:08, 65 | 
 eabryt | |   | |
 winterspite | | has a cute dog   | |
 nutbrownhare14 | | has a cute dog   | |
@@ -285,7 +285,7 @@ PrairieFirePhoenix | |   | |
 arpee | 55.7 |   | |
 champjoelouis | 54 |   | 4:53, 64 | https://www.strava.com/activities/1718693597
 Fsus2 | 51.5 |   | |
-Chicago_Blackhawks | |   | 5:27, 90 | will https://youtu.be/eEvZ6Vtpqm0
+Chicago_Blackhawks | |   | 5:27, 90 | https://youtu.be/eEvZ6Vtpqm0
 cross1212 | 60.1 |   | |
 runwichi | |   | |
 patrick_e | 45.3 |   | |
@@ -341,7 +341,7 @@ xalechim | |   | |
 kkruns | |   | |
 bizbup | |   | |
 Mr800ftw | |   | 4:28, 57 | https://www.strava.com/activities/1717057221
-Redbird15 | |   | 5:44.0, 78.4 | will
+Redbird15 | |   | 5:44.0, 78.4 |
 kitmykat | 56 |   | |
 v2jim | 48 |   | |
 
