@@ -61,7 +61,7 @@ SwissPancake | 48.7 |   | 5:27.5, 68 | https://www.strava.com/activities/1717343
 cabusto | 53 | has a cute dog  | |
 nameproduct | 62 |   | |
 SmallEfforts | 37 |   | |
-sloworfast | 47 |   | 5:47, 1:23 |
+sloworfast | 47 |   | 5:47, 83 |
 deadc0de | 48.9 |   | |
 SleepWouldBeNice | 53 | has a cute dog  | 5:58, 1:29 | https://www.strava.com/activities/1717169577
 allxxe | 33.3 | has a cute dog   | |
@@ -117,15 +117,15 @@ SSJ_Adam | |   | |
 
 
 # XX
-linzlars | 35 |  has cute dogs | 6:11, 1:31 | https://www.strava.com/activities/1713300014 
+linzlars | 35 |  has cute dogs | 6:11, 91 | https://www.strava.com/activities/1713300014 
 RunningPath | 20 |   | |
 kaaaazzh | 45 |   | |
 SmallEfforts | 37 |   | |
 SnowflakeRunner | 45.5 |   | |
 madger19 | 46 |   | |
 chalexdv | 44 |   | 6:11.6, 93 | https://www.strava.com/activities/1715240256 
-sloworfast | 47 |   | 5:47, 1:23 |
-meow203 | 33.3 |   | 7:33, 1:48 |
+sloworfast | 47 |   | 5:47, 83 |
+meow203 | 33.3 |   | 7:33, 108 |
 gelvina | 45 |   | |
 ahf0913 | 36 |   | 7:14, 92 | https://www.strava.com/activities/1718010421
 LadyOfNumbers | 47.8 |   | |
@@ -143,7 +143,7 @@ Yjjsbb | 51 |   | |
 aewillia | 40 | has a cute dog   | |
 kdwhodat | 48 |   | |
 RunRoarDinosaur | |   | |
-legerete_de_letre | 34 |   | 7:28, 1:53 |
+legerete_de_letre | 34 |   | 7:28, 113 |
 allxxe | 33.3 | has a cute dog   | |
 Allysaurus_Rex | 37.5 |   | |
 
@@ -180,10 +180,10 @@ LongLegsShortShorts | |   | 5:46, 79 | https://www.strava.com/activities/1716610
 lucasthebeard | |   | |
 espegri | |   | |
 dinosaurweasel | |   | |
-sloworfast | |   | 5:47, 1:23 |
+sloworfast | |   | 5:47, 83 |
 Grandmasfavourite | |   | |
 qrszx | |   | 5:33, 84 | https://www.strava.com/activities/1699751167
-dieeasysteve | |   | 7.08, 1:36 | https://www.strava.com/activities/1716782060
+dieeasysteve | |   | 7.08, 96 | https://www.strava.com/activities/1716782060
 addicted_to_coffee | |   | |
 wardmuylaert | |   | 5:24, 76 | https://www.strava.com/activities/1718340580
 DrGruselglatz | |   | |
@@ -255,8 +255,8 @@ tripsd | 53 |   | 5:13.4, 76.7 | https://www.strava.com/activities/1716394674
 tweeeked | 60.6 |   | |
 dillonpanthers33 | 52 | has a cute dog   | |
 thirdmeasurement | 40 |   | |
-JustDoIt-Slowly | 39 |   | 7:23, 2:24 |
-meow203 | 33.3 |   | 7:33, 1:48 |
+JustDoIt-Slowly | 39 |   | 7:23, 144 |
+meow203 | 33.3 |   | 7:33, 108 |
 ajlark25 | 55 | has a cute dog   | |
 
 
