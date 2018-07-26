@@ -16,16 +16,16 @@ Belikepre | |   | |
 
 
 # Dirty Triathletes
-Almostanathlete | |   | |
+Almostanathlete | |   | 5:50,94 | https://www.strava.com/activities/1719815813
 sloworfast | |   | 5:47, 1:23 |
 j1mmah | |   | |
 j-yuteam | |   | |
 Tapin42 | |   | |
-flocculus | |   | |
+flocculus | |   | 6:00,88 |
 djlemma | |   | |
 penchepic | |   | |
 ultimateplayer44 |  |   | |
-robercha001 | |   | |
+robercha001 | |   | 6:40, 71.1 |
 
 
 # Mortal Hobbyjoggers
@@ -59,7 +59,7 @@ halpinator | 55 | has a cute dog  | |
 AnonymousWritings | 52.2 |   | |
 SwissPancake | 48.7 |   | 5:27.5, 68 | https://www.strava.com/activities/1717343693
 cabusto | 53 | has a cute dog  | |
-nameproduct | 62 |   | |
+nameproduct | 62 |   | 59:44,697 | 
 SmallEfforts | 37 |   | |
 sloworfast | 47 |   | 5:47, 1:23 |
 deadc0de | 48.9 |   | |
@@ -84,7 +84,7 @@ herumph | |   | |
 patrick_e | |   | |
 zebano | |   | |
 PrairieFirePhoenix | |   | |
-kkruns | |   | |
+kkruns | |   | 5:50.11, 1:24.98 | https://www.strava.com/activities/1728007260
 upxc | |   | |
 weimarunner | | has a cute dog   | |
 Zwiseguy15 | |   | |
@@ -130,7 +130,7 @@ gelvina | 45 |   | |
 ahf0913 | 36 |   | 7:14, 92 | https://www.strava.com/activities/1718010421
 LadyOfNumbers | 47.8 |   | |
 hollanding | 40.7 |   | |
-kkruns | |   | |
+kkruns | |   | 5:50.11, 1:24.98 | https://www.strava.com/activities/1728007260
 blushingscarlet | 48 |   | |
 Zond0 | 39.2 |   | |
 aribev24 | 45 | has a cute bear   | 6:02, 78 |
@@ -157,8 +157,8 @@ chrispyb | |   | |
 screwbuharvard2 | |   | |
 zwingtip | |   | |
 iggywing | |   | |
-flocculus | |   | |
-ehMac26 | |   | |
+flocculus | |   | 6:00,88 |
+ehMac26 | |   | 5:48,80 |
 croyd | |   | |
 doderlein | |   | |
 teegly | 66.8 |   | |
@@ -172,7 +172,7 @@ user_ken | 62 | has cute dogs   | |
 OblongPlatypus | |   | 6:12, 98 | https://www.strava.com/activities/1718081198
 cashewlater | |   | |
 alamo91 | |   | |
-Almostanathlete | |   | |
+Almostanathlete | |   | 5:50,94 | https://www.strava.com/activities/1719815813
 chalexdv | |   | 6:11.6, 93 | https://www.strava.com/activities/1715240256 
 ao12 | |   | 5:23, 77 | https://www.strava.com/activities/1716678150
 Aynophae | |   | |
@@ -227,7 +227,7 @@ dinosaurweasel | |   | |
 jambojock | 56.4 |   | |
 somethingnew__ | |   | |
 LucasTheBeard | |   | |
-Almostanathlete | |   | |
+Almostanathlete | |   | 5:50,94 | https://www.strava.com/activities/1719815813
 Alamo91 | |   | |
 penchepic | |   | |
 willrow | |   | |
@@ -262,7 +262,7 @@ ajlark25 | 55 | has a cute dog   | |
 
 # Greater Pretzel Empire
 maineia | | has a cute dog   | |
-a-german-muffin | |   | |
+a-german-muffin | |   | 5:30.5,77.7 | https://www.strava.com/activities/1715295332
 madger19 | |   | |
 LadyOfNumbers | |   | |
 MadMennonite | |   | 5:31, 76 | https://www.strava.com/activities/1718183959
@@ -280,7 +280,7 @@ Krazyfranco | 60.6 |   | |
 wittja01 | 48 |   | |
 WillRunForTacos | 57.3 |   | |
 zebano | |   | |
-andybebad | 66 |   | |
+andybebad | 66 |   | 5:11,1:30 | https://www.strava.com/activities/1716044977
 PrairieFirePhoenix | |   | |
 arpee | 55.7 |   | |
 champjoelouis | 54 |   | 4:53, 64 | https://www.strava.com/activities/1718693597
@@ -300,14 +300,14 @@ copperpine | 54 |   | |
 nxn9 | 59 |   | |
 Nate_DT | 51.2 |   | |
 sbre4896 | 66.6 |   | |
-banstew | |  | |
+banstew | |  | 5:05, 68 | https://www.strava.com/activities/1717238718
 
 
 # Division Suns Out Guns Out
 pencilomatic | 51 | has a cute dog  | |
 llimllib | 57.5 |   | 4:42.8, 64.1 | https://www.strava.com/activities/1716967975
 TheSpielvogel | 59.6 |   | |
-Reference_Obscure | 57 |   | |
+Reference_Obscure | 57 |  | |
 GooseGrewABeard | |   | |
 anbu1538 | 63 |   | |
 imnotwadegreeley | 58 |   | 4:29.4, 60.7 | https://www.strava.com/activities/1718088581
@@ -338,7 +338,7 @@ blood_bender | |   | |
 djlemma | |   | |
 hollanding | |   | |
 xalechim | |   | |
-kkruns | |   | |
+kkruns | |   | 5:50.11, 1:24.98 | https://www.strava.com/activities/1728007260
 bizbup | |   | |
 Mr800ftw | |   | 4:28, 57 | https://www.strava.com/activities/1717057221
 Redbird15 | |   | 5:44.0, 78.4 |
