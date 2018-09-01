@@ -4,411 +4,411 @@ Moose Relays
 
 
 # DMV
-ChickenSedan | | has a cute dog   
-jpbronco | |   
-thereelkanyewest | |   
-Johngalt10 | |   
-imnotwadegreeley | |   
-marximumrunner | |   
-theblackandblue | |   
-trialofmilesoftrials | |   
-Belikepre | |   
+ChickenSedan | | has a cute dog    | |
+jpbronco | |    | |
+thereelkanyewest | |    | |
+Johngalt10 | |    | |
+imnotwadegreeley | |    | 5:52 | https://www.strava.com/activities/1741212791
+marximumrunner | |    | |
+theblackandblue | |    | |
+trialofmilesoftrials | |    | |
+Belikepre | |    | |
 
 
 # Dirty Triathletes
-Almostanathlete | |   
-sloworfast | |   
-j1mmah | |   
-j-yuteam | |   
-Tapin42 | |   
-flocculus | |   
-djlemma | |   
-penchepic | |   
-ultimateplayer44 |  |   
-robercha001 | |   
+Almostanathlete | |    | |
+sloworfast | |    | 6:40 |
+j1mmah | |    | |
+j-yuteam | |    | |
+Tapin42 | |    | |
+flocculus | |    | 6:59 | https://www.strava.com/activities/1780642424/shareable_images/map_based?hl=en-US&v=1534603335
+djlemma | |    | |
+penchepic | |    | |
+ultimateplayer44 |  |    | |
+robercha001 | |    | |
 
 
 # Mortal Hobbyjoggers
-LongLegsShortShorts | 50.5 |   
-zebano |  |   
-Qrszx | 47.6 |   
-wardmuylaert | |   
-OblongPlatypus | 51 |   
-blueshirtguy13 | 49 |   
-SwissPancake | 48.7 |   
-sairosantos | 51 |   
-batosz91 | 48 |   
-pencilomatic | 51 | has a cute dog  
-somethingnew__ | 51 |   
-j-yuteam | 50 |   
-toystory3_wasokay | 51 |   
-deadc0de | 48.9 |   
-yjjsbb | 51 |   
-mdizzl_ | 50.5 |   
-iggywing | 48 |   
-satyagrahalife | 51 |   
-patrick_e | 48 |   
-SebastianCannonball | 50.5 |   
-ChickpeaCorea | 50 |   
+LongLegsShortShorts | 50.5 |    | 5:57 | https://www.strava.com/activities/1741963765
+zebano |  |    | |
+Qrszx | 47.6 |    | 6:10 | https://www.strava.com/activities/1781340853
+wardmuylaert | |    | 5:48 | https://www.strava.com/activities/1771948983
+OblongPlatypus | 51 |    | 5:55 | https://www.strava.com/activities/1779648702
+blueshirtguy13 | 49 |    | |
+SwissPancake | 48.7 |    | |
+sairosantos | 51 |    | |
+batosz91 | 48 |    | |
+pencilomatic | 51 | has a cute dog   | |
+somethingnew__ | 51 |    | 6:03 | https://www.strava.com/activities/1777977208
+j-yuteam | 50 |    | |
+toystory3_wasokay | 51 |    | |
+deadc0de | 48.9 |    | |
+yjjsbb | 51 |    | |
+mdizzl_ | 50.5 |    | |
+iggywing | 48 |    | |
+satyagrahalife | 51 |    | |
+patrick_e | 48 |    | 6:15 | https://www.strava.com/activities/1780461247
+SebastianCannonball | 50.5 |    | |
+ChickpeaCorea | 50 |    | |
 
 
 # Royal Canadian Moose Patrol
-True_North_Strong | 53.7 |   
-RIGHT_THURR | 55 |   
-halpinator | 55 | has a cute dog  
-AnonymousWritings | 52.2 |   
-SwissPancake | 48.7 |   
-cabusto | 53 | has a cute dog  
-nameproduct | 62 |   
-SmallEfforts | 37 |   
-sloworfast | 47 |   
-deadc0de | 48.9 |   
-SleepWouldBeNice | 53 | has a cute dog  
-allxxe | 33.3 | has a cute dog   
-ahhabee | |   
+True_North_Strong | 53.7 |    | 5:48 | https://www.strava.com/activities/1782981997
+RIGHT_THURR | 55 |    | 5:29 | https://www.strava.com/activities/1781118643
+halpinator | 55 | has a cute dog   | 6:15 |
+AnonymousWritings | 52.2 |    | 6:12 | https://www.strava.com/activities/1779870152/laps
+SwissPancake | 48.7 |    | |
+cabusto | 53 | has a cute dog   | |
+nameproduct | 62 |    | |
+SmallEfforts | 37 |    | |
+sloworfast | 47 |    | 6:40 |
+deadc0de | 48.9 |    | |
+SleepWouldBeNice | 53 | has a cute dog   | |
+allxxe | 33.3 | has a cute dog    | |
+ahhabee | |    | |
 
 
 # We're Slow Because the Air Is Thinner Up Here
-A_cook_not_a_chef | 52 |   
-blueshirtguy13 | 49 |   
-FlyRBFly | 45 |   
-AfricanBus | 67 |   
-snapundersteer | 49 | parents have cute dogs   
-GooseGrewABeard | 46.9 |   
-roxum1 | | 
+A_cook_not_a_chef | 52 |    | |
+blueshirtguy13 | 49 |    | |
+FlyRBFly | 45 |    | |
+AfricanBus | 67 |    | |
+snapundersteer | 49 | parents have cute dogs    | |
+GooseGrewABeard | 46.9 |    | 6:12 | https://www.strava.com/activities/1780506833
+roxum1 | |  | |
 
 
 # Wildcard
-BowermanSnackClub | | parents have cute dog   
-herumph | |   
-patrick_e | |   
-zebano | |   
-PrairieFirePhoenix | |   
-kkruns | |   
-upxc | |   
-weimarunner | | has a cute dog   
-Zwiseguy15 | |   
-snapundersteer | |   
-hydro_wonk | |   
-moongrey | |   
-thebushleaguerunner | |   
-2menshaving | |   
-Yiftathashifta | |   
-JohnsAwesome | |   
-mrsloworfast | |   
-da-kine | |   
-appexxd_ | |   
-Nony2 | |   
+BowermanSnackClub | | parents have cute dog    | 6:05 | https://www.strava.com/activities/1779119162/shareable_images/map_based?hl=en-US&v=1534541173
+herumph | |    | |
+patrick_e | |    | 6:15 | https://www.strava.com/activities/1780461247
+zebano | |    | |
+PrairieFirePhoenix | |    | |
+kkruns | |    | 6:24 | https://www.strava.com/activities/1791915148
+upxc | |    | |
+weimarunner | | has a cute dog    | |
+Zwiseguy15 | |    | |
+snapundersteer | |    | |
+hydro_wonk | |    | |
+moongrey | |    | |
+thebushleaguerunner | |    | |
+2menshaving | |    | 5:29 | https://www.strava.com/activities/1780610281/overview
+Yiftathashifta | |    | |
+JohnsAwesome | |    | 6:03 | https://www.strava.com/activities/1781516943
+mrsloworfast | |    | 5:37 | https://www.strava.com/activities/1780143163
+da-kine | |    | |
+appexxd_ | |    | |
+Nony2 | |    | 4:58 | https://www.strava.com/activities/1778556413
 
 
 # College
-trialofmilesoftrials | |   
-Chicago_Blackhawks | |   
-AfricanBus | |   
-Laggy4Life | |   
-Zwiseguy15 | |   
-kmck96 | | has a cute dog   
-anbu1538 | |   
-Mortifyinq | |   
-ju_bl | |   
-sonofdoherty | |   
-DrGruselglatz | |   
-SSJ_Adam | |   
+trialofmilesoftrials | |    | |
+Chicago_Blackhawks | |    | |
+AfricanBus | |    | |
+Laggy4Life | |    | |
+Zwiseguy15 | |    | |
+kmck96 | | has a cute dog    | 5:14 | https://www.strava.com/activities/1778543342
+anbu1538 | |    | |
+Mortifyinq | |    | |
+ju_bl | |    | |
+sonofdoherty | |    | |
+DrGruselglatz | |    | |
+SSJ_Adam | |    | |
 
 
 # XX
-linzlars | 35 |  has cute dogs 
-RunningPath | 20 |   
-kaaaazzh | 45 |   
-SmallEfforts | 37 |   
-SnowflakeRunner | 45.5 |   
-madger19 | 46 |   
-chalexdv | 44 |   
-sloworfast | 47 |   
-meow203 | 33.3 |   
-gelvina | 45 |   
-ahf0913 | 36 |   
-LadyOfNumbers | 47.8 |   
-hollanding | 40.7 |   
-kkruns | |   
-blushingscarlet | 48 |   
-Zond0 | 39.2 |   
-aribev24 | 45 | has a cute bear   
-optimisticBrassica | 39 |   
-FlyRBFly | 45 |   
-espressopatronum | 47 | has cute dogs   
-WillRunForTacos | 57.3 |   
-forkinyourothereye | 36 |   
-Yjjsbb | 51 |   
-aewillia | 40 | has a cute dog   
-kdwhodat | 48 |   
-RunRoarDinosaur | |   
-legerete_de_letre | 34 |   
-allxxe | 33.3 | has a cute dog   
-Allysaurus_Rex | 37.5 |   
+linzlars | 35 |  has cute dogs  | 6:45 | https://www.strava.com/activities/1776488231
+RunningPath | 20 |    | |
+kaaaazzh | 45 |    | |
+SmallEfforts | 37 |    | |
+SnowflakeRunner | 45.5 |    | |
+madger19 | 46 |    | |
+chalexdv | 44 |    | 7:17 | https://www.strava.com/activities/1788334776
+sloworfast | 47 |    | 6:40 |
+meow203 | 33.3 |    | 7:56 |
+gelvina | 45 |    | |
+ahf0913 | 36 |    | 7:52 | https://www.strava.com/activities/1780286749
+LadyOfNumbers | 47.8 |    | |
+hollanding | 40.7 |    | |
+kkruns | |    | 6:24 | https://www.strava.com/activities/1791915148
+blushingscarlet | 48 |    | |
+Zond0 | 39.2 |    | 7:41 | https://www.strava.com/activities/1780680812
+aribev24 | 45 | has a cute bear    | |
+optimisticBrassica | 39 |    | |
+FlyRBFly | 45 |    | |
+espressopatronum | 47 | has cute dogs    | |
+WillRunForTacos | 57.3 |    | |
+forkinyourothereye | 36 |    | |
+Yjjsbb | 51 |    | |
+aewillia | 40 | has a cute dog    | |
+kdwhodat | 48 |    | |
+RunRoarDinosaur | |    | |
+legerete_de_letre | 34 |    | |
+allxxe | 33.3 | has a cute dog    | |
+Allysaurus_Rex | 37.5 |    | 8:03 | https://www.strava.com/activities/1780439942
 
 
 # Boston Area ARTC (and pals)
-bluemostboth | |   
-zond0 | |   
-j1mmah | 49.3 |   
-ultrahobbyjogger | |   
-chrispyb | |   
-screwbuharvard2 | |   
-zwingtip | |   
-iggywing | |   
-flocculus | |   
-ehMac26 | |   
-croyd | |   
-doderlein | |   
-teegly | 66.8 |   
-slowly_by_slowly | |   
-espressopatronum | | has cute dogs   
-blushingscarlet | |   
-user_ken | 62 | has cute dogs   
+bluemostboth | |    | 6:40 |
+zond0 | |    | 7:41 | https://www.strava.com/activities/1780680812
+j1mmah | 49.3 |    | |
+ultrahobbyjogger | |    | 5:35 | [strava.com](https://starva.com/) [youtube.com](https://www.youtube.com/watch?v=8C4ayBHTES0)
+chrispyb | |    | |
+screwbuharvard2 | |    | |
+zwingtip | |    | |
+iggywing | |    | |
+flocculus | |    | 6:59 | https://www.strava.com/activities/1780642424/shareable_images/map_based?hl=en-US&v=1534603335
+ehMac26 | |    | |
+croyd | |    | |
+doderlein | |    | |
+teegly | 66.8 |    | |
+slowly_by_slowly | |    | |
+espressopatronum | | has cute dogs    | |
+blushingscarlet | |    | |
+user_ken | 62 | has cute dogs    | |
 
 
 # EUphoria
-OblongPlatypus | |   
-cashewlater | |   
-alamo91 | |   
-Almostanathlete | |   
-chalexdv | |   
-ao12 | |   
-Aynophae | |   
-LongLegsShortShorts | |   
-lucasthebeard | |   
-espegri | |   
-dinosaurweasel | |   
-sloworfast | |   
-Grandmasfavourite | |   
-qrszx | |   
-dieeasysteve | |   
-addicted_to_coffee | |   
-wardmuylaert | |   
-DrGruselglatz | |   
-willrow | |   
-mdizzl_ | |   
-jdmg718 | |   
-pablitoneal | |   
-KoffieAnon | |   
-durunnerafc | |   
-philipwhiuk | |   
-FreeSoup21 | | has a cute dog  
-rantifarian | 47 |   
-mrsloworfast | |   
-b_nonas | |  
- Ask_If_I_Am_Happy | |  
+OblongPlatypus | |    | 5:55 | https://www.strava.com/activities/1779648702
+cashewlater | |    | |
+alamo91 | |    | 5:01 | https://www.strava.com/activities/1765452843
+Almostanathlete | |    | |
+chalexdv | |    | 7:17 | https://www.strava.com/activities/1788334776
+ao12 | |    | 7:05 | https://www.strava.com/activities/1782145890
+Aynophae | |    | |
+LongLegsShortShorts | |    | 5:57 | https://www.strava.com/activities/1741963765
+lucasthebeard | |    | |
+espegri | |    | |
+dinosaurweasel | |    | |
+sloworfast | |    | 6:40 |
+Grandmasfavourite | |    | |
+qrszx | |    | 6:10 | https://www.strava.com/activities/1781340853
+dieeasysteve | |    | |
+addicted_to_coffee | |    | |
+wardmuylaert | |    | 5:48 | https://www.strava.com/activities/1771948983
+DrGruselglatz | |    | |
+willrow | |    | |
+mdizzl_ | |    | |
+jdmg718 | |    | |
+pablitoneal | |    | |
+KoffieAnon | |    | |
+durunnerafc | |    | |
+philipwhiuk | |    | 6:19 | https://www.strava.com/activities/1779880754/overview
+FreeSoup21 | | has a cute dog   | 5:15 |
+rantifarian | 47 |    | |
+mrsloworfast | |    | 5:37 | https://www.strava.com/activities/1780143163
+b_nonas | |   | |
+ Ask_If_I_Am_Happy | |   | |
 
 
 # Slow, Sweaty, Sloppy, Sticky Southern Heat Intensive Track-club (SSSSSHIT)
-bleuxmas | 44.5 |   
-sleepyhouse9 | 43.9 |   
-yo_viola | 50.9 |   
-mamsorris1 | 54 |   
-supersonic_blimp | 59 |   
-runforestrunnn | 57 |   
-WasatchWild | 49 |   
-blushingscarlet | 48 |   
-ChickenSedan | 53 | has a cute dog   
-gblackwell | 42 |   
-mortifyinq | 56 |   
-dirkhutton | 59 |   
-jthomas7002 | 53 |   
-CaptKriket | 55.8 |   
+bleuxmas | 44.5 |    | |
+sleepyhouse9 | 43.9 |    | |
+yo_viola | 50.9 |    | |
+mamsorris1 | 54 |    | |
+supersonic_blimp | 59 |    | 5:44 |
+runforestrunnn | 57 |    | |
+WasatchWild | 49 |    | |
+blushingscarlet | 48 |    | |
+ChickenSedan | 53 | has a cute dog    | |
+gblackwell | 42 |    | |
+mortifyinq | 56 |    | |
+dirkhutton | 59 |    | |
+jthomas7002 | 53 |    | |
+CaptKriket | 55.8 |    | |
 
 
 # Brexit Meese Brexit
-philipwhiuk | |   
-mdizzl_ | |   
-durunnerafc | |   
-Qrszx | |   
-dinosaurweasel | |   
-jambojock | 56.4 |   
-somethingnew__ | |   
-LucasTheBeard | |   
-Almostanathlete | |   
-Alamo91 | |   
-penchepic | |   
-willrow | |   
+philipwhiuk | |    | 6:19 | https://www.strava.com/activities/1779880754/overview
+mdizzl_ | |    | |
+durunnerafc | |    | |
+Qrszx | |    | 6:10 | https://www.strava.com/activities/1781340853
+dinosaurweasel | |    | |
+jambojock | 56.4 |    | |
+somethingnew__ | |    | 6:03 | https://www.strava.com/activities/1777977208
+LucasTheBeard | |    | |
+Almostanathlete | |    | |
+Alamo91 | |    | 5:01 | https://www.strava.com/activities/1765452843
+penchepic | |    | |
+willrow | |    | |
 
 
 
 # B3TC
-runroardinosaur | |   
-aribev24 | | has a cute bear   
-ultrahobbyjogger | |   
-eabryt | |   
-winterspite | | has a cute dog   
-nutbrownhare14 | | has a cute dog   
-aewillia | | has a cute dog   
-sairosantos | |   
-ChickenSedan | | has a cute dog   
-user_ken | 62 | has cute dogs   
-snapundersteer | | parents have cute dogs   
-blushingscarlet | |   
+runroardinosaur | |    | |
+aribev24 | | has a cute bear    | |
+ultrahobbyjogger | |    | 5:35 | [strava.com](https://starva.com/) [youtube.com](https://www.youtube.com/watch?v=8C4ayBHTES0)
+eabryt | |    | 6:12 | https://www.strava.com/activities/1775751163
+winterspite | | has a cute dog    | |
+nutbrownhare14 | | has a cute dog    | |
+aewillia | | has a cute dog    | |
+sairosantos | |    | |
+ChickenSedan | | has a cute dog    | |
+user_ken | 62 | has cute dogs    | |
+snapundersteer | | parents have cute dogs    | |
+blushingscarlet | |    | |
 
 
 # Cascadia
-toystory3_wasokay | 51 |   
-tripsd | 53 |   
-tweeeked | 60.6 |   
-dillonpanthers33 | 52 | has a cute dog   
-thirdmeasurement | 40 |   
-JustDoIt-Slowly | 39 |   
-meow203 | 33.3 |   
-ajlark25 | 55 | has a cute dog   
+toystory3_wasokay | 51 |    | |
+tripsd | 53 |    | 6:03 |
+tweeeked | 60.6 |    | |
+dillonpanthers33 | 52 | has a cute dog    | |
+thirdmeasurement | 40 |    | |
+JustDoIt-Slowly | 39 |    | |
+meow203 | 33.3 |    | 7:56 |
+ajlark25 | 55 | has a cute dog    | |
 
 
 # Greater Pretzel Empire
-maineia | | has a cute dog   
-a-german-muffin | |   
-madger19 | |   
-LadyOfNumbers | |   
-MadMennonite | |   
-wardmuylaert | |   
-tiedtoamelody | | has a cute dog  
-HobbyPlodder | | has a cute dog  
-abraburger | |  
-18Hogs1303 | 50 | 
+maineia | | has a cute dog    | |
+a-german-muffin | |    | 6:05 | https://www.strava.com/activities/1778046917
+madger19 | |    | |
+LadyOfNumbers | |    | |
+MadMennonite | |    | |
+wardmuylaert | |    | 5:48 | https://www.strava.com/activities/1771948983
+tiedtoamelody | | has a cute dog   | |
+HobbyPlodder | | has a cute dog   | 6:34 | https://www.strava.com/activities/1783114182
+abraburger | |   | 8:07 | https://www.strava.com/activities/1780333281
+18Hogs1303 | 50 |  | |
 
 # Midwest
-ethos24 | 57 |   
-weimarunner | | has a cute dog   
-chachi_ | 55.1 |   
-Krazyfranco | 60.6 |   
-wittja01 | 48 |   
-WillRunForTacos | 57.3 |   
-zebano | |   
-andybebad | 66 |   
-PrairieFirePhoenix | |   
-arpee | 55.7 |   
-champjoelouis | 54 |   
-Fsus2 | 51.5 |   
-Chicago_Blackhawks | |   
-cross1212 | 60.1 |   
-runwichi | |   
-patrick_e | 45.3 |   
-snapundersteer | |   
-Worlds_Biggest_Troll | 65 |   
-trialofmilesoftrials | 60 |   
-JimboPeanuts | 59 |   
-rnr_ | 55 |   
-PartyDown22 | 58 |   
-bwilly22 | 59.7 |   
-copperpine | 54 |   
-nxn9 | 59 |   
-Nate_DT | 51.2 |   
-sbre4896 | 66.6 |   
-banstew | |  
+ethos24 | 57 |    | |
+weimarunner | | has a cute dog    | |
+chachi_ | 55.1 |    | |
+Krazyfranco | 60.6 |    | |
+wittja01 | 48 |    | |
+WillRunForTacos | 57.3 |    | |
+zebano | |    | |
+andybebad | 66 |    | 5:52 | https://www.strava.com/activities/1780521894
+PrairieFirePhoenix | |    | |
+arpee | 55.7 |    | |
+champjoelouis | 54 |    | |
+Fsus2 | 51.5 |    | |
+Chicago_Blackhawks | |    | |
+cross1212 | 60.1 |    | |
+runwichi | |    | |
+patrick_e | 45.3 |    | 6:15 | https://www.strava.com/activities/1780461247
+snapundersteer | |    | |
+Worlds_Biggest_Troll | 65 |    | |
+trialofmilesoftrials | 60 |    | |
+JimboPeanuts | 59 |    | |
+rnr_ | 55 |    | |
+PartyDown22 | 58 |    | |
+bwilly22 | 59.7 |    | 5:33 | https://www.strava.com/activities/17829912090
+copperpine | 54 |    | |
+nxn9 | 59 |    | |
+Nate_DT | 51.2 |    | |
+sbre4896 | 66.6 |    | |
+banstew | |   | |
 
 
 # Division Suns Out Guns Out
-pencilomatic | 51 | has a cute dog  
-llimllib | 57.5 |   
-TheSpielvogel | 59.6 |   
-Reference_Obscure | 57 |  
-GooseGrewABeard | |   
-anbu1538 | 63 |   
-imnotwadegreeley | 58 |   
-BreadMakesYouFast | 57 |   
-thereelkanyewest | 60.5 |   
-Lampzerg | 49 |   
-Schwedderbyer | 49 |   
-OGFireNation | |   
+pencilomatic | 51 | has a cute dog   | |
+llimllib | 57.5 |    | 6:10 | https://www.strava.com/activities/1782607598/overview
+TheSpielvogel | 59.6 |    | |
+Reference_Obscure | 57 |   | |
+GooseGrewABeard | |    | 6:12 | https://www.strava.com/activities/1780506833
+anbu1538 | 63 |    | |
+imnotwadegreeley | 58 |    | 5:52 | https://www.strava.com/activities/1741212791
+BreadMakesYouFast | 57 |    | |
+thereelkanyewest | 60.5 |    | |
+Lampzerg | 49 |    | |
+Schwedderbyer | 49 |    | |
+OGFireNation | |    | |
 
 
 # The Olds-mobile
-brwalkernc | 54.4 | has cute dogs   
-jaylapeche | | has a cute dog   
-PrairieFirePhoenix | |   
-djlemma | |   
-tapin42 | |   
-White_Lobster | |   
-runwichi | 44.5 |   
-siawyn | 43.2 |   
-bizbup | |   
-RunRoarDinosaur | |   
-mrsloworfast | |   
-rennuR_liarT | | 
+brwalkernc | 54.4 | has cute dogs    | 5:44 | https://www.strava.com/activities/1777470346
+jaylapeche | | has a cute dog    | |
+PrairieFirePhoenix | |    | |
+djlemma | |    | |
+tapin42 | |    | |
+White_Lobster | |    | |
+runwichi | 44.5 |    | |
+siawyn | 43.2 |    | 6:50 | https://www.strava.com/activities/1781032701
+bizbup | |    | |
+RunRoarDinosaur | |    | |
+mrsloworfast | |    | 5:37 | https://www.strava.com/activities/1780143163
+rennuR_liarT | |  | |
 
 
 # What just dripped on my head?
-blood_bender | |   
-djlemma | |   
-hollanding | |   
-xalechim | |   
-kkruns | |   
-bizbup | |   
-Mr800ftw | |   
-Redbird15 | |   
-kitmykat | 56 |   
-v2jim | 48 |   
+blood_bender | |    | |
+djlemma | |    | |
+hollanding | |    | |
+xalechim | |    | |
+kkruns | |    | 6:24 | https://www.strava.com/activities/1791915148
+bizbup | |    | |
+Mr800ftw | |    | 5:24 | https://www.strava.com/activities/1765170088
+Redbird15 | |    | |
+kitmykat | 56 |    | |
+v2jim | 48 |    | |
 
 
 # Texas
-ju_bl | |   
-jaylapeche | | has a cute dog   
-aewillia  | | has a cute dog   
-supersonic_blimp | |   
-CaptKriket | 55.8 |   
-MrCoolguy80 | |   
+ju_bl | |    | |
+jaylapeche | | has a cute dog    | |
+aewillia  | | has a cute dog    | |
+supersonic_blimp | |    | 5:44 |
+CaptKriket | 55.8 |    | |
+MrCoolguy80 | |    | |
 
 =====
 # Head to Heads
-espegri | |   
-OblongPlatypus | |   
+espegri | |    | |
+OblongPlatypus | |    | 5:55 | https://www.strava.com/activities/1779648702
 
-AnonymousWritings | |   
-OblongPlatypus | |   
+AnonymousWritings | |    | 6:12 | https://www.strava.com/activities/1779870152/laps
+OblongPlatypus | |    | 5:55 | https://www.strava.com/activities/1779648702
 
-ethos24 | |   
-anbu1538 | |   
+ethos24 | |    | |
+anbu1538 | |    | |
 
-halpinator | | has a cute dog  
-Mr800FTW | |   
+halpinator | | has a cute dog   | 6:15 |
+Mr800FTW | |    | 5:24 | https://www.strava.com/activities/1765170088
 
-ChickenSedan | | has a cute dog   
-BowermanSnackClub | |   
+ChickenSedan | | has a cute dog    | |
+BowermanSnackClub | |    | 6:05 | https://www.strava.com/activities/1779119162/shareable_images/map_based?hl=en-US&v=1534541173
 
-Cashewlater | 55 |   
-GooseGrewABeard | 47 |   
+Cashewlater | 55 |    | |
+GooseGrewABeard | 47 |    | 6:12 | https://www.strava.com/activities/1780506833
 
-OGFireNation | |   
-da_kine | |   
+OGFireNation | |    | |
+da_kine | |    | |
 
-OGFireNation | |   
-anbu1538 | |   
+OGFireNation | |    | |
+anbu1538 | |    | |
 
-OGFireNation | |   
-laggy4life | |   
+OGFireNation | |    | |
+laggy4life | |    | |
 
-OGFireNation | |   
-krazyfranco | |   
+OGFireNation | |    | |
+krazyfranco | |    | |
 
-OGFireNation | |   
-supersonic_blimp | |   
+OGFireNation | |    | |
+supersonic_blimp | |    | 5:44 |
 
-OGFireNation | |   
-mr800ftw | |   
+OGFireNation | |    | |
+mr800ftw | |    | 5:24 | https://www.strava.com/activities/1765170088
 
-OGFireNation | |   
-tweeeked | |   
+OGFireNation | |    | |
+tweeeked | |    | |
 
-OGFireNation | |   
-ajlark25 | | has a cute dog   
+OGFireNation | |    | |
+ajlark25 | | has a cute dog    | |
 
-OGFireNation | |   
-dirkhutton | |   
+OGFireNation | |    | |
+dirkhutton | |    | |
 
-OGFireNation | |   
-userken | | has cute dogs   
+OGFireNation | |    | |
+userken | | has cute dogs    | |
 
-LongLegsShortShorts | |   
-OblongPlatypus | |   
+LongLegsShortShorts | |    | 5:57 | https://www.strava.com/activities/1741963765
+OblongPlatypus | |    | 5:55 | https://www.strava.com/activities/1779648702
 
-LongLegsShortShorts | |   
-wardmuylaert | |   
+LongLegsShortShorts | |    | 5:57 | https://www.strava.com/activities/1741963765
+wardmuylaert | |    | 5:48 | https://www.strava.com/activities/1771948983
 
-LongLegsShortShorts | |   
-Qrszx | |   
+LongLegsShortShorts | |    | 5:57 | https://www.strava.com/activities/1741963765
+Qrszx | |    | 6:10 | https://www.strava.com/activities/1781340853
