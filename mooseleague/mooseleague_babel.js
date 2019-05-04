@@ -524,7 +524,7 @@ if (!window.apploaded) {
     var vm = this;
 
     vm.isMobile = isMobile();
-    vm.autoplay = localStorage.getItem('autoplay2018new') === null ? true : localStorage.getItem('autoplay2018new');
+    vm.autoplay = localStorage.getItem('autoplay2019') === null ? true : localStorage.getItem('autoplay2019');
 
     function init() {
       Events.list().then(function (evts) {
@@ -589,16 +589,16 @@ if (!window.apploaded) {
     };
 
     vm.stopAutoplay = function () {
-      localStorage.setItem('autoplay2018new', false);
+      localStorage.setItem('autoplay2019', false);
       vm.autoplay = false;
     };
 
     vm.startAutoplay = function () {
-      localStorage.setItem('autoplay2018new', true);
+      localStorage.setItem('autoplay2019', true);
       vm.autoplay = true;
     };
     vm.shouldAutoplay = function () {
-      var ap = localStorage.getItem('autoplay2018new');
+      var ap = localStorage.getItem('autoplay2019');
       return !(ap === 'false' || ap === false);
     };
 
