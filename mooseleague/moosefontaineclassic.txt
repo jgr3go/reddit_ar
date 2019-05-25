@@ -198,7 +198,7 @@ cashewlater | | | |
 doderlein | | | |
 oblongplatypus | | | |
 reference_obscure | | | |
-mrsloworfast | | | |
+mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 sloworfast | | | 7:52 |
 kattenfreja | | | 6:26 | https://strava.app.link/gFW9dpWDYW
 ch1mpy | | | |
@@ -210,7 +210,7 @@ sashaklepikov | | | |
 dmmillr1 | | | |
 user_ken | | | |
 oljadblixt | | | |
-mrsloworfast | | | |
+mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 
 
 # Wildcard
@@ -297,7 +297,7 @@ wardmuylaert | | | 6:42 | https://www.strava.com/activities/2395558066 https://w
 philipwhiuk | | | |
 hwieniawski | | | |
 ao12 | | | 8:13 | https://www.strava.com/activities/2395259969
-mrsloworfast | | | |
+mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 
 # B3TC
 ultrahobbyjogger | | | |
