@@ -43,7 +43,7 @@ MrCoolguy80 | | | 8:16 | https://www.strava.com/activities/2394550052
 beeblebrox4282 | | | |
 spyder9179 | | | |
 cPharoah | | | |
-sloworfast | | | |
+sloworfast | | | 7:52 |
 Jeade-en | | | |
 inomniaveritas | | | |
 bark_bark | | | |
@@ -78,7 +78,7 @@ Nation_Of_Moose | | | |
 
 
 # Dirty Triathletes
-sloworfast | | | |
+sloworfast | | | 7:52 |
 captstella | | | |
 snapundersteer | | | |
 Tapin42 | | | |
@@ -155,7 +155,7 @@ mermzderp | | | |
 # XX
 Zond0 | | | |
 bluemostboth | | | |
-sloworfast | | | |
+sloworfast | | | 7:52 |
 chalexdv | | | |
 flocculus | | | |
 ahf0913 | | | |
@@ -172,7 +172,7 @@ laurensvo | | | |
 knowyourrockets | | | |
 kaaaazzh | | | |
 linzlars | | | |
-AK11235813213455 | | | |
+AK11235813213455 | | | 6:52 | https://www.strava.com/activities/2394328577
 WillRunForTacos | | | |
 SmallEfforts | | | |
 bookshelfrunner | | | |
@@ -181,10 +181,10 @@ mermzderp | | | |
 
 # Royal Canadian Moose Patrol
 halpinator | | | |
-sloworfast | | | |
+sloworfast | | | 7:52 |
 True_North_Strong | | | |
 cabusto | | | |
-AK11235813213455 | | | |
+AK11235813213455 | | | 6:52 | https://www.strava.com/activities/2394328577
 allxxe | | | |
 ieatgravel | | | |
 nameproduct | | | |
@@ -199,7 +199,7 @@ doderlein | | | |
 oblongplatypus | | | |
 reference_obscure | | | |
 mrsloworfast | | | |
-sloworfast | | | |
+sloworfast | | | 7:52 |
 kattenfreja | | | |
 ch1mpy | | | |
 chalexdv | | | |
@@ -286,9 +286,9 @@ AfricanBus | | | |
 GrandmasFavourite | | | |
 Eraser92 | | | |
 Ch1mpy | | | |
-SpeedWorkIsBae | | | |
+SpeedWorkIsBae | | | 6:26 | https://www.strava.com/activities/2394107693/overview
 durunnerafc | | | |
-sloworfast | | | |
+sloworfast | | | 7:52 |
 LongLegsShortShorts | | | |
 chalexdv | | | |
 Almostanathlete | | | |
