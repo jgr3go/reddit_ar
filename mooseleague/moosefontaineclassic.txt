@@ -214,7 +214,7 @@ oljadblixt | | | |
 
 
 # Wildcard
-imnotwadegreeley | | | |
+imnotwadegreeley | | | 6:00 | https://www.strava.com/activities/2396117883/laps
 herumph | | | |
 blood_bender | | | |
 llimllib | | | |
