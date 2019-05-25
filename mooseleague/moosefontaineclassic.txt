@@ -90,7 +90,7 @@ dmmillr1 | | | 7:44 | https://www.strava.com/activities/2396509543
 linzlars | | | 7:33.4 | https://strava.app.link/NbXGzpZHYW
 Nony2 | | | |
 Tapin42 | | | |
-timuralp | | | |
+timuralp | | | 7:22 | https://www.strava.com/activities/2396697636
 thirdmeasurement | | | |
 Yjjsbb | | | |
 
@@ -129,7 +129,7 @@ Fsus2 | | | |
 snapundersteer | | | |
 PrairieFirePhoenix | | | |
 Yodelayeeoo | | | 8:16 | https://www.strava.com/activities/2396087701
-andybebad | | | |
+andybebad | | | 8:05 | https://www.strava.com/activities/2396541411
 
 
 # Boston and Friends
@@ -187,7 +187,7 @@ cabusto | | | |
 AK11235813213455 | | | 6:52 | https://www.strava.com/activities/2394328577
 allxxe | | | |
 ieatgravel | | | |
-nameproduct | | | |
+nameproduct | | | 6:17 |
 deadc0de | | | |
 montypytho17 | | | |
 SmallEfforts | | | 9:38 |
