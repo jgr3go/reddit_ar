@@ -111,12 +111,12 @@ run_INXS | | | |
 
 
 # Midwest (No Coast)
-FreeSoup21 | | | |
+FreeSoup21 | | | 6:24.6 |
 mpalmer1124 | | | 8:17 | https://www.strava.com/activities/2389520170
 ethos24 | | | |
 brwalkernc | | | |
 WillRunForTacos | | | |
-PartyDown22 | | | |
+PartyDown22 | | | 6:34.67 | https://youtu.be/jql8peV_V10
 chachi_ | | | |
 moonballer | | | |
 miikermb | | | |
