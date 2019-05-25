@@ -97,6 +97,7 @@ Yjjsbb | | | |
 
 
 # The Olds-mobile
+mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 brwalkernc | | | |
 Tapin42 | | | |
 analogkid84 | | | |
@@ -210,7 +211,6 @@ sashaklepikov | | | |
 dmmillr1 | | | |
 user_ken | | | |
 oljadblixt | | | |
-mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 
 
 # Wildcard
