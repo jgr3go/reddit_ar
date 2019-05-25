@@ -206,7 +206,7 @@ chalexdv | | | |
 espegri | | | |
 simsim7 | | | |
 psk_coffee | | | 6:53 | https://www.strava.com/activities/2394846781
-sashaklepikov | | | |
+sashaklepikov | | | 8:39 | https://www.strava.com/activities/2397141010
 dmmillr1 | | | 7:44 | https://www.strava.com/activities/2396509543
 user_ken | | | |
 oljadblixt | | | |
@@ -231,7 +231,7 @@ cashewlater | | | |
 
 
 # Normal Humans
-ryebrye | | | |
+ryebrye | | | 7:36 | https://strava.app.link/ZcZduePjZW
 Olifi | | | 11:55 |
 bookshelfrunner | | | |
 SmallEfforts | | | 9:38 |
