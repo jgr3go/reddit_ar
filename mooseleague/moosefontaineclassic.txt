@@ -39,7 +39,7 @@ laurensvo | | | |
 midmoddest | | | |
 ahf0913 | | | |
 theredinthesky | | | |
-MrCoolguy80 | | | |
+MrCoolguy80 | | | 8:16 | https://www.strava.com/activities/2394550052
 beeblebrox4282 | | | |
 spyder9179 | | | |
 cPharoah | | | |
@@ -113,7 +113,7 @@ run_INXS | | | |
 
 # Midwest (No Coast)
 FreeSoup21 | | | |
-mpalmer1124 | | | |
+mpalmer1124 | | | 8:17 | https://www.strava.com/activities/2389520170
 ethos24 | | | |
 brwalkernc | | | |
 WillRunForTacos | | | |
