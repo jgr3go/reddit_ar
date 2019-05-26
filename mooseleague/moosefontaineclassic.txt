@@ -38,7 +38,7 @@ midmoddest | | | 11:10 | https://strava.app.link/yN52Z363YW
 ahf0913 | | | 9:29 |
 theredinthesky | | | |
 MrCoolguy80 | | | 8:16 | https://www.strava.com/activities/2394550052
-beeblebrox4282 | | | |
+beeblebrox4282 | | | 8:08 | https://www.strava.com/activities/2396815831
 spyder9179 | | | |
 cPharoah | | | 8:42 | https://www.strava.com/activities/2396328896
 sloworfast | | | 7:52 |
@@ -320,4 +320,4 @@ mamsorris1 | | | 7:23 |
 Qrszx | | | 6:53.7 | https://www.strava.com/activities/2396404137
 
 Schizamm | | | 7:57 |
-beeblebrox4282 | | | |
+beeblebrox4282 | | | 8:08 | https://www.strava.com/activities/2396815831
