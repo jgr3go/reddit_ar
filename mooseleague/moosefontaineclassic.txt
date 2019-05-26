@@ -134,7 +134,7 @@ andybebad | | | 8:05 | https://www.strava.com/activities/2396541411
 
 # Boston and Friends
 bluemostboth | | | |
-flocculus | | | |
+flocculus | | | 8:13.4 | https://strava.app.link/Xu7oImMQ0W
 doderlein | | | |
 Zond0 | | | |
 chrispyb | | | |
@@ -157,7 +157,7 @@ Zond0 | | | |
 bluemostboth | | | |
 sloworfast | | | 7:52 |
 chalexdv | | | |
-flocculus | | | |
+flocculus | | | 8:13.4 | https://strava.app.link/Xu7oImMQ0W
 ahf0913 | | | 9:29 |
 Lobster92 | | | |
 allxxe | | | |
