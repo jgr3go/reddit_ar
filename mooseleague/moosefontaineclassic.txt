@@ -270,10 +270,10 @@ DrawTap88 | | | 9:33 |
 roxy031 | | | |
 suddenlyian | | | |
 Yodelayeeoo | | | 8:16 | https://www.strava.com/activities/2396087701
-LadyOfNumbers | | | 08:27 | https://www.strava.com/activities/2396946592
+LadyOfNumbers | | | 8:27 | https://www.strava.com/activities/2396946592
 
 # The High Council
-LadyOfNumbers | | | 08:27 | https://www.strava.com/activities/2396946592
+LadyOfNumbers | | | 8:27 | https://www.strava.com/activities/2396946592
 mr800ftw | | | 6:35 | https://strava.app.link/wBtVktvFYW
 cPharoah | | | 8:42 | https://www.strava.com/activities/2396328896
 run_INXS | | | |
@@ -302,7 +302,7 @@ ao12 | | | 8:13 | https://www.strava.com/activities/2395259969
 mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 
 # B3TC
-ultrahobbyjogger | | | 6:69 | [strava.com](https://strava.com) [youtube.com](https://youtu.be/b_IsF01m2qw)
+ultrahobbyjogger | | | |
 eabryt | | | |
 runroardinosaur | | | |
 aribev | | | |
