@@ -133,6 +133,7 @@ andybebad | | | 8:05 | https://www.strava.com/activities/2396541411
 
 
 # Boston and Friends
+espressopatronum | | | |
 bluemostboth | | | |
 flocculus | | | 8:13.4 | https://strava.app.link/Xu7oImMQ0W
 doderlein | | | 12:15 | https://www.strava.com/activities/2389381832
@@ -153,6 +154,7 @@ screwbuharvard2 | | | 6:37.6 | https://www.strava.com/activities/2394422343
 
 
 # XX
+espressopatronum | | | |
 Zond0 | | | |
 bluemostboth | | | |
 sloworfast | | | 7:52 |
