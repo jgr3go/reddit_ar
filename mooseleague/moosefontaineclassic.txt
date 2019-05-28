@@ -5,10 +5,10 @@ Moosefontaine Classic
 # Greater Pretzel Empire
 maineia | | | |
 a-german-muffin | | | 7:07.1 | https://www.strava.com/activities/2392928157
-MadMennonite | | | |
+MadMennonite | | | 7:50.6 | https://www.strava.com/activities/2401320571
 wardmuylaert | | | 6:42 | https://www.strava.com/activities/2395558066 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 Jaime_Manger | | | |
-tiedtoamelody | | | |
+tiedtoamelody | | | 8:07 | https://www.strava.com/activities/2401223880
 HobbyPlodder | | | 7:33 | https://www.strava.com/activities/2394543609
 Yiftathashifta | | | 6:56.4 |
 anbu1538 | | | |
@@ -31,7 +31,7 @@ soundproof81 | | | 7:30 | https://www.strava.com/activities/2396593666
 
 # PR or ER
 miikermb | | | 9:59 | https://strava.app.link/2uSA7Z63YW
-ThePsion | | | |
+ThePsion | | | 10:37 | https://strava.app.link/alfDyNyH2W
 Schizamm | | | 7:57 |
 laurensvo | | | 8:28 | https://strava.app.link/ZJ8JvaH5YW
 midmoddest | | | 11:10 | https://strava.app.link/yN52Z363YW
@@ -88,9 +88,9 @@ abraburger | | | 10:58 | https://www.strava.com/activities/2391866715/shareable_
 ade214 | | | |
 dmmillr1 | | | 7:44 | https://www.strava.com/activities/2396509543
 linzlars | | | 7:33.4 | https://strava.app.link/NbXGzpZHYW
-Nony2 | | | |
+Nony2 | | | 5:55.1 | https://strava.app.link/Zntks0BE2W
 Tapin42 | | | 7:23 | https://www.strava.com/activities/2397410551 https://www.youtube.com/watch?v=iXnRpoudsxg
-timuralp | | | 7:25.7 | https://www.strava.com/activities/2396697636
+timuralp | | | 7:22 | https://www.strava.com/activities/2396697636
 thirdmeasurement | | | |
 Yjjsbb | | | |
 
@@ -135,7 +135,7 @@ andybebad | | | 8:05 | https://www.strava.com/activities/2396541411
 # Boston and Friends
 bluemostboth | | | |
 flocculus | | | 8:13.4 | https://strava.app.link/Xu7oImMQ0W
-doderlein | | | |
+doderlein | | | 12:15 | https://www.strava.com/activities/2389381832
 Zond0 | | | |
 chrispyb | | | |
 blood_bender | | | |
@@ -156,13 +156,13 @@ screwbuharvard2 | | | 6:37.6 | https://www.strava.com/activities/2394422343
 Zond0 | | | |
 bluemostboth | | | |
 sloworfast | | | 7:52 |
-chalexdv | | | |
+chalexdv | | | 8:27.9 | https://www.strava.com/activities/2403507050
 flocculus | | | 8:13.4 | https://strava.app.link/Xu7oImMQ0W
 ahf0913 | | | 9:29 |
 Lobster92 | | | |
 allxxe | | | |
-LadyofNumbers | | | 8:27 | https://www.strava.com/activities/2396946592
-tiedtoamelody | | | |
+LadyofNumbers | | | 08:27 | https://www.strava.com/activities/2396946592
+tiedtoamelody | | | 8:07 | https://www.strava.com/activities/2401223880
 hollanding | | | 11:13 |
 meow203 | | | 9:26 |
 allysaurus_rex | | | 9:31 | https://www.strava.com/activities/2393364218
@@ -195,14 +195,14 @@ SmallEfforts | | | 9:38 |
 
 # Nordics
 cashewlater | | | |
-doderlein | | | |
+doderlein | | | 12:15 | https://www.strava.com/activities/2389381832
 oblongplatypus | | | |
 reference_obscure | | | |
 mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 sloworfast | | | 7:52 |
 kattenfreja | | | 6:26 | https://strava.app.link/gFW9dpWDYW
 ch1mpy | | | 7:16 | https://www.strava.com/activities/2396657542
-chalexdv | | | |
+chalexdv | | | 8:27.9 | https://www.strava.com/activities/2403507050
 espegri | | | |
 simsim7 | | | |
 psk_coffee | | | 6:53 | https://www.strava.com/activities/2394846781
@@ -223,7 +223,7 @@ cross1212 | | | 6:58 | https://www.strava.com/activities/2395501151
 hollanding | | | 11:13 |
 
 # 2k Survivors
-LaBeef | | | |
+LaBeef | | | 9:05 |
 Almostanathlete | | | |
 allxxe | | | |
 tripsd | | | |
@@ -249,7 +249,7 @@ deadc0de | | | 7:32 | https://www.strava.com/activities/2397572144
 mamsorris1 | | | 7:23 |
 cPharoah | | | 8:42 | https://www.strava.com/activities/2396328896
 Qrszx | | | 6:53.7 | https://www.strava.com/activities/2396404137
-Rickard0 | | | |
+Rickard0 | | | 9:23 | https://www.strava.com/activities/2397430440
 knowyourrockets | | | 8:27 |
 cwmcarthur | | | 9:29 | https://www.strava.com/activities/2395930312
 jwcjwc12 | | | 8:37 | https://strava.app.link/SzVnnK6fZW
@@ -261,7 +261,7 @@ Allysaurus_Rex | | | 9:31 | https://www.strava.com/activities/2393364218
 legerete_de_letre | | | 10:02 |
 LongLegsShortShorts | | | |
 SleepWouldBeNice | | | |
-chalexdv | | | |
+chalexdv | | | 8:27.9 | https://www.strava.com/activities/2403507050
 mooocows | | | 9:38 | https://www.strava.com/activities/2393224793
 j0hnftw | | | 8:42 |
 vinemoji | | | 7:50.7 | https://www.strava.com/activities/2393191960
@@ -270,10 +270,10 @@ DrawTap88 | | | 9:33 |
 roxy031 | | | |
 suddenlyian | | | |
 Yodelayeeoo | | | 8:16 | https://www.strava.com/activities/2396087701
-LadyOfNumbers | | | 8:27 | https://www.strava.com/activities/2396946592
+LadyOfNumbers | | | 08:27 | https://www.strava.com/activities/2396946592
 
 # The High Council
-LadyOfNumbers | | | 8:27 | https://www.strava.com/activities/2396946592
+LadyOfNumbers | | | 08:27 | https://www.strava.com/activities/2396946592
 mr800ftw | | | 6:35 | https://strava.app.link/wBtVktvFYW
 cPharoah | | | 8:42 | https://www.strava.com/activities/2396328896
 run_INXS | | | |
@@ -292,7 +292,7 @@ SpeedWorkIsBae | | | 6:26 | https://www.strava.com/activities/2394107693/overvie
 durunnerafc | | | 6:38 | https://strava.app.link/jMo8dnHHYW
 sloworfast | | | 7:52 |
 LongLegsShortShorts | | | |
-chalexdv | | | |
+chalexdv | | | 8:27.9 | https://www.strava.com/activities/2403507050
 Almostanathlete | | | |
 cashewlater | | | |
 wardmuylaert | | | 6:42 | https://www.strava.com/activities/2395558066 https://www.youtube.com/watch?v=dQw4w9WgXcQ
@@ -303,7 +303,7 @@ mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 
 # B3TC
 ultrahobbyjogger | | | |
-eabryt | | | |
+eabryt | | | 6:32 | https://www.strava.com/activities/2395724359
 runroardinosaur | | | |
 aribev | | | |
 winterspite | | | |
@@ -322,5 +322,5 @@ Qrszx | | | 6:53.7 | https://www.strava.com/activities/2396404137
 Schizamm | | | 7:57 |
 beeblebrox4282 | | | 8:08 | https://www.strava.com/activities/2396815831
 
-Qrszx | | | |
+Qrszx | | | 6:53.7 | https://www.strava.com/activities/2396404137
 AKnumbers | | | | 
