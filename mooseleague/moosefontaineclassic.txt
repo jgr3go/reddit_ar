@@ -304,7 +304,7 @@ ao12 | | | 8:13 | https://www.strava.com/activities/2395259969
 mrsloworfast | | | 6:38 | https://www.strava.com/activities/2395758363
 
 # B3TC
-ultrahobbyjogger | | | 6:69 | [strava.com](https://strava.com) [youtube.com](https://youtu.be/b_IsF01m2qw)
+ultrahobbyjogger | | | |
 eabryt | | | 6:32 | https://www.strava.com/activities/2395724359
 runroardinosaur | | | |
 aribev | | | |
