@@ -163,7 +163,7 @@ flocculus | | | 8:13.4 | https://strava.app.link/Xu7oImMQ0W
 ahf0913 | | | 9:29 |
 Lobster92 | | | |
 allxxe | | | |
-LadyofNumbers | | | 08:27 | https://www.strava.com/activities/2396946592
+LadyofNumbers | | | 8:27 | https://www.strava.com/activities/2396946592
 tiedtoamelody | | | 8:07 | https://www.strava.com/activities/2401223880
 hollanding | | | 11:13 |
 meow203 | | | 9:26 |
@@ -272,10 +272,10 @@ DrawTap88 | | | 9:33 |
 roxy031 | | | |
 suddenlyian | | | |
 Yodelayeeoo | | | 8:16 | https://www.strava.com/activities/2396087701
-LadyOfNumbers | | | 08:27 | https://www.strava.com/activities/2396946592
+LadyOfNumbers | | | 8:27 | https://www.strava.com/activities/2396946592
 
 # The High Council
-LadyOfNumbers | | | 08:27 | https://www.strava.com/activities/2396946592
+LadyOfNumbers | | | 8:27 | https://www.strava.com/activities/2396946592
 mr800ftw | | | 6:35 | https://strava.app.link/wBtVktvFYW
 cPharoah | | | 8:42 | https://www.strava.com/activities/2396328896
 run_INXS | | | |
