@@ -30,6 +30,7 @@ tripsd | |
 soundproof81 | | 
 
 # PR or ER
+Barnaby_McFoo | |
 miikermb | | 
 ThePsion | | 
 Schizamm | | 
@@ -111,6 +112,7 @@ run_INXS | |
 
 
 # Midwest (No Coast)
+ericquitecontrary | | 
 FreeSoup21 | | 
 mpalmer1124 | | 
 ethos24 | | 
@@ -182,6 +184,8 @@ mermzderp | |
 
 
 # Royal Canadian Moose Patrol
+Dr_Straightcow | | 
+running_ragged_ | |
 halpinator | | 
 sloworfast | | 
 True_North_Strong | | 
@@ -233,6 +237,8 @@ cashewlater | |
 
 
 # Normal Humans
+JBreg | |
+theturbanator1699 | |
 ryebrye | | 
 Olifi | | 
 bookshelfrunner | | 
@@ -303,6 +309,7 @@ philipwhiuk | |
 hwieniawski | | 
 ao12 | | 
 mrsloworfast | | 
+Aurillacain | |
 
 # B3TC
 ultrahobbyjogger | | 
@@ -327,3 +334,9 @@ beeblebrox4282 | |
 
 Qrszx | | 
 AKnumbers | | 
+
+dmmillr1 | |
+flocculus | | 
+
+knowyourrockets | |
+LadyofNumbers | |
