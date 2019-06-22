@@ -32,7 +32,7 @@ soundproof81 | |  | |
 # PR or ER
 Barnaby_McFoo | | | |
 miikermb | |  | |
-ThePsion | |  | |
+ThePsion | |  | 4:22 | https://strava.app.link/5tsyx0DgJX
 Schizamm | |  | |
 laurensvo | |  | |
 midmoddest | |  | |
@@ -86,7 +86,7 @@ j1mmah | |  | |
 
 # West/Best Coast
 abraburger | |  | |
-ade214 | |  | |
+ade214 | |  | 3:07.8 | https://www.strava.com/activities/2471004631
 dmmillr1 | |  | |
 linzlars | |  | |
 Nony2 | |  | |
