@@ -78,7 +78,7 @@ Nation_Of_Moose | |  | |
 
 # Dirty Triathletes
 sloworfast | |  | 3:14.6 |
-captstella | |  | |
+captstella | |  | 4:19 |
 snapundersteer | |  | |
 Tapin42 | |  | |
 j1mmah | |  | |
@@ -171,7 +171,7 @@ hollanding | |  | |
 meow203 | |  | |
 allysaurus_rex | |  | |
 cPharoah | |  | |
-captstella | |  | |
+captstella | |  | 4:19 |
 laurensvo | |  | |
 knowyourrockets | |  | |
 kaaaazzh | |  | |
