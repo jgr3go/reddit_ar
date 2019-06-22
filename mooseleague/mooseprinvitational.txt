@@ -45,7 +45,7 @@ cPharoah | |  | |
 sloworfast | |  | 3:14.6 |
 Jeade-en | |  | |
 inomniaveritas | |  | |
-bark_bark | |  | |
+bark_bark | |  | 3:29 | https://strava.app.link/QkbhYIEsJX
 curfudgeon | |  | |
 fcukitstargirl | |  | |
 
@@ -173,7 +173,7 @@ allysaurus_rex | |  | |
 cPharoah | |  | |
 captstella | |  | 4:19 |
 laurensvo | |  | |
-knowyourrockets | |  | |
+knowyourrockets | |  | 3:30 |
 kaaaazzh | |  | |
 linzlars | |  | |
 AK11235813213455 | |  | |
@@ -259,7 +259,7 @@ mamsorris1 | |  | |
 cPharoah | |  | |
 Qrszx | |  | 2:53.0 | https://www.strava.com/activities/2470916054
 Rickard0 | |  | |
-knowyourrockets | |  | |
+knowyourrockets | |  | 3:30 |
 cwmcarthur | |  | |
 jwcjwc12 | |  | |
 Barnaby_McFoo | |  | 3:29 | https://strava.app.link/iKkBDjBhJX
@@ -339,5 +339,5 @@ AKnumbers | |  | |
 dmmillr1 | | | |
 flocculus | |  | |
 
-knowyourrockets | | | |
+knowyourrockets | | | 3:30 |
 LadyofNumbers | | | |
