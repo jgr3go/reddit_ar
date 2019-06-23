@@ -114,7 +114,7 @@ run_INXS | |  | |
 # Midwest (No Coast)
 ericquitecontrary | |  | |
 FreeSoup21 | |  | 2:32.65 | https://youtu.be/Gu19YjScog0
-mpalmer1124 | |  | |
+mpalmer1124 | |  | 2:38 | https://strava.app.link/8SW3qdoeKX
 ethos24 | |  | |
 brwalkernc | |  | |
 WillRunForTacos | |  | |
