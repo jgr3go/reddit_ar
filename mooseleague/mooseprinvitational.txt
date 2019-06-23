@@ -87,7 +87,7 @@ j1mmah | |  | |
 # West/Best Coast
 abraburger | |  | |
 ade214 | |  | 3:07.8 | https://www.strava.com/activities/2471004631
-dmmillr1 | |  | |
+dmmillr1 | |  | 3:11.5 | https://www.strava.com/activities/2474489537
 linzlars | |  | 3:08 | https://strava.app.link/EZYu2D0TKX
 Nony2 | |  | 2:25.7 |
 Tapin42 | |  | |
@@ -213,7 +213,7 @@ espegri | |  | |
 simsim7 | |  | |
 psk_coffee | |  | 3:15 | https://www.strava.com/activities/2469838222/overview
 sashaklepikov | |  | |
-dmmillr1 | |  | |
+dmmillr1 | |  | 3:11.5 | https://www.strava.com/activities/2474489537
 user_ken | |  | |
 oljadblixt | |  | |
 
@@ -336,7 +336,7 @@ beeblebrox4282 | |  | |
 Qrszx | |  | 2:53.0 | https://www.strava.com/activities/2470916054
 AKnumbers | |  | |
 
-dmmillr1 | | | |
+dmmillr1 | | | 3:11.5 | https://www.strava.com/activities/2474489537
 flocculus | |  | 3:17.7 | https://www.strava.com/activities/2473989437
 
 knowyourrockets | | | 3:30 |
