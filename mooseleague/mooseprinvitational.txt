@@ -34,7 +34,7 @@ Barnaby_McFoo | | | 3:29 | https://strava.app.link/iKkBDjBhJX
 miikermb | |  | 3:24 | https://strava.app.link/IgfnnmPAJX
 ThePsion | |  | 4:22 | https://strava.app.link/5tsyx0DgJX
 Schizamm | |  | 2:54 | https://www.strava.com/activities/2472012302
-laurensvo | |  | |
+laurensvo | |  | 3:23 | https://strava.app.link/pu1xrBk0JX
 midmoddest | |  | 3:55.5 | https://strava.app.link/djNPv6GlJX
 ahf0913 | |  | 3:55.5 | https://www.strava.com/activities/2471241848
 theredinthesky | |  | |
@@ -122,7 +122,7 @@ PartyDown22 | |  | 2:32.80 | https://www.youtube.com/watch?v=Gu19YjScog0&feature
 chachi_ | |  | |
 moonballer | |  | |
 miikermb | |  | 3:24 | https://strava.app.link/IgfnnmPAJX
-laurensvo | |  | |
+laurensvo | |  | 3:23 | https://strava.app.link/pu1xrBk0JX
 Bull3tg0d | |  | |
 cross1212 | |  | |
 bwilly22 | |  | |
@@ -149,7 +149,7 @@ user_ken | |  | |
 djlemma | |  | 3:15 | https://www.strava.com/activities/2470223680
 ModernMassachusetts | |  | |
 slowly_by_slowly | |  | |
-llimllib | |  | |
+llimllib | |  | 2:32 | https://strava.app.link/l6vRLKSZJX
 UticaSteamedHams | |  | |
 mermzderp | |  | |
 screwbuharvard2 | |  | |
@@ -172,7 +172,7 @@ meow203 | |  | |
 allysaurus_rex | |  | |
 cPharoah | |  | 3:18 | https://www.strava.com/activities/2470614235
 captstella | |  | 4:19 |
-laurensvo | |  | |
+laurensvo | |  | 3:23 | https://strava.app.link/pu1xrBk0JX
 knowyourrockets | |  | 3:30 |
 kaaaazzh | |  | |
 linzlars | |  | |
@@ -223,7 +223,7 @@ ggoldd | | | |
 imnotwadegreeley | |  | |
 herumph | |  | |
 blood_bender | |  | |
-llimllib | |  | |
+llimllib | |  | 2:32 | https://strava.app.link/l6vRLKSZJX
 OblongPlatypus | |  | 2:50.5 | https://www.strava.com/activities/2470031250/
 madger19 | |  | |
 cross1212 | |  | |
@@ -249,7 +249,7 @@ ravsuv | |  | |
 Xanrael | |  | 3:31 | https://www.strava.com/activities/2471309305/laps
 MyVCRbroke | |  | |
 Rock27272727 | |  | 3:16 | https://www.strava.com/activities/2471064124
-laurensvo | |  | |
+laurensvo | |  | 3:23 | https://strava.app.link/pu1xrBk0JX
 miikermb | |  | 3:24 | https://strava.app.link/IgfnnmPAJX
 meow203 | |  | |
 tripsd | |  | |
