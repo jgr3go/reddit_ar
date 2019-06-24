@@ -19,7 +19,7 @@ anbu1538 | |  | |
 Heinz_Doofenshmirtz | |  | 2:54.37 | https://www.strava.com/activities/2471236994
 OGFireNation | |  | |
 Yo_viola | |  | |
-mamsorris1 | |  | |
+mamsorris1 | |  | 3:10 | https://www.strava.com/activities/2467225651
 supersonic_blimp | |  | |
 
 # Cascadia PNWers
@@ -27,7 +27,7 @@ justdoit-slowly | |  | |
 meow203 | |  | 3:55 |
 thirdmeasurement | |  | |
 tripsd | |  | |
-soundproof81 | |  | 3:10 | [Race
+soundproof81 | |  | 3:10 | https://www.strava.com/activities/2468436882
 
 # PR or ER
 Barnaby_McFoo | | | 3:29 | https://strava.app.link/iKkBDjBhJX
@@ -44,7 +44,7 @@ spyder9179 | |  | 3:35 | https://www.strava.com/activities/2474090668
 cPharoah | |  | 3:18 | https://www.strava.com/activities/2470614235
 sloworfast | |  | 3:14.6 |
 Jeade-en | |  | |
-inomniaveritas | |  | |
+inomniaveritas | |  | 3:25 | https://www.strava.com/activities/2474740703
 bark_bark | |  | 3:29 | https://strava.app.link/QkbhYIEsJX
 curfudgeon | |  | 3:36 | https://www.strava.com/activities/2471712587
 fcukitstargirl | |  | |
@@ -143,14 +143,14 @@ Zond0 | |  | |
 chrispyb | |  | |
 blood_bender | |  | |
 ahf0913 | |  | 3:55.5 | https://www.strava.com/activities/2471241848
-Lobster92 | |  | |
+Lobster92 | |  | 3:27 | https://www.strava.com/activities/2476326711
 gtsnoracer | |  | 3:13 | https://strava.app.link/g4X43eWeJX
-user_ken | |  | |
+user_ken | |  | 2:34.98 | https://www.strava.com/activities/2475614676
 djlemma | |  | 3:15 | https://www.strava.com/activities/2470223680 https://youtu.be/qQuNg4J0Ork
 ModernMassachusetts | |  | |
 slowly_by_slowly | |  | |
 llimllib | |  | 2:32 | https://strava.app.link/l6vRLKSZJX
-UticaSteamedHams | |  | |
+UticaSteamedHams | |  | 3:58 | https://www.strava.com/activities/2472281919
 mermzderp | |  | |
 screwbuharvard2 | |  | |
 
@@ -163,13 +163,13 @@ sloworfast | |  | 3:14.6 |
 chalexdv | |  | |
 flocculus | |  | 3:17.7 | https://www.strava.com/activities/2473989437
 ahf0913 | |  | 3:55.5 | https://www.strava.com/activities/2471241848
-Lobster92 | |  | |
+Lobster92 | |  | 3:27 | https://www.strava.com/activities/2476326711
 allxxe | |  | |
 LadyofNumbers | |  | 3:54 | https://www.strava.com/activities/2472600897
 tiedtoamelody | |  | 3:27 | https://www.strava.com/activities/2470790847
 hollanding | |  | 4:12 |
 meow203 | |  | 3:55 |
-allysaurus_rex | |  | |
+allysaurus_rex | |  | 4:04 | https://www.strava.com/activities/2476358596/overview
 cPharoah | |  | 3:18 | https://www.strava.com/activities/2470614235
 captstella | |  | 4:19 |
 laurensvo | |  | 3:23 | https://strava.app.link/pu1xrBk0JX
@@ -214,12 +214,12 @@ simsim7 | |  | |
 psk_coffee | |  | 3:15 | https://www.strava.com/activities/2469838222/overview
 sashaklepikov | |  | |
 dmmillr1 | |  | 3:11.5 | [here](https://www.strava.com/activities/2474489537) [here](https://youtu.be/kH-NhezUXCg)
-user_ken | |  | |
+user_ken | |  | 2:34.98 | https://www.strava.com/activities/2475614676
 oljadblixt | |  | |
 
 
 # Wildcard
-ggoldd | | | |
+ggoldd | | | 2:40 | https://www.strava.com/activities/2474675955
 imnotwadegreeley | |  | |
 herumph | |  | |
 blood_bender | |  | |
@@ -255,7 +255,7 @@ meow203 | |  | 3:55 |
 tripsd | |  | |
 Zond0 | |  | |
 deadc0de | |  | |
-mamsorris1 | |  | |
+mamsorris1 | |  | 3:10 | https://www.strava.com/activities/2467225651
 cPharoah | |  | 3:18 | https://www.strava.com/activities/2470614235
 Qrszx | |  | 2:53.0 | https://www.strava.com/activities/2470916054
 Rickard0 | |  | 3:36 | https://www.strava.com/activities/2474083606 You
@@ -266,7 +266,7 @@ Barnaby_McFoo | |  | 3:29 | https://strava.app.link/iKkBDjBhJX
 wardmuylaert | |  | 2:47 | https://www.strava.com/activities/2467934291
 KAcotton | |  | |
 Schizamm | |  | 2:54 | https://www.strava.com/activities/2472012302
-Allysaurus_Rex | |  | |
+Allysaurus_Rex | |  | 4:04 | https://www.strava.com/activities/2476358596/overview
 legerete_de_letre | |  | |
 LongLegsShortShorts | |  | |
 SleepWouldBeNice | |  | |
@@ -280,7 +280,7 @@ roxy031 | |  | |
 suddenlyian | |  | |
 Yodelayeeoo | |  | |
 LadyOfNumbers | |  | 3:54 | https://www.strava.com/activities/2472600897
-danielrrich | |  | |
+danielrrich | |  | 3:56 | https://www.strava.com/athletes/516605
 
 # The High Council
 LadyOfNumbers | |  | 3:54 | https://www.strava.com/activities/2472600897
@@ -327,7 +327,7 @@ nutbrownhare14 | |  | |
 OGFireNation | |  | |
 Mr800ftw | |  | 2:30 | https://strava.app.link/JuC9jjgiJX
 
-mamsorris1 | |  | |
+mamsorris1 | |  | 3:10 | https://www.strava.com/activities/2467225651
 Qrszx | |  | 2:53.0 | https://www.strava.com/activities/2470916054
 
 Schizamm | |  | 2:54 | https://www.strava.com/activities/2472012302
