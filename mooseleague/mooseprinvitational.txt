@@ -193,7 +193,7 @@ cabusto | |  | |
 AK11235813213455 | |  | 3:03 | https://strava.app.link/GLgUzoagLX
 allxxe | |  | |
 ieatgravel | |  | 4:00 | https://www.strava.com/activities/2471999484/
-nameproduct | |  | |
+nameproduct | |  | 2:46 |
 deadc0de | |  | |
 montypytho17 | |  | |
 SmallEfforts | |  | 3:48.5 |
