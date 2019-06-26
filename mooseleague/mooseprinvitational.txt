@@ -43,7 +43,7 @@ beeblebrox4282 | |  | |
 spyder9179 | |  | 3:35 | https://www.strava.com/activities/2474090668
 cPharoah | |  | 3:18 | https://www.strava.com/activities/2470614235
 sloworfast | |  | 3:14.6 |
-Jeade-en | |  | |
+Jeade-en | |  | 3:06 | https://www.strava.com/activities/2468020331
 inomniaveritas | |  | 3:25 | https://www.strava.com/activities/2474740703
 bark_bark | |  | 3:29 | https://strava.app.link/QkbhYIEsJX
 curfudgeon | |  | 3:36 | https://www.strava.com/activities/2471712587
@@ -99,7 +99,7 @@ Yjjsbb | |  | |
 
 # The Olds-mobile
 mrsloworfast | |  | 2:48.4 | https://www.strava.com/activities/2470943924
-brwalkernc | |  | |
+brwalkernc | |  | 3:11 | https://www.strava.com/activities/2479172437
 Tapin42 | |  | |
 analogkid84 | |  | 3:20.3 |
 siawyn | |  | |
@@ -117,7 +117,7 @@ ericquitecontrary | |  | |
 FreeSoup21 | |  | 2:32.65 | https://youtu.be/Gu19YjScog0
 mpalmer1124 | |  | 2:38 | https://strava.app.link/8SW3qdoeKX
 ethos24 | |  | |
-brwalkernc | |  | |
+brwalkernc | |  | 3:11 | https://www.strava.com/activities/2479172437
 WillRunForTacos | |  | |
 PartyDown22 | |  | 2:32.80 | https://www.youtube.com/watch?v=Gu19YjScog0&feature=youtu.be
 chachi_ | |  | |
@@ -161,7 +161,7 @@ espressopatronum | |  | |
 Zond0 | |  | |
 bluemostboth | |  | |
 sloworfast | |  | 3:14.6 |
-chalexdv | |  | |
+chalexdv | |  | 3:41 | https://www.strava.com/activities/2478738781
 flocculus | |  | 3:17.7 | https://www.strava.com/activities/2473989437
 ahf0913 | |  | 3:55.5 | https://www.strava.com/activities/2471241848
 Lobster92 | |  | 3:27 | https://www.strava.com/activities/2476326711
@@ -209,7 +209,7 @@ mrsloworfast | |  | 2:48.4 | https://www.strava.com/activities/2470943924
 sloworfast | |  | 3:14.6 |
 kattenfreja | |  | |
 ch1mpy | |  | 3:07 | https://www.strava.com/activities/2470571805
-chalexdv | |  | |
+chalexdv | |  | 3:41 | https://www.strava.com/activities/2478738781
 espegri | |  | |
 simsim7 | |  | |
 psk_coffee | |  | 3:15 | https://www.strava.com/activities/2469838222/overview
@@ -221,7 +221,7 @@ oljadblixt | |  | |
 
 # Wildcard
 ggoldd | | | 2:40 | https://www.strava.com/activities/2474675955
-imnotwadegreeley | |  | |
+imnotwadegreeley | |  | 2:25.3 | https://www.strava.com/activities/2480615745/laps
 herumph | |  | |
 blood_bender | |  | |
 llimllib | |  | 2:32 | https://strava.app.link/l6vRLKSZJX
@@ -271,7 +271,7 @@ Allysaurus_Rex | |  | 4:04 | https://www.strava.com/activities/2476358596/overvi
 legerete_de_letre | |  | |
 LongLegsShortShorts | |  | |
 SleepWouldBeNice | |  | |
-chalexdv | |  | |
+chalexdv | |  | 3:41 | https://www.strava.com/activities/2478738781
 mooocows | |  | 3:37.6 | https://www.strava.com/activities/2468132374
 j0hnftw | |  | |
 vinemoji | |  | 3:05.00 | https://www.strava.com/activities/2468039323
@@ -303,7 +303,7 @@ SpeedWorkIsBae | |  | 2:32 | https://www.strava.com/activities/2471701060
 durunnerafc | |  | 2:50 | https://strava.app.link/gzAnJvFvKX
 sloworfast | |  | 3:14.6 |
 LongLegsShortShorts | |  | |
-chalexdv | |  | |
+chalexdv | |  | 3:41 | https://www.strava.com/activities/2478738781
 Almostanathlete | |  | |
 cashewlater | |  | |
 wardmuylaert | |  | 2:47 | https://www.strava.com/activities/2467934291
