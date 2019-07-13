@@ -17,7 +17,7 @@ anbu1538 | |   | |
 
 # Southeastern Conference
 Heinz_Doofenshmirtz | |   | |
-OGFireNation | |   | |
+OGFireNation | |   | 2:33 |
 Yo_viola | |   | |
 mamsorris1 | |   | |
 supersonic_blimp | |   | |
@@ -103,7 +103,7 @@ brwalkernc | |   | 2:11 | https://www.strava.com/activities/2525700329
 Tapin42 | |   | |
 analogkid84 | |   | |
 siawyn | |   | |
-djlemma | |   | |
+djlemma | |   | 2:16 | https://www.strava.com/activities/2528688554
 satyagrahalife | |   | |
 White_Lobster | |   | |
 ao12 | |   | |
@@ -147,7 +147,7 @@ ahf0913 | |   | |
 Lobster92 | |   | |
 gtsnoracer | |   | 2:22 | https://www.strava.com/activities/2528529931
 user_ken | |   | |
-djlemma | |   | |
+djlemma | |   | 2:16 | https://www.strava.com/activities/2528688554
 ModernMassachusetts | |   | |
 slowly_by_slowly | |   | |
 llimllib | |   | |
@@ -248,7 +248,7 @@ bookshelfrunner | |   | |
 SmallEfforts | |   | |
 abraburger | |   | |
 ravsuv | |   | |
-Xanrael | |   | |
+Xanrael | |   | 2:29 | https://www.strava.com/activities/2528630536/laps
 MyVCRbroke | |   | |
 Rock27272727 | |   | |
 laurensvo | |   | |
@@ -289,7 +289,7 @@ LadyOfNumbers | |   | |
 mr800ftw | |   | |
 cPharoah | |   | |
 run_INXS | |   | |
-Xanrael | |   | |
+Xanrael | |   | 2:29 | https://www.strava.com/activities/2528630536/laps
 roxum1 | |   | |
 blueshirtguy13 | |   | |
 GooseGrewABeard | |   | |
@@ -326,7 +326,7 @@ nutbrownhare14 | |   | |
 =====
 # Head to Heads
 
-OGFireNation | |   | |
+OGFireNation | |   | 2:33 |
 Mr800ftw | |   | |
 
 mamsorris1 | |   | |
