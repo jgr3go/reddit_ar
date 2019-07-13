@@ -79,9 +79,9 @@ Nation_Of_Moose | |   | |
 
 # Dirty Triathletes
 sloworfast | |   | |
-captstella | |   | |
+captstella | |   | 3:20 |
 snapundersteer | |   | |
-Tapin42 | |   | |
+Tapin42 | |   | 2:18 | https://www.strava.com/activities/2529245074
 j1mmah | |   | |
 
 
@@ -91,7 +91,7 @@ ade214 | |   | 2:22 | https://www.strava.com/activities/2528915247
 dmmillr1 | |   | |
 linzlars | |   | |
 Nony2 | |   | 1:57 |
-Tapin42 | |   | |
+Tapin42 | |   | 2:18 | https://www.strava.com/activities/2529245074
 timuralp | |   | |
 thirdmeasurement | |   | |
 Yjjsbb | |   | |
@@ -100,7 +100,7 @@ Yjjsbb | |   | |
 # The Olds-mobile
 mrsloworfast | |   | |
 brwalkernc | |   | 2:11 | https://www.strava.com/activities/2525700329
-Tapin42 | |   | |
+Tapin42 | |   | 2:18 | https://www.strava.com/activities/2529245074
 analogkid84 | |   | |
 siawyn | |   | |
 djlemma | |   | 2:16 | https://www.strava.com/activities/2528688554
@@ -172,7 +172,7 @@ hollanding | |   | |
 meow203 | |   | |
 allysaurus_rex | |   | |
 cPharoah | |   | |
-captstella | |   | |
+captstella | |   | 3:20 |
 laurensvo | |   | |
 knowyourrockets | |   | 2:41 |
 kaaaazzh | |   | |
