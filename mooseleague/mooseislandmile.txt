@@ -27,7 +27,7 @@ justdoit-slowly | |   | |
 meow203 | |   | |
 thirdmeasurement | |   | |
 tripsd | |   | |
-soundproof81 | |   | |
+soundproof81 | |   | 2:22 | https://www.strava.com/activities/2529412268
 
 # PR or ER
 Barnaby_McFoo | |  | |
