@@ -190,7 +190,7 @@ running_ragged_ | |  | |
 halpinator | |   | |
 sloworfast | |   | 2:26 |
 True_North_Strong | |   | |
-cabusto | |   | |
+cabusto | |   | 2:03 | https://www.strava.com/activities/2530956240
 AK11235813213455 | |   | 2:05 | https://strava.app.link/s6aXOu3KiY
 allxxe | |   | |
 ieatgravel | |   | |
