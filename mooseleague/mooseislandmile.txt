@@ -107,7 +107,7 @@ djlemma | |   | 2:16 | https://www.strava.com/activities/2528688554
 satyagrahalife | |   | |
 White_Lobster | |   | |
 ao12 | |   | |
-deadc0de | |   | |
+deadc0de | |   | 2:18 | https://www.strava.com/activities/2530046204
 robert_cal | |   | |
 run_INXS | |   | |
 
@@ -195,7 +195,7 @@ AK11235813213455 | |   | 2:05 | https://strava.app.link/s6aXOu3KiY
 allxxe | |   | |
 ieatgravel | |   | |
 nameproduct | |   | |
-deadc0de | |   | |
+deadc0de | |   | 2:18 | https://www.strava.com/activities/2530046204
 montypytho17 | |   | |
 SmallEfforts | |   | |
 
@@ -257,7 +257,7 @@ miikermb | |   | |
 meow203 | |   | 2:46 |
 tripsd | |   | |
 Zond0 | |   | |
-deadc0de | |   | |
+deadc0de | |   | 2:18 | https://www.strava.com/activities/2530046204
 mamsorris1 | |   | |
 cPharoah | |   | |
 Qrszx | |   | |
