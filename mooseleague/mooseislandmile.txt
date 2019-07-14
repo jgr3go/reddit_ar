@@ -138,7 +138,7 @@ andybebad | |   | 1:49 | https://www.strava.com/activities/2528868676
 # Boston and Friends
 espressopatronum | |   | |
 bluemostboth | |   | |
-flocculus | |   | |
+flocculus | |   | 2:26 | https://www.strava.com/activities/2531643775
 doderlein | |   | |
 Zond0 | |   | |
 chrispyb | |   | |
@@ -162,7 +162,7 @@ Zond0 | |   | |
 bluemostboth | |   | |
 sloworfast | |   | 2:26 |
 chalexdv | |   | |
-flocculus | |   | |
+flocculus | |   | 2:26 | https://www.strava.com/activities/2531643775
 ahf0913 | |   | 2:52 | https://www.strava.com/activities/2525471946
 Lobster92 | |   | |
 allxxe | |   | |
@@ -340,7 +340,7 @@ Qrszx | |   | |
 AKnumbers | |   | |
 
 dmmillr1 | |  | |
-flocculus | |   | |
+flocculus | |   | 2:26 | https://www.strava.com/activities/2531643775
 
 knowyourrockets | |  | 2:41 |
 LadyofNumbers | |  | |
