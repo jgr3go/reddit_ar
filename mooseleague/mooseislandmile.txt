@@ -98,7 +98,7 @@ Yjjsbb | |   | |
 
 
 # The Olds-mobile
-mrsloworfast | |   | |
+mrsloworfast | |   | 2:05 | https://www.strava.com/activities/2530914357
 brwalkernc | |   | 2:11 | https://www.strava.com/activities/2525700329
 Tapin42 | |   | 2:18 | https://www.strava.com/activities/2529245074
 analogkid84 | |   | |
@@ -205,7 +205,7 @@ cashewlater | |   | |
 doderlein | |   | |
 oblongplatypus | |   | |
 reference_obscure | |   | |
-mrsloworfast | |   | |
+mrsloworfast | |   | 2:05 | https://www.strava.com/activities/2530914357
 sloworfast | |   | |
 kattenfreja | |   | |
 ch1mpy | |   | 2:16 |
@@ -312,7 +312,7 @@ wardmuylaert | |   | 2:02 | https://strava.app.link/XQruei56hY
 philipwhiuk | |   | |
 hwieniawski | |   | |
 ao12 | |   | 2:58 | https://www.strava.com/activities/2530252474
-mrsloworfast | |   | |
+mrsloworfast | |   | 2:05 | https://www.strava.com/activities/2530914357
 Aurillacain | |  | |
 
 # B3TC
