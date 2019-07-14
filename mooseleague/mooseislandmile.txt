@@ -203,7 +203,7 @@ SmallEfforts | |   | |
 # Nordics
 cashewlater | |   | |
 doderlein | |   | |
-oblongplatypus | |   | |
+oblongplatypus | |   | 2:26 | https://www.strava.com/activities/2531685954
 reference_obscure | |   | |
 mrsloworfast | |   | 2:05 | https://www.strava.com/activities/2530914357
 sloworfast | |   | 2:26 |
@@ -225,7 +225,7 @@ imnotwadegreeley | |   | |
 herumph | |   | |
 blood_bender | |   | |
 llimllib | |   | |
-OblongPlatypus | |   | |
+OblongPlatypus | |   | 2:26 | https://www.strava.com/activities/2531685954
 madger19 | |   | |
 cross1212 | |   | |
 hollanding | |   | 3:09 |
