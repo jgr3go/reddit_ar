@@ -89,7 +89,7 @@ j1mmah | |   | |
 abraburger | |   | |
 ade214 | |   | 2:22 | https://www.strava.com/activities/2528915247
 dmmillr1 | |   | |
-linzlars | |   | |
+linzlars | |   | 2:12 | https://www.strava.com/activities/2517674603
 Nony2 | |   | 1:57 |
 Tapin42 | |   | 2:18 | https://www.strava.com/activities/2529245074
 timuralp | |   | |
@@ -176,7 +176,7 @@ captstella | |   | 3:20 |
 laurensvo | |   | |
 knowyourrockets | |   | 2:41 |
 kaaaazzh | |   | |
-linzlars | |   | |
+linzlars | |   | 2:12 | https://www.strava.com/activities/2517674603
 AK11235813213455 | |   | 2:05 | https://strava.app.link/s6aXOu3KiY
 WillRunForTacos | |   | |
 SmallEfforts | |   | |
