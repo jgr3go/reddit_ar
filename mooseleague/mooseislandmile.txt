@@ -42,7 +42,7 @@ MrCoolguy80 | |   | |
 beeblebrox4282 | |   | |
 spyder9179 | |   | |
 cPharoah | |   | |
-sloworfast | |   | |
+sloworfast | |   | 2:26 |
 Jeade-en | |   | |
 inomniaveritas | |   | |
 bark_bark | |   | |
@@ -78,7 +78,7 @@ Nation_Of_Moose | |   | |
 
 
 # Dirty Triathletes
-sloworfast | |   | |
+sloworfast | |   | 2:26 |
 captstella | |   | 3:20 |
 snapundersteer | |   | |
 Tapin42 | |   | 2:18 | https://www.strava.com/activities/2529245074
@@ -160,7 +160,7 @@ screwbuharvard2 | |   | |
 espressopatronum | |   | |
 Zond0 | |   | |
 bluemostboth | |   | |
-sloworfast | |   | |
+sloworfast | |   | 2:26 |
 chalexdv | |   | |
 flocculus | |   | |
 ahf0913 | |   | 2:52 | https://www.strava.com/activities/2525471946
@@ -188,7 +188,7 @@ mermzderp | |   | |
 Dr_Straightcow | |   | 3:12 |
 running_ragged_ | |  | |
 halpinator | |   | |
-sloworfast | |   | |
+sloworfast | |   | 2:26 |
 True_North_Strong | |   | |
 cabusto | |   | |
 AK11235813213455 | |   | 2:05 | https://strava.app.link/s6aXOu3KiY
@@ -206,7 +206,7 @@ doderlein | |   | |
 oblongplatypus | |   | |
 reference_obscure | |   | |
 mrsloworfast | |   | 2:05 | https://www.strava.com/activities/2530914357
-sloworfast | |   | |
+sloworfast | |   | 2:26 |
 kattenfreja | |   | |
 ch1mpy | |   | 2:16 |
 chalexdv | |   | |
@@ -303,7 +303,7 @@ Eraser92 | |   | |
 Ch1mpy | |   | 2:16 |
 SpeedWorkIsBae | |   | 1:56 | https://www.strava.com/activities/2529236213
 durunnerafc | |   | 1:59 | https://strava.app.link/mRp1Dl3mjY
-sloworfast | |   | |
+sloworfast | |   | 2:26 |
 LongLegsShortShorts | |   | |
 chalexdv | |   | |
 Almostanathlete | |   | |
