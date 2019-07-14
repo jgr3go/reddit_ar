@@ -208,7 +208,7 @@ reference_obscure | |   | |
 mrsloworfast | |   | |
 sloworfast | |   | |
 kattenfreja | |   | |
-ch1mpy | |   | |
+ch1mpy | |   | 2:16 |
 chalexdv | |   | |
 espegri | |   | |
 simsim7 | |   | |
@@ -300,7 +300,7 @@ AfricanBus | |   | |
 # EUphoria
 GrandmasFavourite | |   | |
 Eraser92 | |   | |
-Ch1mpy | |   | |
+Ch1mpy | |   | 2:16 |
 SpeedWorkIsBae | |   | 1:56 | https://www.strava.com/activities/2529236213
 durunnerafc | |   | |
 sloworfast | |   | |
