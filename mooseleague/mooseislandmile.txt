@@ -31,7 +31,7 @@ soundproof81 | |   | 2:22 | https://www.strava.com/activities/2529412268
 
 # PR or ER
 Barnaby_McFoo | |  | |
-miikermb | |   | |
+miikermb | |   | 3:16 | https://strava.app.link/YI01bj1ekY
 ThePsion | |   | |
 Schizamm | |   | |
 laurensvo | |   | |
@@ -122,7 +122,7 @@ WillRunForTacos | |   | |
 PartyDown22 | |   | |
 chachi_ | |   | |
 moonballer | |   | |
-miikermb | |   | |
+miikermb | |   | 3:16 | https://strava.app.link/YI01bj1ekY
 laurensvo | |   | |
 Bull3tg0d | |   | |
 cross1212 | |   | |
@@ -253,7 +253,7 @@ Xanrael | |   | 2:29 | https://www.strava.com/activities/2528630536/laps
 MyVCRbroke | |   | |
 Rock27272727 | |   | 2:29 | https://www.strava.com/activities/2528195067
 laurensvo | |   | |
-miikermb | |   | |
+miikermb | |   | 3:16 | https://strava.app.link/YI01bj1ekY
 meow203 | |   | 2:46 |
 tripsd | |   | |
 Zond0 | |   | |
