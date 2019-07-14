@@ -170,7 +170,7 @@ LadyofNumbers | |   | |
 tiedtoamelody | |   | 2:36 | https://www.strava.com/activities/2528231497
 hollanding | |   | 3:09 |
 meow203 | |   | 2:46 |
-allysaurus_rex | |   | |
+allysaurus_rex | |   | 2:47 | https://www.strava.com/activities/2527882367/overview
 cPharoah | |   | |
 captstella | |   | 3:20 |
 laurensvo | |   | |
@@ -269,7 +269,7 @@ Barnaby_McFoo | |   | |
 wardmuylaert | |   | 2:02 | https://strava.app.link/XQruei56hY
 KAcotton | |   | |
 Schizamm | |   | |
-Allysaurus_Rex | |   | |
+Allysaurus_Rex | |   | 2:47 | https://www.strava.com/activities/2527882367/overview
 legerete_de_letre | |   | |
 LongLegsShortShorts | |   | |
 SleepWouldBeNice | |   | |
