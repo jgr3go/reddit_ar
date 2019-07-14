@@ -212,7 +212,7 @@ ch1mpy | |   | 2:16 |
 chalexdv | |   | |
 espegri | |   | |
 simsim7 | |   | |
-psk_coffee | |   | |
+psk_coffee | |   | 2:08 | https://www.strava.com/activities/2527477712/laps
 sashaklepikov | |   | |
 dmmillr1 | |   | |
 user_ken | |   | |
