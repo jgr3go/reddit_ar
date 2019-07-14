@@ -24,7 +24,7 @@ supersonic_blimp | |   | |
 
 # Cascadia PNWers
 justdoit-slowly | |   | |
-meow203 | |   | |
+meow203 | |   | 2:46 |
 thirdmeasurement | |   | |
 tripsd | |   | |
 soundproof81 | |   | 2:22 | https://www.strava.com/activities/2529412268
@@ -169,7 +169,7 @@ allxxe | |   | |
 LadyofNumbers | |   | |
 tiedtoamelody | |   | 2:36 | https://www.strava.com/activities/2528231497
 hollanding | |   | |
-meow203 | |   | |
+meow203 | |   | 2:46 |
 allysaurus_rex | |   | |
 cPharoah | |   | |
 captstella | |   | 3:20 |
@@ -254,7 +254,7 @@ MyVCRbroke | |   | |
 Rock27272727 | |   | 2:29 | https://www.strava.com/activities/2528195067
 laurensvo | |   | |
 miikermb | |   | |
-meow203 | |   | |
+meow203 | |   | 2:46 |
 tripsd | |   | |
 Zond0 | |   | |
 deadc0de | |   | |
