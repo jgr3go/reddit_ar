@@ -150,7 +150,7 @@ user_ken | |   | |
 djlemma | |   | 2:16 | https://www.strava.com/activities/2528688554
 ModernMassachusetts | |   | |
 slowly_by_slowly | |   | |
-llimllib | |   | |
+llimllib | |   | 2:07 | https://www.strava.com/activities/2532985218/overview
 UticaSteamedHams | |   | |
 mermzderp | |   | |
 screwbuharvard2 | |   | |
@@ -224,7 +224,7 @@ ggoldd | |  | |
 imnotwadegreeley | |   | |
 herumph | |   | |
 blood_bender | |   | |
-llimllib | |   | |
+llimllib | |   | 2:07 | https://www.strava.com/activities/2532985218/overview
 OblongPlatypus | |   | 2:26 | https://www.strava.com/activities/2531685954
 madger19 | |   | |
 cross1212 | |   | |
