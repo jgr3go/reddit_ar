@@ -30,7 +30,7 @@ tripsd | |   | |
 soundproof81 | |   | 7:07 | https://www.strava.com/activities/2529412268
 
 # PR or ER
-Barnaby_McFoo | |  | |
+Barnaby_McFoo | |  | 8:02 | https://www.strava.com/activities/2519183306/laps
 miikermb | |   | 9:48 | https://strava.app.link/YI01bj1ekY
 ThePsion | |   | 9:22 | https://www.strava.com/activities/2519004473?utm_source=com.google.android.apps.docs&utm_medium=referral
 Schizamm | |   | 8:49 |
@@ -40,10 +40,10 @@ ahf0913 | |   | 8:38 | https://www.strava.com/activities/2525471946
 theredinthesky | |   | |
 MrCoolguy80 | |   | 8:52 | https://www.strava.com/activities/2528349228/overview
 beeblebrox4282 | |   | 6:50 | https://www.strava.com/activities/2524761570
-spyder9179 | |   | |
-cPharoah | |   | |
+spyder9179 | |   | 8:49 | https://www.strava.com/activities/2531212013
+cPharoah | |   | 8:49 |
 sloworfast | |   | 7:19 |
-Jeade-en | |   | |
+Jeade-en | |   | 6:36 | https://www.strava.com/activities/2533784567
 inomniaveritas | |   | |
 bark_bark | |   | |
 curfudgeon | |   | 7:54 |
@@ -88,7 +88,7 @@ j1mmah | |   | |
 # West/Best Coast
 abraburger | |   | |
 ade214 | |   | 7:08 | https://www.strava.com/activities/2528915247
-dmmillr1 | |   | |
+dmmillr1 | |   | 9:40 | https://www.strava.com/activities/2520354028
 linzlars | |   | 6:36 | https://www.strava.com/activities/2517674603
 Nony2 | |   | 5:53 |
 Tapin42 | |   | 6:54 | https://www.strava.com/activities/2529245074
@@ -146,7 +146,7 @@ blood_bender | |   | |
 ahf0913 | |   | 8:38 | https://www.strava.com/activities/2525471946
 Lobster92 | |   | |
 gtsnoracer | |   | 7:07 | https://www.strava.com/activities/2528529931
-user_ken | |   | |
+user_ken | |   | 6:54 | https://www.strava.com/activities/2531919711
 djlemma | |   | 6:49 | https://www.strava.com/activities/2528688554
 ModernMassachusetts | |   | |
 slowly_by_slowly | |   | |
@@ -171,7 +171,7 @@ tiedtoamelody | |   | 7:48 | https://www.strava.com/activities/2528231497
 hollanding | |   | 9:29 |
 meow203 | |   | 8:20 |
 allysaurus_rex | |   | 8:22 | https://www.strava.com/activities/2527882367/overview
-cPharoah | |   | |
+cPharoah | |   | 8:49 |
 captstella | |   | 10:00 |
 laurensvo | |   | 7:47 | https://strava.app.link/rLRn5NCEkY
 knowyourrockets | |   | 8:03 |
@@ -214,8 +214,8 @@ espegri | |   | |
 simsim7 | |   | |
 psk_coffee | |   | 6:25 | https://www.strava.com/activities/2527477712/laps
 sashaklepikov | |   | |
-dmmillr1 | |   | |
-user_ken | |   | |
+dmmillr1 | |   | 9:40 | https://www.strava.com/activities/2520354028
+user_ken | |   | 6:54 | https://www.strava.com/activities/2531919711
 oljadblixt | |   | |
 
 
@@ -241,7 +241,7 @@ cashewlater | |   | |
 # Normal Humans
 deds_the_scrub | | | 8:09 |
 ymmv7 | | | |
-JBreg | |  | |
+JBreg | |  | 8:50 | https://strava.app.link/17jNC7N9lY
 theturbanator1699 | |  | |
 ryebrye | |   | 7:12 | https://strava.app.link/fHa4YWeaiY
 Olifi | |   | |
@@ -259,13 +259,13 @@ tripsd | |   | |
 Zond0 | |   | |
 deadc0de | |   | 6:55 | https://www.strava.com/activities/2530046204
 mamsorris1 | |   | |
-cPharoah | |   | |
+cPharoah | |   | 8:49 |
 Qrszx | |   | 7:41 | https://www.strava.com/activities/2531711549
 Rickard0 | |   | |
 knowyourrockets | |   | 8:03 |
 cwmcarthur | |   | |
 jwcjwc12 | |   | 7:17 | https://strava.app.link/0YLjeVB2jY
-Barnaby_McFoo | |   | |
+Barnaby_McFoo | |   | 8:02 | https://www.strava.com/activities/2519183306/laps
 wardmuylaert | |   | 6:08 | https://strava.app.link/XQruei56hY
 KAcotton | |   | |
 Schizamm | |   | 8:49 |
@@ -288,7 +288,7 @@ danielrrich | |   | |
 # The High Council
 LadyOfNumbers | |   | |
 mr800ftw | |   | |
-cPharoah | |   | |
+cPharoah | |   | 8:49 |
 run_INXS | |   | |
 Xanrael | |   | 7:27 | https://www.strava.com/activities/2528630536/laps
 roxum1 | |   | |
@@ -338,7 +338,7 @@ beeblebrox4282 | |   | 6:50 | https://www.strava.com/activities/2524761570
 Qrszx | |   | 7:41 | https://www.strava.com/activities/2531711549
 AKnumbers | |   | |
 
-dmmillr1 | |  | |
+dmmillr1 | |  | 9:40 | https://www.strava.com/activities/2520354028
 flocculus | |   | 7:19 | https://www.strava.com/activities/2531643775
 
 knowyourrockets | |  | 8:03 |
