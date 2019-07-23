@@ -187,14 +187,14 @@ mermzderp | |   | |
 # Royal Canadian Moose Patrol
 Dr_Straightcow | |   | 9:38 |
 running_ragged_ | |  | |
-halpinator | |   | |
+halpinator | |   | 7:41 | https://www.strava.com/activities/2526705535
 sloworfast | |   | 7:19 |
 True_North_Strong | |   | |
 cabusto | |   | 6:11 | https://www.strava.com/activities/2530956240
 AK11235813213455 | |   | 6:15 | https://strava.app.link/s6aXOu3KiY
 allxxe | |   | |
 ieatgravel | |   | |
-nameproduct | |   | |
+nameproduct | |   | 5:15 |
 deadc0de | |   | 6:55 | https://www.strava.com/activities/2530046204
 montypytho17 | |   | |
 SmallEfforts | |   | |
@@ -221,7 +221,7 @@ oljadblixt | |   | |
 
 # Wildcard
 ggoldd | |  | |
-imnotwadegreeley | |   | |
+imnotwadegreeley | |   | 5:34 | https://www.strava.com/activities/2538362964/laps
 herumph | |   | |
 blood_bender | |   | |
 llimllib | |   | 6:22 | https://www.strava.com/activities/2532985218/overview
