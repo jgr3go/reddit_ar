@@ -32,7 +32,7 @@ ThePsion | |    | 9:22 | https://www.strava.com/activities/2519004473?utm_source
 Schizamm | |    | 8:49 |
 laurensvo | |    | 7:47 | https://strava.app.link/rLRn5NCEkY
 midmoddest | |    | 8:09 | https://strava.app.link/SHEJv8a6jY
-ahf0913 | |    | 8:38 | https://www.strava.com/activities/2525471946
+ahf0913 | |    | 8:47 | https://www.strava.com/activities/2604146050
 theredinthesky | |    | |
 MrCoolguy80 | |    | 8:52 | https://www.strava.com/activities/2528349228/overview
 beeblebrox4282 | |    | 6:50 | https://www.strava.com/activities/2524761570
@@ -62,7 +62,7 @@ Vertical-Living | |   | |
 Alamo91 | |    | |
 almostanathlete | |    | |
 Dieeasysteve | |    | |
-durunnerafc | |    | 6:01 | https://strava.app.link/3SVtQUfx2Y
+durunnerafc | |    | 6:01.17 | https://strava.app.link/3SVtQUfx2Y
 FartMaster1609 | |    | |
 jambojock | |    | |
 lucasthebeard | |    | |
@@ -141,7 +141,7 @@ doderlein | |    | |
 Zond0 | |    | |
 chrispyb | |    | |
 blood_bender | |    | |
-ahf0913 | |    | 8:38 | https://www.strava.com/activities/2525471946
+ahf0913 | |    | 8:47 | https://www.strava.com/activities/2604146050
 Lobster92 | |    | |
 gtsnoracer | |    | 7:07 | https://www.strava.com/activities/2528529931
 user_ken | |    | 6:54 | https://www.strava.com/activities/2531919711
@@ -161,7 +161,7 @@ bluemostboth | |    | |
 sloworfast | |    | 7:15 |
 chalexdv | |    | 8:54 | https://www.strava.com/activities/2602104403
 flocculus | |    | 7:19 | https://www.strava.com/activities/2531643775
-ahf0913 | |    | 8:38 | https://www.strava.com/activities/2525471946
+ahf0913 | |    | 8:47 | https://www.strava.com/activities/2604146050
 Lobster92 | |    | |
 allxxe | |    | |
 LadyofNumbers | |    | |
@@ -300,7 +300,7 @@ GrandmasFavourite | |    | |
 Eraser92 | |    | |
 Ch1mpy | |    | 7:07 | https://www.strava.com/activities/2606371564
 SpeedWorkIsBae | |    | 5:56 | https://www.strava.com/activities/2606604572
-durunnerafc | |    | 6:01 | https://strava.app.link/3SVtQUfx2Y
+durunnerafc | |    | 6:01.17 | https://strava.app.link/3SVtQUfx2Y
 sloworfast | |    | 7:15 |
 LongLegsShortShorts | |    | |
 chalexdv | |    | 8:54 | https://www.strava.com/activities/2602104403
