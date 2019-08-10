@@ -101,7 +101,7 @@ brwalkernc | |    | 6:34 | https://www.strava.com/activities/2525700329
 Tapin42 | |    | 6:54 | https://www.strava.com/activities/2529245074
 analogkid84 | |    | |
 siawyn | |    | |
-djlemma | |    | 6:49 | https://www.strava.com/activities/2528688554
+djlemma | |    | 6:48 | https://www.strava.com/activities/2607041260 https://youtu.be/8WyNcbn2vyA
 satyagrahalife | |    | |
 White_Lobster | |    | |
 ao12 | |    | 8:54 | https://www.strava.com/activities/2530252474
@@ -145,7 +145,7 @@ ahf0913 | |    | 8:47 | https://www.strava.com/activities/2604146050
 Lobster92 | |    | |
 gtsnoracer | |    | 7:07 | https://www.strava.com/activities/2528529931
 user_ken | |    | 6:54 | https://www.strava.com/activities/2531919711
-djlemma | |    | 6:49 | https://www.strava.com/activities/2528688554
+djlemma | |    | 6:48 | https://www.strava.com/activities/2607041260 https://youtu.be/8WyNcbn2vyA
 ModernMassachusetts | |    | |
 slowly_by_slowly | |    | |
 llimllib | |    | 6:22 | https://www.strava.com/activities/2532985218/overview
@@ -175,7 +175,7 @@ laurensvo | |    | 8:15 | https://strava.app.link/BdVhWfUE2Y
 knowyourrockets | |    | 8:03 |
 kaaaazzh | |    | |
 linzlars | |    | 6:36 | https://www.strava.com/activities/2517674603
-AK11235813213455 | |    | 6:15 | https://strava.app.link/s6aXOu3KiY
+AK11235813213455 | |    | 6:47 | https://www.strava.com/activities/2600358244
 WillRunForTacos | |    | |
 SmallEfforts | |    | |
 bookshelfrunner | |    | |
@@ -189,7 +189,7 @@ halpinator | |    | 6:29 | https://strava.app.link/onpiAevu2Y
 sloworfast | |    | 7:15 |
 True_North_Strong | |    | |
 cabusto | |    | 6:11 | https://www.strava.com/activities/2530956240
-AK11235813213455 | |    | 6:15 | https://strava.app.link/s6aXOu3KiY
+AK11235813213455 | |    | 6:47 | https://www.strava.com/activities/2600358244
 allxxe | |    | |
 ieatgravel | |    | |
 nameproduct | |    | 5:15 |
@@ -291,7 +291,7 @@ run_INXS | |    | |
 Xanrael | |    | 7:36 | https://www.strava.com/activities/2604285832/laps
 roxum1 | |    | |
 blueshirtguy13 | |    | |
-GooseGrewABeard | |    | |
+GooseGrewABeard | |    | 7:39 | https://www.strava.com/activities/2607158831
 AfricanBus | |    | |
 
 
