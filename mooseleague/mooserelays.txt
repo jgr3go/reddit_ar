@@ -30,7 +30,7 @@ Barnaby_McFoo | |   | 8:02 | https://www.strava.com/activities/2519183306/laps
 miikermb | |    | 9:48 | https://strava.app.link/YI01bj1ekY
 ThePsion | |    | 9:22 | https://www.strava.com/activities/2519004473?utm_source=com.google.android.apps.docs&utm_medium=referral
 Schizamm | |    | 8:49 |
-laurensvo | |    | 7:47 | https://strava.app.link/rLRn5NCEkY
+laurensvo | |    | 8:15 | https://strava.app.link/BdVhWfUE2Y
 midmoddest | |    | 8:09 | https://strava.app.link/SHEJv8a6jY
 ahf0913 | |    | 8:47 | https://www.strava.com/activities/2604146050
 theredinthesky | |    | |
@@ -121,7 +121,7 @@ PartyDown22 | |    | |
 chachi_ | |    | |
 moonballer | |    | |
 miikermb | |    | 9:48 | https://strava.app.link/YI01bj1ekY
-laurensvo | |    | 7:47 | https://strava.app.link/rLRn5NCEkY
+laurensvo | |    | 8:15 | https://strava.app.link/BdVhWfUE2Y
 Bull3tg0d | |    | |
 cross1212 | |    | |
 bwilly22 | |    | |
@@ -171,7 +171,7 @@ meow203 | |    | 8:20 |
 allysaurus_rex | |    | 8:22 | https://www.strava.com/activities/2527882367/overview
 cPharoah | |    | 8:49 |
 captstella | |    | 10:00 |
-laurensvo | |    | 7:47 | https://strava.app.link/rLRn5NCEkY
+laurensvo | |    | 8:15 | https://strava.app.link/BdVhWfUE2Y
 knowyourrockets | |    | 8:03 |
 kaaaazzh | |    | |
 linzlars | |    | 6:36 | https://www.strava.com/activities/2517674603
@@ -250,7 +250,7 @@ ravsuv | |    | |
 Xanrael | |    | 7:36 | https://www.strava.com/activities/2604285832/laps
 MyVCRbroke | |    | |
 Rock27272727 | |    | 7:28 | https://www.strava.com/activities/2528195067
-laurensvo | |    | 7:47 | https://strava.app.link/rLRn5NCEkY
+laurensvo | |    | 8:15 | https://strava.app.link/BdVhWfUE2Y
 miikermb | |    | 9:48 | https://strava.app.link/YI01bj1ekY
 meow203 | |    | 8:20 |
 tripsd | |    | |
