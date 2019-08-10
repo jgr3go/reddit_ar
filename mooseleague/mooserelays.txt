@@ -172,7 +172,7 @@ allysaurus_rex | |    | 9:02 | https://www.strava.com/activities/2606933225/over
 cPharoah | |    | 8:49 |
 captstella | |    | 10:00 |
 laurensvo | |    | 8:15 | https://strava.app.link/BdVhWfUE2Y
-knowyourrockets | |    | 8:03 |
+knowyourrockets | |    | 8:06 |
 kaaaazzh | |    | |
 linzlars | |    | 6:39 | https://strava.app.link/j6QsqnLM2Y
 AK11235813213455 | |    | 6:47 | https://www.strava.com/activities/2600358244
@@ -260,7 +260,7 @@ mamsorris1 | |    | |
 cPharoah | |    | 8:49 |
 Qrszx | |    | 7:13 | https://www.strava.com/activities/2606986985
 Rickard0 | |    | |
-knowyourrockets | |    | 8:03 |
+knowyourrockets | |    | 8:06 |
 cwmcarthur | |    | |
 jwcjwc12 | |    | 8:04 | https://strava.app.link/9mKuF6xY2Y
 Barnaby_McFoo | |    | 8:02 | https://www.strava.com/activities/2519183306/laps
@@ -339,5 +339,5 @@ AKnumbers | |    | |
 dmmillr1 | |   | 7:05 | https://www.strava.com/activities/2601412519
 flocculus | |    | 7:19 | https://www.strava.com/activities/2531643775
 
-knowyourrockets | |   | 8:03 |
+knowyourrockets | |   | 8:06 |
 LadyofNumbers | |   | |
