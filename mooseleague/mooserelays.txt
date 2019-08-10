@@ -68,7 +68,7 @@ jambojock | |    | |
 lucasthebeard | |    | |
 mdizzl_ | |    | 6:36 |
 philipwhiuk | |    | |
-Qrszx | |    | 7:41 | https://www.strava.com/activities/2531711549
+Qrszx | |    | 7:13 | https://www.strava.com/activities/2606986985
 VandalsStoleMyHandle | |    | |
 Nation_Of_Moose | |    | 6:31 | https://www.strava.com/activities/2532034991
 Percinho | |  | 8:13 | https://www.strava.com/activities/2606132130
@@ -201,7 +201,7 @@ SmallEfforts | |    | |
 # Nordics
 cashewlater | |    | |
 doderlein | |    | |
-oblongplatypus | |    | 7:19 | https://www.strava.com/activities/2531685954
+oblongplatypus | |    | 6:38 | https://www.strava.com/activities/2606514499
 reference_obscure | |    | |
 mrsloworfast | |    | 6:19 | https://www.strava.com/activities/2604139147
 sloworfast | |    | 7:15 |
@@ -223,7 +223,7 @@ imnotwadegreeley | |    | 5:34 | https://www.strava.com/activities/2538362964/la
 herumph | |    | |
 blood_bender | |    | |
 llimllib | |    | 6:22 | https://www.strava.com/activities/2532985218/overview
-OblongPlatypus | |    | 7:19 | https://www.strava.com/activities/2531685954
+OblongPlatypus | |    | 6:38 | https://www.strava.com/activities/2606514499
 madger19 | |    | |
 cross1212 | |    | |
 hollanding | |    | 9:29 |
@@ -258,7 +258,7 @@ Zond0 | |    | |
 deadc0de | |    | 6:55 | https://www.strava.com/activities/2530046204
 mamsorris1 | |    | |
 cPharoah | |    | 8:49 |
-Qrszx | |    | 7:41 | https://www.strava.com/activities/2531711549
+Qrszx | |    | 7:13 | https://www.strava.com/activities/2606986985
 Rickard0 | |    | |
 knowyourrockets | |    | 8:03 |
 cwmcarthur | |    | |
@@ -328,12 +328,12 @@ OGFireNation | |    | 7:40 |
 Mr800ftw | |    | |
 
 mamsorris1 | |    | |
-Qrszx | |    | 7:41 | https://www.strava.com/activities/2531711549
+Qrszx | |    | 7:13 | https://www.strava.com/activities/2606986985
 
 Schizamm | |    | 8:49 |
 beeblebrox4282 | |    | 6:50 | https://www.strava.com/activities/2524761570
 
-Qrszx | |    | 7:41 | https://www.strava.com/activities/2531711549
+Qrszx | |    | 7:13 | https://www.strava.com/activities/2606986985
 AKnumbers | |    | |
 
 dmmillr1 | |   | 9:40 | https://www.strava.com/activities/2520354028
