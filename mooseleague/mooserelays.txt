@@ -78,7 +78,7 @@ Percinho | |  | 8:13 | https://www.strava.com/activities/2606132130
 sloworfast | |    | 7:15 |
 captstella | |    | 10:00 |
 snapundersteer | |    | |
-Tapin42 | |    | 6:54 | https://www.strava.com/activities/2529245074
+Tapin42 | |    | 6:50 | https://www.strava.com/activities/2607168827
 j1mmah | |    | |
 VicunaLlamaAlpaca | | | |
 
@@ -89,7 +89,7 @@ ade214 | |    | 7:08 | https://www.strava.com/activities/2528915247
 dmmillr1 | |    | 7:05 | https://www.strava.com/activities/2601412519
 linzlars | |    | 6:39 | https://strava.app.link/j6QsqnLM2Y
 Nony2 | |    | 5:53 |
-Tapin42 | |    | 6:54 | https://www.strava.com/activities/2529245074
+Tapin42 | |    | 6:50 | https://www.strava.com/activities/2607168827
 timuralp | |    | |
 thirdmeasurement | |    | |
 Yjjsbb | |    | |
@@ -98,7 +98,7 @@ Yjjsbb | |    | |
 # The Olds-mobile
 mrsloworfast | |    | 6:19 | https://www.strava.com/activities/2604139147
 brwalkernc | |    | 6:34 | https://www.strava.com/activities/2525700329
-Tapin42 | |    | 6:54 | https://www.strava.com/activities/2529245074
+Tapin42 | |    | 6:50 | https://www.strava.com/activities/2607168827
 analogkid84 | |    | |
 siawyn | |    | |
 djlemma | |    | 6:48 | https://www.strava.com/activities/2607041260 https://youtu.be/8WyNcbn2vyA
