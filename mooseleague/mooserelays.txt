@@ -1,7 +1,3 @@
-
-
-
-
 # Greater Pretzel Empire
 maineia | |   
 a-german-muffin | |   
@@ -75,6 +71,7 @@ philipwhiuk | |
 Qrszx | |   
 VandalsStoleMyHandle | |   
 Nation_Of_Moose | |   
+Percinho | | 
 
 
 # Dirty Triathletes
@@ -83,6 +80,7 @@ captstella | |
 snapundersteer | |   
 Tapin42 | |   
 j1mmah | |   
+VicunaLlamaAlpaca | |
 
 
 # West/Best Coast
