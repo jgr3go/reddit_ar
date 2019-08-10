@@ -62,7 +62,7 @@ Vertical-Living | |   | |
 Alamo91 | |    | |
 almostanathlete | |    | |
 Dieeasysteve | |    | |
-durunnerafc | |    | 5:59 | https://strava.app.link/mRp1Dl3mjY
+durunnerafc | |    | 6:01 | https://strava.app.link/3SVtQUfx2Y
 FartMaster1609 | |    | |
 jambojock | |    | |
 lucasthebeard | |    | |
@@ -125,7 +125,7 @@ laurensvo | |    | 7:47 | https://strava.app.link/rLRn5NCEkY
 Bull3tg0d | |    | |
 cross1212 | |    | |
 bwilly22 | |    | |
-marktopus | |    | 6:04 | https://strava.app.link/f9hWyms7hY
+marktopus | |    | 6:02.5 | https://strava.app.link/hse2oUIx2Y
 Fsus2 | |    | 7:16 | https://www.strava.com/activities/2529237398
 snapundersteer | |    | |
 PrairieFirePhoenix | |    | |
@@ -206,7 +206,7 @@ reference_obscure | |    | |
 mrsloworfast | |    | 6:19 | https://www.strava.com/activities/2604139147
 sloworfast | |    | 7:15 |
 kattenfreja | |    | |
-ch1mpy | |    | 6:50 |
+ch1mpy | |    | 7:07 | https://www.strava.com/activities/2606371564
 chalexdv | |    | |
 espegri | |    | |
 simsim7 | |    | |
@@ -298,9 +298,9 @@ AfricanBus | |    | |
 # EUphoria
 GrandmasFavourite | |    | |
 Eraser92 | |    | |
-Ch1mpy | |    | 6:50 |
+Ch1mpy | |    | 7:07 | https://www.strava.com/activities/2606371564
 SpeedWorkIsBae | |    | 5:56 | https://www.strava.com/activities/2606604572
-durunnerafc | |    | 5:59 | https://strava.app.link/mRp1Dl3mjY
+durunnerafc | |    | 6:01 | https://strava.app.link/3SVtQUfx2Y
 sloworfast | |    | 7:15 |
 LongLegsShortShorts | |    | |
 chalexdv | |    | |
