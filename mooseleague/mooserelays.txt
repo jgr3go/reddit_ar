@@ -139,7 +139,7 @@ andybebad | |    | 5:27 | https://www.strava.com/activities/2528868676
 
 # Boston and Friends
 espressopatronum | |    | |
-bluemostboth | |    | |
+bluemostboth | |    | 7:01 | https://www.strava.com/activities/2611073894
 flocculus | |    | 7:19 | https://www.strava.com/activities/2531643775
 doderlein | |    | |
 Zond0 | |    | |
@@ -161,7 +161,7 @@ screwbuharvard2 | |    | |
 # XX
 espressopatronum | |    | |
 Zond0 | |    | |
-bluemostboth | |    | |
+bluemostboth | |    | 7:01 | https://www.strava.com/activities/2611073894
 sloworfast | |    | 7:15 |
 chalexdv | |    | 8:54 | https://www.strava.com/activities/2602104403
 flocculus | |    | 7:19 | https://www.strava.com/activities/2531643775
