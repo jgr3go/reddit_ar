@@ -33,7 +33,7 @@ soundproof81 | |    | 7:07 | https://www.strava.com/activities/2529412268
 Barnaby_McFoo | |   | 8:02 | https://www.strava.com/activities/2519183306/laps
 miikermb | |    | 8:10 | https://www.strava.com/activities/2608379929/segments/65440273281
 ThePsion | |    | 9:22 | https://www.strava.com/activities/2519004473?utm_source=com.google.android.apps.docs&utm_medium=referral
-Schizamm | |    | 6:48.96 | https://strava.app.link/Cp4k95Qq3Y
+Schizamm | |    | 6:48.6 | https://strava.app.link/Qy3RBqoq4Y
 laurensvo | |    | 8:15 | https://strava.app.link/BdVhWfUE2Y
 midmoddest | |    | 8:09 | https://strava.app.link/SHEJv8a6jY
 ahf0913 | |    | 8:47 | https://www.strava.com/activities/2604146050
@@ -270,7 +270,7 @@ jwcjwc12 | |    | 8:04 | https://strava.app.link/9mKuF6xY2Y
 Barnaby_McFoo | |    | 8:02 | https://www.strava.com/activities/2519183306/laps
 wardmuylaert | |    | 6:08 | https://strava.app.link/XQruei56hY
 KAcotton | |    | |
-Schizamm | |    | 6:48.96 | https://strava.app.link/Cp4k95Qq3Y
+Schizamm | |    | 6:48.6 | https://strava.app.link/Qy3RBqoq4Y
 Allysaurus_Rex | |    | 9:02 | https://www.strava.com/activities/2606933225/overview
 legerete_de_letre | |    | 9:40 |
 LongLegsShortShorts | |    | |
@@ -334,7 +334,7 @@ Mr800ftw | |    | |
 mamsorris1 | |    | |
 Qrszx | |    | 7:13 | https://www.strava.com/activities/2606986985
 
-Schizamm | |    | 6:48.96 | https://strava.app.link/Cp4k95Qq3Y
+Schizamm | |    | 6:48.6 | https://strava.app.link/Qy3RBqoq4Y
 beeblebrox4282 | |    | 6:50 | https://www.strava.com/activities/2524761570
 
 Qrszx | |    | 7:13 | https://www.strava.com/activities/2606986985
