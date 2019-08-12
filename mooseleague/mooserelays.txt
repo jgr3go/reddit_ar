@@ -27,7 +27,7 @@ justdoit-slowly | |    | |
 meow203 | |    | 8:20 |
 thirdmeasurement | |    | |
 tripsd | |    | |
-soundproof81 | |    | 7:07 | https://www.strava.com/activities/2529412268
+soundproof81 | |    | 7:05 | https://strava.app.link/Rps224h74Y
 
 # PR or ER
 Barnaby_McFoo | |   | 8:02 | https://www.strava.com/activities/2519183306/laps
