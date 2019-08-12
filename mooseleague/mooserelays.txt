@@ -221,7 +221,7 @@ oljadblixt | |    | |
 
 # Wildcard
 ggoldd | |   | |
-imnotwadegreeley | |    | |
+imnotwadegreeley | |    | 6:29.6 | https://www.strava.com/activities/2609668195
 herumph | |    | |
 blood_bender | |    | |
 llimllib | |    | |
