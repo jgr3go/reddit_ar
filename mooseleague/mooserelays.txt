@@ -6,7 +6,7 @@ Moose Relays
 maineia | |    | |
 a-german-muffin | |    | |
 MadMennonite | |    | |
-wardmuylaert | |    | |
+wardmuylaert | |    | 6:09 | https://strava.app.link/XyYcaLhh6Y
 Jaime_Manger | |    | |
 tiedtoamelody | |    | 7:22.6 | https://www.strava.com/activities/2607597787
 HobbyPlodder | |    | |
@@ -266,7 +266,7 @@ knowyourrockets | |    | 8:06 |
 cwmcarthur | |    | |
 jwcjwc12 | |    | 8:04 | https://strava.app.link/9mKuF6xY2Y
 Barnaby_McFoo | |    | |
-wardmuylaert | |    | |
+wardmuylaert | |    | 6:09 | https://strava.app.link/XyYcaLhh6Y
 KAcotton | |    | |
 Schizamm | |    | 6:48.6 | https://strava.app.link/Qy3RBqoq4Y
 Allysaurus_Rex | |    | 9:02 | https://www.strava.com/activities/2606933225/overview
@@ -308,7 +308,7 @@ LongLegsShortShorts | |    | |
 chalexdv | |    | 8:54 | https://www.strava.com/activities/2602104403
 Almostanathlete | |    | |
 cashewlater | |    | |
-wardmuylaert | |    | |
+wardmuylaert | |    | 6:09 | https://strava.app.link/XyYcaLhh6Y
 philipwhiuk | |    | |
 hwieniawski | |    | |
 ao12 | |    | |
