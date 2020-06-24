@@ -163,18 +163,18 @@ var GoogleSvc = /** @class */ (function () {
         });
     };
     GoogleSvc.prototype.buildEvents = function () {
-        var _a, _b, _c, _d, _e;
+        var _a, _b, _c, _d, _e, _f;
         var events = [];
-        for (var _i = 0, _f = this.spreadsheet.sheets; _i < _f.length; _i++) {
-            var sheet = _f[_i];
+        for (var _i = 0, _g = this.spreadsheet.sheets; _i < _g.length; _i++) {
+            var sheet = _g[_i];
             var evt = {};
             evt.name = sheet.properties.title;
             var data = sheet.data[0];
             if (!data || !data.rowData) {
                 continue;
             }
-            for (var _g = 0, _h = data.rowData; _g < _h.length; _g++) {
-                var row = _h[_g];
+            for (var _h = 0, _j = data.rowData; _h < _j.length; _h++) {
+                var row = _j[_h];
                 if (!row.values || !row.values.length) {
                     continue;
                 }
@@ -184,11 +184,17 @@ var GoogleSvc = /** @class */ (function () {
                 switch ((_b = row.values[0]) === null || _b === void 0 ? void 0 : _b.formattedValue) {
                     case 'Event':
                         evt.events = (_c = row.values[1]) === null || _c === void 0 ? void 0 : _c.formattedValue;
+                        break;
                     case 'Date':
                         evt.date = moment((_d = row.values[1]) === null || _d === void 0 ? void 0 : _d.formattedValue).year(moment().year());
                         evt.displayDate = moment(evt.date).format('MMM D, YYYY');
+                        break;
                     case 'Results':
                         evt.link = (_e = row.values[1]) === null || _e === void 0 ? void 0 : _e.formattedValue;
+                        break;
+                    case 'Form':
+                        evt.submit = (_f = row.values[1]) === null || _f === void 0 ? void 0 : _f.formattedValue;
+                        break;
                     default:
                         break;
                 }

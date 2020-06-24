@@ -1,6 +1,9 @@
 
 <h2>{{EC.event.name}} - {{EC.event.displayDate}}</h2>
-<h2>Event: {{EC.event.events}}</h2>
+<h2>
+  Event: {{EC.event.events}}
+  <a ng-if="EC.event.submit" href="{{EC.event.submit}}" target="_blank" class="btn btn-primary">Submit Results</a>
+</h2>
 
 <ul class="nav nav-tabs">
   <!-- <li class="nav-item">

@@ -17,6 +17,7 @@ interface MEvent {
   state: string;
   events: string;
   link: string;
+  submit: string;
   editLink: string;
 
   displayDate: string;
@@ -177,11 +178,17 @@ class GoogleSvc {
         switch (row.values[0]?.formattedValue) {
           case 'Event':
             evt.events = row.values[1]?.formattedValue;
+            break;
           case 'Date':
             evt.date = moment(row.values[1]?.formattedValue).year(moment().year());
             evt.displayDate = moment(evt.date).format('MMM D, YYYY');
+            break;
           case 'Results':
             evt.link = row.values[1]?.formattedValue;
+            break;
+          case 'Form':
+            evt.submit = row.values[1]?.formattedValue;
+            break;
           default:
             break;
         }
