@@ -214,6 +214,7 @@ var GoogleSvc = /** @class */ (function () {
         this.Events = events;
     };
     GoogleSvc.prototype.buildUsers = function () {
+        var _this = this;
         var _a, _b, _c, _d, _e, _f, _g, _h;
         var users = [];
         var COL = this.USER_COLUMNS;
@@ -269,7 +270,7 @@ var GoogleSvc = /** @class */ (function () {
                                 note: (_b = row.values[COL.NOTES]) === null || _b === void 0 ? void 0 : _b.formattedValue,
                                 links: (_d = (_c = row.values[COL.LINKS]) === null || _c === void 0 ? void 0 : _c.formattedValue) === null || _d === void 0 ? void 0 : _d.split(',').map(function (link) {
                                     return {
-                                        type: link.match(/strava/) ? 'strava' : (link.match(/youtu/) ? 'youtube' : ''),
+                                        type: _this.getLinkType(link),
                                         url: link
                                     };
                                 })
@@ -286,6 +287,18 @@ var GoogleSvc = /** @class */ (function () {
             }
         }
         this.Users = users;
+    };
+    GoogleSvc.prototype.getLinkType = function (link) {
+        if (link.match(/strava/)) {
+            return 'strava';
+        }
+        if (link.match(/youtu/)) {
+            return 'youtube';
+        }
+        if (link.match(/redd/)) {
+            return 'reddit';
+        }
+        return '';
     };
     GoogleSvc.prototype.buildDivisions = function () {
         var divisions = [];

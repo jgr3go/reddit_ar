@@ -256,7 +256,7 @@ class GoogleSvc {
                 note: row.values[COL.NOTES]?.formattedValue,
                 links: row.values[COL.LINKS]?.formattedValue?.split(',').map(link => {
                   return <MLink>{
-                    type: link.match(/strava/) ? 'strava' : (link.match(/youtu/) ? 'youtube' : ''),
+                    type: this.getLinkType(link),
                     url: link
                   }
                 })
@@ -267,6 +267,13 @@ class GoogleSvc {
       }
     }
     this.Users = users;
+  }
+
+  private getLinkType(link: string) {
+    if (link.match(/strava/)) { return 'strava'; }
+    if (link.match(/youtu/)) { return 'youtube'; }
+    if (link.match(/redd/)) { return 'reddit'; }
+    return '';
   }
 
   private buildDivisions() {
