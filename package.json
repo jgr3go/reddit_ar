@@ -2,10 +2,18 @@
   "name": "reddit_comments",
   "version": "1.0.0",
   "scripts": {
-    "start": "gulp webserver"
+    "watch": "tsc -w",
+    "serve": "http-server -p 8080"
   },
   "dependencies": {
-    "moment": "^2.18.1"
+    "@types/angular": "^1.7.0",
+    "@types/angular-ui-router": "^1.1.40",
+    "@types/gapi": "0.0.39",
+    "@types/gapi.client.sheets": "^4.0.9",
+    "@types/lodash": "^4.14.155",
+    "@types/moment": "^2.13.0",
+    "http-server": "^0.12.3",
+    "moment": "^2.27.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",

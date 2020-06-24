@@ -16,9 +16,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.4/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
 
+    <script src="https://apis.google.com/js/api.js"></script>
+
     <!-- one of these will fail too -->
-    <script src="mooseleague_babel.js"></script>
-    <script src="https://jgr3go.github.io/reddit_ar/mooseleague/mooseleague_babel.js"></script>
+    <script src="mooseleague_ts.js"></script>
+    <script src="https://jgr3go.github.io/reddit_ar/mooseleague/mooseleague_ts.js"></script>
+    
     
     <title>ARTC Moose League</title>
     <meta name="description" content="ARTC's Summer Track League events and standings">
@@ -48,9 +51,9 @@
               <a ng-repeat="evt in MC.events" href="" ui-sref="{{evt.state}}">{{evt.name}}</a>
             </div>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" ui-sref="Leaderboard" href="">Leaderboard</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>

@@ -1,27 +1,27 @@
 
-<h2>{{EC.event.name}} - {{EC.event.date}}</h2>
-<h2>Events: {{EC.event.events.join(', ')}}</h2>
+<h2>{{EC.event.name}} - {{EC.event.displayDate}}</h2>
+<h2>Event: {{EC.event.events}}</h2>
 
 <ul class="nav nav-tabs">
-  <li class="nav-item">
+  <!-- <li class="nav-item">
     <a class="nav-link " ng-class="{'active': EC.tab === 'start'}" href="" ng-click="EC.changeTab('start')">Start List</a>
-  </li>
+  </li> -->
   <li class="nav-item">
     <a class="nav-link" ng-class="{'active': EC.tab === 'results'}" href="" ng-click="EC.changeTab('results')">Results</a>
   </li>
-  <li class="nav-item">
+  <!-- <li class="nav-item">
     <a class="nav-link" ng-class="{'active': EC.tab === 'points'}" href="" ng-click="EC.changeTab('points')">Points</a>
   </li>
   <li class="nav-item" ng-show="EC.hasRelay">
     <a class="nav-link" ng-class="{'active': EC.tab === 'relay'}" href="" ng-click="EC.changeTab('relay')">Relays</a>
-  </li>
+  </li> -->
 </ul>
 
-<a href="https://github.com/jgr3go/reddit_ar/blob/master/mooseleague/{{EC.event.file}}" 
+<a href="{{EC.event.editLink}}" 
       target="_blank"
       style="float: right; font-size: .9rem;">Request Edit</a>
 
-<div ng-if="EC.tab === 'start'">
+<!-- <div ng-if="EC.tab === 'start'">
   <div ng-repeat="league in EC.event.leagues">
     <a id="{{league.anchor}}"></a>
     <h4>
@@ -67,10 +67,69 @@
       </tr>
     </tbody>
   </table>
-</div>
+</div> -->
 
 <div  ng-if="EC.tab === 'results'">
 
+  <div ng-repeat="result in EC.event.results">
+    <table class="table table-sm">
+      <thead class="thead-inverse">
+        <tr>
+          <th style="width: 25px;">Place</th>
+          <th style="width: 20%;">Division</th>
+          <th style="width: 50px;">Points</th>
+          <th style="width: 50px;">Runners</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="division in result.divisions">
+          <td>{{division.place}}</td>
+          <td>{{division.name}}</td>
+          <td>{{division.points}}</td>
+          <td>{{division.athletes}}</td>
+          <td>{{division.note}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="table table-sm">
+      <thead class="thead-inverse">
+        <tr>
+          <th style="width: 25px;">Place</th>
+          <th style="width: 20%;">Name</th>
+          <th>Division</th>
+          <th style="width: 100px;">Time (AG)</th>
+          <th style="width: 100px;">Time</th>
+          <th style="width: 50px;">Points</th>
+          <th>Notes</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="time in result.times">
+          <td>{{time.place}}</td>
+          <td>{{time.username}}</td>
+          <td>{{time.division}}</td>
+          <td>{{time.graded}}</td>
+          <td>{{time.time}}</td>
+          <td>{{time.points}}</td>
+          <td>{{time.note}}</td>
+          <td>
+            <a ng-repeat="link in time.links"
+                href="{{link.url}}"
+                target="_blank">
+              <img ng-if="link.type === 'strava'" src="https://www.strava.com/favicon.ico" style="height: 1rem;">
+              <img ng-if="link.type === 'youtube'" src="https://www.youtube.com/favicon.ico" style="height: 1rem;">
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- 
 
   <div ng-repeat="league in EC.event.leagues">
     <a id="{{league.anchor}}"></a>
@@ -139,9 +198,9 @@
       </tr>
     </tbody>
   </table>
-</div>
+</div> -->
 
-<div ng-show="EC.tab === 'points'">
+<!-- <div ng-show="EC.tab === 'points'">
   <table class="table table-sm">
     <thead class="thead-inverse">
       <tr>
@@ -204,4 +263,4 @@
       </tbody>
     </table>
   </div>
-</div>
+</div> -->

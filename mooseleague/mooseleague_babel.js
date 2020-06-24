@@ -39,6 +39,15 @@ if (!window.apploaded) {
     BASE = '';
   }
 
+  var GAPI = new Promise(function (resolve, reject) {
+    window.gapi.load('client', {
+      callback: async function callback() {
+        await window.gapi.client.init({ apiKey: 'AIzaSyCzp1XThhfQZLh6YcTKwLzg65ZjLzc5tqE' });
+        resolve();
+      }
+    });
+  });
+
   angular.module('ar', ['ui.router']).config(['$stateProvider', '$sceDelegateProvider', '$urlRouterProvider', '$locationProvider', function ($sp, $sce, $url, $loc) {
     $sce.resourceUrlWhitelist(['self', BASE + '**']);
 
@@ -103,10 +112,26 @@ if (!window.apploaded) {
       $urlRouter.sync();
       $urlRouter.listen();
     });
-  }]).factory('Events', ['$http', '$q', function ($http, $q) {
+  }]).factory('Google', [function () {
+    var svc = {};
+    svc.ready = async function () {
+      await GAPI;
+      await window.gapi.client.load('https://sheets.googleapis.com/$discovery/rest?version=v4');
+    };
+    svc.getSheet = async function (sheetId) {
+      await svc.ready();
+      return window.gapi.client.sheets.spreadsheets.get({
+        spreadsheetId: sheetId
+      });
+    };
+    return svc;
+  }]).factory('Events', ['$http', '$q', 'Google', function ($http, $q, google) {
+
     var EVENTS = [];
     var svc = {};
-    svc.list = function () {
+    svc.list = async function () {
+      var sheet = await google.getSheet('1ZC7pDg9VRiqnd4-w15LUSWcvQXti62IOSp0dcYj2JZI');
+      console.log({ sheet: sheet });
       if (!EVENTS.length) {
         return $http.get(BASE + 'events.txt').then(function (res) {
           return res.data;
