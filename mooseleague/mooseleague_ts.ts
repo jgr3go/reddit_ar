@@ -472,10 +472,10 @@ class Results {
         for (let time of race.times) {
           if (time.time) {
             time.place = place++;
-            time.points = time.place;
             let divname = time.division.toLowerCase();
             divs[divname].athletes += 1;
             if (divs[divname].athletes <= 5) {
+              time.points = time.place;
               divs[divname].points += time.place;
             }
           }
