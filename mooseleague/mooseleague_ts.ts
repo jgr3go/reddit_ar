@@ -53,6 +53,7 @@ interface MUserRaceResult {
   age_graded_time_number: number;
   percent_world_record: number;
   note: string;
+  sex: Sex;
   links: MLink[];
   place: number;
   points: number;
@@ -243,6 +244,7 @@ class GoogleSvc {
                 race: r,
                 username: user.user,
                 division: user.division,
+                sex: user.sex,
                 time: row.values[COL.RESULT]?.formattedValue,
                 note: row.values[COL.NOTES]?.formattedValue,
                 links: row.values[COL.LINKS]?.formattedValue?.split(',').map(link => {

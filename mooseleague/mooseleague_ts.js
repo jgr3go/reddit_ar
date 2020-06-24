@@ -258,6 +258,7 @@ var GoogleSvc = /** @class */ (function () {
                                 race: r,
                                 username: user_2.user,
                                 division: user_2.division,
+                                sex: user_2.sex,
                                 time: (_a = row.values[COL.RESULT]) === null || _a === void 0 ? void 0 : _a.formattedValue,
                                 note: (_b = row.values[COL.NOTES]) === null || _b === void 0 ? void 0 : _b.formattedValue,
                                 links: (_d = (_c = row.values[COL.LINKS]) === null || _c === void 0 ? void 0 : _c.formattedValue) === null || _d === void 0 ? void 0 : _d.split(',').map(function (link) {
