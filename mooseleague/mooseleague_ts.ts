@@ -7,6 +7,9 @@
 // }
 
 
+declare var byx;
+declare var lmw;
+
 interface MEvent {
   name: string;
   url: string;
@@ -90,7 +93,7 @@ let GAPI = new Promise((resolve, reject) => {
   gapi.load('client', {
     callback: async () => {
       // this isn't great, but the apikey should be limited to very specific things
-      await gapi.client.init({apiKey: 'AIzaSyCzp1XThhfQZLh6YcTKwLzg65ZjLzc5tqE'});
+      await gapi.client.init({apiKey: `${byx}1XThhfQZLh6YcTKwLz${lmw}`});
       resolve();
     }
   });

@@ -51,7 +51,7 @@ var GAPI = new Promise(function (resolve, reject) {
                 switch (_a.label) {
                     case 0: 
                     // this isn't great, but the apikey should be limited to very specific things
-                    return [4 /*yield*/, gapi.client.init({ apiKey: 'AIzaSyCzp1XThhfQZLh6YcTKwLzg65ZjLzc5tqE' })];
+                    return [4 /*yield*/, gapi.client.init({ apiKey: byx + "1XThhfQZLh6YcTKwLz" + lmw })];
                     case 1:
                         // this isn't great, but the apikey should be limited to very specific things
                         _a.sent();
