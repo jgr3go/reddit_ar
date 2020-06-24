@@ -132,10 +132,7 @@
             <a ng-repeat="link in time.links"
                 href="{{link.url}}"
                 target="_blank">
-              <img ng-if="link.type === 'strava'" src="https://www.strava.com/favicon.ico" style="height: 1rem;">
-              <img ng-if="link.type === 'youtube'" src="https://www.youtube.com/favicon.ico" style="height: 1rem;">
-              <img ng-if="link.type === 'reddit'" src="https://www.reddit.com/favicon.ico" style="height: 1rem;">
-              
+              <img src="{{link.favicon}}" style="height: 1rem;">
             </a>
           </td>
         </tr>

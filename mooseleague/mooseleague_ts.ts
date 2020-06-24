@@ -75,6 +75,7 @@ interface MDivisionRaceResult {
 interface MLink {
   type: string;
   url: string;
+  favicon: string;
 }
 interface BreadCrumb {
   name: string;
@@ -257,6 +258,7 @@ class GoogleSvc {
                 links: row.values[COL.LINKS]?.formattedValue?.split(',').map(link => {
                   return <MLink>{
                     type: this.getLinkType(link),
+                    favicon: this.getFavicon(link),
                     url: link
                   }
                 })
@@ -274,6 +276,15 @@ class GoogleSvc {
     if (link.match(/youtu/)) { return 'youtube'; }
     if (link.match(/redd/)) { return 'reddit'; }
     return '';
+  }
+
+  private getFavicon(link: string) {
+    let match = link.match(/(.*\.com).*/);
+    let root = match[1].trim();
+    if (root.substr(0, 4) != "http") {
+      root = `http://${root}`;
+    }
+    return `${root}/favicon.ico`;
   }
 
   private buildDivisions() {

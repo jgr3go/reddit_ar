@@ -271,6 +271,7 @@ var GoogleSvc = /** @class */ (function () {
                                 links: (_d = (_c = row.values[COL.LINKS]) === null || _c === void 0 ? void 0 : _c.formattedValue) === null || _d === void 0 ? void 0 : _d.split(',').map(function (link) {
                                     return {
                                         type: _this.getLinkType(link),
+                                        favicon: _this.getFavicon(link),
                                         url: link
                                     };
                                 })
@@ -299,6 +300,14 @@ var GoogleSvc = /** @class */ (function () {
             return 'reddit';
         }
         return '';
+    };
+    GoogleSvc.prototype.getFavicon = function (link) {
+        var match = link.match(/(.*\.com).*/);
+        var root = match[1].trim();
+        if (root.substr(0, 4) != "http") {
+            root = "http://" + root;
+        }
+        return root + "/favicon.ico";
     };
     GoogleSvc.prototype.buildDivisions = function () {
         var divisions = [];
