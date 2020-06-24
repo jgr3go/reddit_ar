@@ -99,8 +99,10 @@
           <th style="width: 25px;">Place</th>
           <th style="width: 20%;">Name</th>
           <th>Division</th>
-          <th style="width: 100px;">Time (AG)</th>
+          <th>MF</th>
           <th style="width: 100px;">Time</th>
+          <th style="width: 100px;">Time (AG)</th>
+          <th style="width: 80px;">% WR</th>
           <th style="width: 50px;">Points</th>
           <th>Notes</th>
           <th>Links</th>
@@ -111,8 +113,10 @@
           <td>{{time.place}}</td>
           <td>{{time.username}}</td>
           <td>{{time.division}}</td>
-          <td>{{time.graded}}</td>
+          <td>{{time.sex}}</td>
           <td>{{time.time}}</td>
+          <td>{{time.age_graded_time}}</td>
+          <td>{{time.percent_world_record | percent}}</td>
           <td>{{time.points}}</td>
           <td>{{time.note}}</td>
           <td>

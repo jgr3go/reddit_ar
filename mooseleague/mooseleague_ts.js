@@ -49,8 +49,11 @@ var GAPI = new Promise(function (resolve, reject) {
         callback: function () { return __awaiter(_this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, gapi.client.init({ apiKey: 'AIzaSyCzp1XThhfQZLh6YcTKwLzg65ZjLzc5tqE' })];
+                    case 0: 
+                    // this isn't great, but the apikey should be limited to very specific things
+                    return [4 /*yield*/, gapi.client.init({ apiKey: 'AIzaSyCzp1XThhfQZLh6YcTKwLzg65ZjLzc5tqE' })];
                     case 1:
+                        // this isn't great, but the apikey should be limited to very specific things
                         _a.sent();
                         resolve();
                         return [2 /*return*/];
@@ -59,31 +62,6 @@ var GAPI = new Promise(function (resolve, reject) {
         }); }
     });
 });
-function sortTime(a, b) {
-    var at = a ? toSeconds(a) : null;
-    var bt = b ? toSeconds(b) : null;
-    if (at < bt) {
-        return -1;
-    }
-    if (bt < at) {
-        return 1;
-    }
-    return 0;
-}
-function toSeconds(time) {
-    var parts = time.split(':');
-    if (parts.length === 1) {
-        return parseFloat(parts[0]);
-    }
-    var min = parseInt(parts[0]) * 60;
-    var sec = parseFloat(parts[1]);
-    return min + sec;
-}
-function fromSeconds(seconds) {
-    var min = Math.floor(seconds / 60);
-    var sec = parseFloat((seconds - (min * 60)).toFixed(1));
-    return min + ":" + (sec < 10 ? '0' : '') + sec;
-}
 function isMobile() {
     return !!(navigator.userAgent.match(/Android/i) ||
         navigator.userAgent.match(/webOS/i) ||
@@ -93,6 +71,9 @@ function isMobile() {
         navigator.userAgent.match(/BlackBerry/i) ||
         navigator.userAgent.match(/Windows Phone/i));
 }
+/**
+ * Loads google sheet and does most of the processing into raw data objects
+ */
 var GoogleSvc = /** @class */ (function () {
     function GoogleSvc() {
         this.Events = [];
@@ -100,13 +81,14 @@ var GoogleSvc = /** @class */ (function () {
         this.Divisions = [];
         this.built = false;
         this.USER_COLUMNS = {
-            USERNAME: 0,
-            DIVISION: 1,
-            AGE: 2,
-            SEX: 3,
-            RESULT: 4,
-            NOTES: 5,
-            LINKS: 6
+            TIMESTAMP: 0,
+            USERNAME: 1,
+            DIVISION: 2,
+            AGE: 3,
+            SEX: 4,
+            RESULT: 5,
+            NOTES: 6,
+            LINKS: 7
         };
     }
     GoogleSvc.prototype.ready = function () {
@@ -181,29 +163,32 @@ var GoogleSvc = /** @class */ (function () {
         });
     };
     GoogleSvc.prototype.buildEvents = function () {
-        var _a, _b, _c, _d;
+        var _a, _b, _c, _d, _e;
         var events = [];
-        for (var _i = 0, _e = this.spreadsheet.sheets; _i < _e.length; _i++) {
-            var sheet = _e[_i];
+        for (var _i = 0, _f = this.spreadsheet.sheets; _i < _f.length; _i++) {
+            var sheet = _f[_i];
             var evt = {};
             evt.name = sheet.properties.title;
             var data = sheet.data[0];
             if (!data || !data.rowData) {
                 continue;
             }
-            for (var _f = 0, _g = data.rowData; _f < _g.length; _f++) {
-                var row = _g[_f];
+            for (var _g = 0, _h = data.rowData; _g < _h.length; _g++) {
+                var row = _h[_g];
                 if (!row.values || !row.values.length) {
                     continue;
                 }
-                switch ((_a = row.values[0]) === null || _a === void 0 ? void 0 : _a.formattedValue) {
+                if (!((_a = row.values[1]) === null || _a === void 0 ? void 0 : _a.formattedValue)) {
+                    continue;
+                }
+                switch ((_b = row.values[0]) === null || _b === void 0 ? void 0 : _b.formattedValue) {
                     case 'Event':
-                        evt.events = (_b = row.values[1]) === null || _b === void 0 ? void 0 : _b.formattedValue;
+                        evt.events = (_c = row.values[1]) === null || _c === void 0 ? void 0 : _c.formattedValue;
                     case 'Date':
-                        evt.date = moment((_c = row.values[1]) === null || _c === void 0 ? void 0 : _c.formattedValue).year(moment().year());
+                        evt.date = moment((_d = row.values[1]) === null || _d === void 0 ? void 0 : _d.formattedValue).year(moment().year());
                         evt.displayDate = moment(evt.date).format('MMM D, YYYY');
                     case 'Results':
-                        evt.link = (_d = row.values[1]) === null || _d === void 0 ? void 0 : _d.formattedValue;
+                        evt.link = (_e = row.values[1]) === null || _e === void 0 ? void 0 : _e.formattedValue;
                     default:
                         break;
                 }
@@ -243,7 +228,7 @@ var GoogleSvc = /** @class */ (function () {
                     if (((_a = row.values[0]) === null || _a === void 0 ? void 0 : _a.formattedValue) == 'Event') {
                         raceName = (_b = row.values[1]) === null || _b === void 0 ? void 0 : _b.formattedValue;
                     }
-                    if (((_c = row.values[0]) === null || _c === void 0 ? void 0 : _c.formattedValue) == 'Username') {
+                    if (((_c = row.values[COL.USERNAME]) === null || _c === void 0 ? void 0 : _c.formattedValue) == 'Username') {
                         startUserRows = true;
                     }
                 }
@@ -258,7 +243,7 @@ var GoogleSvc = /** @class */ (function () {
                             user: username_1,
                             division: ((_e = row.values[COL.DIVISION]) === null || _e === void 0 ? void 0 : _e.formattedValue) || "",
                             age: parseInt((_f = row.values[COL.AGE]) === null || _f === void 0 ? void 0 : _f.formattedValue) || null,
-                            sex: (_h = (_g = row.values[COL.SEX]) === null || _g === void 0 ? void 0 : _g.formattedValue) === null || _h === void 0 ? void 0 : _h.substr(0).toUpperCase(),
+                            sex: (_h = (_g = row.values[COL.SEX]) === null || _g === void 0 ? void 0 : _g.formattedValue) === null || _h === void 0 ? void 0 : _h.substr(0, 1).toUpperCase(),
                             results: []
                         };
                         user_1.link = "https://reddit.com/u/" + user_1.user;
@@ -411,6 +396,9 @@ var GoogleSvc = /** @class */ (function () {
     };
     return GoogleSvc;
 }());
+/**
+ * Container for the events, logic for what's next etc
+ */
 var Events = /** @class */ (function () {
     function Events($http, $q, google) {
         this.$http = $http;
@@ -497,6 +485,9 @@ var Events = /** @class */ (function () {
     Events.$inject = ['$http', '$q', 'Google'];
     return Events;
 }());
+/**
+ * Container for users, logic for age grading etc
+ */
 var Users = /** @class */ (function () {
     function Users(google, timeSvc, ageSvc) {
         this.google = google;
@@ -524,8 +515,9 @@ var Users = /** @class */ (function () {
                                 for (_e = 0, _f = result.times; _e < _f.length; _e++) {
                                     time = _f[_e];
                                     time.time_number = this.timeSvc.toNumber(time.time);
-                                    time.graded_number = this.ageSvc.calculate(time.race, user.age, user.sex, time.time_number, user.user);
-                                    time.graded = this.timeSvc.toString(time.graded_number);
+                                    time.age_graded_time_number = this.ageSvc.ageGrade(time.race, user.age, user.sex, time.time_number, user.user);
+                                    time.age_graded_time = this.timeSvc.toString(time.age_graded_time_number);
+                                    time.percent_world_record = this.ageSvc.percentGrade(time.race, user.sex, time.age_graded_time_number, user.user);
                                 }
                             }
                         }
@@ -537,6 +529,9 @@ var Users = /** @class */ (function () {
     Users.$inject = ['Google', 'TimeService', 'AgeService'];
     return Users;
 }());
+/**
+ * Container for divisions
+ */
 var Divisions = /** @class */ (function () {
     function Divisions(google) {
         this.google = google;
@@ -563,6 +558,9 @@ var Divisions = /** @class */ (function () {
     Divisions.$inject = ['Google'];
     return Divisions;
 }());
+/**
+ * Does the bulk of the calculations for results, division grouping and scoring
+ */
 var Results = /** @class */ (function () {
     function Results(Events, Users, Divisions) {
         this.Events = Events;
@@ -601,7 +599,7 @@ var Results = /** @class */ (function () {
             for (var _a = 0, _b = event_1.results; _a < _b.length; _a++) {
                 var race = _b[_a];
                 var divs = _.keyBy(race.divisions, function (d) { return d.name.toLowerCase(); });
-                race.times = _.orderBy(race.times, function (t) { return t.graded_number; });
+                race.times = _.orderBy(race.times, function (t) { return t.percent_world_record; }, 'desc');
                 var place = 1;
                 for (var _c = 0, _d = race.times; _c < _d.length; _c++) {
                     var time = _d[_c];
@@ -647,6 +645,9 @@ var Results = /** @class */ (function () {
     Results.$inject = ['Events', 'Users', 'Divisions'];
     return Results;
 }());
+/**
+ * Default page calendar view
+ */
 var Calendar = /** @class */ (function () {
     function Calendar($http, Events) {
         this.$http = $http;
@@ -678,34 +679,9 @@ var Calendar = /** @class */ (function () {
     Calendar.$inject = ['$http', 'Events'];
     return Calendar;
 }());
-var Leaderboard = /** @class */ (function () {
-    function Leaderboard($http, Events, $q, resultsSvc) {
-        this.$http = $http;
-        this.Events = Events;
-        this.$q = $q;
-        this.resultsSvc = resultsSvc;
-        this.init();
-    }
-    Leaderboard.prototype.init = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            var evts, allResults, _i, evts_2, evt;
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0: return [4 /*yield*/, this.Events.list()];
-                    case 1:
-                        evts = _a.sent();
-                        allResults = [];
-                        for (_i = 0, evts_2 = evts; _i < evts_2.length; _i++) {
-                            evt = evts_2[_i];
-                        }
-                        return [2 /*return*/];
-                }
-            });
-        });
-    };
-    Leaderboard.$inject = ['$http', 'Events', '$q', 'resultsSvc'];
-    return Leaderboard;
-}());
+/**
+ * Main controller loaded at start
+ */
 var MainController = /** @class */ (function () {
     function MainController($http, $location, $timeout, $state, Events, $sce) {
         this.$http = $http;
@@ -805,6 +781,9 @@ var MainController = /** @class */ (function () {
     MainController.$inject = ['$http', '$location', '$timeout', '$state', 'Events', '$sce'];
     return MainController;
 }());
+/**
+ * Individual event controller for event results pages
+ */
 var EventController = /** @class */ (function () {
     function EventController($http, $state, $timeout, $location, $anchorScroll, $params, Events, Results) {
         this.$http = $http;
@@ -853,6 +832,7 @@ var AgeService = /** @class */ (function () {
     function AgeService() {
     }
     AgeService.parse = function (file) {
+        var COL = AgeService.COLS;
         var lines = file.split('\n');
         for (var _i = 0, lines_1 = lines; _i < lines_1.length; _i++) {
             var line = lines_1[_i];
@@ -863,31 +843,36 @@ var AgeService = /** @class */ (function () {
             if (parts[0] == 'Event') {
                 continue;
             }
+            // set up base object
             var grade = {
-                event: parts[1],
-                isRoad: parts[2] == '1',
-                mf: parts[0].substr(0)
+                event: parts[COL.EVENTID],
+                isRoad: parts[COL.ISROAD] == '1',
+                mf: parts[COL.MFEVENTID].substr(0)
             };
-            var START = 4;
-            for (var ii = START; ii < parts.length - START - 1; ii++) {
+            var id = parts[COL.MFEVENTID];
+            if (!AgeService.GRADES[id]) {
+                AgeService.GRADES[id] = {};
+            }
+            // assign world record
+            AgeService.GRADES[id][AgeService.WORLD_RECORD] = Object.assign({ record: parseFloat(parts[COL.WORLD_RECORD_SEC]) });
+            // assign age groups
+            var START = COL.AGE_START;
+            for (var ii = START; ii < parts.length - 1; ii++) {
                 var age = ii + 1;
                 var factor = parseFloat(parts[ii]);
-                var id = parts[0];
-                if (!AgeService.GRADES[id]) {
-                    AgeService.GRADES[id] = {};
-                }
                 AgeService.GRADES[id][age] = Object.assign({ age: age, factor: factor, id: id }, grade);
             }
         }
         console.log(AgeService.GRADES);
     };
-    AgeService.prototype.calculate = function (event, age, sex, seconds, username) {
+    AgeService.prototype.ageGrade = function (event, age, sex, seconds, username) {
         if (!seconds) {
             return seconds;
         }
         if (!sex) {
             sex = 'M';
         }
+        event = event.replace(/\s/g, '');
         var mfEventId = "" + sex + event;
         var gradedTime = seconds;
         var factor = 1;
@@ -901,9 +886,40 @@ var AgeService = /** @class */ (function () {
         console.log(username + " " + mfEventId + " age:" + age + " time:" + seconds + " factor:" + factor + " graded:" + gradedTime);
         return gradedTime;
     };
+    AgeService.prototype.percentGrade = function (event, sex, seconds, username) {
+        if (!seconds) {
+            return 0;
+        }
+        if (!sex) {
+            sex = 'M';
+        }
+        var percent = 0;
+        var wr;
+        var mfEventId = "" + sex + event;
+        if (AgeService.GRADES[mfEventId]) {
+            var mfEvent = AgeService.GRADES[mfEventId];
+            wr = mfEvent[AgeService.WORLD_RECORD];
+            percent = wr.record / seconds;
+        }
+        console.log(username + " " + mfEventId + " time:" + seconds + " WR:" + wr.record + " percent:" + percent);
+        return percent;
+    };
     AgeService.GRADES = {};
+    AgeService.COLS = {
+        MFEVENTID: 0,
+        EVENTID: 1,
+        ISROAD: 2,
+        DISTANCE_KM: 3,
+        WORLD_RECORD_SEC: 4,
+        AGE_START: 5
+    };
+    AgeService.WORLD_RECORD = 'World Record';
     return AgeService;
 }());
+/**
+ * TimeService
+ * Time calculations -> string to number / number to string
+ */
 var TimeService = /** @class */ (function () {
     function TimeService() {
     }
@@ -970,8 +986,8 @@ function preload($http, $stateRegistry, $urlRouter, Events, ageSvc, google) {
         return Promise.all([
             Events.list()
                 .then(function (evts) {
-                for (var _i = 0, evts_3 = evts; _i < evts_3.length; _i++) {
-                    var evt = evts_3[_i];
+                for (var _i = 0, evts_2 = evts; _i < evts_2.length; _i++) {
+                    var evt = evts_2[_i];
                     var state = {
                         name: evt.state,
                         templateUrl: BASE + "event.html",
@@ -1021,6 +1037,7 @@ angular
         $url.otherwise('/calendar');
     }])
     .run(['$rootScope', promiseFix])
+    .run(['$http', '$stateRegistry', '$urlRouter', 'Events', 'AgeService', 'Google', preload])
     .service('Google', GoogleSvc)
     .service('Events', Events)
     .service('Users', Users)
@@ -1028,537 +1045,9 @@ angular
     .service('AgeService', AgeService)
     .service('TimeService', TimeService)
     .service('Results', Results)
-    .run(['$http', '$stateRegistry', '$urlRouter', 'Events', 'AgeService', 'Google', preload])
     .controller('calendar', Calendar)
-    .controller('leaderboard', Leaderboard)
-    // .controller('leaderboard', ['$http', 'Events', '$q', 'resultsService',
-    //   function($http, Events: MEventSvc, $q, resultsSvc) {
-    //     let vm = this;
-    //     function init() {
-    //       return Events.list()
-    //         .then(evts => {
-    //           let allResults = [];
-    //           for (let evt of evts) {
-    //             let filename = evt.name.split(' ').join('').toLowerCase() + '.txt';
-    //             let eventPromise = $http.get(BASE + filename)
-    //               .then(res => res.data)
-    //               .then(res => {
-    //                 let event = resultsSvc.parseFile(res);
-    //                 return event;
-    //               });
-    //             allResults.push(eventPromise);
-    //           }
-    //           return $q.all(allResults);
-    //         })
-    //         .then(results => {
-    //           let final = {};
-    //           let allEvents = [];
-    //           for (let res of results) {
-    //             for (let e of res.events) {
-    //               allEvents.push({
-    //                 event: e,
-    //                 place: null,
-    //                 points: null,
-    //                 time: ''
-    //               });
-    //             }
-    //           }
-    //           vm.events = allEvents;
-    //           for (let res of results) {
-    //             for (let win of res.winners) {
-    //               if (!final[win.user]) {
-    //                 final[win.user] = {
-    //                   user: win.user,
-    //                   VDOT: win.VDOT,
-    //                   points: null,
-    //                   place: null,
-    //                   events: _.cloneDeep(allEvents),
-    //                 };
-    //               }
-    //               let fin = final[win.user];
-    //               for (let wevt of win.events) {
-    //                 for (let fevt of fin.events) {
-    //                   if (fevt.event === wevt.event) {
-    //                     fevt.place = wevt.place;
-    //                     fevt.points = wevt.points;
-    //                     fevt.time = wevt.time;
-    //                   }
-    //                 }
-    //               }
-    //             }
-    //           }
-    //           let finalArr = _.toArray(final);
-    //           for (let f of finalArr) {
-    //             f.points = f.events.reduce((sum, e) => sum + (e.points || 0), 0);
-    //           }
-    //           finalArr = _.orderBy(finalArr, ['points'], ['desc']);
-    //           let place = 1;
-    //           let prev = {};
-    //           for (let f of finalArr) {
-    //             if (f.points === prev.points) {
-    //               f.place = prev.place;
-    //             } else {
-    //               f.place = place;
-    //             }
-    //             place += 1;
-    //           }
-    //           return finalArr;
-    //         })
-    //         .then(winners => {
-    //           vm.winners = winners;
-    //         });
-    //     }
-    //     vm.sortWinners = function(index) {
-    //       function byTime(a, b, index) {
-    //         return sortTime(a.events[index].time, b.events[index].time);
-    //       }
-    //       function byKey(a, b, key) {
-    //         if (a[key] < b[key]) { return -1; }
-    //         if (b[key] < a[key]) { return 1; }
-    //         return 0;
-    //       }
-    //       vm.event.winners = vm.event.winners.sort((a, b) => {
-    //         let aTime = a.events[index].time, bTime = b.events[index].time;
-    //         if (aTime && bTime) {
-    //           return byTime(a, b, index) || byKey(a, b, 'points') || byKey(a, b, 'user');
-    //         } else if (aTime) {
-    //           return -1;
-    //         } else if (bTime) {
-    //           return 1;
-    //         } else {
-    //           return byKey(a, b, 'points') || byKey(a, b, 'user');
-    //         }
-    //       }); 
-    //     };
-    //     init();
-    //   }
-    // ])
     .controller('main', MainController)
-    // .controller('main', ['$http', '$location', '$timeout', '$state', 'Events', '$sce',
-    //   function ($http, $location, $timeout, $state, Events, $sce) {
-    //     let vm = this;
-    //     vm.isMobile = isMobile();
-    //     vm.autoplay = localStorage.getItem('autoplay2019') === null ? true : localStorage.getItem('autoplay2019');
-    //     function init() {
-    //       Events.list()
-    //         .then(evts => {
-    //           vm.events = evts;
-    //         });
-    //       Events.latest()
-    //         .then(evt => {
-    //           console.log(evt);
-    //           vm.next = {
-    //             name: evt.name.toUpperCase(),
-    //             date: moment(evt.date),
-    //             state: evt.state,
-    //             displayDate: moment(evt.date).format('MMM D, YYYY'),
-    //             live: false
-    //           };
-    //         });
-    //       countdown();
-    //     }
-    //     function isMobile() {
-    //       return (navigator.userAgent.match(/Android/i) || 
-    //           navigator.userAgent.match(/webOS/i) || 
-    //           navigator.userAgent.match(/iPhone/i) || 
-    //           navigator.userAgent.match(/iPad/i) || 
-    //           navigator.userAgent.match(/iPod/i) || 
-    //           navigator.userAgent.match(/BlackBerry/i) ||
-    //           navigator.userAgent.match(/Windows Phone/i));
-    //     }
-    //     function countdown() {
-    //       if (vm.next) {
-    //         let now = moment();
-    //         let evt = moment(vm.next.date);
-    //         if (now.format('YYYY-MM-DD') === evt.format('YYYY-MM-DD')) {
-    //           vm.next.live = true;
-    //         } else {
-    //           let days = evt.diff(now, 'days');
-    //           vm.next.days = days;
-    //           evt.subtract(days, 'days');
-    //           let hours = evt.diff(now, 'hours');
-    //           vm.next.hours = hours;
-    //           evt.subtract(hours, 'hours');
-    //           let minutes = evt.diff(now, 'minutes');
-    //           vm.next.minutes = minutes;
-    //         }
-    //         $timeout(countdown, 1000 * 60);
-    //       } else {
-    //         $timeout(countdown, 500);
-    //       }
-    //     }
-    //     let lastState;
-    //     let crumbs = [];
-    //     vm.getBreadcrumbs = function() {
-    //       if ($state.$current.name === lastState) {
-    //         return crumbs;
-    //       }
-    //       lastState = $state.$current.name;
-    //       crumbs = [];
-    //       if (lastState !== 'Calender') {
-    //         crumbs = [
-    //           {name: 'Home', last: false, link: 'Calendar'},
-    //           {name: lastState, last: true }
-    //         ];
-    //       } else {
-    //         crumbs = [
-    //           {name: 'Home', last: true}
-    //         ];
-    //       }
-    //       return crumbs;
-    //     }
-    //     vm.stopAutoplay = function() {
-    //       localStorage.setItem('autoplay2019', false);
-    //       vm.autoplay = false;
-    //     };
-    //     vm.startAutoplay = function() {
-    //       localStorage.setItem('autoplay2019', true);
-    //       vm.autoplay = true;
-    //     }
-    //     vm.shouldAutoplay = function() {
-    //       let ap = localStorage.getItem('autoplay2019');
-    //       return !(ap === 'false' || ap === false);
-    //     };
-    //     vm.getThemeUrl = function() {
-    //       let ap = vm.shouldAutoplay();
-    //       return $sce.trustAsResourceUrl(`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/460111206&amp;auto_play=${ap}&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true`);
-    //     };
-    //     init();
-    //   }
-    // ])
-    .factory('resultsService', [function () {
-        var svc = {};
-        svc.parseFile = function (data) {
-            var lines = data.split('\n');
-            var event = {
-                name: lines[0].trim(),
-                date: moment(lines[1].trim()),
-                events: lines[2].split(',').map(function (a) { return a.trim(); }),
-                leagues: [],
-                h2h: []
-            };
-            lines.splice(0, 3);
-            var curLeague = {};
-            var allUsers = {};
-            var ii;
-            // build leagues
-            for (ii = 0; ii < lines.length; ii++) {
-                var line = lines[ii].trim();
-                if (!line) {
-                    continue;
-                }
-                if (line === '=====') {
-                    break;
-                }
-                if (line[0] === '#') {
-                    var name_1 = line.match(/\#\s*(.*)/)[1].trim();
-                    curLeague = {
-                        name: name_1,
-                        anchor: name_1.split(' ').join('').toLowerCase(),
-                        entrants: [],
-                        winners: []
-                    };
-                    event.leagues.push(curLeague);
-                    continue;
-                }
-                var user = parseUser(line, event);
-                assignUser(allUsers, user);
-                curLeague.entrants.push(user);
-            }
-            var curh2h = { entrants: [] };
-            for (ii = ii + 1; ii < lines.length; ii++) {
-                var line = lines[ii].trim();
-                if (line[0] === '#') {
-                    continue;
-                }
-                if (!line) {
-                    event.h2h.push(curh2h);
-                    curh2h = {
-                        entrants: []
-                    };
-                    continue;
-                }
-                var user = parseUser(line, event);
-                assignUser(allUsers, user);
-                curh2h.entrants.push(user);
-            }
-            for (var _i = 0, _a = event.leagues; _i < _a.length; _i++) {
-                var league = _a[_i];
-                league.entrants = sortAndLane(league.entrants, event);
-            }
-            for (var _b = 0, _c = event.h2h; _b < _c.length; _b++) {
-                var h2h = _c[_b];
-                h2h.entrants = sortAndLane(h2h.entrants, event);
-            }
-            event.winners = getWinners(allUsers, event);
-            event.relayLeagueWinners = getRelayLeagueWinners(event);
-            return event;
-        };
-        function assignUser(users, user) {
-            if (!users[user.user.toLowerCase()]) {
-                users[user.user.toLowerCase()] = user;
-            }
-            var u = users[user.user.toLowerCase()];
-            u.VDOT = Math.max(u.VDOT, user.VDOT);
-            u.note = u.note || user.note;
-            u.times = u.times.length > user.times.length ? u.times.length : user.times.length;
-            u.links = u.links.length > user.links.length ? u.links : user.links;
-        }
-        function sortAndLane(list, event) {
-            list = _.orderBy(list, ['VDOT', 'user'], ['desc', 'asc']);
-            var lane = 1;
-            for (var _i = 0, list_1 = list; _i < list_1.length; _i++) {
-                var e = list_1[_i];
-                e.lane = lane++;
-            }
-            assignPlaceAndPoints(list, event, 'heatPoints', 'heatPlace', 8);
-            list = _.orderBy(list, ["heatPlace", function (li) { return toSeconds(li.events[0].time); }, "user"], ["asc", "asc", "asc"]);
-            return list;
-        }
-        function assignPlaceAndPoints(list, event, pointsKey, placeKey, maxPoints) {
-            var _loop_7 = function (ii) {
-                var points = maxPoints;
-                var place = 1;
-                var prev = void 0;
-                var byTime = _.orderBy(list, [function (li) { return toSeconds(li.events[ii].time); }, 'user']);
-                for (var _i = 0, byTime_1 = byTime; _i < byTime_1.length; _i++) {
-                    var li = byTime_1[_i];
-                    if (li.events[ii] && li.events[ii].time) {
-                        if (prev && prev.time === li.events[ii].time) {
-                            li.events[ii][pointsKey] = prev[pointsKey];
-                            li.events[ii][placeKey] = prev[placeKey];
-                        }
-                        else {
-                            li.events[ii][pointsKey] = points;
-                            li.events[ii][placeKey] = place;
-                        }
-                        prev = li.events[ii];
-                        place += 1;
-                        if (points) {
-                            points -= 1;
-                        }
-                    }
-                }
-                for (var _a = 0, list_2 = list; _a < list_2.length; _a++) {
-                    var li = list_2[_a];
-                    li[pointsKey] = li.events.reduce(function (sum, e) { return sum + e[pointsKey]; }, 0);
-                }
-                var byPoints = _.orderBy(list, [pointsKey, 'user'], ['desc', 'asc']);
-                prev = null;
-                place = 1;
-                for (var _b = 0, byPoints_1 = byPoints; _b < byPoints_1.length; _b++) {
-                    var li = byPoints_1[_b];
-                    if (li.raced) {
-                        if (prev && prev[pointsKey] === li[pointsKey]) {
-                            li[placeKey] = prev[placeKey];
-                        }
-                        else {
-                            li[placeKey] = place;
-                        }
-                        place += 1;
-                        prev = li;
-                    }
-                }
-            };
-            for (var ii = 0; ii < event.events.length; ii++) {
-                _loop_7(ii);
-            }
-        }
-        function getRelayLeagueWinners(event) {
-            var relayEvents = [];
-            var isFuture = moment(event).format('YYYYMMDD') > moment().format('YYYYMMDD');
-            for (var _i = 0, _a = event.events; _i < _a.length; _i++) {
-                var eventName = _a[_i];
-                var relayEvent = {
-                    event: eventName,
-                    leagues: [],
-                    isRelay: eventName.indexOf('x') >= 0
-                };
-                for (var _b = 0, _c = event.leagues; _b < _c.length; _b++) {
-                    var league = _c[_b];
-                    var leagueResult = {
-                        event: eventName,
-                        name: league.name,
-                        team: [],
-                        totalTime: null,
-                        totalSeconds: null,
-                        place: null,
-                        notes: ''
-                    };
-                    for (var _d = 0, _e = league.entrants; _d < _e.length; _d++) {
-                        var entrant = _e[_d];
-                        for (var _f = 0, _g = entrant.events; _f < _g.length; _f++) {
-                            var ee = _g[_f];
-                            if (ee.event === eventName && ee.heatPlace && ee.heatPlace <= 4) {
-                                leagueResult.team.push({
-                                    user: entrant.user,
-                                    time: ee.time
-                                });
-                            }
-                        }
-                    }
-                    if (!isFuture && leagueResult.team.length < 4) {
-                        leagueResult.notes = "DQ - Did not field 4 runners.";
-                    }
-                    else {
-                        leagueResult.totalSeconds = 0;
-                        for (var _h = 0, _j = leagueResult.team; _h < _j.length; _h++) {
-                            var e = _j[_h];
-                            leagueResult.totalSeconds += toSeconds(e.time);
-                        }
-                        leagueResult.totalTime = fromSeconds(leagueResult.totalSeconds);
-                    }
-                    relayEvent.leagues.push(leagueResult);
-                }
-                relayEvents.push(relayEvent);
-            }
-            for (var _k = 0, relayEvents_1 = relayEvents; _k < relayEvents_1.length; _k++) {
-                var re = relayEvents_1[_k];
-                re.leagues = _.orderBy(re.leagues, 'totalSeconds', 'asc');
-                var place = 1;
-                for (var _l = 0, _m = re.leagues; _l < _m.length; _l++) {
-                    var league = _m[_l];
-                    if (league.team.length >= 4) {
-                        league.place = place;
-                        place += 1;
-                        league.notes = league.team.map(function (u) {
-                            return u.user + " (" + u.time + ")";
-                        }).join('\n');
-                    }
-                }
-            }
-            return relayEvents;
-        }
-        function getWinners(allUsers, event) {
-            allUsers = _.toArray(allUsers);
-            assignPlaceAndPoints(allUsers, event, 'points', 'place', 99);
-            var winners = _.orderBy(allUsers, ['place', function (au) { return au.events[0].time; }, 'user'], ['asc', 'asc', 'asc']);
-            return winners;
-        }
-        function parseUser(line, event) {
-            var split = line.split('|').map(function (t) { return t.trim(); });
-            var user = {
-                user: split[0],
-                link: "https://reddit.com/u/" + split[0],
-                VDOT: split[1] ? parseFloat(split[1]) : 0,
-                note: split[2] || '',
-                times: split[3] ? split[3].split(',').map(function (t) { return t.trim(); }) : event.events.map(function () { return ''; }),
-                links: [],
-                heatPoints: null,
-                heatPlace: null,
-                points: null,
-                place: null,
-                raced: false,
-            };
-            if (split[4]) {
-                var links = split[4].split(',').join(' ').split(' ').map(function (l) { return l.trim(); });
-                for (var _i = 0, links_1 = links; _i < links_1.length; _i++) {
-                    var link = links_1[_i];
-                    if (!link) {
-                        continue;
-                    }
-                    if (link.match(/strava/)) {
-                        user.links.push({ type: 'strava', url: link });
-                    }
-                    else if (link.match(/youtu/)) {
-                        user.links.push({ type: 'youtube', url: link });
-                    }
-                }
-                user.links = user.links.sort(function (a, b) {
-                    if (a.type < b.type) {
-                        return -1;
-                    }
-                    if (b.type < a.type) {
-                        return 1;
-                    }
-                    return 0;
-                });
-            }
-            user.events = user.times.map(function (t, ii) {
-                return {
-                    event: event.events[ii],
-                    time: t,
-                    heatPlace: null,
-                    heatPoints: null,
-                    place: null,
-                    points: null
-                };
-            });
-            user.raced = user.times.reduce(function (val, t) { return !!(val || t); }, false);
-            return user;
-        }
-        return svc;
-    }])
     .controller('event', EventController)
-    // .controller('event', ['$http', '$state', '$timeout', '$location', '$anchorScroll', '$stateParams', 'resultsService',
-    //   function ($http, $state, $timeout, $location, $anchorScroll, $params, resultsSvc) 
-    //   {
-    //     let vm = this;
-    //     vm.tab = 'start';
-    //     vm.hasRelay = false;
-    //     $anchorScroll.yOffset = 60;
-    //     function init() {
-    //       if ($params.tab) {
-    //         vm.tab = $params.tab;
-    //       }
-    //       let filename = $state.$current.name.split(' ').join('').toLowerCase() + '.txt';
-    //       $http.get(BASE + filename)
-    //         .then(res => res.data)
-    //         .then(res => {
-    //           let event = resultsSvc.parseFile(res);
-    //           console.log(event);
-    //           vm.event = event;
-    //           vm.event.file = filename;
-    //           vm.next = {
-    //             date: event.date,
-    //             name: event.name.toUpperCase()
-    //           };
-    //           vm.event.date = moment(new Date(vm.event.date)).format('MMM D, YYYY');
-    //           for (let ee of event.events) {
-    //             if (ee.indexOf('x') >= 0) {
-    //               vm.hasRelay = true;
-    //             }
-    //           }
-    //           $timeout($anchorScroll);
-    //         });
-    //     }
-    //     vm.sortWinnersBy = function (type, index) {
-    //       function byTime(a, b, index) {
-    //         return sortTime(a.events[index].time, b.events[index].time);
-    //       }
-    //       function byKey(a, b, key) {
-    //         if (a[key] < b[key]) { return -1; }
-    //         if (b[key] < a[key]) { return 1; }
-    //         return 0;
-    //       }
-    //       if (type === 'event') {
-    //         vm.event.winners = vm.event.winners.sort((a, b) => {
-    //           let aTime = a.events[index].time, bTime = b.events[index].time;
-    //           if (aTime && bTime) {
-    //             return byTime(a, b, index) || byKey(a, b, 'points') || byKey(a, b, 'user');
-    //           } else if (aTime) {
-    //             return -1;
-    //           } else if (bTime) {
-    //             return 1;
-    //           } else {
-    //             return byKey(a, b, 'points') || byKey(a, b, 'user');
-    //           }
-    //         });
-    //       } else {
-    //         vm.event.winners = _.orderBy(vm.event.winners, ['place', w => w.events[0].time, 'user']);
-    //       } 
-    //     };
-    //     vm.changeTab = function (tab) {
-    //       vm.tab = tab;
-    //       $state.go($state.$current.name, {tab});
-    //     };
-    //     vm.scrollTo = function (league) {
-    //       $location.hash(league.anchor);
-    //       $anchorScroll();
-    //     };
-    //     init();
-    //   }
-    // ])
     .directive('fixedTop', ['$window', function ($window) {
         return {
             restrict: 'A',
@@ -1575,6 +1064,12 @@ angular
                     }
                 });
             }
+        };
+    }])
+    .filter('percent', ['$filter', function ($filter) {
+        return function (input, decimals) {
+            if (decimals === void 0) { decimals = 1; }
+            return $filter('number')(input * 100, decimals) + '%';
         };
     }]);
 //# sourceMappingURL=mooseleague_ts.js.map
