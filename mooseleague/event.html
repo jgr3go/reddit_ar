@@ -1,5 +1,7 @@
 
-<h2>{{EC.event.name}} - {{EC.event.displayDate}}</h2>
+<h2>
+  {{EC.event.name}} - {{EC.event.displayDate}}
+</h2>
 <h2>
   Event: {{EC.event.events}}
   <a ng-if="EC.event.submit" href="{{EC.event.submit}}" target="_blank" class="btn btn-primary">Submit Results</a>
@@ -12,6 +14,10 @@
   <li class="nav-item">
     <a class="nav-link" ng-class="{'active': EC.tab === 'results'}" href="" ng-click="EC.changeTab('results')">Results</a>
   </li>
+  <a href="{{EC.event.link}}" target="_blank" style="padding-left: 15px;padding-top:10px;font-size:1.15em;">
+    <img src="https://reddit.com/favicon.ico" style="height:1.3em;">
+    Reddit Discussion
+  </a>
   <!-- <li class="nav-item">
     <a class="nav-link" ng-class="{'active': EC.tab === 'points'}" href="" ng-click="EC.changeTab('points')">Points</a>
   </li>
