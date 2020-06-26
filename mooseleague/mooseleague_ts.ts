@@ -245,6 +245,10 @@ class GoogleSvc {
             users.push(<MUser>user);
           }
           let user = users.find(u => u.user.toLowerCase() == username.toLowerCase());
+          let time = row.values[COL.RESULT]?.formattedValue;
+          if (time?.substr(0, 1) == "'") {
+            time = time.substr(1);
+          }
           user.results.push({
             event: eventName,
             times: raceName.split(',').map(r => {
@@ -253,7 +257,7 @@ class GoogleSvc {
                 username: user.user,
                 division: user.division,
                 sex: user.sex,
-                time: row.values[COL.RESULT]?.formattedValue,
+                time: time,
                 note: row.values[COL.NOTES]?.formattedValue,
                 links: row.values[COL.LINKS]?.formattedValue?.split(',').map(link => {
                   return <MLink>{
@@ -279,7 +283,8 @@ class GoogleSvc {
   }
 
   private getFavicon(link: string) {
-    let match = link.match(/(.*\.com).*/);
+    let match = link.match(/(https?\:\/\/[^\/]+)/);
+    if (!match) { return 'https://google.com/favicon.ico'; }
     let root = match[1].trim();
     if (root.substr(0, 4) != "http") {
       root = `http://${root}`;

@@ -215,11 +215,11 @@ var GoogleSvc = /** @class */ (function () {
     };
     GoogleSvc.prototype.buildUsers = function () {
         var _this = this;
-        var _a, _b, _c, _d, _e, _f, _g, _h;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j;
         var users = [];
         var COL = this.USER_COLUMNS;
-        for (var _i = 0, _j = this.spreadsheet.sheets; _i < _j.length; _i++) {
-            var sheet = _j[_i];
+        for (var _i = 0, _k = this.spreadsheet.sheets; _i < _k.length; _i++) {
+            var sheet = _k[_i];
             var eventName = sheet.properties.title;
             var raceName = void 0;
             var data = sheet.data[0];
@@ -257,18 +257,22 @@ var GoogleSvc = /** @class */ (function () {
                         users.push(user_1);
                     }
                     var user_2 = users.find(function (u) { return u.user.toLowerCase() == username_1.toLowerCase(); });
+                    var time_1 = (_j = row.values[COL.RESULT]) === null || _j === void 0 ? void 0 : _j.formattedValue;
+                    if ((time_1 === null || time_1 === void 0 ? void 0 : time_1.substr(0, 1)) == "'") {
+                        time_1 = time_1.substr(1);
+                    }
                     user_2.results.push({
                         event: eventName,
                         times: raceName.split(',').map(function (r) {
-                            var _a, _b, _c, _d;
+                            var _a, _b, _c;
                             return {
                                 race: r,
                                 username: user_2.user,
                                 division: user_2.division,
                                 sex: user_2.sex,
-                                time: (_a = row.values[COL.RESULT]) === null || _a === void 0 ? void 0 : _a.formattedValue,
-                                note: (_b = row.values[COL.NOTES]) === null || _b === void 0 ? void 0 : _b.formattedValue,
-                                links: (_d = (_c = row.values[COL.LINKS]) === null || _c === void 0 ? void 0 : _c.formattedValue) === null || _d === void 0 ? void 0 : _d.split(',').map(function (link) {
+                                time: time_1,
+                                note: (_a = row.values[COL.NOTES]) === null || _a === void 0 ? void 0 : _a.formattedValue,
+                                links: (_c = (_b = row.values[COL.LINKS]) === null || _b === void 0 ? void 0 : _b.formattedValue) === null || _c === void 0 ? void 0 : _c.split(',').map(function (link) {
                                     return {
                                         type: _this.getLinkType(link),
                                         favicon: _this.getFavicon(link),
@@ -280,8 +284,8 @@ var GoogleSvc = /** @class */ (function () {
                     });
                 }
             };
-            for (var _k = 0, _l = data.rowData; _k < _l.length; _k++) {
-                var row = _l[_k];
+            for (var _l = 0, _m = data.rowData; _l < _m.length; _l++) {
+                var row = _m[_l];
                 var state_1 = _loop_1(row);
                 if (state_1 === "break")
                     break;
@@ -302,7 +306,10 @@ var GoogleSvc = /** @class */ (function () {
         return '';
     };
     GoogleSvc.prototype.getFavicon = function (link) {
-        var match = link.match(/(.*\.com).*/);
+        var match = link.match(/(https?\:\/\/[^\/]+)/);
+        if (!match) {
+            return 'https://google.com/favicon.ico';
+        }
         var root = match[1].trim();
         if (root.substr(0, 4) != "http") {
             root = "http://" + root;
