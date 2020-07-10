@@ -527,7 +527,7 @@ var Events = /** @class */ (function () {
     };
     Events.prototype.next = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var events, next, ii;
+            var events, active, next, ii;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, this.list()];
@@ -535,6 +535,10 @@ var Events = /** @class */ (function () {
                         events = _a.sent();
                         if (events.length == 1) {
                             return [2 /*return*/, events[0]];
+                        }
+                        active = events.find(function (e) { return !!e.submit; });
+                        if (active) {
+                            return [2 /*return*/, active];
                         }
                         next = events[events.length - 1];
                         for (ii = events.length - 1; ii >= 0; ii--) {
@@ -776,6 +780,7 @@ var MainController = /** @class */ (function () {
                             date: moment(evt.date),
                             state: evt.state,
                             displayDate: moment(evt.date).format('MMM D, YYYY'),
+                            submit: evt.submit,
                             live: false
                         };
                         this.countdown();
@@ -790,6 +795,9 @@ var MainController = /** @class */ (function () {
             var now = moment();
             var evt = moment(this.next.date);
             if (now.format('YYYY-MM-DD') === evt.format('YYYY-MM-DD')) {
+                this.next.live = true;
+            }
+            else if (this.next.submit) {
                 this.next.live = true;
             }
             else {

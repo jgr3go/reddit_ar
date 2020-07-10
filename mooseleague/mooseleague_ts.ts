@@ -426,6 +426,8 @@ class Events {
     if (events.length == 1) {
       return events[0];
     }
+    let active = events.find(e => !!e.submit);
+    if (active) { return active; }
     let next = events[events.length - 1];
     for (let ii = events.length - 1; ii >= 0; ii--) {
       if (moment(events[ii].date) >= moment().startOf('day')) {
@@ -603,6 +605,7 @@ class MainController {
       date: moment(evt.date),
       state: evt.state,
       displayDate: moment(evt.date).format('MMM D, YYYY'),
+      submit: evt.submit,
       live: false
     };
     this.countdown();
@@ -614,6 +617,8 @@ class MainController {
       let evt = moment(this.next.date);
 
       if (now.format('YYYY-MM-DD') === evt.format('YYYY-MM-DD')) {
+        this.next.live = true;
+      } else if (this.next.submit) { 
         this.next.live = true;
       } else {
         let days = evt.diff(now, 'days');
