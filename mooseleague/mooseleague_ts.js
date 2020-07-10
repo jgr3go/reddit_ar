@@ -71,6 +71,12 @@ function isMobile() {
         navigator.userAgent.match(/BlackBerry/i) ||
         navigator.userAgent.match(/Windows Phone/i));
 }
+function stripDivision(div) {
+    if (div.includes("(")) {
+        return div.substr(0, div.indexOf("("));
+    }
+    return div;
+}
 /**
  * Loads google sheet and does most of the processing into raw data objects
  */
@@ -93,13 +99,45 @@ var GoogleSvc = /** @class */ (function () {
     }
     GoogleSvc.prototype.ready = function () {
         return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, GAPI];
-                    case 1:
-                        _a.sent();
-                        return [4 /*yield*/, gapi.client.load('sheets', 'v4')];
-                    case 2: return [2 /*return*/, _a.sent()];
+                    case 0:
+                        if (!this.loading) return [3 /*break*/, 2];
+                        return [4 /*yield*/, this.loading];
+                    case 1: return [2 /*return*/, _a.sent()];
+                    case 2:
+                        this.loading = new Promise(function (resolve, reject) { return __awaiter(_this, void 0, void 0, function () {
+                            var sheet, e_1;
+                            return __generator(this, function (_a) {
+                                switch (_a.label) {
+                                    case 0:
+                                        _a.trys.push([0, 4, , 5]);
+                                        return [4 /*yield*/, GAPI];
+                                    case 1:
+                                        _a.sent();
+                                        return [4 /*yield*/, gapi.client.load('sheets', 'v4')];
+                                    case 2:
+                                        _a.sent();
+                                        return [4 /*yield*/, gapi.client.sheets.spreadsheets.get({
+                                                spreadsheetId: '1ZC7pDg9VRiqnd4-w15LUSWcvQXti62IOSp0dcYj2JZI',
+                                                includeGridData: true
+                                            })];
+                                    case 3:
+                                        sheet = _a.sent();
+                                        console.log(sheet.result);
+                                        this.spreadsheet = sheet.result;
+                                        resolve();
+                                        return [3 /*break*/, 5];
+                                    case 4:
+                                        e_1 = _a.sent();
+                                        reject(e_1);
+                                        return [3 /*break*/, 5];
+                                    case 5: return [2 /*return*/];
+                                }
+                            });
+                        }); });
+                        return [2 /*return*/];
                 }
             });
         });
@@ -118,7 +156,6 @@ var GoogleSvc = /** @class */ (function () {
     };
     GoogleSvc.prototype.getSpreadsheet = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var sheet;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
@@ -128,14 +165,6 @@ var GoogleSvc = /** @class */ (function () {
                         return [4 /*yield*/, this.ready()];
                     case 1:
                         _a.sent();
-                        return [4 /*yield*/, gapi.client.sheets.spreadsheets.get({
-                                spreadsheetId: '1ZC7pDg9VRiqnd4-w15LUSWcvQXti62IOSp0dcYj2JZI',
-                                includeGridData: true
-                            })];
-                    case 2:
-                        sheet = _a.sent();
-                        console.log(sheet.result);
-                        this.spreadsheet = sheet.result;
                         return [2 /*return*/, this.spreadsheet];
                 }
             });
@@ -248,7 +277,7 @@ var GoogleSvc = /** @class */ (function () {
                     if (!users.find(function (u) { return u.user.toLowerCase() == username_1.toLowerCase(); })) {
                         var user_1 = {
                             user: username_1,
-                            division: ((_e = row.values[COL.DIVISION]) === null || _e === void 0 ? void 0 : _e.formattedValue) || "",
+                            division: stripDivision(((_e = row.values[COL.DIVISION]) === null || _e === void 0 ? void 0 : _e.formattedValue) || ""),
                             age: parseInt((_f = row.values[COL.AGE]) === null || _f === void 0 ? void 0 : _f.formattedValue) || null,
                             sex: (_h = (_g = row.values[COL.SEX]) === null || _g === void 0 ? void 0 : _g.formattedValue) === null || _h === void 0 ? void 0 : _h.substr(0, 1).toUpperCase(),
                             results: []
@@ -635,7 +664,7 @@ var Results = /** @class */ (function () {
             for (var _a = 0, _b = event_1.results; _a < _b.length; _a++) {
                 var race = _b[_a];
                 var divs = _.keyBy(race.divisions, function (d) { return d.name.toLowerCase(); });
-                race.times = _.orderBy(race.times, function (t) { return t.percent_world_record; }, 'desc');
+                race.times = _.orderBy(race.times, [function (t) { return t.percent_world_record; }, function (t) { return t.time_number; }, function (t) { return t.username; }], ['desc', 'asc', 'asc']);
                 var place = 1;
                 for (var _c = 0, _d = race.times; _c < _d.length; _c++) {
                     var time = _d[_c];
@@ -929,6 +958,7 @@ var AgeService = /** @class */ (function () {
         if (!sex) {
             sex = 'M';
         }
+        event = event.replace(/\s/g, '');
         var percent = 0;
         var wr;
         var mfEventId = "" + sex + event;
@@ -937,7 +967,7 @@ var AgeService = /** @class */ (function () {
             wr = mfEvent[AgeService.WORLD_RECORD];
             percent = wr.record / seconds;
         }
-        console.log(username + " " + mfEventId + " time:" + seconds + " WR:" + wr.record + " percent:" + percent);
+        console.log(username + " " + mfEventId + " time:" + seconds + " WR:" + (wr === null || wr === void 0 ? void 0 : wr.record) + " percent:" + percent);
         return percent;
     };
     AgeService.GRADES = {};

@@ -95,6 +95,7 @@ if (window.location.href.match(/localhost/)) {
 let GAPI = new Promise((resolve, reject) => {
   gapi.load('client', {
     callback: async () => {
+
       // this isn't great, but the apikey should be limited to very specific things
       await gapi.client.init({apiKey: `${byx}1XThhfQZLh6YcTKwLz${lmw}`});
       resolve();
@@ -113,6 +114,13 @@ function isMobile() {
       navigator.userAgent.match(/Windows Phone/i));
 }
 
+function stripDivision(div: string) {
+  if (div.includes("(")) {
+    return div.substr(0, div.indexOf("("));
+  }
+  return div;
+}
+
 
 /**
  * Loads google sheet and does most of the processing into raw data objects
@@ -123,6 +131,8 @@ class GoogleSvc {
   private Users: Array<MUser> = [];
   private Divisions: Array<MDivision> = [];
   private built: boolean = false;
+
+  private loading: Promise<any>;
 
   public USER_COLUMNS = {
     TIMESTAMP: 0,
@@ -136,8 +146,22 @@ class GoogleSvc {
   };
 
   private async ready() {
-    await GAPI;
-    return await gapi.client.load('sheets', 'v4');
+    if (this.loading) { return await this.loading; }
+    this.loading = new Promise(async (resolve, reject) => {
+      try {
+        await GAPI;
+        await gapi.client.load('sheets', 'v4');
+        let sheet = await gapi.client.sheets.spreadsheets.get({
+          spreadsheetId: '1ZC7pDg9VRiqnd4-w15LUSWcvQXti62IOSp0dcYj2JZI',
+          includeGridData: true
+        });
+        console.log(sheet.result);
+        this.spreadsheet = sheet.result;
+        resolve();
+      } catch (e) {
+        reject(e);
+      }
+    });
   }
 
   async load() {
@@ -146,12 +170,6 @@ class GoogleSvc {
   private async getSpreadsheet(): Promise<gapi.client.sheets.Spreadsheet> {
     if (this.spreadsheet) { return this.spreadsheet; }
     await this.ready();
-    let sheet = await gapi.client.sheets.spreadsheets.get({
-      spreadsheetId: '1ZC7pDg9VRiqnd4-w15LUSWcvQXti62IOSp0dcYj2JZI',
-      includeGridData: true
-    });
-    console.log(sheet.result);
-    this.spreadsheet = sheet.result;
     return this.spreadsheet;
   }
 
@@ -236,7 +254,7 @@ class GoogleSvc {
           if (!users.find(u => u.user.toLowerCase() == username.toLowerCase())) {
             let user: Partial<MUser> = {
               user: username,
-              division: row.values[COL.DIVISION]?.formattedValue || "",
+              division: stripDivision(row.values[COL.DIVISION]?.formattedValue || ""),
               age: parseInt(row.values[COL.AGE]?.formattedValue) || null,
               sex: <Sex>row.values[COL.SEX]?.formattedValue?.substr(0,1).toUpperCase(),
               results: []
@@ -489,7 +507,7 @@ class Results {
       for (let race of event.results) {
         let divs = _.keyBy(race.divisions, d => d.name.toLowerCase());
 
-        race.times = _.orderBy(race.times, t => t.percent_world_record, 'desc');
+        race.times = _.orderBy(race.times, [t => t.percent_world_record, t => t.time_number, t => t.username], ['desc', 'asc', 'asc']);
         
         let place = 1;
         for (let time of race.times) {
@@ -772,6 +790,7 @@ class AgeService {
   percentGrade(event: string, sex: Sex, seconds: number, username?: string): number {
     if (!seconds) { return 0; }
     if (!sex) { sex = 'M'; }
+    event = event.replace(/\s/g, '');
     let percent = 0;
     let wr;
     let mfEventId = `${sex}${event}`;
@@ -780,7 +799,7 @@ class AgeService {
       wr = mfEvent[AgeService.WORLD_RECORD];
       percent = wr.record / seconds;
     }
-    console.log(`${username} ${mfEventId} time:${seconds} WR:${wr.record} percent:${percent}`);
+    console.log(`${username} ${mfEventId} time:${seconds} WR:${wr?.record} percent:${percent}`);
     return percent;
   }
 

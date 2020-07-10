@@ -118,14 +118,14 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="time in result.times">
+        <tr ng-repeat="time in result.times" ng-class="{'muted': !time.time}">
           <td>{{time.place}}</td>
           <td>{{time.username}}</td>
           <td>{{time.division}}</td>
           <td>{{time.sex}}</td>
           <td>{{time.time}}</td>
           <td>{{time.age_graded_time}}</td>
-          <td>{{time.percent_world_record | percent}}</td>
+          <td>{{time.percent_world_record ? (time.percent_world_record | percent) : ''}}</td>
           <td>{{time.points}}</td>
           <td>{{time.note}}</td>
           <td>
